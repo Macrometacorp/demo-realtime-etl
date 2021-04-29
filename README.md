@@ -4,14 +4,15 @@ Building real-time ETL solution for synthetic bank data using GDN
 
 ![realtime-etl.png](realtime-etl.png)
 
-### Setup
+## Setup
 
 | **Federation** | **Email** | **Passsword** |
 |------------|----------|--------------|
 | [Global Data Network](https://gdn.paas.macrometa.io/) | demo@macrometa.io | `xxxxxxxx`| 
 | [Analytics Dashboard](https://dashboards.poc.macrometa.io/d/tWcKbZ8Mz/demo-realtime-log-analytics?orgId=1) | -- | -- |
 
-**How To Run:**
+
+## How to Run
 
 **On Federation:**
 
@@ -115,7 +116,7 @@ TBD
 ```
 
 
-### Developer Notes
+## Developer Notes
 
 **PLEASE FIX THIS**
 
