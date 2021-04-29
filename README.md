@@ -2,7 +2,7 @@
 
 Building real-time ETL solution for synthetic bank data using GDN
 
-![realtime-etl.png](readmeImages/realtime-etl.png)
+![realtime-etl.png](realtime-etl.png)
 
 ### Setup
 
