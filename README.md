@@ -1,3 +1,3 @@
-# Real Time ETL using Macrometa GDN
+# Real Time ETL
 
 Real time ETL for Synthetic Bank Data
