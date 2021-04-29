@@ -1,0 +1,1001 @@
+id,fullname,address,phone_number,email,workplace,birthdate,registration_date,gender,income,expenses,credit,deposit
+1,Volkova Faina Afanasyevna,"Art. Elbrus, etc.. Novoselov, d. 4/4 in. 261 796 898",8 (475) 014-6494,wkirillov@rambler.ru,"Art. Kirovsk (Moorman.), Br. Commune, d. 238 p. 3, 533,612",24357,42745,F,230910,61975,1,
+2,Pelagia Vyacheslavovna Galkina,"n. Ignashina, nab. Naval, d. 1 k. 403, 135896",+7 (981) 576-1146,bogdanovmoke@rambler.ru,"Elabuga, bul. 60 October, d. 5, 070,955",31920,42565,F,,75232,,
+3,Valentina Igorevna Fomina,"Art. Syktyvkar, etc. Peasants, d. 289, 289481",+7 (920) 068-58-36,mjasnikovvalentin@mail.ru,"Sosnovy Bor, ALL. Leskhoznaya, d. 146, 139 446",27195,43026,F,,88813,,
+4,Comrade. Vorontsov Thekla F.,"d. Ulyanovsk, ALL. Amur, d. 997 pp. 64, 736 376",8 334 398 3828,martin85@rambler.ru,"COFO Kotelnich, bul. Serafimovicha, d. 97, 753 076",29147,41146,F,,55167,,
+5,Philip D. Vorontsov,"COFO Kezhma, w. Herzen, d. 256 to. 4, 841,692",8 (296) 455-0453,jan_07@rambler.ru,"COFO Karabudahkent Str. Apricot, d. 3 to. 192, 196810",31638,42809,M,,85106,,
+6,Agatha V. Zykov,"Kropotkin (Krasnod.), co. Fadeyeva, d. 24 to. 4, 956,774",+7 (540) 539-43-82,vdementev@yandex.ru,"n. Chegem, ALL. Trading, d. 61 to. 79, 232910",22413,41050,F,,81297,,1
+7,Kirillov Akulina Veniaminovna,"Art. Magnitogorsk, nab. Angarsk, d. 244 to. 787 019 333",+71375862125,pavel_1976@yandex.ru,"from. Kurilsk, ALL. Priozernaya, d. 560 p. 1, 195,131",30547,41472,F,268939,82437,1,
+8,Blinov Praskovya Ivanovna,"Ust-Kalmanka, w. Saratov, d. 41 to. 1 184 151",+74612028488,cheslav_2008@yandex.ru,"a. Krymsk, trans. Metallistov d. 7 614065",26511,42986,F,274911,115064,1,1
+9,Agatha Boleslavovna Yakovleva,"d. Tutaev, w. Yaroslavskoye, d. 2 k. 3/6, 529,327",8 505 777 79 67,lev1991@yahoo.com,"d. Novorossiyka blvd. Dobrolyubova. 420 pp. 524, 754 398",25962,43785,F,,92193,,1
+10,Dmitry Loginov Anisimovich,"n. Morshansk, bul. Vatutina, d. 6, 829,748",+7 592 074 68 81,samolovauljana@yandex.ru,"d. Yuzhno-Kurilsk, bul. Green, d. 50, 182094",32321,42700,M,,82715,,
+11,Zinoviev Potap Efremovich,"d. Tikhvin, bul. Tulenin, d. 2/5, 159 920",+79840547664,nesterovavarvara@mail.ru,"a. Bodaibo, nab. Broad, d. 71, 816 645",35766,42646,M,186665,89374,1,1
+12,Osip V. Baranov,"from. Kalach-on-Don, bul. Bazarnyi, d. 104 to. 45, 103 883",8 (890) 513-9089,shashkovavalentina@hotmail.com,"from. Yuriev-Polsky, ALL. Surikov, d. 922 pp. 730, 137 969",23810,42053,M,,73605,,1
+13,Kirill Zimin Isidorovich,"a. Nartkala, nab. Commune, d. 5/6 pp. 768, 755 228",81105600267,merkushevemeljan@gmail.com,"Art. Irkutsk, bul. Amur, d. 2 pp. 75, 702 390",33241,43626,M,,79226,,
+14,Tarasov Eustace Glebovich,"COFO Kirov (Vjatka), str. Countryside, d. To 5/9. 9, 275499",+7 (323) 165-6325,tverdislav1994@mail.ru,"COFO Ketchenery, ALL. Krylov, d. 829 to. 6, 257546",34494,43384,M,,86702,,1
+15,Guryev Emmanuel Borislavovich,"from. Labytnangi, nab. Darwin, d. 6 pp. 37, 468 132",8 (416) 398-3199,milen_1974@hotmail.com,"Art. Ulan-Ude, ALL. Tsiolkovskii, d. 98, 911 377",22525,41253,M,108010,86031,1,
+16,Mr. Sharapov Nikanor Vilorovich,"Art. Bratsk, ul. Volochaivs'ka, d. 186 p. 865, 280122",89011984011,ckalashnikova@rambler.ru,"d. Kashira, w. Professionals, d. To 80. 8, 111953",34737,43056,M,,85063,,1
+17,Drozdov Vincent Yevstigneyevich,"Art. Nevyansk, nab. Rosa Luxemburg, d. 9/5, 380907",8 (373) 135-7441,rogovamarfa@gmail.com,"a. Engels, trans. Oleg Koshevogo, d. 10, 406704",26366,41684,M,,56463,,
+18,Zoe Nikiforovna Silin,"Perm, nab. Light, d. 748, 397 200",8 446 399 2976,timofeevevdokim@yahoo.com,"from. Noginsk (Mosk.) Emb. Tchaikovsky, d. 80 pp. 513, 574 767",26466,42130,F,,75635,,1
+19,Claudia Feliksovna Guryev,"n. Yuzhno-Sakhalinsk, street. Vakhitov, d. 2 050 044",+7 977 432 6073,nikiforkabanov@rambler.ru,"d. Belogorsk (Amur.) ALL. Of Petroleum, d. 93, 851 164",26572,41919,F,224368,77545,1,
+20,Agatha Efimovna Queen,"COFO Kabansk, nab. Bratskaya, d. 31, 766 092",82167746073,flukina@yandex.ru,"g. Vladivostok, w. Park, d. 9/1, 528 054",25854,43566,F,,75361,,
+21,Elizabeth Bogdanovna Gromova,"COFO Makhachkala, bul. Communist, d. 799 to. 672, 145621",8 (849) 518-4640,nturova@gmail.com,"a. Kungur, w. Keyword, d. 529 to. 66, 162 780",33947,42975,F,,79467,,1
+22,Gromov Avtonom Erofeevich,"from. Divnogorsk, nab. Truth, d. 10 pp. 3, 660,519",+7 (735) 435-83-28,trofim2013@gmail.com,"COFO Krasnoufimsk, w. Turgeneva, d. To 775. 7 137 756",34758,42095,M,,89454,,
+23,Valery D. Myasnikov,"Onega Str. Zaovrazhnaya, d. 9/8, 254 229",+7 207 190 12 23,miheevradovan@yahoo.com,"from. Vladikavkaz, pr. Berry, d. 1 965 665",25185,41389,F,,96566,,1
+24,Belousov Oia Afanasyevna,"a. Kingisepp, ALL. Pugachev, d. 7 to. 51, 313 064",+7 (932) 771-8966,kuprijansuvorov@mail.ru,"g. Balashiha, trans. Volochaevskaya, d. 851 to. 745, 102 233",24238,43727,F,,63535,,1
+25,Efimov Samson Aaranovitch,"from. Kirovsk (Lenin.), Str. 60 October, d. 1 in. 28 013 732",8 (034) 415-6169,shirjaevroman@gmail.com,"d. Ruza, w. Makarov, d. 3 to. 3 273 118",30833,40932,M,,97088,,
+26,Vishnyakov Zephaniah Harlampevich,"k. Zhukovski, ave. Haharina, d. 123 to. 7/2 167084",8 235 092 1036,haritonovmartjan@yahoo.com,"n. Elnya, trans. Kutuzova, d. 6/6, 340 870",29262,42074,M,,81292,,1
+27,Yulia Nikolaevna Maslova,"Art. Sos'va (Hunt.), Str. Nikolaeva, d. 10, 234706",8 692 623 3072,avgust_14@yandex.ru,"from. Yelnya, nab. Ogorodnaya, d. 4 to. 25, 135 059",24908,43526,F,,72850,,
+28,Love Filatovich Krylov,"Art. Operate, pr. Deputatsky, d. 3, p. 11, 930257",+7 (181) 629-1894,kornilovakira@gmail.com,"n. Tambov, ALL. Tulenin, d. 1/7 p. 7/6, 196 671",22331,42393,M,,87224,,1
+29,Natalya Selezneva Arkhipovna,"d. Yoshkar-Ola, trans. Kalinin, d. To 8. 2/5, 726,367",81447842664,mirzhukov@rambler.ru,"a. Arsenyev, trans. 50 years of the Komsomol, d. 293, 324780",27893,43476,F,,94922,,1
+30,Akulina Ilinichna Vinogradova,"Mr. Sheregesh, etc. New, d. 91, 737 188",+7 850 018 59 15,milovan1992@gmail.com,"n. Baikalsk, pr. logs, d. 7 k. 6/4 310516",22884,43426,F,,69495,,
+31,Samson Abramovich Belousov,"n. Severomorsk, pr. Montazhnikov d. 4/4 245308",+7 349 248 93 96,rjabovasinklitikija@gmail.com,"Akhtubinsk, etc. Esenina, d. 9 in. 18 734 632",24095,42805,M,,94230,,
+32,Sidor Yakubovich Artemyev,"d. Kudymkar, w. L.Tolstogo, d. 4 to. 869, 576 662",+7 896 455 87 94,raisa_03@hotmail.com,"from. Pskov, w. Garage, d. 1 to. 3 731 040",27295,43479,M,154456,74365,1,
+33,Natalia Saveliev,"Art. Sortavala, etc.. Labor, d. 831 p. 3/4 161932",8 (529) 699-4144,anzhelika_2004@gmail.com,"a. Nyagan, w. Construction, d. 504 to. 9/9, 976,852",25655,42665,F,216888,98936,1,1
+34,Angelina Valerievna Morozova,"Art. Lips, st. Softwood, e. To 6/5. 6, 241,821",82329463039,jakuborlov@yahoo.com,"n. Volokolamsk, bul. Cherry, d. 672 to. 75 015 099",37543,41340,F,,79352,,1
+35,Maria Filippovna Teterina,"Art. Krasnogorsk (Mosk.), Bd. Ulyanova, d. 522 pp. 38, 742 843",+7 436 269 2571,ipati_1996@mail.ru,"COFO Rostov, pr. Chernomorsky, d. 540 to. 4, 783,849",24829,40983,F,,75175,,
+36,Bobrov Gremislav Gerasimov,"Art. Krasnoyarsk, bul. DEN, d. 5, 563,853",+7 (467) 065-27-99,moiseevaakulina@yandex.ru,"n. Vidnoe, ALL. Koltsov, d. 4/5 in. 1/8, 462 249",31104,42638,M,,86155,,
+37,Ravens Christopher Abramovich,"Art. Morshansk, ALL. Miner, d. 802 to. 8/2, 981 102",+7 398 433 19 87,bburova@gmail.com,"a. Vnukovo (meteost.) ALL. Cheriomushki, d. 44 to. 5, 563,188",29453,41421,M,159437,87049,1,1
+38,Guryev Mokey Vladlenovich,"d. Krasnoselkup, w. Sakhalinskoye, d. 9 pp. 494, 532 295",8 (689) 640-7274,trofim74@mail.ru,"Art. Yuryuzan Str. Postal, e. To 8/5. 4, 404,875",25945,43364,M,211389,85743,1,
+39,Lidia Ivanova Kuzminichna,"d. Orenburg, Trans. Rosa Luxemburg, d. 7/3 to. 2 428 927",+7 (171) 929-00-63,izmailkonstantinov@hotmail.com,"COFO Sergiev Posad, pr. Berry, d. 6/7 631367",37127,41597,F,,132151,,1
+40,Clement Ilarionovich Aksenov,"from. Bay, ave. Fadeyeva, d. 173, 481 986",8 525 344 81 92,terentevmatve@rambler.ru,"d. Pushkin, w. Kuibyshev, d. 49 in. 669 763 466",26375,43757,M,253807,73274,1,
+41,Mammoth Cyrus Valerievna,"from. Smolensk, ALL. Lena, d. To 5/3. 9, 656 216",8 (537) 129-21-08,julija52@mail.ru,"from. Suntar, pr. International, d. 6, p. 1, 789,519",27690,42803,F,289153,80204,1,1
+42,Nikifor Gurevich Morozov,"d. Dudinka, pr. Linear, d. 675 p. 1/2 801552",+7 (871) 887-4444,timur2001@yahoo.com,"a. Yegoryevsk, ALL. Sanatorium, d. 113 p. 8/5, 455 964",28108,42380,M,,76304,,1
+43,Rogov Oksana,"COFO Pinega, trans. Station, e. 212 p. 28, 522153",+7 (968) 667-14-41,kornilovemeljan@yahoo.com,"a. Kalach, ALL. Tolstoy, d. 575, 915 937",23864,42006,F,107184,69505,1,
+44,Ernest Ilarionovich Gorbachev,"n. Kashhatau, nab. Moss, d. 1/9 in. 465 656 042",+7 (282) 128-6929,simonovgorde@yahoo.com,"Art. Snezhnogorsk (Moorman.) Emb. Taiga, d. 681 pp. 847, 682 241",31130,43740,M,191004,73302,1,
+45,Maslov Marian Erofeevich,"Volkhov, trans. 50 years of the Komsomol, d. 4, pp. 84, 893 160",+7 (025) 992-0862,jan32@yandex.ru,"Cherkessk, ALL. Far East, d. 93, 966 838",24976,41443,M,100029,116417,1,1
+46,Kharitonov Narkis Timurovich,"from. Uchaly, nab. Lower, d. 4/1, 179 525",+7 877 658 92 38,izot_47@yahoo.com,"of Sosnogorsk, trans. Stakhanovsky, d. 903 pp. 25, 180 981",31154,43746,M,208026,98816,1,
+47,Yefim Harlamovich Commissars,"COFO Kashhatau Str. New, d. 412 to. 9/1, 416 273",82906004077,evstafi66@hotmail.com,"White COFO Yar (Tomsk.), Ave. Jubilee, d. 57 p. 4/7 405166",35350,43179,M,138279,92429,1,
+48,Angelica Robertovna Sharov,"from. Kirzhach, bul. Decembrists, d. 7/4 p. 3/9, 053 022",8 203 181 20 93,oktjabrina06@yahoo.com,"Art. Kizlyar, nab. O.Koshevogo, d. 8.8 pp. 31, 610 958",32431,41085,F,,93545,,1
+49,Yevseyev Praskovja Afanasyevna,"n. Galich, ALL. Sanatornaya, d. 22, 491 375",+7 973 541 17 71,ksenija_56@yahoo.com,"a. Mezen, nab. Cossack, d. 751 to. 1 850 133",27923,43699,F,,71112,,
+50,V. Grishin Ostromir,"from. Kogalym, ALL. Dostoevsky d. To 9. 86, 267200",8 848 074 2459,fadeevspartak@rambler.ru,"COFO Silver Ponds, ALL. Shock, d. 31 k. 3/7 980283",36191,43122,M,156691,93793,1,1
+51,Antipas A. Moiseev,"d. Kostomuksha ALL. Astrakhan, d. 141, 162 733",+7 (626) 819-3011,januari64@gmail.com,"of Rylsk, nab. Vodnikov, d. 1 k. 17, 416 913",24960,41973,M,170402,83383,1,
+52,Nikifor F. Anisimov,"from. Oboyan, trans. Saratov, d. 1 k. 78, 081 611",8 601 629 72 22,rjabovaksenija@rambler.ru,"COFO Apsheronsk, ALL. Kurskaia, d. To 8/1. 4, 818,773",35811,42235,M,,79485,,
+53,Vera Gorbunova Yulyevna,"COFO Strezhevoi, w. Zaporozhye, d. 8/6, 512 078",8 (053) 471-7658,krjukovafaina@rambler.ru,"a. Katav-Ivanovsk, bul. Squirrel, d. 56 pp. 197, 150 197",25714,41022,F,,94542,,
+54,Izyaslav A. Kalashnikov,"Art. Severobaikalsk, bul. Kurskiy, d. 8.5 pp. 33, 618 790",+7 197 266 12 32,gerasim84@mail.ru,"COFO Asino, w. Elevators, d. 15, pp. 29, 142 958",25664,43497,M,,81784,,1
+55,Faina Svyatoslavovna Myasnikov,"Art. Sosnogorsk, trans. Kommunarov d. 2 pp. 3/1 619361",+7 266 141 7161,akulina1981@mail.ru,"Kirzhach, ALL. Queen, d. 43 to. 19, 902 362",34165,40954,F,,80756,,1
+56,Regina G. Kolobov,"Mineralnye Vody, trans. Repin, d. To 8. 7/7 411841",+7 (125) 197-77-94,kuprijanseleznev@rambler.ru,"a. Silver Ponds, ul. Builders, d. 9/1, 430 742",25345,41932,F,,89156,,
+57,Yegor Sobolev Trifonovich,"n. Khasavyurt, trans. Deadlock, d. 9 pp. 1/9, 038,885",+7 739 149 3929,vorobevsila@yahoo.com,"d. Oha, bul. Panfilov Str. 5/5 in. 89 289801",29426,41968,M,291986,74310,1,
+58,Kovalev Emilia D.,"Vologda, ul. Commune, d. 508, 366288",+7 (410) 020-3982,kondratevaregina@mail.ru,"a. Yaksha, nab. Cherry, d. 88, 027 889",24832,41748,F,,75545,,1
+59,Jeremiah Adamovich Vishnjakov,"Gremyachinsk (Buryat-.), Ave. Kuznetsov, d. 884 p. 1, 101,467",+7 253 279 02 32,julian_16@gmail.com,"a. Khabarovsk, trans. Furmanova, d. 77 p. 7, 989,642",33337,41814,M,,79987,,
+60,Afinogen Ermolaevich Yakushev,"n. Cedar Blvd. Boulevard, d. 9 pp. 54, 586 733",8 777 585 6044,ferapont_46@hotmail.com,"a. Narym, ALL. Moscow, d. 1 k. 64, 676 207",27352,42708,M,,81878,,
+61,Naina Veniaminovna Mukhina,"Kovrov, nab. Darwin, d. 9/7 in. 216, 146 484",80784703469,ladimiranisimov@yahoo.com,"Art. Rubtzovsk, ave. Goncharova, d. 4 pp. 40, 375 573",34696,41034,F,,64539,,
+62,Sylvester Ermolaevich Likhachev,"from. Kachkanar, ALL. Reclamation, d. To 6. 20, 003 267",+7 104 048 0083,trofimknjazev@yahoo.com,"Tambov, bul. Market, d. 9/2, 113000",32378,41320,M,292627,72634,1,1
+63,Zosima Efimevich Markov,"d. Ardon Street. Sholokhov, d. 359, 450 491",+7 466 795 48 30,kim1984@mail.ru,"from. Carpets Str. Pushkina, d. 9, 092 130",29226,41906,M,279788,107149,1,1
+64,Lytkina Elizabeth Eduardovna,"COFO Shadrinsk Street. Energy, d. 74 pp. 794, 565 795",8 (976) 208-5348,fadeevrodion@yandex.ru,"from. Galich, nab. Rosa Luxemburg, d. 7, p. 6, 043,042",24131,41937,F,,84345,,
+65,Bykov Oktiabrina D.,"n. Rzhev, bul. Shevchenko, d. 5/4 pp. 409, 003 421",8 134 626 4933,shilovignati@hotmail.com,"COFO Yashalta, w. Moss, d. 2/7 pp. 991, 082 128",37142,43212,F,162533,66629,1,
+66,Zinoviev Casimir F.,"from. Balashikha, nab. Zaozernaya, d. 2/6 p. 8/4, 381 966",8 812 750 81 97,sinklitikija_18@hotmail.com,"n. Dzhubga, trans. West, d. 2 278 493",28042,43468,M,142194,82801,1,1
+67,Mukhina Angelica Kirillovna,"from. Gdov, nab. Kutuzova, d. 6/9, 577 104",+7 246 505 89 62,kir_2000@gmail.com,"from. Great Luke, per. Filler, e. 16 to. 53, 131173",22130,43126,F,,88475,,
+68,Valentina Kudryashov,"a. Sheregesh, nab. Krasnogvardejskaya, d. 4 pp. 19, 824 674",+70572553771,lavrenti72@yahoo.com,"Khimki, etc. Lomonosov, d. 4/7 in. 638 089 250",36493,43594,F,,67974,,1
+69,Panova Tamara Askoldovna,"from. Aleksandrovsk, bul. Cooperative, d. 86 k. 9/9, 629,718",+7 (834) 918-9358,okalashnikov@mail.ru,"n. Cool Street. International, d. 6 k. 5/2 773415",32762,42594,F,,86084,,
+70,Sazonov Ninel Egorovna,"n. Noyabr'sk, pr. Elevatornaya d. 517 pp. 8, 711 690",8 314 516 38 88,kulaginizmail@yahoo.com,"COFO Ershov, ALL. Steppe, d. 8 pp. 1, 410 096",28505,41029,F,,92642,,
+71,Subbotin Adrian Guryevich,"from. Plesetsk, w. Peaceful, d. 51 pp. 155, 995 214",+7 671 514 40 57,zveselov@yandex.ru,"COFO Zmeinogorsk, w. Spartacus, d. 647, 074 191",36802,42382,M,,79134,,1
+72,Joan O. Avdeeva,"COFO Sosnovy Bor, nab. Krasnoflotskaya, d. 543, 034 129",+7 (746) 739-3251,viktor45@gmail.com,"COFO Hot Key, w. Pervomayskaya. To 3/4. 7, 201406",27911,43164,F,128942,68521,1,
+73,Varvara Vyacheslavovna Konstantinova,"k. Tambov, pr. Ul'yanova, d. 9 pp. 78, 937 264",+7 130 465 3597,miroslavnosov@mail.ru,"Art. Apatity, nab. Nina, d. 5/1, pp. 620, 324038",23446,42181,F,,83653,,
+74,Vasilisa A. Timofeev,"Art. Krasnoselkup blvd. Wide, d. 6/9, 100 873",+72545142265,kbobrova@mail.ru,"a. Yuriev-Polsky, w. Blucher,. 180 k. 3/2 449363",25215,43637,F,,80389,,
+75,Ninel Valerievna Vorontsov,"COFO Mejdurechenskii, pr. Cultures, d. 40 p. 81, 978282",8 015 817 8985,fortunatkonovalov@hotmail.com,"g. Kazan, bul. Makarova, d. 3/2, p. 911, 100080",36342,41516,F,114571,88410,1,
+76,Volkova Nonna Yulyevna,"from. Solovki, w. Mendeleyev, d. 13, 170 091",8 210 692 5964,smirnovaakulina@gmail.com,"d. Budennovsk, bul. Bird cherry, d. 8/5 in. 7/3 968527",29756,43134,F,252262,98311,1,
+77,Maya Grishina Andreevna,"a. Susuman, ALL. Large, d. 9 k. 149, 127383",+71065366862,demjan_35@yandex.ru,"Mr. Kurtamysh, w. Zoe Kosmodemyanskoy, d. 57 pp. 108, 482 900",32287,41849,F,157525,84042,1,1
+78,Belyakov Juvenal Trofimovich,"g Adygeysk, pr. Traffic, d. 4 pp. 17, 294 707",+72939025407,poljakovagalina@hotmail.com,"Ryazan, bul. Pasture, d. 77 p. 23, 416637",27088,42272,M,292780,103312,1,
+79,Vlasov Agatha Nathanovna,"Art. Dagomys, bul. Gagarina, d. 9/3, 272 307",82187733753,muravevasvetlana@mail.ru,"a. Lazarevskoye, ALL. Lakeside, d. 249, 212 298",22355,42662,F,,92821,,1
+80,Ivan Efimov Kharlampovich,"of Chatou, etc. Rosa Luxemburg, d. 5/3 p. 5/7, 072 074",+7 (073) 491-30-77,pestovaoksana@yandex.ru,"Art. Staraya Russa, w. Municipal, d. 6, 411,155",26744,43336,M,229931,75509,1,
+81,Seleznev LUBOV,"d. Kemerovo, w. Adolescence, e. To 734. 6 867 605",+7 (540) 205-13-71,erast_05@yandex.ru,"COFO Mozhaysk, pr. Bolshevistsky, d. 6/8 380363",36370,41603,F,136150,97896,1,
+82,Borislav Borisovich Saveliev,"Art. Kasimov str. TBN, d. 2 pp. 5/1 332299",89168096999,morozovisidor@gmail.com,"n. Chaikovskii, pr. Illicha d. 9 pp. 32, 954 968",22367,41514,M,,117336,,
+83,Kudryavtsev Spartak Fokich,"k. Nizhnevartovsk, pr. Bratskiy, d. 4, p. 4, 495,771",89753396465,lev_1972@mail.ru,"COFO Yakutsk, ul. Riazanskaia, d. 84 to. 3 503 293",32275,43368,M,,86280,,
+84,Faina Vinogradova V.,"COFO Kalevala, ALL. Park, d. 2 p. 727, 463893",+7 212 356 6042,wjudina@yandex.ru,"n. Bykovo (meteost.), Ave. Rowan, d. 44 to. 3 609 485",37399,43525,F,,88174,,
+85,Lucias Makarovna Samson,"Ershov, nab. Fishing, d. 8, 846 503",+7 (742) 264-21-17,kasjan_44@hotmail.com,"a. Sibai, w. May 9, d. 95 in. 7/3 856463",23797,42226,F,143835,78798,1,
+86,Denis Zhdanov Aaranovitch,"a. Karpinsk, w. Tips, d. 780, 640 286",8 (111) 227-80-31,irakli1982@gmail.com,"a. Pavlovskaya, nab. Lunacharskogo, d. 463 pp. 55, 901 151",23274,43720,M,,98009,,
+87,Auxentios Daniilovich Kostin,"COFO Chatou, ALL. Space, d. 392 to. 8/3, 300046",+7 (048) 177-70-69,radislav98@hotmail.com,"Kyzyl, bul. Martha 8, d. To 2/4. 1 088 095",31466,41618,M,,99158,,1
+88,Larisa Andreevna Mironov,"a. Taldom Str. Highway, d. 30, 915 361",8 (378) 479-18-10,milovan2018@yandex.ru,"from. Zhigulevsk, w. Road racing, d. 940 to. 5/2, 870 024",36624,42849,F,265483,83154,1,1
+89,Alevtina Ivanovna Filippova,"COFO Orenburg, bul. Tomsk, d. 16, 858 096",8 746 047 26 59,valerjanvorontsov@rambler.ru,"Kovrov, etc. East, d. 8/7, 732 185",33863,43738,F,,78318,,1
+90,Sergeeva Sofia Tarasovna,"a. Lotoshino, w. Borovoe, d. 77 to. 95, 858 804",86213370204,tsharapova@hotmail.com,"Art. Borovsk, nab. Haharina, d. 706, p. 4, 714,538",32979,42499,F,,64257,,
+91,Cyrus Arkadievna Zinoviev,"Mr. Shenkursk, w. Nikitin, d. 5/3, 251902",8 (211) 039-2723,blohinavksenti@yahoo.com,"COFO Kirov (Vjatka), str. Marx, d. 6/3 p. 3/6, 070 584",37503,41593,F,,92957,,
+92,Catherine G. Sharov,"n. Seimchan, ALL. Minin, d. 18 to. 3 262 838",+7 296 465 24 34,eremegavrilov@mail.ru,"Sochi, nab. Pokrovskaya, d. 8 to. 67, 531 803",37097,41875,F,208034,68555,1,
+93,Grishina Svetlana L.,"of Tomari, w. Matrosov, d. 1 to. 3 199 505",+7 847 394 0991,qmarkov@yahoo.com,"d. Miass, bul. Azine, d. 1/6, 165 372",24509,41089,F,,94992,,
+94,Mstislav Yevstigneyevich Andreev,"Baikalsk, ul. Tabloid, d. 2/7, 542 461",8 158 544 86 92,apetrov@mail.ru,"Anadyr, ALL. Installers, d. 7/7 pp. 594, 945 835",37534,42391,M,,89267,,
+95,Belousov Faina Timurovna,"d. Sarapul, w. Meadow, d. 49 pp. 48, 307 961",+75994715839,averjanefremov@yahoo.com,"from. Ivdel, ALL. Solochov, d. 22 k. 2/3 853358",28234,43451,F,,97670,,1
+96,Blokhin Luchezar Yakubovich,"of Shilka, w. Distinct, d. 768 pp. 64, 525 567",8 075 414 10 11,valentinnoskov@mail.ru,"from. Aprelevka, trans. Cedar, d. 1/8, 139850",32546,43395,M,,81484,,
+97,Zoe Veniaminovna Nikolaev,"n. Snezhinsk, ul. Taman, d. 764 to. 59, 155864",+79766067787,mili_1973@rambler.ru,"COFO Achinsk, trans. Kuznetsova, d. 90 p. 5, 066,721",24051,40919,F,,82626,,
+98,Orlova Victoria Vladislavovna,"n. Nefedova Str. Guards, d. 73, 373 250",+7 (083) 417-25-66,aleksandr68@yandex.ru,"n. Yaroslavl, trans. Kommunisticheskaya d. 7.3 pp. 72, 624 695",33120,41176,F,,92905,,1
+99,Bobrov Methodius Benediktovich,"COFO Krasnoural'sk, w. Morozova, d. To 8. 7 323120",+7 382 895 64 75,moise2011@hotmail.com,"Art. Tyumen, nab. Pirogov, d. 62 803 122",28096,43117,M,149296,68905,1,1
+100,Seliverstov Irakli Elizarovich,"Art. Meleuz, pr. Altaiskii, d. 9/6, 597,369",8 169 295 9835,gromovaalina@mail.ru,"Derbent, etc.. Chestnut, d. 2/7, 268 764",24476,43328,M,,86097,,1
+101,Stanislav V. Belov,"Art. Kingisepp, ALL. Halturina, d. 957 to. 241, 329809",+7 809 578 9919,vseslavanisimov@rambler.ru,"Aleksin, w. Pavlov, d. 1 p. 82, 784056",27882,41505,M,207085,84094,1,1
+102,Zykov Glafira Askoldovna,"from. Zavyalikha, pr. Karalenka, d. 2 to. 8, 839 034",+79543634078,efremovvatslav@hotmail.com,"d. Baltiysk, nab. Autumn, d. 75, 517 507",29324,41632,F,,89341,,
+103,Comrade. Melnikov Artem A.,"n. Yuzhnouralsk, w. Peter the Great, d. 777, 275739",+77698857458,denis_83@mail.ru,"Mr. Moore Str. Bazhov, d. 5/8 in. 802 268 028",31189,42443,M,,86336,,1
+104,Savin Philip Gertrudovich,"from. Murmansk, bul. Quiet, d. 86 pp. 95, 447 654",84045928561,belousovdobromisl@yandex.ru,"Art. Neftekamsk, ALL. Friendship, d. 5, 530,582",32168,41381,M,,110196,,
+105,Andronicus V. Bogdanov,"from. Ardon Street. Circumferential, d. 85 p. 28, 844291",+71587117826,judinvelimir@rambler.ru,"a. Yurievets (John.), Str. Tips d. 2 to. 621, 358244",34409,41061,M,185854,77059,1,
+106,Xenia Ilinichna Burov,"d. Yegoryevsk, nab. Border, d. 9/8 in., 4/7 054966",+7 250 820 3227,radim35@yandex.ru,"d. Poyarkovo blvd. Karl Marx, d. 7 k. 4/2 628689",23198,41308,F,285295,71706,1,
+107,Ignatov Bazhen Ye,"COFO Shelehov, w. Home, d. 92 p. 85, 147653",8 293 099 09 95,fomichevajulija@gmail.com,"d. Usman, w. Karl Libknehta, d. To 3/5. 1 392 342",29121,42626,M,,71096,,
+108,Larisa Lapina,"a. Tyrnyauz blvd. School, d. 1, 120332",+7 378 739 77 78,vsemiluvarov@rambler.ru,"COFO Severodvinsk, bul. Minsk, d. 8, pp. 210, 567 253",33866,42346,F,219175,92673,1,
+109,Krylov Thekla Andreevna,"a. Karabulak, ALL. Central, d. 7/3 in. 262 691 306",8 262 647 9627,isaevataisija@rambler.ru,"COFO Tokma, nab. Embankment, d. 4/3, 445 319",24259,42456,F,,77754,,1
+110,Kasian Edgardovich Commissars,"COFO Izhevsk, ul. International, d. 4/2, pp. 69, 262 135",86098247632,wpanfilova@gmail.com,"COFO Severouralsk, bul. Belyaev, d. 212 to. 897, 062 002",25314,42858,M,,79114,,1
+111,Akim Frolovich Zimin,"d. Narym, w. State farm, d. 3/7, 701 610",+7 (660) 136-7575,drozdovaangelina@mail.ru,"Art. Pushkino (Mosk.), Ave. Lower, d. 970, 950 056",29179,43470,M,259037,79654,1,1
+112,Evseev Felix Gertrudovich,"Baltiysk, bul. Tereshkovoy d. 7/7 p. 3, 199,112",+7 (737) 705-0108,alekse1985@rambler.ru,"a. Nizhny Tagil, st. Voronezh, d. 596 p. 7/3 331 208",32722,43749,M,289938,80701,1,
+113,Ukrainians Herman Davidovich,"n. Carpet, bul. Berry, d. 165 to. 155, 479917",8 (097) 901-13-05,kononvlasov@yandex.ru,"COFO Ust-Barguzin, ul. Volochaivs'ka, d. 4 to. 130, 362 349",23564,41730,M,264954,80088,1,
+114,Semyon Agafonov Fedosevich,"of Kushchevskaya, street. Caucasian, d. 516 to. 30 513 852",+7 (081) 871-4917,zosima_1974@gmail.com,"Art. Cherkessk, bul. Track, d. 808, p. 9/5, 475 054",34646,42394,M,169187,106689,1,1
+115,Mukhin Porphyry Fedosevich,"a. Hot Key, ALL. Komsomolskaya. 987 to. 527, 385876",+7 247 394 2665,lazarevkir@gmail.com,"a. Host Str. Vladimir, d. 5/6, 676 231",26583,42490,M,207864,105632,1,
+116,Nicodemus Antonovich Pakhomov,"n. Sterlitamak, st. Ukrainian, d. 153 p. 9, 437160",+7 (425) 015-2151,mefodi1978@gmail.com,"from. Verkhny Ufaley, nab. Nekrasov, d. 2.5 pp. 21, 520 954",33171,41738,M,,75256,,
+117,Kuzma G. Seleznev,"d. Nevinnomyssk, w. Scherbakov, d. 71 k. 9, 116719",+7 658 680 14 14,timofe_14@gmail.com,"n. Stary Oskol, w. Cooperative, d. 826, 983 183",27896,42672,M,,65017,,1
+118,Pankraty Vilorovich Markov,"COFO Tuapse ALL. Krestyanskaya, d. To 9/3. 79 832 581",+7 (712) 842-7086,vladimirovsamuil@rambler.ru,"Mr. Yashkul Str. Revolutionary, d. 8 p. 9/4, 949 167",34425,41068,M,181578,86255,1,
+119,Fevronija Antonovna Tretyakova,"COFO Onega Str. Maple, d. 3/1 195820",8 (559) 991-71-14,irakli1983@yandex.ru,"Korsakov, ALL. Substations, d. 82, 583 112",29672,42874,F,,104504,,
+120,Marina Smirnova Boleslavovna,"d. Korsakov, ALL. Vodnikov, d. 474 to. 4, 714,951",8 (653) 667-6332,venediktorlov@yandex.ru,"Krasnodar, w. Moscow, d. 4, p. 8, 557 609",37327,42889,F,,87363,,
+121,Tikhon Frolovich Teterin,"n. Kholmsk, ul. Matrosov, d. 984 p. 2/1 879 642",8 877 346 80 66,dorofe1970@rambler.ru,"d. Kalyazin, w. Shevchenko, d. 861 to. 2/3 961515",28028,42365,M,,72285,,
+122,Galina Igorevna Maslov,"a. Alapaevsk, nab. Dostoevsky, d. 6/9 p. 6/4, 802 234",8 958 253 6180,valerija73@yahoo.com,"Tambov, trans. Cote, d. 413 pp. 99, 929 610",36156,42306,F,,75568,,1
+123,Gulyaev Zephaniah Elizarovich,"n. Belokuriha Str. Floatable, d. 1/1 178675",85824928405,zhuravlevarefi@hotmail.com,"d. Elista, ul. Production, d. 860 to. 7 140437",34272,42152,M,,86672,,
+124,Ekaterina Panova Kuzminichna,"COFO Orsk, ALL. Novoselov, d. 58, 112021",8 111 340 65 91,apollon_92@yahoo.com,"d. Olenegorsk (Yaqut.), bd. Hay, d. 41 pp. 624, 902 028",32417,41589,F,,98978,,1
+125,Avdey Kudryavtsev,"Mr. Kabansk blvd. Labor, d. 77, 692 839",8 (748) 528-6559,ruslan1989@gmail.com,"Art. Barnaul, bul. Commercial, d. 4, p. 458, 200041",36108,41047,M,,79868,,
+126,Alexander Yakushev Igorevna,"from. Gelendzhik, trans. Morozova, d. 6.8 pp. 50, 528 343",+7 (035) 308-91-22,alina53@yahoo.com,"COFO Suzdal, bul. Thieves, d. 3, p. 2/3 573324",28715,42077,F,155614,84842,1,
+127,Nekrasov Ninel Vyacheslavovna,"d. Orekhovo-ALL. Steppe, d. 2 to. 4, 226,171",+7 (744) 881-51-81,fedoseevermil@yandex.ru,"from. Kropotkin (Krasnod.) Emb. Children, d. 8 pp. 107, 565 533",23818,41555,F,,82211,,1
+128,Dmitriev Arkady Fomich,"d. Lgov, pr. Lakes, d. 6 pp. 84, 814 919",8 (601) 450-28-77,iraida_2011@mail.ru,"Gremyachinsk (Buryat.), co. High, d. To 57. 9, 976 921",23636,41936,M,,85647,,
+129,Kononov Ivanna Danilovna,"Art. Katav-Ivanovsk, trans. Garden, d. 9, 285 730",8 (572) 590-91-89,makarandreev@hotmail.com,"a. Vladikavkaz, ALL. Park, d. 2 p. 62, 250559",36536,41976,F,,89200,,1
+130,Ishmael Antipovich Baranov,"COFO Dagomys, pr. Meadow, d. 83, 351 488",8 957 459 5758,samolovpetr@yahoo.com,"in. Vyazma, ALL. Maxim Gorky, d. 712, 640 748",23830,42751,M,,50069,,1
+131,Nadezhda S. Sazonov,"d. Nadym, pr. Factory, d. 7 to. 934, 812 936",+7 018 688 1995,izot_88@mail.ru,"n. Ojmjakon Str. Gastello, d. 22, 870 137",32604,40915,F,231256,82935,1,1
+132,Antipas Artemyevitch Titov,"from. Kineshma, nab. Coal, d. 210, 870 610",8 (104) 770-4488,julija_1978@yahoo.com,"Art. Tulpan river, bul. Olympic, d. 1/3 in. 90 037 004",34338,43259,M,,77935,,
+133,Egor Nesterov Gordeevich,"a. labinsk, w. Leskhoznoe, d. 785 to. 8, 393855",+7 968 130 56 18,danila_42@mail.ru,"a. Saratov, ul. Stellar, d. 4/4 in. 9 349 762",32818,43471,M,,104710,,
+134,Cyrus Gennadievna Nikiforov,"Art. Irbit, w. Slobodskoe, d. 4, 781,635",8 (142) 863-1881,koshelevanadezhda@yahoo.com,"a. Rainbow, ALL. Folk, d. 176 to. 4, 629,995",25463,43118,F,,95167,,1
+135,Ostromir Filatovich Komarov,"d. Ust-Kool, pr. Podgornyi, d. 2 962 481",8 (378) 755-7255,marian1983@mail.ru,"Divnogorsk, ul. People, d. 2/6, 244475",37295,43176,M,295693,87464,1,1
+136,Andronicus Arsenovich Kononov,"COFO Ussuriysk Str. Coniferous, d. 89 in. 678 051 646",8 667 541 8059,gsobolev@rambler.ru,"COFO Kurchatov lane. Crimea, d. 6/3, 627 680",35778,41920,M,,76957,,
+137,Artyom Biryukov Artemyevitch,"Art. Biisk, w. Corner, d. 686 to. 360, 303 724",8 (743) 293-6867,ribakovplaton@hotmail.com,"from. Monchegorsk, w. South, d. 818, 152542",22501,43667,M,,85809,,1
+138,Nikolaev Fevronija Nathanovna,"a. Galich, nab. Krymskaya, d. 26 to. 1 494 766",8 350 804 5911,jaroslav43@yandex.ru,"d. Nizhnekamsk, w. Smirnova, d. 90 in. 4/1, 295 097",26121,43740,F,,67264,,
+139,Samuel Marsovich Lazarev,"Mr. Gorodovikovsk blvd. Guerrilla, d. 9/9, 317 574",+7 625 141 9788,kazimir_11@yahoo.com,"Art. Balashikha, st. Odessa, d. 2/1, 447 922",28417,42527,M,,97976,,
+140,Akulina Efimovna Kulikova,"Art. Rzhev, pr. Gaidar, d. 94, 702 283",8 (733) 858-1881,evdokija2008@yandex.ru,"Penza, etc. The flow, d. 10, 218 653",37428,42269,F,,72714,,1
+141,Fadeev Cyrus Leonovna,"a. Wellen, Naberezhnaya. Borovaja, d. 7 pp. 532, 435 539",+7 (394) 366-19-46,evgraf_1972@rambler.ru,"Arkhangelsk, bul. Lenin, d. 48, 780 144",27556,42142,F,,69567,,
+142,Belova Irina I.,"Art. Sergiev Posad, nab. Levanevskogo, d. 93 p. 2/2 690652",+73213590501,fokinevstigne@mail.ru,"a. Kuznetsk Str. Neftchiler d. 247 to. 561, 231 324",27723,41276,F,,105157,,
+143,Osip Melnikov Evseevich,"of Morozovsk, ul. Maitland, d. 59 p. 1, 563556",8 334 958 22 47,viktorin_1999@gmail.com,"d. Taldom, ave. Schetinkina, d. 9 k. 822, 489 797",30703,42658,M,100468,93894,1,1
+144,Leonti Pakhomov Gordeevich,"Noyabrsk, ul. Tchaikovsky, d. To 9. 4, 367757",8 (943) 256-2292,savinaraisa@rambler.ru,"Ustyuzhna Str. Pine, d. 5/4 p. 5/2, 026 021",24949,42153,M,,68068,,
+145,Martha Eduardovna Kharitonov,"a. Kirovsk (Moorman.), trans. Fraternal, d. 3, p. 200, 459910",+75437523658,fedotovaraisa@mail.ru,"from. Smirnykh Str. Berry, d. 4, p. 5/7, 882,225",22389,41535,F,256816,80610,1,1
+146,George A. Kuznetsov,"Oktyabrsky City (Chelyaba.), co. Upland, d. 5/8, 471561",8 (540) 472-0782,ljubim76@rambler.ru,"of Elton, pr. Tabloid, d. 1 p. 8, 449 786",29508,41645,M,,71064,,
+147,Eleanor A. Makarov,"Art. Lukhovitsy, bul. Korolenko, d. 144 to. 955 979 932",8 266 392 65 27,dobromisl_90@yahoo.com,"Lagan, etc. Pine, d. 23, p. 75, 406115",35455,41968,F,,65429,,
+148,Merkusheva Martha Arkhipovna,"Art. Nat, ALL. High, d. 6 pp. 6/8 456971",+7 861 570 7842,prov1989@rambler.ru,"a. Luhovicy, w. Ameliorative, d. 2 k. 3/1 341068",32230,41641,F,,75977,,
+149,Alla Tarasovna Zhdanov,"COFO Mednogorsk Str. Voykova, d. 7 to. 60, 483 024",+74110945697,efrem_2017@gmail.com,"COFO Kudymkar Str. Koltsov, d. 210 to. 977, 085 306",28785,41932,F,,80308,,
+150,Iraida G. Shcherbakova,"n. Mtsensk, w. Karl Marx, d. 125 to. 99, 153043",8 (593) 246-58-21,cvladimirov@yahoo.com,"Bilibino, bul. Hope, d. 92, 678 478",33599,42122,F,,81137,,1
+151,Zosima Davidovich Alekseev,"COFO Smolensk lane. Pozharsky, d. 911, 268 264",+7 (935) 455-20-09,jkolobova@yahoo.com,"n. Krasnoyarsk, ALL. Iaroslavskaia, d. 96 p. 64, 620328",29119,42220,M,289872,102236,1,
+152,Seliverstov Laurel V.,"from. Ulan-Ude, w. The February, d. 7/4 p. 4/5, 584 245",+7 155 192 4557,oleg2016@yandex.ru,"d. Barrow, trans. Garden, d. To 9. 87, 236749",28098,41303,M,,110709,,
+153,Bronislaw G. Mukhin,"from. Viazma, pr. Schorsa, d. 26 to. 38, 367 205",8 (378) 387-6142,ippolit_68@yandex.ru,"n. Voronezh, pr. Altitude, d. 1 k. 7, 105,146",28962,41125,M,,79448,,
+154,Kabanov Modest T.,"Art. Apsheronsk, pr. Volkova, d. 4/2, 953,900",+7 238 998 1269,jakovlevsevastjan@yandex.ru,"a. Aleksandrovsk, ALL. Baumann, d. 43 to. 60, 027 960",28716,41953,M,,73777,,
+155,Hope Danilovna Knyazev,"n. Kasimov, ALL. Krasnodarskaya d. 9 pp. 1, 322 217",+79827714993,gerasim_1974@yandex.ru,"a. Nalchik, nab. Pine, d. 708, 551 619",25527,42634,F,145500,89491,1,
+156,Komarova Thekla Romanova,"Art. Severobaykalsk pr. Angarsky, d. 936, 359 203",8 (478) 494-26-54,venediktpanfilov@hotmail.com,"Balashov, etc.. Chernyshevsky, d. 4/2, pp. 5, 989,773",34005,42131,F,,69093,,
+157,Ignatov Lyubosmysl Denisovich,"COFO Ozyory, pr. Proletarskii, d. 97, 115103",+7 (391) 814-4167,psafonova@yandex.ru,"n. Mytischi, trans. October, d. 2 577 062",29914,42526,M,,77829,,
+158,Maksimova Nina Yu,"from. Dvinskoy, pr. Z.Kosmodemyanskoy, d. 5, 417485",+71167393330,fershova@yandex.ru,"n. Silver Ponds, w. Dostoevsky, d. 434, 355234",24310,42221,F,206071,90685,1,
+159,Maya Pavlovna Merkusheva,"Art. Hype ALL. Cornflower, d. 55, 225232",8 997 854 8797,savelisazonov@gmail.com,"d. Lodeynoe field, nab. Lacustrine, d. 99, 484 411",28513,41465,F,261629,75829,1,1
+160,Ms Muraveva Regina F.,"a. Dvina, ALL. Altitude, d. 369, 213 224",+7 (321) 400-58-04,vorobevbronislav@yahoo.com,"Mr. Zabaykalsk blvd. Bazarnyi, d. To 1/7. 19 261 042",29153,41932,F,,66479,,1
+161,Konovalova Antonina Vadimovna,"from. Karpinsk, nab. Resort, d. 903, 917 696",85555591010,grishinnikita@yahoo.com,"d. Asino, nab. Shallow, d. 7 pp. 4/9 338724",34566,43026,F,,85960,,
+162,Laura Romanova Vladislavovna,"n. Kolomna, trans. Work, d. 83 to. 878, 191 058",+7 (096) 701-3570,efim78@hotmail.com,"from. Kostomuksha, ul. Shchorsa, d. 986 pp. 26, 148 708",24350,42931,F,147703,79031,1,
+163,Rogov Kuzma Timurovich,"n. Kislovodsk, pr. Friendship, d. 1 119 457",8 507 270 33 68,margarita2002@yahoo.com,"Cherkessk, w. Sverdlov, d. 212, 440 115",30587,42378,M,,79575,,
+164,Nikiforov Mark Kharlampovich,"Art. Temruk, pr. Annular, d. 87 pp. 572, 179 340",8 (752) 866-2776,azikova@mail.ru,"a. Syzran, nab. Energetikov d. To 7. 58, 069 819",35985,42959,M,,80196,,1
+165,Emilia Robertovna Gavrilova,"k. Skovorodino pr. Smirnova, d. 8, 609 608",8 288 891 2998,nikitagalkin@mail.ru,"COFO Meadows, w. Mendeleyev, d. To 705. 7 867 872",29869,43759,F,,59101,,
+166,Irina Davydova Eldarovna,"COFO Aleksin, ALL. New, d. 53 829 846",+78978646598,ustinovferapont@yandex.ru,"COFO Yashalta, nab. Pushkinskaya, d. 6 in. 2/1 626123",26963,42170,F,,72429,,1
+167,Akulina Medvedev F.,"n. Ussuriisk, bul. Stadium, d. 4/8, pp. 733, 837 015",+74574430589,nrusakov@yandex.ru,"Mr. Zabaykalsk, etc. Energy, d. 33 p. 8/4, 281 617",27986,41307,F,231873,93878,1,1
+168,Martha V. Shchukin,"from. Tulpan river, bul. 30 Years of Victory, d. 50 in. 7/2, 048 999",+7 975 470 02 74,samuilkolobov@hotmail.com,"from. Ignashina Str. Education, d. 3, 760,405",30301,41613,F,,102592,,
+169,Titus Eliseevich Kazakov,"from. Dagomys, ul. L.Tolstogo, d. 96 to. 223, 459251",+7 326 228 34 33,ratibor1997@yandex.ru,"Pushkin Str. Rainbow, d. 78 p. 4/6, 647 972",22801,42903,M,,94546,,1
+170,Osipov Pancrate Yulevich,"n. Nizhnekamsk, nab. Trinity, d. 66 pp. 393, 912 663",8 938 555 53 07,sobolevanatalja@mail.ru,"n. Usman ul. Scherbakov, d. 53 pp. 181, 726 784",28871,41365,M,231767,58638,1,
+171,Zinaida Boleslavovna Mukhina,"k. Kurumkan, pr. Rileyev, d. 40 to. 922, 527 955",89436223431,alla1982@gmail.com,"n. Mozhga, trans. Tractor, d. To 6/1. 96, 388025",27352,43089,F,147773,76193,1,1
+172,Comrade. Sidorova Agatha Ilinichna,"COFO Nevyansk, nab. Culture, d. 282, 413 181",8 (299) 833-6987,ershovstanislav@rambler.ru,"COFO Gubkin, bul. Karl Marx, d. To 9. 1, 630,584",30259,42352,F,221078,75781,1,
+173,Kulagin Antonina Afanasyevna,"d. Carpet Street. Rural, d. 339 to. 136, 238 003",8 (647) 731-73-04,kselezneva@hotmail.com,"from. St. Petersburg, ul. Turgenev, d. 157 p. 4/1, 019 903",37063,42576,F,272971,84813,1,
+174,Victoria Afanasyevna Bolshakova,"a. Mozhaisk, st. School, d. 8/1 in. 1/4, 966 807",8 541 667 37 90,egor_1978@yandex.ru,"d. Tot'ma, pr. Hay, d. 9/5, 071,881",25001,41366,F,,82332,,1
+175,Agathon V. Kudryashov,"Art. Voskresensk, st. Borovaya. 68 in. 372 846 795",+7 (416) 000-04-25,kirill1978@yahoo.com,"COFO Kotelnich, w. Tools, e. To 9. 1, 656,894",34051,43219,M,,88616,,1
+176,Eupraxia V. Pestova,"a. Astrakhan, ul. New, d. 74 058 395",+7 303 684 68 49,zahar_52@gmail.com,"d. Sarov (Mård.), Acad. Ordjonikidze, d. 3/3, pp. 3, 592,190",25956,42232,F,117524,84627,1,1
+177,Belyakov Terence I.,"Art. Yurievets (Ivan.), Acad. Free, d. 70 k. 2, 249230",+7 (118) 801-96-48,ekaterina1986@hotmail.com,"COFO Lyubertsy, trans. Boulevard, d. 2 264 886",22816,41863,M,,82958,,1
+178,Guryev Vladlen Davidovich,"d. Elec, bul. Shopping, d. 811 to. 2/5, 751 674",8 (912) 166-9358,kgrigorev@hotmail.com,"COFO Kamyshlov blvd. Shevchenko, d. 59 to. 1 604 729",34825,41751,M,,63275,,
+179,Strelkova Zinaida Danilovna,"Mozhaisk, bul. Shoreline, d. 93 p. 2/1 086340",+70730250288,vladlen_84@hotmail.com,"n. Achkhoy-Martan, ul. Radishcheva d. 1.5 pp. 22, 015 318",25003,42580,F,252443,91462,1,
+180,Svetlana Gennadievna Timofeev,"Art. Kyren Str. Kuban, d. 127 pp. 14, 158 617",+7 (804) 592-33-06,vlas_95@gmail.com,"Gudermes, bul. Smirnova, d. 792, 723 046",24834,41612,F,,60912,,1
+181,Praskovya Y. Fokin,"a. Volhov Str. Lermontov, d. 167, 918 827",8 976 675 7199,longin_1998@hotmail.com,"COFO Hot Key, ALL. Education, d. 4/6 in. 772 078 720",31233,42336,F,,74900,,1
+182,Isaev Gerasim Ermolaevich,"from. Surgut (Hunt.), Str. Pozharskii, d. To 2/6. 21 759 952",8 839 118 5487,krilovafevronija@hotmail.com,"COFO Severouralsk, trans. Budyonny, d. 777 p. 3/7 546944",31217,41351,M,,83726,,
+183,Bobrov Hilarion F.,"d. Ukhta, nab. Comintern, d. 2 704 460",8 (086) 593-40-73,svetlana_2012@gmail.com,"from. Kondopoga pr. Matrosov, d. 3/1 828270",26090,42930,M,201082,76544,1,
+184,Agap Timurovich Bobylev,"Zhigulevsk, nab. Teatralnaya, d. 277 to. 338 751 469",8 (318) 578-50-30,zoja_01@mail.ru,"a. Verkhoturye Str. Suburban, d. 4/3 in. 732 191 272",25381,43642,M,261572,74604,1,
+185,Naina Alekseevna Kudryavtseva,"COFO Obninsk, nab. Haharina, d. 3/2 in. 137, 958 140",+7 (474) 894-0391,mir1986@rambler.ru,"from. Pawlowski Posad, pr. Club, d. 27, 385680",35731,42232,F,193141,79418,1,
+186,Zoe Tarasovna Kryukov,"d. Kalach-on-Don, w. Pavlik Morozov, d. To 8. 2/6, 757,666",8 (739) 463-22-38,wmironova@yandex.ru,"a. Nefteyugansk, nab. Ordjonikidze, d. 84 p. 64, 213126",30442,41085,F,167130,76767,1,1
+187,Ignatiev Hilarion Feoktistovich,"Kirovo-Chepetsk, pr. Rosa Luxemburg, d. 50 pp. 72, 514 532",+7 990 302 0275,trifon70@gmail.com,"k. Novomichurinsk, pr. Soviets d. p 2/7. 3/6, 858,026",33104,42662,M,232179,74748,1,1
+188,Boleslav G. Shubin,"COFO Balashov, w. Krestianskoe, d. 8, 785 545",89132481596,bolshakovaviktorija@gmail.com,"a. Yahroma, w. Partisan, d. 164 pp. 437, 574 400",30694,42886,M,,91018,,
+189,Felix Ilyin Afanasievich,"Mr. Olenek, w. Yeniseyskoye, d. 8 to. 813, 483 771",+76374417602,antonina84@gmail.com,"Ozery Str. Foundry, d. 809 p. 7, 785,935",30429,42919,M,252662,79937,1,1
+190,Davidova Galina,"Art. Sosnovy Bor, nab. Makarenko, d. 3, 644,644",8 (599) 369-31-88,ershovevdokim@yandex.ru,"Art. Krasnogorsk (Mosk.), Bd. Tambov, d. 997 p. 7/4, 218299",29844,41509,F,,79247,,
+191,Merkushev Epiphanes Gordeevich,"k. Kondopoga pr. Der, d. 501 to. 1, 192495",8 (108) 454-83-62,arseni_24@rambler.ru,"Mirny, nab. Peter, d. 7, 828,974",29273,41601,M,167478,98733,1,1
+192,Ekaterina Kovaleva Nilovna,"a. Taishet, ALL. Grandma, d. 6, p. 5, 068,368",8 (881) 294-7217,tarasilin@rambler.ru,"Mr. Olenek, w. Ring, d. 2 in. 3/4, 617 390",36047,41713,F,,70863,,1
+193,Kulagin Claudia Oskarovna,"from. Kamensk-Shakhtinsky, ALL. Amur, d. 7 pp. 515, 609 501",+72126619505,qblinov@yahoo.com,"Sochi, ALL. Towers, d. 6 k. 2, 130194",23116,43143,F,,75116,,1
+194,Nosov Amos F.,"Art. Shamar, ALL. Karalenka, d. 506, 254 165",+7 (343) 639-6465,zahar64@hotmail.com,"n. Tavda, ALL. Ryazan, d. 28, k. 143 426 598",26975,42639,M,,78479,,1
+195,Angela Gennadievna Khokhlova,"d. New Igirma, w. Frunze, d. 27 p. 1, 208921",8 (051) 282-11-86,kudrjavtsevvjacheslav@mail.ru,"from. Berezniki, ul. Labor, d. 1 394 668",27800,42859,F,130147,86001,1,
+196,Yakov Petrov Fedosevich,"n. Asha, trans. Youth, d. 4 k. 2/4, 990,947",+70958111768,karpovvadim@mail.ru,"from. Artem, bul. Factory, d. 6/2 p. 3/2 242124",25919,42750,M,140957,85988,1,
+197,Anisim Ignatievich Andreev,"a. Yalutorovsk, ALL. Mechanical Engineers,. 39 012 506",8 (588) 985-9599,isaevluchezar@hotmail.com,"a. Mines, bul. Allied, d. 3 to. 5, 279,905",29072,41664,M,,82594,,
+198,Angelina Leonovna Kostina,"Bronnitsy, bul. Bitter, d. 4 k. 9/7, 567,436",+7 (638) 120-9083,ljubosmisl_2002@gmail.com,"from. Nat Str. Shore, d. 7 to. 867, 296 085",27270,41990,F,,76316,,
+199,Gusev Fevronija Valerievna,"Gubkin st. Spa, d. 233 to. 9, 953 152",+74332838369,semen1979@gmail.com,"d. Aginskoe (Zabayk.), Ave. District, d. 68 to. 33, 329 903",36829,43086,F,,90120,,1
+200,Nestor Vikentievich Shooters,"d. Ruza, bul. Lenin, d. 2 in. 3 679 991",+7 601 725 9832,sofon_82@mail.ru,"Art. Pechenga, w. Maxim Bitter, d. 30 to. 71, 569 744",33391,41822,M,,73420,,
+201,Iraida Filip Vorobyova,"n. Karachaevsk Str. Lenin, d. 10 k. 6/4 466610",+7 (693) 879-0257,korolevstepan@rambler.ru,"n. Zhigulevsk, bul. Boulevard, d. To 93. 6, 134669",31452,43477,F,272854,90503,1,
+202,Shooters Florentin Izotovich,"from. Strezhevoi, trans. Chapayeva, d. 1.2 pp. 50, 560 854",82501080535,kirillovprokl@rambler.ru,"Naberezhnye Chelny, bul. Glinka, d. 19, 641 476",27205,42087,M,,90545,,
+203,Mieczyslaw Efstafevich Ivanov,"from. Muravlenko, w. Port, d. 1 547 290",+7 (899) 864-0342,zuevkir@mail.ru,"Art. Kholmogory, bul. Spring, d. To 61. 8, 596 009",32637,43463,M,,78250,,1
+204,Tikhonov Stepan Timurovich,"d. Kulunda Str. Metallurgists, d. 448, 706 811",81358793969,jaropolkandreev@yandex.ru,"d. Tosno, pr. Factory, d. 7, p. 4, 984,003",31897,42031,M,212715,86357,1,
+205,Novikova Nadezhda Andreevna,"d. Karpinsk, bul. Kotchubey, d. 6 k. 9/6, 956,089",8 718 160 19 95,alekse95@yahoo.com,"COFO Clear (Orenbah.), Ave. Theatrical, d. 61 p. 7/9, 634,777",36038,42266,F,,84240,,
+206,Kovalev Evdokia E.,"n. Semlyachiki, ALL. Quiet, d. 5/6 in. 438, 290224",+7 568 896 3518,belozerovalora@rambler.ru,"COFO Bodaibo, nab. Mayakovsky, d. 674 pp. 818, 508 377",34347,42993,F,,83715,,
+207,Komissarov Eleanor Arkadievna,"n. Kurchatov, pr. Bauman, d. 8, 395 567",+73450231840,isakovserafim@hotmail.com,"a. Sortavala, bul. Birch, d. 9, 302 375",36940,41133,F,,71404,,
+208,Victoria M. Kapustin,"n. Bugulma, w. Orel, d. 6/2 pp. 933, 454 284",+76191824035,stepanovfortunat@rambler.ru,"COFO Noginsk (Moscow.), nab. Pine, d. 345 pp. 675, 504 994",30486,42818,F,110267,83575,1,
+209,Milen A. Belozyorov,"d. Karachaevsk, nab. Tolbukhina, d. 2 075 741",8 239 091 92 80,david93@yandex.ru,"a. Poyarkovo, nab. Of Petroleum, d. 36, 126768",34659,43800,M,,102710,,
+210,Kononov Ernst V.,"COFO Yugorsk, w. Labor, d. 7 k. 9, 569710",80662068067,harlampi_2008@gmail.com,"COFO Tiksi, w. Soviet Army, d. 62 in. 4/1, 038 552",29111,42258,M,,87621,,
+211,Adam F. Kostin,"COFO Yuzhno-Sakhalinsk, street. Rileyev, d. 85 to. 618, 987 167",+7 (989) 155-9625,evgeni_2004@gmail.com,"a. Tymovskoe, w. Underwear, d. 10 pp. 18, 052 720",22123,43587,M,,94759,,
+212,Luchezar Ermolaevich Vorontsov,"a. Mostovskoi, ALL. Rosa Luxemburg, d. 6, 430,769",+7 200 008 10 37,zoja_36@yahoo.com,"a. Moscow, pr. Griboedova. 8 p. 1/3, 759 812",37309,43349,M,,83660,,
+213,Olympics A. Rogov,"Art. Kamyshin forth. Production, d. 91 p. 6, 075,088",87847648942,savinvladilen@yahoo.com,"COFO Vendinga w. Kuznetsk, d. 7, p. 24, 130826",35080,43103,F,272915,84616,1,
+214,Cyrus Zhdanovna Emelyanova,"d. Odintsovo, nab. Teacher, d. 2 878 996",8 883 668 30 44,lobanovaanzhelika@gmail.com,"Art. Kargasok, ALL. Raspberry, d. 8 to. 447, 249903",33810,43127,F,213163,82302,1,
+215,Praskovya Askoldovna Konovalova,"a. Apatity, ul. Union, d. 5 pp. 42, 795 631",8 (477) 875-98-27,krasilnikovamarfa@gmail.com,"COFO Pereslavl, ALL. Track, d. 50, 440 765",25610,41894,F,211833,84562,1,1
+216,Mishina Milica M.,"from. Kirovsk (Moorman.) ALL. Pozharsky, d. 381, 052 820",8 351 512 62 60,vsemil_83@gmail.com,"d. Dmitrov ALL. Marsh, d. 33, pp. 63, 094 623",27418,41317,F,170854,86312,1,
+217,Emmanuel Gertrudovich Bespalov,"Art. Ulan Ude, pr. Makarenko, d. 771 p. 94, 184082",+79636188282,simonovegor@yahoo.com,"a. Bodaibo Str. Shishkin, d. 6 pp. 8, 119 742",30782,42470,M,196824,77538,1,1
+218,Kuzmina Alina M.,"COFO Federal District, w. Dekabristov. 5, p. 5, 436778",8 990 939 02 06,kira_64@mail.ru,"d. Ershov st. Oleg Mishka, d. 69 in. 327 069 645",28554,43775,F,,65769,,
+219,Kondratiev Frol Venediktovich,"k. Ust-Dzheguta, ave. Shevchenko, d. 6 pp. 79, 012 807",+7 (947) 473-15-14,ruben_88@yahoo.com,"Yoshkar-Ola, w. Pirogova d. To 7/4. 1 573 060",32483,41960,M,,89400,,
+220,Angela Alekseevna Lavrenteva,"Pyatigorsk, bul. Shishkin, d. 71 to. 62, 175 396",8 (181) 956-8509,lavrenti00@gmail.com,"n. Chermoz, ALL. Belarus, d. 83, 940 979",32811,42931,F,,86562,,1
+221,Blokhin Micah Iosipovich,"d. Suzdal, ALL. Sand, d. 123, 013 356",+77878401444,nikiforovaolimpiada@yandex.ru,"d. Maloyaroslavetz, nab. Sportswear, d. To 8. 4, 677,946",31556,41209,M,197728,82148,1,
+222,Filatova Marina B.,"n. Naryan-Mar, ALL. Grandma, d. 1/5, 087,377",8 736 197 9154,dobroslav_97@gmail.com,"from. Bratsk, ALL. Zhukov, d. 42 pp. 730, 094 711",33370,43411,F,246208,62276,1,
+223,Galkina Iraida Ilinichna,"Art. Valdai, w. Griboyedov, d. 7/7 in. 8/8, 736 057",+7 (338) 594-97-33,mechislavbespalov@hotmail.com,"n. Severoural'sk, pr. Lermontov, d. 2 k. 3/4 120116",30419,42605,F,,89143,,
+224,Mishina Lukiya G.,"from. Kiji, pr. Lermontov, d. 65, 828 615",+7 678 398 76 23,kulakovfedor@gmail.com,"n. Kurganinsk, street. Transverse, d. 23 to. 16, 875 527",22190,42415,F,,69577,,
+225,Kolesnikov Claudius Vikentievich,"of Shamar, trans. Ivanovo, d. 68 pp. 843, 054 533",+7 (354) 907-4175,varvara18@gmail.com,"Shali lane. Pozharskii, d. 3 k. 7/6, 816,109",32492,42183,M,153889,79921,1,1
+226,Sysoev Micah I.,"from. Skovorodino pr. Shaumyana, d. 52 pp. 291, 856 222",+7 744 360 5351,sitnikovadarja@rambler.ru,"from. South Sakhalinsk, pr. Trip, d. 5, 044,264",23540,40943,M,253667,88398,1,
+227,V. Nekrasov Ivanna,"n. Dudinka, pr. Ivanovskii, d. 36, 217 412",+7 (501) 777-73-66,dorofe_1975@rambler.ru,"n. Breda, trans. Revolutionary, d. 277 p. 4/1, 906 104",29241,41847,F,,87124,,
+228,Sinklitikiya Semenovna Kornilov,"d. Moore Street. Moscow, d. 82 k. 8/7, 152296",+7 213 114 6589,mark1996@rambler.ru,"COFO Ust-Ilim, ALL. Osipenco, d. 77 k. 1/5 226795",32928,42793,F,,89002,,
+229,Dobroslav Eremeevich Doronin,"d. Ust-Dzheguta, pr. Krasnoflotsky, d. to 7/1. 13, 167659",8 220 188 84 05,osiprodionov@yandex.ru,"d. Gremyachinsk (Perm.), Ave. Novosel'skii, d. 21, 168 988",26102,41069,M,,85272,,1
+230,Tamara Filatova Nikiforovna,"Kaliningrad, w. Cherry, d. 40 to. 14, 026 476",8 446 537 8164,lavrentevirakli@hotmail.com,"from. Chernyakhovsk, bul. Belarus, d. 2 to. 3 138 928",29877,43382,F,295520,78779,1,
+231,Zephaniah Vlasovich Konovalov,"Yakutsk, trans. Forging, d. 253 pp. 72, 037 074",+77597860342,mishinstojan@mail.ru,"n. Pless Street. Ermak, d. 2 534 174",31629,42863,M,,95847,,
+232,Khokhlova Anna Bogdanovna,"d. Kizhi, nab. Tsetkin Clara, d. 40 p. 36, 638565",+79865135063,maksim48@yahoo.com,"from. Krasnogorsk (Mosk.), Br. Frunze, d. 85 to. 149, 787 977",35269,43622,F,160800,89149,1,
+233,Filatov Prokhor Denisovich,"d. Izhevsk, w. Shevchenko, d. 818 p. 4, 398,704",8 (971) 158-0482,jakov2003@rambler.ru,"a. Kaluga, trans. Ostrowski, d. 4 381844",28269,41375,M,,95687,,1
+234,Lebedev Oksana Tarasovna,"a. Ulyanovsk, bul. Semashko, d. 91, 951 742",85655428005,denisfedoseev@gmail.com,"Art. Listvianka (Irkut.) Emb. Zaporizhia, d. 667 pp. 978, 271 022",29674,41232,F,,87063,,1
+235,Sobolev Lyubosmysl Efstafevich,"d. Urjupinsk, w. DEN, e. To 7. 90, 740 320",8 (228) 677-2652,lihachevmartin@yahoo.com,"from. Vladimir, etc. Podlesny, d. 779, 171 870",27129,41872,M,,83835,,
+236,Andron the professor Orekhov,"COFO Kamyshin, w. 50 Years of Victory, d. 75 in. 7 900 080",80251908761,mironovmaksimiljan@mail.ru,"n. Dudinka, pr. Stakhanovsky, d. 2 p. 54, 421628",31304,43424,M,,70099,,1
+237,Vyacheslav Davydov Avgustovich,"from. Karpinsk, ALL. Popov, d. 2/5 p. 3, 194044",8 626 767 43 60,blohinpolikarp@hotmail.com,"Art. Strezhevoi blvd. Tomsk, d. 86, 691 179",34189,43215,M,,104443,,
+238,Sukhanov Averyan Timurovich,"COFO Gdov, pr. Belinsky, d. 92, 724 009",8 (859) 072-32-77,trifon_46@mail.ru,"Aprelevka, ul. Vavilov-, d. 78 pp. 191, 865 353",31754,41741,M,236982,68990,1,
+239,Dmitriev Philemon Yulianovich,"COFO Khuzhir, w. Don, d. 6, 642,962",+72106752192,jakub_82@yahoo.com,"Lukhovitsy Str. Omsk, d. 5 pp. 40, 504 572",34584,43371,M,,80318,,
+240,Daniel Jeanne G.,"Art. Biisk, nab. Bridged, d. 9, 334 822",8 (094) 482-9279,ananiefremov@hotmail.com,"a. Dvina, ALL. Lower, d. 445 p. 7/6, 022 758",27842,41095,F,,75411,,
+241,Zhanna Melnikova Valerievna,"n., Moscow State University, Lane. Bazhova, d. 5 to. 41, 626 156",8 (891) 996-6689,anani_2021@gmail.com,"Zlatoust, w. Novoselskoye, d. 389 to. 36, 310426",29443,41961,F,195679,96636,1,
+242,Afanasiev Samuel Abramovich,"COFO Pyatigorsk, ALL. Filler, d. 56, 836 087",+7 681 690 90 69,kulikovgostomisl@mail.ru,"n. Vladivostok, ALL. Pirogova d. 84 p. 6/4 855419",36422,41778,M,,60995,,1
+243,Valeria Chernova Valentinovna,"COFO Yuzhno-Kurilsk, w. Baltic, d. 407 p. 7 172379",8 (983) 030-32-65,poljakovakira@yandex.ru,"from. Hatanga, pr. October, d. 21, p. 7/8 570452",31582,41271,F,,68179,,1
+244,Ustinov Tvorimir Abramovich,"d. Shatki, pr. Karbyshev, d. 5/9 433992",8 535 357 8599,kalashnikovsidor@hotmail.com,"a. Belokurikha lane. Marsh, d. 920 to. 54, 380 219",32085,42810,M,,100885,,
+245,Gleb I. Sorokin,"n. Kogalym ALL. Budyonny, d. 3/8 p. 7/8, 705 788",8 (745) 211-17-94,tershov@mail.ru,"Bugulma, bul. Orlowski, d. 5/3, p. 1, 294546",33778,41245,M,,86626,,1
+246,Fomichev Andron Ignatievich,"COFO Turukhansk, bul. Star, d. 1/1. 8/3, 900,319",84833106157,agafon_2016@yandex.ru,"COFO Novocherkassk, w. Pavlik Morozov, d. 594, 655 233",29116,41585,M,,67828,,
+247,Kudryashov Irina Afanasyevna,"a. Ignashina blvd. Extreme, d. 527 to. 3/8, 032 228",+7 370 979 8533,kopilovmefodi@yandex.ru,"a. Kizilyurt, trans. Sovkhozny, d. 421 p. 856, 275145",33378,43803,F,171422,88991,1,1
+248,Valery Zykov Eduardovna,"Art. Ershov, bul. Lower, d. 23, 770 641",8 (793) 963-5073,qzinoveva@yahoo.com,"d. Ust-Katav, ALL. Kurchatov, d. 6/5 in. 6/1 537713",30642,43361,F,232861,73724,1,1
+249,Glafira Semyonovna Queen,"d. The Soviet, ALL. Zaparojye, d. 670 pp. 204, 963 425",+7 094 881 4069,demjan_1988@mail.ru,"n. Elec, ALL. Krasnodar, d. 7 pp. 6/6 752582",27308,41416,F,115701,65373,1,1
+250,Roman Volkov Ilarionovich,"a. Achinsk, bul. Kuznetskii, d. To 8/4. 8, 430 357",+7 (396) 952-27-49,tdjachkov@yandex.ru,"COFO Vyazma Street. Panfilova, d. 47 to. 419, 751 150",30534,41266,M,,93049,,
+251,Mrs. Claudius Selezneva Leonovna,"a. Novgorod the Great, trans. Geologists, d. 70 p. 51, 234111",+7 (715) 122-6575,ermakovljubim@rambler.ru,"Art. Novorossiyka, trans. Kurchatova d. 4 to. 697, 104558",27104,43086,F,,66557,,
+252,Solomon Filimonovich Shubin,"COFO Kazan, bul. Medical, d. 4 pp. 41, 622 445",+72671830178,sharovjanuari@gmail.com,"a. Sosnovy Bor, w. 9 January, d. 8, 160 250",24723,41094,M,126548,74600,1,1
+253,Vera M. Grigoriev,"a. Zaraysk, trans. Road, d. 907, 701 601",+7 (170) 729-09-89,vishnjakovolimpi@mail.ru,"Art. Gatchina, w. Borovoye, d. 327 in. 9 502 732",35430,42593,F,215853,68899,1,
+254,Mr. Avdeev Igor Ignatovich,"d. Rebriha blvd. Comintern, d. 4/7, 598 150",8 874 215 3487,sokrat1976@rambler.ru,"a. Dixon, nab. Volochaevskaya, d. 9/3 in. 8/6, 330 515",24373,42135,M,,78026,,
+255,Khokhlova Akulina Gennadievna,"d. Kulunda blvd. Chernyakhovskogo d. 92 p. 78, 616814",8 (001) 819-98-94,leontirozhkov@yahoo.com,"Art. Solnechnogorsk, w. Pirogova d. 20 pp. 177, 736 372",29169,42590,F,,78226,,
+256,Gleb Lukin Demidovich,"COFO shaky w. Poltavskoe, d. 76 p. 66, 501159",8 (264) 122-3588,oksana1983@yandex.ru,"a. Ust-Kalmanka, trans. Key, e. 373 p. 71, 475007",28138,42323,M,296415,59604,1,
+257,Aristarchus G. Yershov,"n. Palana, ALL. Semashko, d. 3/5 in. 8/8, 804 111",8 (441) 791-3677,nikolaevkapiton@yandex.ru,"COFO Wasp, w. Priozernoye, d. 6, 488342",36635,41740,M,,68205,,1
+258,Yemelyanov Olga Bogdanovna,"COFO Poronaisk, w. Dostoevsky, d. 458, 897 955",8 915 546 40 43,efrem_1970@hotmail.com,"Mr. Pushkin Mountains, w. Chaikinoi, d. 20 to. 87, 653 018",37634,43265,F,254068,75219,1,
+259,Lukin Antonina L.,"Tambov, w. Bolshevistskaya d. 5, 329,916",87942391244,bazhen2019@yandex.ru,"COFO Kalanchinsk, pr. Energy, d. to 5. 7, 954,441",34725,42876,F,,95641,,
+260,Raisa Arkadievna Mukhina,"a. Snezhinsk, trans. Jubilee, d. 2/5, 461988",+7 157 067 82 83,tihon_16@gmail.com,"from. Onega Str. Astrakhanskaya d. 6, 345,495",29919,41212,F,,96135,,
+261,Krasil'nikova Lukiya Makarovna,"n. Urjupinsk Str. Victory, d. 76 to. 320, 394113",8 633 665 4568,vladimir1972@gmail.com,"from. Kazan, bul. Minin, d. 62 p. 6/9, 266 054",23389,41120,F,,68396,,1
+262,Morozova Eleanor F.,"Art. Ussuriysk Str. Birch, d. 1/1 121784",+7 792 295 8864,tverdislavbobrov@gmail.com,"k. Tynda, pr. logs, d. 7 to. 4, 664,451",23904,43734,F,,67934,,
+263,Baranov Benedict Gavrilovic,"Art. Anapa, bul. Commercial, d. 2 pp. 30, 885 411",+7 (959) 410-64-18,sorokinernest@mail.ru,"d. Smirnykh blvd. Razin, d. 11, 660 567",28921,42441,M,,93257,,
+264,Ivanna Valerievna Gordeeva,"COFO Kalach-on-Don, ALL. Tips, d. 892, 222 946",8 487 592 5676,ustin_1999@hotmail.com,"Art. Timashevsk, nab. Moscow, d. 87, 826 009",29786,43259,F,,88019,,
+265,Bogdan Zhukov Avgustovich,"Art. Chikola, trans. Rileyev, d. 61 to. 913, 641 741",+7 (135) 479-5513,julija66@hotmail.com,"from. Dmitrov, st. Shock, d. 566, 977 037",29238,43756,M,,86295,,
+266,Polycarp A. Nikiforov,"k. Yashalta, pr. Autumn, d. 884, 070 541",8 937 127 53 01,lebedevfoka@yandex.ru,"COFO Voskresensk, st. Working, d. 4/2, pp. 3, 020 327",36360,41622,M,114834,78378,1,
+267,Ratibor Artemovich Nekrasov,"Ust-Dzheguta, nab. Pushkina, d. 3.8 pp. 71, 620 176",+7 760 118 41 54,kuprijan_13@hotmail.com,"a. Suzun, w. Starry, d. 618, 909 384",29255,43812,M,,74420,,1
+268,Agatha Askoldovna Suvorov,"Mr. Chermoz blvd. Lilac, d. 907, 117381",+7 (833) 232-3496,marina_1989@yandex.ru,"d. Dubna, ul. High, d. 5, 905,745",27630,42936,F,,72353,,
+269,Sazonov Iraida Veniaminovna,"from. Barguzin Str. Razin, d. 7, 543,001",+73661156261,parfen30@mail.ru,"COFO Obyachevo, pr. Cool, d. 843 to. 1 107 144",26471,41129,F,,87795,,1
+270,Olympia Yevstigneyevich Silin,"d. Chebarkul, trans. Soviet army, d. 4, 637,468",8 (404) 064-3404,afinogen57@rambler.ru,"a. Suntar, bul. Azine, d. 95, 596 290",24024,42847,M,,98684,,
+271,Zinovy ​​Frolovich Fadeev,"COFO Dvina, bul. Kiev, d. 331 pp. 18, 955 279",+7 (024) 446-2082,nikitanoskov@yahoo.com,"a. Baksan Str. 40 October, d. 3/8, 276489",35740,42623,M,,67995,,
+272,Ms Volkova Antonin Leonovna,"Art. Moksha, w. Factory, d. 2.1 pp. 59, 958 926",+7 (366) 662-6214,vasilevaoksana@mail.ru,"a. Krasnogorsk (Mosk.), nab. Engels, d. 202, 557 318",31318,41836,F,293805,91534,1,1
+273,Olympics O. Karpov,"d. Turukhansk, nab. Festivalnaya d. 86 p. 119, 326297",+7 (161) 651-3739,beljaevevstigne@mail.ru,"Yeniseisk, ALL. Metallistov d. 62 to. 135, 387 865",26248,42250,F,277069,78248,1,
+274,Evdokia Valerievna Bolshakova,"a. Partizansk, ALL. Kotchubey, d. To 6/1. 4, 689,091",8 708 180 6803,shcherbakovsila@yandex.ru,"Belomorsk, w. Spring, d. 7 pp. 1/9, 385,194",35909,40964,F,160157,59887,1,
+275,Tikhonov Cyrus Rubenovna,"n. Bomnak, trans. Nagorny, d. 45 p. 11, 300825",+7 (408) 090-7048,iraida72@mail.ru,"d. Sterlitamak, w. Snowy, d. 962, 352 268",26589,43640,F,,82795,,
+276,Yemelyanov Juliana P.,"COFO Birsk, ALL. Volochaevskaya, d. 47, 948 734",+7 022 455 73 85,seliverstovlev@mail.ru,"n. Pushkin, w. Republican, d. 3/9, 076 332",36847,41733,F,295847,67054,1,
+277,Vera Andreyevna Shilov,"d. Mezen, w. Pirogova d. To 7/9. 1, 279403",+7 (973) 787-24-12,ruslan39@mail.ru,"city ​​of Kurilsk, bul. Tselinny, d. To 6/7. 7 200515",30780,42664,F,,90992,,
+278,Agafonov Catherine Antonovna,"Gatchina, w. Mechanical Engineers, d. 5/8 p. 4, 778,476",+74839337401,egorovaanzhelika@gmail.com,"Ioshkar Ola, pr. Industrial, d. 7 to. 412, 386 847",23202,43105,F,,74601,,1
+279,Uvarova Oktiabrina Arkhipovna,"of Teriberka ALL. Nut, d. 7/6, 105318",8 (868) 264-2677,jakub_1999@rambler.ru,"a. Chernyahovsk, ALL. Krasnogvardejskaya, d. 2 k. 2 008 490",26813,43100,F,,67539,,
+280,Trifon Edgardovich Markov,"from. Lodeynoye Pole, nab. Pushkina, d. 3 k. 9/6, 178172",8 (849) 674-10-53,savva1988@yandex.ru,"Istra, nab. Krasina d. 414 to. 88, 968 406",29932,40947,M,259998,85618,1,
+281,Kuzmin Sava G.,"a. Clear (Orenbah.) ALL. Sportswear, d. 436 to. 16, 053 946",+7 (894) 132-92-70,belousovzahar@mail.ru,"COFO Kudymkar, bul. Saratov, d. To 8. 7 158645",29068,43622,M,,108523,,
+282,Kharitonov Lyudmila Nathanovna,"Gorno-Altaisk, ALL. Tolstoy, d. 8/9, 618 985",88756806378,leonid_1994@yandex.ru,"n. Sorochinsk, w. Horticultural, d. 4, 724,581",36130,42159,F,,70529,,
+283,Belousov Hippolyte Daniilovich,"Naberezhnye Chelny, nab. Red Banner, d. 782, 273 944",+7 738 919 70 40,polikarp1991@mail.ru,"Art. Soboleva, nab. Zoe Kosmodemyanskoy, d. 657, 605 476",22293,43741,M,105349,90776,1,
+284,Bulls Maximilian Fomich,"n. Nadym, ul. Black Sea, d. 4/9 in. 221, 362 377",+7 902 260 10 39,titovanatalja@mail.ru,"Art. Kotlas, pr. Solochov, d. 58 p. 53, 072655",33942,40974,M,,116330,,1
+285,Mikheev Dorofei Vsevolodovich,"a. Kotlas, w. Zaprudnoe, d. 3/3 p. 7/6, 201153",8 (477) 782-6048,nikiforovdobromisl@gmail.com,"Art. Chekhov Str. Komarova, d. 336 to. 605, 652 450",27731,43486,M,,72656,,
+286,Kalashnikov Alla Tarasovna,"Ivanovo, bul. People, d. 205, 444 071",+7 835 132 73 23,samuil2011@mail.ru,"d. Chegem, pr. Orlovsky, d. 36, pp. 88, 278 026",24954,41882,F,,76424,,1
+287,Comrade. Tretyakov Ladislav Aaranovitch,"a. Novgorod the Great, bul. May, d. To 7/1. 7, 934,279",+7 (184) 892-14-72,aleksandra53@hotmail.com,"Aleksandrovsk-Sakhalinsk, nab. Russia, d. 5, p. 3, 103,026",23238,41900,M,,80464,,
+288,Konovalov Rostislav Marsovich,"COFO Uglich, w. Proletarskoye, d. 918 to. 505, 906 049",+7 797 410 04 31,saveli_01@yandex.ru,"in Tashtagol, nab. Minsk, d. 527, 943 735",26409,40942,M,,73297,,
+289,Yemelyanov Milica I.,"n. Salsk, bul. Cheerful, d. 170 p. 5/7, 164 795",+7 443 597 16 87,gerasim_1996@rambler.ru,"COFO Krasnoural'sk, pr. Volkova, d. 139 pp. 546, 099 354",30230,41122,F,,72381,,
+290,Agathon Ermilovich Panov,"from. Rainbow Street. Tula, d. 67, 096 999",88848811664,sharapovadam@hotmail.com,"from. Staraya Russa, ALL. Otradnaya, d. 9, 405 745",22090,43582,M,,79463,,
+291,Tamara Y. Bobylev,"a. Beloretsk, trans. Filler, d. 72 p. 98, 481738",+72146029173,mihalovanatalja@gmail.com,"d. Moscow, nab. Gaidar, d. 7 k. 4/9 686870",32290,42297,F,289474,75476,1,
+292,Boris Trofimov Avdeevich,"d. Suzun blvd. Cooperative, d. 15 to. 87, 608 853",8 (757) 240-15-69,rusakovdobromisl@hotmail.com,"Yeniseisk, ALL. Komarova, d. 4/5 in. 9/5, 732 561",36404,41661,M,165050,64959,1,1
+293,Cyrus Davidovich Isakov,"Nizhnevartovsk, nab. Z.Kosmodemyanskoy, d. 41, 466 195",8 728 999 80 14,jpanfilova@yahoo.com,"Mr. Jurowski, ALL. Maxim Bitter, d. 7 to. 22, 616 742",30961,41565,M,,85458,,
+294,Likhachev Hope Askoldovna,"n. Lotoshino blvd. Blucher, d. 9/9 in. 1/2, 313 204",8 (187) 280-4352,valentin20@yahoo.com,"from. Dalmatovo, bul. Berry, d. To 745. 7 786 486",26663,43166,F,170275,75794,1,
+295,Afanasiev Nikon Efimevich,"COFO Ust-Kalmanka, nab. Poplar, d. 3 to. 4, 865,395",+7 (843) 599-5887,arseni_87@hotmail.com,"Art. Uglich, nab. Yenisei, d. 5/8 p. 8/8, 446371",31068,41607,M,,128003,,
+296,Sinklitikiya Zakharovna Mukhina,"COFO Psebay blvd. Transverse, d. 55, 695 509",80250735561,naum1973@yandex.ru,"Verkhoturye, etc. Oktyabrsky, d. 572, 819 042",31578,41727,F,129582,78509,1,
+297,Shilov Emilia Timofeevna,"n. Kiren, pr. Khutorskoi, d. 1/3 in. 506 475 447",+7 (034) 373-85-98,noskovgorde@gmail.com,"a. Uchalu, nab. Novoselskaya, d. 58 pp. 511, 393 826",27047,41621,F,193841,75829,1,
+298,Mironova Valentina,"d. Yurievets (Ivan.), str. Matrosov, d. 1 p. 9/4, 050,230",86150607248,anatoli56@hotmail.com,"n. Vnukovo (meteost.), bd. Building, d. 48, 795 199",30531,43207,F,,80687,,1
+299,Shilov Vseslav Frolovich,"a. Makhachkala, ALL. New, d. 331 in. 7 611 067",+7 483 517 80 53,orlovsimon@mail.ru,"a. Votkinsk, ALL. Bazhova, d. 2 p. 64, 312128",26397,41246,M,,72971,,1
+300,Dobromyslov Feodosevich Belyaev,"d. Barnaul, ALL. Krasina d. 5 to. 46, 112298",+7 (888) 731-77-81,natan2018@mail.ru,"from. Buynaksk, pr. Comintern d. 665 to. 126, 345 408",36944,41452,M,242417,73546,1,1
+301,Igor G. Fomichev,"COFO Olenek, w. Volochaivs'ka, d. 420 to. 621, 350 157",8 (940) 189-8787,petuhovaalina@hotmail.com,"a. The peace, etc. Quiet, d. 1/9, 640 814",22459,43115,M,232930,89633,1,1
+302,Lobanov Xenia Zakharovna,"COFO Arkhangelsk, pr. Lunar, d. 4/7 in. 599, 116 239",+7 (924) 352-3744,aristarh61@yahoo.com,"Art. Obyachevo, nab. Kol'tsov, d. 2 423 540",29598,41727,F,,87888,,
+303,Vadim Lapin Anisimovich,"Vereschagino (Perm.), nab. Nekrasov, d. 4, 862,671",+7 (863) 857-20-41,semenbespalov@rambler.ru,"COFO Bavly ul. Red Partizan, d. To 54. 9, 873 955",33498,41393,M,,87886,,
+304,Timothy V. Gorbachev,"n. Kostroma, bul. Kommunarov d. To 82. 4/2 502123",8 (597) 871-7290,wsmirnov@hotmail.com,"a. Ramenskoye, nab. Sun, d. 12, p. 6, 099,571",25238,42910,M,,73922,,
+305,Frolov Mily Adamovich,"Art. Tom, ave. Shcherbakova, d. 97 p. 69, 506488",+7 (955) 005-7601,panfilovsolomon@mail.ru,"COFO Bay, ave. Kosmodemyanskoy, d. to 562. 3 553 482",36798,41724,M,,78984,,
+306,Bolshakova Zinaida G.,"Novy Oskol, w. Municipal, d. 4 135790",+78659072826,bobilevazoja@yandex.ru,"COFO Rostov, bul. Youth, d. 9/2 to. 2 628 476",30833,43518,F,,88715,,1
+307,Fedorov Elisha G.,"n. Severo-Kurilsk, trans. Tomsk, d. 417 pp. 133, 461 878",8 035 708 6144,valerimarkov@yahoo.com,"from. Tsimlyansk, bul. Halturina, d. 9 k. 581, 530 657",29246,41609,M,246247,79481,1,
+308,Ms Pestova Iraida ANTONOVNA,"Samara, pr. Gastello, d. 62, 560094",+7 (041) 139-5969,mihe_1997@yahoo.com,"Monchegorsk, w. Volkova, d. 36, pp. 96, 607 821",26865,43218,F,,83595,,1
+309,Kasian Denisovich Ignatiev,"from. Taldom Str. Gromov, d. 7 pp. 2 476 798",+7 575 744 5895,marfa_1970@yandex.ru,"Art. Yaksha, bul. Bryansk, d. 5/5 in. 27 722 282",31002,43125,M,,119106,,
+310,Zhukov Milica L.,"Troitsk (Mosk.), trans. Zhukova. Page 6/4. 3/2, 829 461",+7 (918) 725-2446,ziminadarja@rambler.ru,"Viluysk blvd. Surikov, d. 5, 710,834",22025,42894,F,,85217,,
+311,Rusakova Larisa Arkhipovna,"a. Sortavala, nab. Teachers, d. 9/6, 448532",8 948 980 9553,tihon87@mail.ru,"a. Irbit, trans. Thieves, d. 5, 191140",24324,42553,F,166506,102087,1,1
+312,Strelkova Fevronija Kirillovna,"d. Chegem, pr. Tall, d. 41, 203 187",+7 114 099 6081,zikovermola@rambler.ru,"d. Syktyvkar, w. Industrial, d. 7 to. 857, 478332",28382,41815,F,,99937,,
+313,Fomichev Claudius Zhoresovich,"COFO Tulun, bul. Spataka, d. 80 k. 6/5, 731,144",+7 (339) 735-06-24,borisovdenis@rambler.ru,"Art. Ulyanovsk, pr. Olympic, d. 77 pp. 9, 022 735",30891,41277,M,,64933,,1
+314,Zaitseva Thekla Kirillovna,"Art. Nyazepetrovsk, pr. Pioneer, d. 806, 905 123",+7 643 874 72 84,prohor_85@rambler.ru,"d. Buzuluk, nab. Makarov, d. 5/1, pp. 43, 270 864",29147,43144,F,,89525,,1
+315,Uvarova Galina Arkadievna,"a. Nartkala Str. Pugachev, d. 3, p. 55, 502200",89040773451,ziminaalla@hotmail.com,"a. Bottom, Naberezhnaya. Semashko, d. 11, k. 67, 245492",36007,41531,F,,69449,,1
+316,Bulls Nazar Adrianovich,"Vyazma, bul. Bitter, d. To 5/3. 5, 778,662",+7 (080) 607-03-16,oershova@rambler.ru,"d. Kashira, nab. Ogorodnaya, d. P 1/5. 6/5, 172173",23896,42934,M,,102288,,1
+317,Scherbakov Valentina,"of Kushchevskaya, w. Land reclamation, d. 3/4 pp. 242, 387 624",+7 100 438 4967,nikola1971@rambler.ru,"from. Dzhubga, ul. Slavic, d. 474 to. 665, 621 606",24559,41155,F,,105005,,1
+318,Larisa Feliksovna Dorofeeva,"n. Kushchevskaya, bul. Scherbakov, d. 277 to. 1 983 527",+7 654 651 76 44,aleksandr88@rambler.ru,"n. Tomsk, ALL. Soviet, d. 4 k. 3/2 476114",27796,41177,F,,92811,,
+319,Marina Romanova Uvarova,"n. Kislovodsk Street. Shaumyana, d. 387 to. 18, 489 699",+7 086 435 05 07,shilovaantonina@hotmail.com,"n. Izhevsk, pr. Pirogova d. 4 to. 39, 944 242",31987,43735,F,159958,83828,1,1
+320,Ruben Evseevich Fokin,"from. Bologoye, nab. The station, d. 71 p. 7 207151",8 084 209 9887,davidovanadezhda@gmail.com,"a. dunk, nab. Tomsk, d. 712 to. 9/7, 116518",23147,41477,M,,102635,,
+321,Titov Boris V.,"COFO Apsheronsk, ALL. Deadlock, d. 6/5 in. 9/5, 175 569",8 (751) 287-31-22,antonovevgeni@yahoo.com,"from. Great Luke, per. Bazhova, d. 633 p. 145, 315152",30201,43731,M,289954,82430,1,
+322,Poles Trofim Dem'yanovich,"n. Sharia, w. Privolnoe, d. 6/9 in. 6/7 244441",+79052941165,litkinevgeni@yandex.ru,"Mr. Schelyayur, trans. Gafuri, d. 4/4, 323011",22466,43153,M,,71517,,1
+323,Kononov Orestes E.,"from. Kizhi, w. Razin, d. 5, 159003",+7 (551) 915-85-78,boriskorolev@mail.ru,"Sterlitamak, st. Vakhitov, d. 7 to. 8, 278 213",35704,43245,M,,67555,,
+324,Shiryaev Arkhip Iosipovich,"Mr. Kataysk, ALL. Puteyskaya, d. 5 pp. 4/1 496776",8 180 267 1829,sitnikovkuzma@hotmail.com,"Obojan, nab. Komarova, d. 99 p. 880, 316222",34817,43466,M,,82311,,1
+325,Kharitonov Vitaly Vlasovich,"Art. Rossosh, nab. Mekhanizatorov d. 34 pp. 259, 570 213",+7 109 807 1126,tvorimirfrolov@rambler.ru,"of Krasnoufimsk, bul. Student, d. 761, 579 638",35922,41341,M,,66606,,1
+326,Gusev Longin Fomich,"Art. Kemerovo, ALL. Voroshilov, d. 62 to. 112, 101 043",+7 922 320 0558,kopilovljubim@yandex.ru,"d. Nizhnekamsk, trans. Corner, d. 6/8, 264 176",26304,41315,M,269297,107793,1,1
+327,Fedotov Gavrilovic Socrates,"Art. Chikola, ALL. City, d. 8/7, 699 459",+7 328 079 5529,kolobovfeoktist@yandex.ru,"d. Tyumen, bul. Tomsk, d. To 1/2. 7, 030,278",29292,41712,M,,90796,,
+328,Faina Borisovna Samson,"from. Gorodovikovsk, w. Cheremuhovo, d. 3 to. 425, 990 331",+7 333 980 08 41,petuhovanatoli@yahoo.com,"from. Vitim, w. Federal, d. To 587. 7 715 810",22498,42620,F,,78045,,
+329,Filippova Laura Andreevna,"d. Oha, pr. Kharkov, d. 58, 892 423",8 (247) 571-25-26,zhuravlevkim@mail.ru,"d. Ust Ishim pr. Parkovy, d. 60 to. 777, 611 742",31392,43250,F,,65427,,
+330,Tikhonov Thekla S.,"COFO Surgut (Hunt.), co. Ul'yanova, d. 7 pp. 7/6, 025,340",8 688 232 46 38,ratmir1975@rambler.ru,"n. Oktjabrskiy (Bash.) ALL. Nikitin, d. 4/2 p. 1, 627,779",32953,41319,F,,97095,,
+331,Blokhin Angelina V.,"d. Asbestos pr. Ordjonikidze, d. 423, 462830",8 (396) 702-0022,ivan_2008@hotmail.com,"COFO Nizhny Tagil, ALL. Neva, d. 703, p. 6, 979,523",35996,41052,F,,71316,,
+332,Kotova Praskovja Zakharovna,"COFO Ekaterinburg, ul. Komarova, d. 3/7 p. 2/1 374006",+7 (227) 117-1560,shirjaevmark@gmail.com,"from. Birobidzhan, bul. Lenin, d. 192, 695 326",26420,43597,F,,68720,,
+333,Ryabov Glafira Pavlovna,"from. Lips, etc.. Large, d. 5/1 in. 435 078 423",8 (465) 181-91-91,judinbudimir@yahoo.com,"d. Silver Ponds, ALL. Cheryomushki, d. 612, 688 631",31680,43759,F,,71018,,
+334,Juvenal Eremeevich Seleznev,"Mr. Neplyuevka Str. Kosmodemyanskoy, d. 7, p. 72, 142372",8 493 410 7826,stanimir_77@rambler.ru,"Art. Norilsk, w. Linear, d. 5/4 in. 333, 620 914",35800,43672,M,,80645,,1
+335,Savvaty Fedorovich Subbotin,"Mr. Obyachevo, ALL. Zhukov, d. 6/8 in. 39 055 585",8 869 543 78 23,ignativinogradov@yandex.ru,"a. Kasimov, nab. Thalmann, d. 2/5 in. 835, 275 200",36151,41289,M,,84441,,1
+336,Popov Euphrosinia D.,"n. Nizhnekamsk, trans. South, d. 34 857 482",8 520 131 56 58,fedot_11@mail.ru,"Mozhaisk, w. Krasnoflotskoye, d. 532, 508 191",34784,43672,F,,77501,,
+337,Vladimir G. Kovalev,"Art. Salavat Street. Novoselov, d. 7, 756,921",+7 726 080 9941,ashubin@hotmail.com,"COFO Volhov Str. Youth, d. 5 in. 9/9, 412738",33066,42195,M,271481,93212,1,1
+338,Baranova Lukiya Nilovna,"g Dzheirakh, pr. Pioneer, d. 5, p. 6, 481,067",+7 (208) 501-06-63,sofon50@hotmail.com,"d. Ust-Dzheguta, ALL. Field, d. 1, 600568",37412,41424,F,,78966,,
+339,Natalia Makarova,"Arkhangelsk, bul. Smirnova, d. 306, pp. 39, 104 576",8 (810) 924-3242,oleg_09@yahoo.com,"COFO Kudimkar, pr. Volkova, d. to 8. 7 329376",22705,43211,F,,87618,,
+340,Svetlana Koshelev,"n. Seimchan blvd. Scherbakov, d. 9, 593752",+7 693 775 6257,uljan_36@mail.ru,"COFO Tulun, trans. Belinsky, d. 45 p. 5, 068,262",30500,42770,F,266947,97716,1,
+341,Eugene Nikonov Kirillovna,"n. Azov (Rost.), bd. Seaside, d. 8 pp. 4/5, 274,122",8 426 728 74 82,anike2011@mail.ru,"Art. Plesetsk, bul. Club, d. 9, 703 034",24209,41456,F,,96153,,1
+342,Petr Dorofeev Cheslavovich,"a. Sharia, ALL. Pavlova, d. 4, p. 471, 140430",8 888 663 9407,loginovbazhen@hotmail.com,"Art. Taldom, ave. Borovoj, d. 60 pp. 9, 004 288",30506,42371,M,,117048,,1
+343,Claudia Timurovna Orlov,"COFO Onega embankment. Hope, d. To 2/4. 86 028 839",+73958806152,silvestrevseev@yahoo.com,"from. Pevek, bul. Yeniseisky, d. 6 pp. 951, 852 608",27443,42180,F,,92539,,
+344,Bobylev Galaktion Izotovich,"Art. Hype, nab. May 9, d. 39 pp. 34, 503 383",8 (212) 806-37-51,zikovtihon@hotmail.com,"from. Pavlovsky Posad, trans. Locomotive, d. 5 to. 32, 241 102",22810,42106,M,,75692,,
+345,Sofia Haritonovna Ignatov,"Art. Zhigansk, ALL. Krasnogvardejskaya, d. 9, 907 625",+7 (124) 771-55-28,gurevstojan@hotmail.com,"Art. Yuryuzan, trans. Mill, d. 8/7, 215 389",28923,41910,F,162208,73584,1,
+346,Medvedev Plato Dorofeyevich,"COFO Urengoy ALL. Emb. To 4/1. 4, 584,075",+7 (330) 454-57-36,titovmechislav@rambler.ru,"COFO Yurievets (John.), Str. Pine, d. 54, 289 639",23589,41844,M,112285,81655,1,
+347,Emilia G. Lytkina,"d. Borzya lane. Distinct, d. 452 p. 4, 838,921",+7 (258) 494-6695,gerasimvladimirov@hotmail.com,"from. Odintsovo, trans. Plehanova, d. To 2/1. 44 960 552",36916,42426,F,,86115,,1
+348,Kozlova Raisa Pavlovna,"from. Lips, bul. Bazarnyi, d. 36, 492 692",8 (384) 272-8874,vikenti30@rambler.ru,"d. Kamensk-Uralsky, trans. Vavilov-, d. To 1/4. 97 784 660",30486,42076,F,,85726,,
+349,Spiridon Yaroslavovich Lazarev,"a. Ershov, co. Vakhitov, d. 835 p. 4, 149,588",8 (349) 840-4509,erofe1973@yandex.ru,"Art. Amderma, bul. Spataka, d. 3, p. 7, 713,736",25904,43210,M,190174,71542,1,1
+350,Raisa Valentinovna Shashkova,"Art. Ukhta, trans. Voroshilov, d. 1, 227975",87574530512,prohorovmoise@yahoo.com,"a. Khabarovsk, nab. October, d. 65 in. 478 852 423",22199,41332,F,,76952,,
+351,Julius Ignatovich Fomin,"Gubkin, etc. Bright, d. 5/5 p. 8/3, 610 559",+7 (162) 280-3513,kiselevgerman@hotmail.com,"Aleksandrovsk, nab. Guards, d. 625, 998 178",30232,42262,M,197919,80144,1,
+352,Nathan Dorofeyevich Fedotov,"from. Zaraysk, ALL. Red Partizan, d. To 2/1. 8, 974 999",+77549438195,safonovamos@yahoo.com,"Korolev, st. Reclamation, d. 5 pp. 550, 756 264",22806,43075,M,,64370,,1
+353,Nathan V. Kozlov,"Mr. Yashkul Str. Bitter, d. To 1/8. 5, 217,810",+7 (229) 305-2776,bogdan_83@yandex.ru,"from. Ojmjakon, pr. Peace, e. To 6. 86, 264 775",24406,42543,M,,69542,,
+354,Naumov roots Evseevich,"n. Batamay, pr. Basil, d. 47 p. 8/1 663979",8 432 051 00 76,grigori1998@rambler.ru,"COFO Kudymkar, nab. Chervonoarmijska, d. 6 k. 4/3 502576",35384,42523,M,215938,97542,1,
+355,Raisa Belova Artemovna,"d. Kizilyurt, trans. Krasnoyarsk, d. 747 pp. 741, 837 929",+7 (294) 519-84-52,antip_17@hotmail.com,"from. Dzheirakh, pr. Razin, d. To 8. 2/6, 738,290",29379,43325,F,,56443,,
+356,Dmitrieva Emilia Pavlovna,"d. Kurganinsk, street. Schetinkina, d. 598 p. 718, 114324",+7 (252) 323-0239,mamontovaalina@yahoo.com,"d. Yaksha Str. Minin, d. 8, 537 677",26050,43823,F,205329,97998,1,
+357,Daria Nikolaeva Arkadievna,"a. Boguchar, w. Kiev, d. 6, 511,401",+7 (181) 886-01-61,emilija_1986@rambler.ru,"Moscow, pr. Enlightenment, d. 97 in. 42 872 918",35960,43819,F,,86480,,
+358,Photios Borislavovich Terentyev,"n. Krasnodar, w. Lermontov, d. 179, 753 853",8 (984) 231-24-72,ovchinnikovkondrati@gmail.com,"Art. Bugulma, nab. Volkova, d. 6 pp. 9/9, 201680",25483,43308,M,227209,89534,1,1
+359,Nonna Naumovna Gordeeva,"Mr. Nyazepetrovsk, trans. Road, d. 44 to. 73, 688 368",+7 (433) 933-28-78,moiseevisa@hotmail.com,"Art. Shadrinsk, ALL. Deadlock, d. 6/8, 629028",31080,41291,F,,69109,,
+360,Lazareva Larisa Pavlovna,"COFO Zabaykalsk, trans. Cul, d. 58, 910 686",+7 (279) 743-84-91,grishinkarl@yahoo.com,"of Tomari, trans. Socialist, d. 556 to. 6, 376146",31682,43647,F,194012,97233,1,
+361,Innocent Denisovich Pestov,"d. Vladimir, ALL. Shore, d. 8/3 pp. 505, 169 231",8 (957) 710-8477,gordeevamargarita@yandex.ru,"COFO Troitsk (Mosk.), nab. Timiryazev, d. 185 to. 1/6 259381",32378,41737,M,,83792,,
+362,Kolesnikov Vasilisa Askoldovna,"COFO Wedge, nab. Bitter, d. 7 to. 140, 925 883",+7 (725) 894-6221,milan_49@rambler.ru,"n. Anadyr, nab. School, d. 2.1 pp. 18, 566 945",24929,41230,F,,79376,,
+363,Tvorimir Benediktovich Morozov,"COFO Dzhubga, ALL. Neva, d. 4 483328",+70494867957,noskovamaja@yandex.ru,"Art. Solovki, ALL. Winning, d. 4/3 in. 316 542 816",31522,40966,M,205447,91444,1,
+364,Narkis Yulianovich Yudin,"a. Forest (Sverd.), co. 1 Maya, d. To 4/5. 877, 155705",87260129929,maslovsolomon@yahoo.com,"Art. Bronnitsy, trans. Park, d. 45 to. 73, 672 124",35356,42768,M,,87393,,
+365,Angelina Anisimova Veniaminovna,"a. Find, nab. Chelyuskintsev d. 58, 240 060",85876301111,ipatgavrilov@yahoo.com,"COFO Kirensk, nab. Maritime, d. 585, 168049",27116,43350,F,,100890,,
+366,Evdokim Filimonovich Lavrentiev,"The bottom of emb. Glinka, d. 2/4 p. 31, 168780",8 537 784 62 58,braginivan@yandex.ru,"n. Ust-Kalmanka, w. Festivalnoe, d. 2/9 in. 589, 054 845",22037,42240,M,,94561,,1
+367,Maria Sharapova Yulyevna,"d. Malgobek, trans. Professionals, d. 9, 491 810",84935096163,visheslav2007@yandex.ru,"from. Malgobek, w. Tambovskoe, d. 3/1, pp. 7, 261484",28362,41975,F,,86880,,1
+368,Lukyan Trifonovich Kudryashov,"d. Rainbow, nab. 8 Marta, d. 4/6 in. 760, 252265",8 125 893 2024,osipovanatoli@mail.ru,"Muravlenko, bul. Grandma, d. 8/9, 963 775",27753,41838,M,,74566,,
+369,Afinogen Glebovich Panfilov,"Zvenigorod, etc. Suvorov, d. 5 p. 2/7, 265 979",81980887148,nikola_15@hotmail.com,"from. New Urengoj, pr. Vokzal'na, d. 5/2 in. 408, 282 838",37178,41546,M,,87831,,
+370,Veselov Czeslaw Arsenovich,"COFO Rubtsovsk, ALL. Olympic, d. To 6/4. 3/1, 125,225",8 742 421 09 61,averjan_81@yandex.ru,"COFO Novomichurinsk, nab. Black Sea, d. 18 to. 33, 258557",23877,42729,M,,79297,,
+371,Mokey Feodosevich Afanasiev,"Art. Suzdal Str. Apricot, d. 9/3, pp. 610, 830 797",8 (120) 072-8462,ckolesnikov@yandex.ru,"d. Barguzin, nab. Martha 8, d. 37, 409 764",28183,42909,M,,87822,,
+372,Eduard Rusakov Tarasovich,"Art. Mineralnye Vody, trans. Dokuchaev, d. 8/1 in. 908 307119",+7 174 865 70 64,lebedevpolikarp@rambler.ru,"n. Kimry Str. Student, d. 7/2, pp. 7, 428437",26647,41730,M,210743,107384,1,1
+373,Rogov Anastasia Arkhipovna,"from. Maikop, nab. TBN, d. 1 k. 42, 028 712",8 (592) 266-39-17,oktjabrina2009@mail.ru,"Inta, w. Zaovrazhnaya, d. 6/4 in. 2/4, 308307",23569,42064,F,228899,108486,1,
+374,Orlov Sigismund Izotovich,"n. Kataysk, nab. Soviet,. To 12. 1/6 032883",8 521 294 5634,frol60@yandex.ru,"d. Vyazma, ALL. Railway, d. 260 pp. 25, 181 552",37607,43245,M,,86756,,
+375,Ephraim Emilia Oskarovna,"d. Sukhinichi Str. Mechanical, d. 570 to. 46 964 705",8 (248) 483-6289,tatjana_2016@mail.ru,"Art. Kemerovo, ALL. Sadovaya, d. 7/1, pp. 38, 834 183",34110,43823,F,113235,61537,1,
+376,Zoe Kuzminichna Avdeeva,"COFO Kirensk, ALL. Suburban, d. 4 221360",8 946 469 43 92,osipovladislav@gmail.com,"a. tulpan river, w. Podlesnoe, d. 165, 872 522",33011,42966,F,,84194,,
+377,Tarasova Maria L.,"Art. Ussuriysk, pr. Azina, d. To 5/4. 5/2 370460",+77369126022,jakushevostap@yahoo.com,"Art. Kostomuksha, w. Pirogova d. 72 p. 1/8, 071,582",36435,42901,F,,104481,,1
+378,Nazarov Pancrate T.,"d. Kolomna, bul. Azovskiy, d. 17, 374 792",8 (240) 273-00-15,pavlovsevastjan@mail.ru,"Host COFO, pr. Kotchubey, d. 7 to. 84, 383956",32809,43684,M,,68371,,
+379,Anisim Arkhipovich Karpov,"COFO Kashira, trans. Leo Tolstoy, d. 5/6, 027 473",81269133736,elizaveta_57@gmail.com,"n. Makarov, w. Crimean, d. 7 pp. 9, 845 335",33763,43261,M,,78322,,1
+380,Dementiy Arsenovich Stepanov,"n. Argayash, trans. Club, d. 344 to. 8, 229 458",8 893 401 1465,teterinkuzma@yahoo.com,"d. Aleksandrovsk, w. Matrosov, d. 54 p. 5, 788,897",27655,42642,M,,103287,,
+381,Sazonov Nathan Vilorovich,"n. Kurumkan, pr. Turgeneva, d. 55 p. 6/1 934483",+7 064 974 0880,shashkovavalerija@yandex.ru,"Zlatoust, st. Herzen, d. 49, 164 145",30472,40937,M,103451,82636,1,1
+382,Karl Y. Kirillov,"n. Nizhny Novgorod, w. Esenina, d. 2/3 592125",+7 (621) 277-1947,vladlen88@mail.ru,"from. Torzhok, ul. Fraternal, d. 9/3, 065 271",37651,42125,M,118283,78490,1,
+383,Callistratus Kharlampovich Zaitsev,"n. Aleksin, w. Mendeleyev, d. 7, 800,454",+7 (224) 258-1577,fominbronislav@yandex.ru,"COFO Kurtamysh, pr. Pirogova d. 696 pp. 170, 863 156",30369,41182,M,,121517,,
+384,Antonina Bogdanova Yulyevna,"Sasovo, bul. Papanin, d. 825 to. 5/4, 101 408",+7 (883) 411-43-82,gostomisllitkin@mail.ru,"n. Shelehov blvd. Sverdlov, d. 37 p. 99, 662372",25651,41075,F,,88571,,
+385,Nadezhda Aleksandrova Rudolfovna,"COFO Pskov, st. Lermontov, d. 887 to. 1 380 813",84622439621,gerasim1989@rambler.ru,"n. Balashikha, sh. Pioneer, d. 51, 166275",36884,42518,F,286983,88049,1,1
+386,Sidorova Maria Nikolaevna,"from. Pechora, w. Wide, d. 9/2 in. 162 793 588",8 (392) 274-7924,shilovaoksana@rambler.ru,"a. Ust-Ishim, etc. Chelyuskintsev, d. 2/4 in. 914 707 643",25366,41177,F,,84727,,
+387,Benedict Edgardovich Melnikov,"d. Hassan, w. Poor Damian, d. 611 pp. 90, 796 004",+7 684 932 2075,mihe2003@yandex.ru,"Olenegorsk (Yakutia.), Str. Home, d. 6 in. 2/3, 062 562",28204,43398,M,,71548,,1
+388,Hope G. Koshelev,"a. Chernyahovsk blvd. Krasnodar, d. 885 to. 76, 131673",8 133 959 9637,arseni_1998@hotmail.com,"g. Roslavl Street. Uritskogo d. To 35. 9/6, 260,070",31665,42490,F,,103731,,
+389,Artem V. Ponomarev,"COFO Orsk, bul. Labor, d. 7/6, 782 421",+75820146009,terentevavasilisa@mail.ru,"from. Yuzhnouralsk, ALL. Youth, d. 8 215 716",35018,42062,M,139037,95096,1,
+390,Nikon Fedoseevich Zhukov,"Art. Belgorod, ul. Zhukov, d. 6 k. 171, 802 668",86632214992,zkulikov@mail.ru,"Art. Yurovsky, bul. Road, d. 96 p. 6, 660,856",31085,43393,M,208038,96153,1,
+391,Oia F. SELIVERSTOVA,"Lagan, pr. Stavropol, d. 572 p. 5, 039,492",8 (651) 215-00-45,jakovlevsimon@hotmail.com,"Art. Peaceful, ALL. Lower, d. 5/7 in. 570 959 800",31296,43052,F,182350,80976,1,1
+392,Alina Fedorova Maksimovna,"from. Abakan, ALL. Razin, d. 56 to. 50, 549 422",+79538748164,gromovaveronika@yandex.ru,"d. Usolye Siberian, ALL. Day, d. 2 to. 3 317 329",31712,43127,F,,85664,,1
+393,Alexander A. Sharov,"d. Troitsk (Mosk.) ALL. South, d. 5/7, 515 023",+7 (278) 572-19-77,zhdanovkondrati@gmail.com,"a. Sosnovy Bor, w. Large, d. 185 p. 3, 483,369",34715,42324,F,,84314,,1
+394,Agatha Naumovna Sazonov,"from. Zhigulevsk, nab. Driving, d. 7/5 in. 9/1, 160 331",8 (458) 564-93-68,mstislavpetuhov@yandex.ru,"a. Usman, w. Kuznetsk, d. P 2/8. 1/5, 938,684",26363,41182,F,,84787,,1
+395,Anikei Teimurazovich Kryukov,"n. Cheremhovo, ALL. Mechanical, d. 424 to. 50, 231 475",+7 (866) 544-8850,egor_1986@gmail.com,"from. Kamensk-Uralsky, ALL. Installers, d. 4 to. 447, 218 595",23035,41422,M,,77852,,
+396,Lydia V. Knyazev,"n. Chebarkul, ALL. Leonova, d. 847, 999 558",+7 839 265 41 54,emilija2011@yahoo.com,"Art. St. Petersburg, pr. Rural, d. 3 p. 1/8, 726 456",25138,41262,F,,111808,,
+397,Danila Tsvetkov Erofeevich,"Mr. Kamennomostsky, etc. Privolny, d. 630 to. 769 734 957",81673704834,volkovsvetozar@mail.ru,"from. Krasnoyarsk, ul. May, d. 96, 553 604",32901,42407,M,,97234,,
+398,Boers Dementii Germanovich,"COFO Gudermes lane. Z.Kosmodemyanskoy, d. 581 to. 8/8, 543 940",8 644 505 38 64,qblohin@yandex.ru,"COFO Rossosh, trans. DOS, d. 55 p. 6/5, 074 081",31601,42562,M,102594,59769,1,
+399,Jeanne Vyacheslavovna Kovalev,"a. Balaam lane. Krasnopartizanskaya, d. 11, 715 091",+7 (582) 689-4044,kalashnikovavde@hotmail.com,"COFO Ozery, w. Scherbakov, d. 425 to. 6, 081,276",37457,41034,F,,74036,,
+400,Averky Matveevich Polyakov,"Rossosh, ALL. Fadeyeva, d. 7, 272,248",+7 (430) 031-70-26,serge_18@gmail.com,"n. Svetlahorsk (Kalin.), Ave. Truth, d. 6 pp. 61, 284 225",22142,43277,M,,85086,,1
+401,Kasyan Zhukov Afanasievich,"from. Kirovo-Chepetsk, nab. Zoe Kosmodemyanskoy, d. 29 in. 5/2, 450 443",8 (715) 307-8505,kirillovsokrat@gmail.com,"a. Budennovsk, bul. Basil, d. 6/4 p. 70 460 449",36567,43033,M,,78833,,
+402,Kim Valer'yanovich Grigoriev,"city ​​of Novgorod the Great, etc. Offshore, d. 92, 601001",8 (653) 095-9100,kudrjavtsevostap@yandex.ru,"COFO Ryazhsk, pr. Floral, d. 3/1, pp. 758, 797 092",28233,41696,M,,99335,,1
+403,Tamara Kornilova,"COFO Rebriha, pr. Kuznetskii, d. 282 to. 2/3 258760",+7 368 831 60 12,sobolevmihe@gmail.com,"n. Onega, nab. Locomotive, d. 1 p. 3, 970,374",27745,42605,F,200686,70457,1,
+404,Seraphim Adamovich Rozhkov,"from. Lgov Str. Ushakova, d. 8 pp. 64, 400108",+7 (424) 172-9882,pestovauljana@yahoo.com,"from. Urus-Martan, bul. Matrosov, d. 449 pp. 47, 173 979",32769,42045,M,,81841,,1
+405,Knyazev Emil Izotovich,"Art. Cherskiy, w. Culture, d. 89 in. 757 701 690",8 (035) 584-0145,filippovmina@gmail.com,"from. Zhigulevsk, trans. Train, d. 47 in. 344 973 271",28473,41695,M,,64794,,
+406,Ernest Erofeevich Dementiev,Art. Elton lane. Dzerzhinskogo. 922 pp. 2 055 836,+7 923 625 39 51,anikita26@mail.ru,"d. A bottom straight. Krasnopartizanskaya, d. 597 p. 3, 311,951",37677,42736,M,,79298,,1
+407,Agatha Moses L.,"n. Krasnoturinsk, ALL. Intercession, d. 6/3, 777 252",+7 (232) 174-6048,rkulagin@gmail.com,"Art. Kislovodsk, ul. Voykova, d. 8/6 p. 51 517 497",36739,41238,F,,72412,,
+408,Porphyry Cheslavovich Kolesnikov,"a. Kalyazin, trans. Levanevskogo d. 6, 107220",+7 043 821 5787,kiselevelizar@mail.ru,"Mr. Cedar Blvd. Comintern d. 6 pp. 9/9, 600,488",23373,42952,M,202662,86728,1,
+409,Gorbunova Anna A.,"Pereslavl-Zaleski, ALL. May 9, d. 827 to. 40 588 211",+7 722 261 81 50,olimpi_75@yandex.ru,"Art. Aleksin, ALL. Grounds, d. 5, p. 70, 235066",26498,41063,F,,75681,,1
+410,Hypatia Feoktistovich Eliseev,"a. Armavir, ALL. Gastello d. 8, 465 524",+7 (739) 204-30-57,yburov@hotmail.com,"d. Bilibino, bul. Lenin, d. 6/7, 940 030",31280,43449,M,219299,94988,1,
+411,Lyudmila Popova Albertovna,"COFO Skovorodino, etc. Liberty, d. 871 to. 623, 518 176",+7 805 491 9282,epifan_12@yandex.ru,"from. Chermoz, nab. Installers, d. To 6/8. 35 944 736",28210,41612,F,201418,77300,1,
+412,Thomas Kuznetsov Abramovich,"a. New Oskol, ALL. Kochubey, d. 69 p. 5/9, 887 068",+7 622 777 8096,longin41@hotmail.com,"from. Aldan, ALL. Thieves, d. 8, 121 445",32527,42640,M,138865,73158,1,
+413,Nestor Filimonovich Fedotov,"from. Siktivkar, ave. Vidradny, d. 1 556 304",+7 (485) 024-91-78,igor81@mail.ru,"d. Murmansk, nab. Hope, d. 6/1 p. 6/8, 684 142",26945,43298,M,,93847,,1
+414,Akulina Tarasovna Subbotina,"d. Vytegra, trans. Traktovaya, d. 73, 809 102",8 (388) 062-9794,kornilnikolaev@hotmail.com,"p. Tikhvin, ALL. Freedom, d. To 9/9. 93 404 149",30921,42001,F,,79606,,
+415,Autonomous Borislavovich Filatov,"n. Cherepovets, trans. Novoselov, d. 581 p. 1/9, 475 366",+7 834 984 38 13,sitnikovvikenti@gmail.com,"n. Buguruslan, w. Chemists, d. 38 p. 5/9, 781 800",24553,41417,M,,95302,,
+416,Maya Valerievna Aksenov,"Tver, nab. Nikolaeva, d. To 294. 9 035 950",+7 (819) 288-4812,gurevdemjan@mail.ru,"n. Nevinnomyssk, pr. Cool, d. 33, pp. 623, 754 585",25561,41891,F,,68378,,
+417,Kalinin Rurik Denisovich,"Kachkanar, w. Queen, d. To 6. 85, 308 723",80416313937,angelina_76@rambler.ru,"a. Breda, ALL. Korolenko, d. 39 p. 9/2, 800 590",26990,43014,M,,82552,,1
+418,Savina Oksana Evgenevna,"Art. Zhukovski, ave. Chelyuskintsev d. 5.1 pp. 24, 385224",8 210 974 94 10,visheslav_88@gmail.com,"n. Tavda, nab. Popov, d. 26 in. 8/4, 255 450",31570,41940,F,,73270,,
+419,Rodionova Martha G.,"Art. Fatezh, w. Bryansk, d. 1/8 in. 473 969 035",+7 402 701 8880,valerjan1972@hotmail.com,"from. Bryansk, w. Kazachye, d. 6/1 in. 413, 118551",36026,43413,F,,89976,,
+420,Irakli Yulevich Samoilov,"n. Beslan, bul. Sholokhov, d. 46 877 209",+7 (926) 610-58-45,innokentikorolev@hotmail.com,"from. Tokma, nab. Vokzal'na, d. 828 to. 444, 110345",30410,42556,M,,91755,,1
+421,Akulina Valentinovna Odintsov,"COFO Meadows, pr. Darwin, d. 17, p. 2, 682017",8 404 004 18 91,odintsovizmail@yandex.ru,"Okhotsk, nab. Depovskaya, d. 2/7 pp. 149, 910 910",25677,43358,F,,104033,,
+422,Alina Veselova Ilinichna,"from. October (Bash.) Emb. Coal, d. 95 k. 2, 641 773",8 (094) 831-7893,fedosi_1972@hotmail.com,"k. Anapa, pr. posts, d. 2/2 p. 5, 837,349",23703,42843,F,,85954,,
+423,Bragin Angelina Y.,"a. Tomari, bul. October, d. 8/3 p. 105, 455415",8 (987) 666-3425,volkovasinklitikija@rambler.ru,"Magnitogorsk, nab. Rowan, d. 88, 531 408",33018,42271,F,,69181,,1
+424,Ludmila Guseva,"COFO Kaspiysk, trans. Proletarian, d. 382 in., 4/7 038735",+7 (028) 458-8355,titovmina@rambler.ru,"COFO Soboleva, w. Crimea, d. 6/4 p. 7/8, 964 770",29532,43792,F,,71944,,
+425,Gleb E. Gusev,"a. Kuznetsk, trans. Floatable, d. 3, pp. 8, 549 538",+72891801687,rjurik1995@yandex.ru,"n. Kandalaksha, ALL. Slavic, d. 64 to. 27, 367677",28908,42602,M,,105637,,1
+426,Velimir Terent'evich Gushchin,"n. Baksan, nab. 8 Marta, d. 906, pp. 11, 856 675",83885717501,merkushevserafim@rambler.ru,"from. Ulyanovsk, trans. Amur, d. 1/8, 135 043",31007,40980,M,,77409,,1
+427,Denis Kabanov Tarasovich,"Art. Shatki, pr. Kosmodemyanskoy, d. 1 k. 6, 991,653",88316113269,terenti_20@gmail.com,"Mr. Kamennomostsky, nab. Rucheynaya, d. 438 p. 2/6, 726 217",34843,42283,M,,71388,,
+428,Sitnikov Aristarchus Fomich,"COFO Valdai, w. Lenin, d. 581, 035 190",+7 660 744 4730,olga2010@yahoo.com,"COFO Vladivostok, etc. Brick, d. 4/1, 577 132",33348,41703,M,,96796,,1
+429,Kolesnikov Titus E.,"n. Tomari, bul. Zoe Kosmodemyanskoy, d. 7 to. 48, 601880",+7 (505) 691-02-04,miron12@gmail.com,"d. Gelendzhik Embankment. L.Tolstogo, d. 106 p. 2/5, 800,908",32939,43546,M,,78328,,
+430,Pimen Gurevich Mironov,"from. Dubna, w. Soviet Army, d. 711 to. 722 678 864",+74554152378,fadeevafekla@yandex.ru,"COFO Volgograd, nab. Alder, e. 904 p. 59, 731066",24932,43358,M,110498,99489,1,1
+431,Krasil'nikova Agatha Albertovna,"d. Gremyachinsk (Buryat-.), bd. Shishkin, d. 893 to. 25, 003 832",8 (734) 671-8510,lebedevtihon@yandex.ru,"a. Bodaibo Str. Kuban, d. 6, 600,638",34173,41507,F,231235,87742,1,
+432,Ladislav E. Zykov,"Art. Nizhnevartovsk, st. Theatrical, d. 8, 892 421",8 (590) 603-9022,avksenti1980@yahoo.com,"d. Slyudyanka, trans. Razin, d. 992 to. 16, 169800",24520,42115,M,,92670,,
+433,Hope Kuzminichna Rozhkov,"n. Petuhovo Str. Zaovrazhnaya, d. 3/4 p. 4/6, 917 882",+75126680212,vorontsovagalina@mail.ru,"d. Kurtamysh, ALL. Stakhanovskaya, d. 67, 210064",34927,41248,F,,77091,,
+434,Sorokin Konstantin Fedorovich,COFO Mezen Str. Elevatornaya d. 2 pp. 2 118 368,+7 (100) 317-0808,dementevadarja@gmail.com,"a. Solnechnogorsk Str. March 8, d. 5/7, 906,447",26393,43817,M,203590,68254,1,1
+435,Lytkin Teoctist Erofeevich,"n. Maikop, pr. Communal, d. 61, 297 590",+76130228990,georgikalinin@mail.ru,"COFO Glazov, ALL. Goncharova, d. 2/5, 880 224",22480,41259,M,,63248,,1
+436,Bazhen Arkhipovich Isayev,"Torzhok, trans. Club, d. 5/5 pp. 333, 773 866",8 778 622 2750,naum_14@mail.ru,"n. Agatha, bul. Zaozerny, d. 114 p. 5, 043,073",23378,41130,M,,83527,,
+437,Thekla L. Mironova,"COFO Listvyanka (Irkut.) ALL. Roadside, d. 7, 606,230",+71007348309,ipat80@mail.ru,"d. Partizansk, w. Industrial, d. 677 to. 3/7 288190",35921,41491,F,,73826,,1
+438,Petukhova Lukiya Igorevna,"Art. Eniseisk Str. Edible, d. 32, 397875",8 (344) 624-37-29,usitnikov@rambler.ru,"COFO Kotelnich, trans. Fisherman, d. 11 k. 9, 739 967",24820,41746,F,,72107,,1
+439,Velimir Antipovich Gorshkov,"n. Mokshan, ALL. Substations, d. 21, 093 938",8 (035) 790-70-91,ksenija_1991@yandex.ru,"COFO Ust Ishim pr. Meliorativny, d. 19, pp. 759, 872 288",36585,43661,M,211855,72312,1,1
+440,Timofeev Nazar Avdeevich,"of Pinega, ALL. Distinct, d. 79 to. 35, 059 351",82152879900,eleonora26@gmail.com,"n. Bely Yar (Tomsk.) w. Garage, d. 45, 898 032",24866,42694,M,,100115,,
+441,Fomina Regina Rubenovna,"a. Gdov, nab. Don, d. 57 k. 7/9, 495909",8 240 739 85 58,rjabovaija@gmail.com,"d. Krasnoselkup Str. Snow, d. 139 pp. 966, 871 406",25171,41684,F,107387,63980,1,
+442,Antonov Athanasius Ilyasovich,"from. Arsenyev, w. Haharina, d. 78 p. 46, 081274",+7 495 126 21 65,pahomdmitriev@gmail.com,"n. Nogliki, nab. Parkhomenko, d. 7/8 p. 72, 283945",35453,43370,M,,80068,,1
+443,Luke Feodosevich Doronin,"n. Nizhny Novgorod, w. The trade union, d. 3/5, 421 896",8 345 538 4475,qmorozova@rambler.ru,"d. Gremyachinsk (Buryat-.), str. Key, e. To 9. 936, 690 076",30708,43135,M,,112495,,
+444,Vasily Larionov Fadeevich,"from. Kemerovo, trans. Leo Tolstoy, d. 7/5, pp. 65, 767 957",8 (027) 982-80-02,darja07@gmail.com,"d. Ust-Kamchatsk, ALL. Kommunarov, d. 7 568756",33722,43586,M,102744,91210,1,1
+445,Merkushev Marian Davidovich,"from. Pavlovsky Posad, ALL. Raspberry, d. 597 p. 4/2, 666 827",+7 (829) 164-30-30,valerjan2019@hotmail.com,"a. Great Ustyug, nab. Karbysheva, d. 5/2 p. 6/7, 010 121",22314,42596,M,,86897,,1
+446,Nicanor I. Rogov,"Kimry, ALL. Roadside, d. 3, 357691",87487064954,kapustinaagata@yahoo.com,"COFO Poronaisk Str. Belarus, d. 7/3, 352702",28793,41566,M,,96171,,1
+447,Popov Azary Gavriilovich,"a. Kalachinsk, bul. Syamashka, d. 5 k. 7, 011,115",+7 (394) 481-7566,jakushevsemen@yahoo.com,"Art. Kanev, ALL. Aerodrome, d. 48 pp. 83, 904 279",33855,41223,M,,80561,,1
+448,Efimov Miroslav Benediktovich,"Art. Alagir, trans. Transport, d. 8, 308 672",+79337813805,evstignestrelkov@yahoo.com,"a. Chulym, w. Leo Tolstoy, d. 961, 986 325",36097,42855,M,,86048,,
+449,Lobanov Eugraph Gertrudovich,"COFO Hassan lane. Ulyanovsk, d. 6/4, 251905",8 (426) 696-52-98,gromovafinogen@mail.ru,"from. Nat, nab. Lenin, d. 4, 682,038",26787,41721,M,,80917,,
+450,Fedoseyev Ulyana Oskarovna,"g Elat'ma, pr. Cornflower, d. 64 to. 429, 096 225",8 (802) 647-72-72,evgenija95@yahoo.com,"d. Kamyshlov, trans. Soviet, d. 70 p. 3, 828,553",23403,42138,F,,88488,,
+451,Ninel V. Zykov,"d. Kamensk-Ural, Blvd. Partizansky d. 66 p. 6, 935,078",8 031 576 21 78,osipfedoseev@yandex.ru,"Art. Ants, ul. Vavilov-, d. To 2/9. 1 125 771",23871,42234,F,,78246,,
+452,Knyazev Vlas Feofanovich,"d. Lotoshino Str. Blucher, d. To 7/3. 8, 609 035",8 (301) 581-3750,turovaekaterina@yahoo.com,"Art. Shchelkovo, w. Zaprudnoe, d. 17, p. 9/6, 854,804",24730,41799,M,,103565,,1
+453,Ia Alekseevna Belozerova,"d. Sosnogorsk, ALL. Moonlight, d. 62 pp. 156, 386 606",8 (724) 742-4828,evgeni_86@hotmail.com,"Art. Sorochinsk, bul. Ukrainian, d. 495, 297 319",27390,41105,F,,62540,,
+454,Dementiev Anikita Z.,"Art. Yeniseisk ALL. Rostov, d. 3 to. 42, 258042",+7 257 444 43 63,lukinasinklitikija@rambler.ru,"g. Ekaterinburg, ul. Space, d. 2/7, 339 832",26879,42321,M,217106,97261,1,
+455,Gerasimov Casimir Vladislavovich,"COFO Tiksi pr. Paris Commune, d. 164 p. 1, 455,864",+7 (650) 462-3001,sitnikovamilitsa@hotmail.com,"COFO Gelenjik, pr. Poor Damian, d. 7, p. 2, 356990",34760,42100,M,,79281,,1
+456,Love Matveevna Saveliev,"Mr. Pyshma, ALL. Nekrasov, d. 9 pp. 9, 119 091",8 (920) 973-29-20,svjatopolk_65@rambler.ru,"Chekhov Str. Alder, d. 199, 302942",30029,40920,F,110307,77347,1,
+457,Simon Ivanna S.,"n. Labytnangy Str. 9 January, d. 76 to. 34, 854 826",+7 946 281 77 80,kopiloviosif@mail.ru,"Art. Kurumkan, pr. Volkova, d. 94 to. 421, 152736",22074,42675,F,158679,75453,1,
+458,Harlampi Tarasovich Orekhov,"n. Petushki, ul. Ivanova, d. 5/2 p. 2/4, 788 095",+79486477976,orlovvarfolome@gmail.com,"from. Yuriev-Polsky, w. Central, d. 3/6, 294 442",32365,43348,M,260880,62097,1,
+459,Martynov Ivanna Stepanovna,"k. Narjan Mar, pr. Bright, d. 917 p. 9, 326 767",+7 (095) 509-47-59,anisim_1978@yahoo.com,"n. Cape Schmidt, ALL. Freestyle, d. 63, 531 814",28157,42075,F,113911,78850,1,
+460,Niphon I. Ravens,"Bologoe, ALL. 1 Maya, d. 1/4 p. 2 150 463",8 647 377 2903,vnikolaev@yandex.ru,"Art. Pushkin, w. Brigade, d. 314 to. 126, 651 988",25324,43795,M,116459,83113,1,1
+461,Pakhomov Thomas Adamovich,"a. Sasovo, bul. Pushkin, d. 7/6, 098 626",+7 (558) 137-5860,pzuev@gmail.com,"d. Apsheronsk, pr. Star, d. 31, p. 3, 157625",36277,40934,M,251480,93747,1,1
+462,Svetlana Potapova Mironovna,"n. Asbestos c. Production, d. 154 to. 3 683000",+7 (287) 841-8150,spiridon_16@rambler.ru,"n. Vereshagino (Perm.), Ave. 60 October, d. 5/2 008387",27239,42274,F,,75656,,
+463,Lyubov Denisova Gennadievna,"d. Nizhny Tagil, w. Puteyskaya, d. 3, pp. 8, 175 628",+71161443072,alevtina_34@yahoo.com,"Samara, ALL. Ukrainian, d. 99 p. 56, 711574",27721,42735,F,215554,97896,1,1
+464,Alekseev Januarius Artemyevitch,"g. Angarsk, bul. Power Engineers, d. 55 p. 6/1, 856 997",+7 780 415 46 26,radimignatev@yandex.ru,"k. Shenkursk, pr. Rucheyny, d. 79, 360 920",35025,41358,M,,77062,,
+465,Blinov Oia K.,"d. Beslan lane. Full, d. 5, 679,653",+7 (210) 092-87-24,maja34@yahoo.com,"k. Snezhinsk, pr. Eighth March, d. 1 in., 35, 122397",30826,41328,F,137156,65275,1,
+466,Tamara L. Efremova,"COFO Shchelkovo, w. Smolenskoye, d. 1, p. 7, 333678",+73231735217,filimonzhukov@gmail.com,"Kyshtym, nab. Astronauts, d. 83 p. 7 188516",33514,43826,F,123983,72388,1,1
+467,Bojan E. Medvedev,"Penza, nab. 50 October, d. 7 in. 4 551 824",+7 522 858 38 94,ljubim68@rambler.ru,"d. Ust-Barguzin, ul. Novgorod, d. 294 to. 209, 257050",36289,43757,M,168041,71784,1,
+468,Tarasova Naina Feliksovna,"d. Uglich, w. Grape, d. 4, p. 709, 334442",+7 (088) 681-6379,ponomarevleonid@yahoo.com,"COFO Karpinsk, ALL. Coniferous, d. 5.5 pp. 32, 385 548",35344,42966,F,,76678,,
+469,Angela Alekseevna Belyaeva,"Mr. Morshansk Str. ZHuravleva, d. 8 pp. 8/2 802031",8 250 248 9131,birjukovsvetozar@hotmail.com,"k. Naro-Fominsk, pr. Makarova, d. 70 to. 530, 042 797",27820,41250,F,,72736,,
+470,Ponomareva Oktiabrina Filip,"Serpukhov, etc.. Construction, d. 656 to. 702 515 473",+7 470 553 71 67,ilja83@mail.ru,"n. Ust-Kamchatsk, nab. Voroshilov, d. 1 p. 6, 965,489",31056,42082,F,,86464,,1
+471,Amos Erofeevich Konovalov,"a. Sergiev Posad, nab. Marx, d. 2 425 542",8 040 884 19 07,regina_92@mail.ru,"a. Skovorodino, bul. Deputy, d. 5/4 in. 4/1, 962 537",29212,41803,M,,85949,,1
+472,Niphon Yevstigneyevich Yakovlev,"Art. Stavropol, pr. Brick, d. To 652. 2 508 878",+7 935 040 9978,titovluka@mail.ru,"COFO Dubna, bul. Shady, d. 1/7 p. 1/4, 495 263",35989,43023,M,,68739,,1
+473,Prokofy Averyanovich Pakhomov,"COFO Chokurdakh, nab. Hothouse, d. To 6/8. 13 435 090",+7 527 842 9336,fortunat50@gmail.com,"Art. Sayansk Lenin ave., D. 7/5 in. 6/2 429796",32020,42615,M,281471,67804,1,
+474,Margarita Romanova Gulyaev,"d. Gudermes, bul. Basil, d. 3/4, 661 057",+7 (936) 011-4125,elizaveta27@mail.ru,"from. Ignashina, nab. Teachers, d. 776 to. 745, 101 159",23870,43742,F,205427,72526,1,1
+475,Sofiya Galkina Danilovna,"d. Kirensk, w. Lev Tolstoho, d. 211 p. 7/4, 665,626",+7 (263) 033-3732,fadeevaklavdija@yandex.ru,"Staraya Russa, ALL. Lermontov, d. 55, 690 194",25570,42810,F,122805,90660,1,1
+476,Fedorov Clement I.,"a. Glazov, nab. Altaiskaya, d. 9, 807 395",8 873 682 6580,nikitinaelizaveta@gmail.com,"n. Chulym, trans. Kuznetsova, d. 3, 302,442",27940,42190,M,,89487,,
+477,Elena R. Fomina,"COFO Pyshma, trans. Tambovskii, d. 86, 536 135",+7 507 771 1301,zhdanovereme@yandex.ru,"Art. Naberezhnye Chelny, bul. Nuts, d. 40, 636 331",24601,42147,F,,77350,,
+478,Zinoviev Claudia G.,"n. Argayash, ALL. School, d. 1/2, 807 704",+7 006 551 4955,anisimovamargarita@yandex.ru,"Mr. Suzun, etc. Dostoevsky, d. 879, 900 550",26716,41316,F,177798,76514,1,1
+479,Odintsov Polycarp Efremovich,"d. Urjupinsk, pr. Sedova, d. 4/7 620458",8 695 110 16 31,pahomovlongin@mail.ru,"Klin, bul. Zoe Kosmodemyanskoy, d. 413 to. 4, 504,986",26998,41920,M,,84930,,1
+480,Sobolev Samson Matveevich,"Art. Soboleva, trans. Novosel'skii, d. 341 pp. 13, 772 973",8 (676) 549-8813,avdemiheev@rambler.ru,"a. Ust-Kut Street. Schorsa, d. 36, 363162",28401,43359,M,,73322,,
+481,Zinoviev Vaclav Trofimovich,"a. Alapaevsk Str. Kutuzova, d. 24, 836 528",+77932696149,ladimirpotapov@rambler.ru,"from. Dzerzhinsk, trans. Ermak, d. 21, pp. 609, 075 131",32809,43049,M,207765,99364,1,1
+482,Vishnyakov Orestes V.,"n. Odintsovo, ALL. 60 October, d. 32, 334097",84523527673,zaharovborislav@hotmail.com,"d. Chita, bul. Factory, d. 1 k. 2/8, 681,704",31705,42648,M,,90577,,
+483,Miroslav Antonovich Fadeev,"a. Toksovo, trans. Moscow, d. 77 to. 51, 182250",+7 952 160 13 72,varfolome_93@yandex.ru,"d. Korsakov, pr. Levanevskogo d. 700, 110311",28037,43685,M,207476,63834,1,
+484,Guri Eremeevich Pestov,"Kirov (Vyatka), nab. Technical, d. 2 k. 7/1 776548",+7 (242) 490-2917,akim_2010@yandex.ru,"a. Chelyabinsk, ul. Moscow, d. 91, 577 980",32088,43359,M,275833,91206,1,
+485,Terentyev Nonna Ruslanovna,"a. Voskresensk, bul. Chernyakhovskogo d. 52, 927 899",8 920 179 36 75,sofron2011@rambler.ru,"of Yelnya, trans. The collective farm, d. 35, 593 478",24262,42002,F,,95368,,1
+486,Trofimov Akim Borisovich,"Divnogorsk, bul. Gornyatsky, d. 71, 707 236",+7 614 996 77 46,saveli_87@yahoo.com,"d. Muravlenko, bul. Student, d. 5.6 pp. 54, 403 717",27616,42889,M,,95027,,1
+487,Nesterov Praskovja Artemovna,"COFO Novomichurinsk, pr. Krasnodar, d. 569 to. 77, 466 007",+7 509 873 70 31,stepanovgremislav@gmail.com,"from. Poyarkovo blvd. Proletarskii, d. To 8. 8 607 547",24070,41831,F,,81920,,
+488,Love Valerievna Konovalova,"COFO Dixon Lane. Spataka, d. 283 p. 6, 964,781",8 753 321 7414,anikeartemev@yahoo.com,"n. Kalach-on-Don, trans. Mayakovsky, d. 5/9, 819 763",28812,42225,F,280098,78442,1,
+489,Irina Stepanova Nikiforovna,"Bugulma, trans. Ordjonikidze, d. 54, 348 507",8 (016) 168-53-29,elizaveta09@yahoo.com,"n. Dixon, pr. Dokuchaeva d. 662 p. 5, 180887",26233,41324,F,,92226,,
+490,Martyn Vilorovich Makarov,"n. Ignashina blvd. Zarechnyi, d. 71 to. 35, 381522",8 (069) 892-3818,evfrosinija_46@mail.ru,"Kirov (Vyatka), nab. East, d. 9, p. 7/6, 897 270",32014,41681,M,292048,83247,1,
+491,Milica O. Kudryavtsev,"a. Kataysk, trans. Ostrovsky, d. 620, 173 489",8 491 970 81 37,stanislavsafonov@gmail.com,"from. Artem, w. Gagarina, d. 27, pp. 49, 734 675",25797,41417,F,,62626,,
+492,Ruben Vladlenovich Zuev,"COFO Kirishi lane. Cultures, d. 17, p. 4/8 398018",8 409 390 9181,zinovi1991@mail.ru,"from. Lukhovitsy Str. Central, d. 8/6 in. 498 177 709",30998,41451,M,,68540,,1
+493,Angelina Alekseevna Eliseev,"n. Staraya Russa, w. Builders, d. To 2/5. 9, 688 388",8 (557) 587-5560,emmanuil42@yandex.ru,"from. Smolensk, nab. 70 years of October, d. 4/2, 301003",37065,42411,F,,69099,,
+494,Faina Romanova Filatova,"Turaev, nab. M.Gorky d. To 6/4. 32, 220359",8 (832) 827-14-69,hignatova@hotmail.com,"COFO Urjupinsk, pr. Spa, d. 9 k. 5/6 617947",23351,43244,F,165891,73691,1,1
+495,Maslov Irakli Arsenijevic,"d. Arshan (Buryat-.), Acad. Far East, d. 99 to. 70, 580 203",8 (023) 975-7898,potapovsidor@yandex.ru,"a. Pskov, trans. Baikalsky, d. 8, 269 204",23660,42869,M,,72531,,1
+496,Sidorova Glafira Rubenovna,"from. Sheregesh, ul. Nikitin, d. 274 in. 3 751 550",86198285809,matveevairina@yahoo.com,"Art. Elec, bul. Carbon, d. To 4/9. 61 643 390",33767,41557,F,,78306,,
+497,Alexei Karpov Izmailovich,"n. Tyrnyauz blvd. South, d. 7/9 in. 2/7, 168 184",+7 (864) 522-57-61,kshilova@yandex.ru,"Art. Baikalsk, trans. Traveler, d. 9, pp. 756, 976 611",22589,43519,M,290626,81095,1,
+498,Ananias F. Sukhanov,"a. Bilibino, bul. Offshore, d. To 4/1. 6, 601,823",8 740 457 41 19,ruben_1990@hotmail.com,"Tynda, w. Novoselov, d. 78 pp. 83, 394 732",35377,43689,M,255293,64574,1,
+499,Comrade. Belyaev Peter Feoktistovich,"COFO Novy Urengoy, etc. Shcherbakova, d. 466 pp. 770, 678 431",+73271421927,bronislav94@rambler.ru,"COFO Shelagontsy, trans. Shady, d. 42 492 063",33479,42130,M,,61390,,
+500,Cyrus P. Fomichev,"Mr. Pushkin Mountains, ALL. Dostoevsky, d. 4/9, 954 549",84944358315,yrozhkov@gmail.com,"from. Bavly ul. Kolkhoz, d. 1/6, 187 380",28781,41151,F,,64335,,1
+501,Oktiabrina Vladislavovna Fedoseyev,"Art. Zelenogorsk (Lenin.), Str. Maritime, d. 4/7, 004 155",8 (991) 631-7400,xkononov@yahoo.com,"from. Ust-Kool, pr. Krasin, d. 4/1, 897 063",33360,41043,F,122576,99728,1,
+502,Zuev Kim Arturovich,"d. Sukhinichi blvd. Poor Damian, d. 7, 132,092",8 877 295 09 12,kapustinarefi@hotmail.com,"a. Perm, ul. Fizkulturnaya, d. 501 to. 56, 618 592",35968,41128,M,,107645,,1
+503,Sysoev Sebastian Zhanovich,"COFO Sarapul, nab. Gorky, d. 460, 555 099",8 (205) 792-9426,adamprohorov@gmail.com,"Art. Tikhvin, ul. 60 October, d. 422 p. 7 057 513",30595,42567,M,,98543,,
+504,Sergeeva Valery Oskarovna,"a. Vidnoe, ALL. Schorsa, d. 23 to. 7, 061,262",+7 (345) 139-9522,veronika64@yahoo.com,"d. Khuzhir, ALL. Karl Marx, d. 1/1 290006",35483,43633,F,273248,101175,1,
+505,Svetlana Mironovna Emelyanova,"d. Kuznetsk Str. Fishing, d. 983 to. 2 211857",86618600484,serafim1992@yandex.ru,"COFO Dudinka, w. Baby, d. To 6/8. 9, 119259",37686,41011,F,,63605,,1
+506,Markov Glafira Y.,"Sortavala, nab. Spring, d. 934 to. 66, 171388",82765016123,kudrjashovaantonina@hotmail.com,"n. Yahroma, pr. Truth, d. 444, 170 940",30390,41387,F,,104870,,
+507,V. Nekrasov Savvaty,"from. Narym, trans. Deadlock, d. 84, 588 815",8 (105) 963-9820,semen_2002@hotmail.com,"a. Suzun, ALL. Shore, d. 5 to. 81, 995 797",33853,42519,M,,71857,,
+508,Zhuravlev Nikon Adamovich,"n. Sharia, ul. Marketplace, d. 3 to. 51, 916 527",+70543562790,gorshkovemeljan@hotmail.com,"d. Kashira, trans. Razin, d. 516 to. 604, 747 603",32022,43001,M,183989,85335,1,1
+509,Ulyana Kuzminichna Krasil'nikova,"g. Divnogorsk, w. Arena, d. 75 to. 87, 573 871",+7 (432) 327-0168,kondratevizjaslav@hotmail.com,"n. Tutaev, bul. Goncharov, d. 6, 161,364",30237,41009,F,,83324,,1
+510,Shestakov Osip Avdeevich,"Art. Primorsko-Akhtarsk, w. Peasant, d. 62 665 792",+7 464 534 0684,seliverst47@gmail.com,"COFO Lyantor, pr. Schetinkina, d. 3, p. 1/1 772382",25569,43392,M,,75306,,
+511,Gleb Gurevich Zuev,"Odintsovo, bul. Ryazan, d. 8/4, 073 499",8 (448) 219-96-70,fmatveev@hotmail.com,"d. Volkhov, w. ZHuravleva, d. 8 pp. 9/9, 223812",32370,42789,M,238256,82628,1,
+512,Savin Jacob Yevstigneyevich,"d. Sterlitamak, bul. Soviet Army, d. 3/9 in. 2/2, 145 741",8 (009) 609-48-61,ruslan83@mail.ru,"from. Gudermes, ALL. Krasnoflotskaya, d. 524 p. 1/7, 326 149",27607,43022,M,,68160,,
+513,Uvarov Kim Antipovich,"from. Kurchatov, ALL. Smirnova, d. 3/4, 355010",+7 (799) 411-44-27,lidija_99@gmail.com,"Mr. Dombay, bul. Popov, d. 89, 439 569",29977,42612,M,,75243,,
+514,Ustinov Love Yulianovich,"n. Belgorod, ALL. Transverse, d. 42 p. 9/6, 440 075",+7 391 441 33 23,savelevsamuil@yandex.ru,"Yaroslavl, nab. Education, e. To 4. 5/2 717336",35901,41084,M,130811,83664,1,
+515,Shubin Callistratus Vladlenovich,"COFO Stary Oskol, nab. Minsk, d. 6 pp. 6/8 368020",+7 076 835 0368,vitalishcherbakov@mail.ru,"d. Cherusti, trans. Tolbukhina, d. 29, 066 183",31474,41962,M,,78997,,
+516,Amos Davidovich Alekseev,"d. Nyagan, ALL. Miner, d. 44, 301220",+7 (110) 757-96-86,kiselevdobromisl@mail.ru,"Art. Top Penzhino, w. Voykova, d. 8, 251463",34899,43789,M,,73796,,1
+517,Wolves Luca Antonovich,"k. Labytnangy, pr. Leninsky, d. 452, 372312",8 (144) 825-14-78,simon_98@mail.ru,"Slavgorod, w. Razdolnoe, d. 4/9, pp. 48, 490 417",27549,42946,M,,99788,,
+518,Ulyana G. Veselova,"of Abinsk, trans. Tomsk, d. 141 pp. 77, 975 999",+7 (157) 654-9426,julija09@gmail.com,"a. Neftegorsk (Samar.), Str. Matrosov, d. 762 to. 663, 186077",26590,41051,F,,96837,,
+519,Mr. Veselov Yevsei Herasymovych,"COFO Rubtsovsk, w. Novgorod, d. 2/8, 921503",+7 394 573 09 27,evdokimovataisija@gmail.com,"a. Essentuki, w. Volodarsky, d. 465 to. 29 084 328",24958,41837,M,,86668,,
+520,Euphrosinia Tarasovna Baranova,"COFO Dubna, pr. Levanevskogo d. 342 to. 88, 627 669",85625239159,emmanuil1974@rambler.ru,"d. Morshansk Str. Republic, d. 3 to. 14, 184 734",35735,43078,F,,93393,,
+521,Florentin Feodosevich Sukhanov,"from. Dubna, w. Autumn, d. 53, 677 027",+7 604 150 85 72,evpraksija2010@yahoo.com,"Art. Toksovo, trans. Prudny, d. 7 pp. 836, 598 159",29317,41333,M,,72013,,
+522,Anisimova Praskovja Efimovna,"d. Kirzhach, pr. Zaozerny, d. 673 to. 576, 259 330",8 (035) 324-0700,amvrosi34@mail.ru,"from. Angarsk, nab. 60 years of the USSR, d. 2/2 p. 7 246 541",34600,42905,F,273326,84817,1,
+523,Xenia Vadimovna Arkhipova,"Igarka, trans. Impact, g. 8, p. 2, 104100",+71171451951,ostapdementev@rambler.ru,"d. Gorno-Altaisk, trans. Rosa Luxemburg, d. 12 pp. 3, 884,748",24114,40935,F,255485,102791,1,
+524,Prokhor Efimevich Fomin,"Art. Aleksandrovsk, ALL. Traktovaya d. 594 pp. 880, 721 914",80713985871,izjaslavershov@hotmail.com,"of Kalevala, nab. March 8, d. 8/1, pp. 453, 294 168",33667,42449,M,,90249,,
+525,Panfil Zakharievich Guryev,"n. Chita, nab. March 8, d. 210, 446 549",8 570 720 95 17,blohinleonti@rambler.ru,"a. Kataysk, ALL. Shaded, d. 3, 917,527",33830,42176,M,,87350,,1
+526,Euphrosinia Antonovna Karpov,"n. Elatma, ALL. Sea, d. 4/6, 025 151",+7 (533) 512-9379,grigorevkuprijan@hotmail.com,"COFO Zhigulevsk, ALL. Tambovskaia, d. 6 k. 9/5, 796,082",25158,41370,F,153823,99701,1,
+527,Pancrate Denisovich Korolev,"Art. Moscow ALL. Parkhomenko, d. 3/9, 213 733",8 (380) 926-7353,vadimkazakov@yahoo.com,"from. Ust-Dzheguta, etc. Vladimir, d. 8/8, 825 265",30861,41011,M,,96088,,
+528,Konovalov Rodion Germanovich,"Art. Usman, trans. Chaikinoi, d. 41 to. 6, 808,608",82520530745,nesterovamargarita@gmail.com,"COFO Kargasok, pr. Nekrasov, d. 132 pp. 55, 053 552",34390,43277,M,,80004,,
+529,Ninel Zhdanovna Suvorov,"COFO Mozhga, nab. Tereshkovoy d. 306, 990 884",+7 546 976 1362,belousovarkadi@hotmail.com,"Art. Shenkursk, trans. Kurskiy, d. 513, 952 129",26487,42157,F,,83218,,
+530,Fedosov Vsevolodovich Sox,"from. Maikop, ALL. Large, d. To 6/4. 8, 831 829",83669110097,sergeevamarina@rambler.ru,"COFO Dixon, nab. Stakhanovskaya, d. 88 p. 92, 277810",24413,42437,M,,107743,,
+531,Seleznev Maya Albertovna,"a. Essentuki, st. Pugachev, d. 125 to. 25, 863 196",88702447638,aevseeva@hotmail.com,"n. Upper Ufalej, nab. Labor, d. To 26. 9, 711 784",34027,41018,F,213855,88766,1,1
+532,Mironov Varlaam Gavrilovic,"d. Birobidzhan, bul. Novoselov, d. 9/7, 074 902",+75552835845,cmuravev@gmail.com,"d. Olenegorsk (Yaqut.) ALL. Ivanova, d. 7, 513,128",29133,43453,M,,84843,,1
+533,Ian Matveevich Kononov,"n. Maikop, nab. Papanin, d. 6/7 p. 7/6, 292335",8 861 125 78 63,kiselevvissarion@yandex.ru,"a. Kizilyurt, w. Enthusiasts, d. 55, 783 326",35582,41844,M,288878,103803,1,
+534,Galkin Vadim V.,"Art. Ternay, w. Tsiolkovsky, d. 872 p. 8/1, 326 303",8 302 680 4511,sevastjan_1970@rambler.ru,"COFO Elnya blvd. Novosel'skii, d. 94 p. 6/2 304667",34683,43334,M,,82761,,
+535,Titova Margarita Alexandrovna,"Art. Aniva lane. Brigadier, d. 7 in. 978 763 132",8 (016) 432-5998,paramonlarionov@yandex.ru,"d. Pechora Lenin ave., d. 8/5, pp. 3, 905,386",30335,43422,F,192506,78265,1,
+536,Sofron Izotovich Galkin,"n. Viborg, pr. Mound, d. 536, 797 215",+7 541 468 4453,poljakovladislav@yahoo.com,"COFO Novorossiyka, ALL. Iaroslavskaia, d. 9, 325 139",30586,42422,M,,84029,,
+537,Markov Milovan Avdeevich,"n. Gorodovikovsk, w. Privolnoe, d. 5 pp. 6/6 783432",+7 (593) 735-1159,seliverstovazhanna@mail.ru,"d. Lazarevskoye, trans. Border, d. 3/8 p. 4, 453,305",26693,42253,M,,100213,,
+538,Cyrus Tarasovna Khokhlova,"d. Novorossiysk, w. Red partisans, d. 2/6 in. 3/6, 121416",8 (032) 398-02-43,vseslav49@gmail.com,"from. Tula, w. Schmidt, d. 468, 730 406",24156,41322,F,,85748,,1
+539,Evgeny Novikov Vladlenovich,"Mr. Kyren, ALL. Working, d. 6 in. 6/8 132711",8 924 544 4650,efimkovalev@yahoo.com,"from. Ust-Kool, w. Troitskoe, d. To 2/6. 1 011 749",30752,42058,M,,88909,,
+540,Anna Haritonovna Moses,"from. Kizilyurt Str. Freedom, d. 1/5, 590,358",8 (997) 331-0578,zikovborislav@gmail.com,"a. Pinega, nab. Marketplace, d. 8/5 in. 185 862 608",37152,42555,F,,83963,,1
+541,Akulina Veniaminovna Loginova,"a. Nevinnomyssk, bul. Station, e. To 4. 432, 395856",8 784 168 8319,dkarpov@rambler.ru,"Art. Taishet, pr. Krasnogvardejskiy, d. 861, 184 859",22292,41673,F,,69587,,1
+542,Glafira Nathanovna Krylov,"Ruza, etc. Papanina, d. 5/7 in. 66 725 385",+7 (140) 946-4092,radovangolubev@mail.ru,"from. Cheremkhovo, w. Steppe, d. 73 p. 5, 367,584",27993,42616,F,272128,73759,1,
+543,Konovalov Spartak Glebovich,"n. Bologoe, w. Power Engineers, d. 9/4, 128715",+7 344 502 87 64,radim1983@yahoo.com,"COFO Tchebarkul, pr. Zarechnyi, d. 84, 785 049",27358,42448,M,,77550,,
+544,Popov Samson Davidovich,"n. Khabarovsk, pr. Matrosov, d. 66, 381202",+7 005 899 2582,petuhovatamara@yahoo.com,"COFO lips lane. Airfield, d. 130, 982 473",25844,42043,M,,74349,,
+545,Anastasia Robertovna Agafonov,"a. Zaraysk Str. Tomsk, d. 838 p. 8/8, 397590",+7 (606) 533-93-54,sigizmund82@yandex.ru,"from. Revda (Sverd.), Acad. Trinity, d. 96 to. 15, 754 957",36291,41549,F,,77028,,
+546,Lebedev Auxentios Cheslavovich,"Ust-Orda, st. Schmidt, d. 5, 322646",+7 634 378 0568,vinogradovvatslav@hotmail.com,"d. Nefteyugansk, nab. 1 Maya, d. To 149. 9 644 552",36227,41011,M,,85540,,
+547,Ustin Germanovich Bespalov,"Art. Moscow, MSU, ALL. Cheerful, d. 535, 401 740",88309227362,averjantrofimov@gmail.com,"Kirovsk (Lenin.), Str. Coniferous, d. 71 to. 54, 784 122",29947,42400,M,,55366,,
+548,Pancakes Sofron Ilyasovich,"Monchegorsk Street. Road, d. 13, 119 919",+7 (383) 197-6860,ilitkin@hotmail.com,"n. Moscow, pr. Azov, d. 9 in. 376 405 285",33185,41814,M,,76906,,1
+549,Auxentios Dem'yanovich Drozdov,"COFO Tsimlyansk, nab. Repin, d. 30, k. 441 733 424",8 (055) 800-80-18,bikovaeleonora@gmail.com,"from. Egorievsk Str. October, d. 4/9, pp. 936, 516 857",24172,43564,M,249780,69466,1,
+550,Novikov Elizabeth Maksimovna,"d. Krasnoural'sk, nab. Paris Commune, d. 3/2 in. 2/9, 141 862",89273401299,svetozargromov@rambler.ru,"COFO Rylsk, trans. 60 years of the USSR, d. 585, 863 219",31193,41210,F,,84757,,1
+551,Love Yulianovich Baranov,"d. Severobaikalsk, nab. Circumferential, d. 2/2 p. 8, 703 760",+7 (213) 191-14-80,kononovnikandr@mail.ru,"Art. Snezhnogorsk (Moorman.) Emb. Student, d. 97 p. 2 914 177",24566,42468,M,,65280,,
+552,Merkushev Afinogen Iosipovich,"from. Kirovo-Chepetsk, pr. Sakhalinsky, d. To 944. 3 635 853",+70021871691,mstislav_1981@gmail.com,"Sibai, bul. The traveler, d. 80, 384 843",35626,40910,M,,95926,,
+553,Athanasius Aaranovitch Belyakov,"a. Stavropol, trans. Small, d. 6 pp. 8/5, 970,936",8 (379) 387-85-95,ribakovspartak@yandex.ru,"g. Cheboksary, bul. Krasnoarmeysky, d. 5 k. 5/9 826043",36769,42517,M,156150,92390,1,
+554,Nikonov Leo Zhanovich,"Art. Artem, nab. Border, d. 9, 930 539",87855576705,kfedoseev@hotmail.com,"d. Ust-Kut, nab. Zaprudnaya, d. 870 pp. 525, 072 144",31878,42548,M,116304,95784,1,
+555,Maria Osipova Efimovna,"k. Vitim pr. Rural, d. 4 to. 270, 368 507",81144999549,nonna2006@yahoo.com,"Art. Mtsensk, w. Walnut, d. 9 k. 220, 496 564",34433,43609,F,230356,96339,1,
+556,Svetozar Vladilenovich Isakov,"n. Sibai, ALL. University, d. 77 to. 70, 310 261",8 923 744 01 59,gerasimovavde@mail.ru,"d. Abakan, ul. Naval, d. 22 to. 3 752 401",36152,41047,M,125672,82708,1,1
+557,Eustace Gordeevich Ustinov,"a. The hype, bul. Stepan Razin, d. 62 pp. 359, 504 813",8 (916) 872-80-76,askold_1986@hotmail.com,"d. Tulun, ul. Uritskogo d. 536 pp. 10, 904 371",26725,41917,M,,67957,,1
+558,Sofia Yakovlevna Merkusheva,"COFO Korolev, nab. Smolenskaya d. 4.6 pp. 92, 901 255",8 (504) 956-24-77,lavrentevradislav@yahoo.com,"n. Severobaykalsk Str. Kama, d. 4, 534,791",36330,41239,F,,84703,,
+559,Vseslav Teimurazovich Fists,"d. Bijsk, pr. Meadow, d. to 7/9. 4, 691,077",+7 668 990 6983,german47@rambler.ru,"Solikamsk, ALL. Haharina, d. 1 k. 5, 394,696",31174,41618,M,,81162,,
+560,Oksana Kalashnikova Valentinovna,"from. Taldom, w. Track, d. 1 k. 28, 629 285",+7 (123) 152-8587,ttimofeev@mail.ru,"Art. Kostomuksha, w. Goncharova, d. 3/7, 581 705",28698,41541,F,217562,90445,1,1
+561,Sazonov Roman Danilovich,"n. Palana, nab. Peace, d. 815, 051 564",+79496069195,petuhovaljubov@hotmail.com,"d. Kizilyurt, w. Chekhov, d. 175, 675 709",36238,43752,M,184049,68375,1,1
+562,Ksenia Sokolova Timofeevna,"Art. Makushino, pr. Short, d. 4/9 824135",86915145215,irakli_55@yahoo.com,"Art. Petushki, w. Cooperative, d. 129 p. 4, 730,466",23221,41091,F,,66905,,
+563,Fock Edgarovich Shcherbakov,"Art. Noyabrsk, bul. Peasant, d. 1/9 p. 1/9, 366 649",8 (841) 124-5731,litkinamaja@yandex.ru,"a. Abinsk, nab. Marx, d. 166, 515 496",26013,43377,M,,82046,,
+564,Pelagia Timurovna Kudryashov,"n. Yaksha Str. Labor, d. 8/3 p. 5/2, 781 610",+78610648679,bikovaklavdija@gmail.com,"a. Krasnoturinsk, ALL. Chkalov, d. 739 to. 4/3, 337 990",24967,41948,F,,85635,,
+565,Nina Baranova Askoldovna,"d. Rossosh, bul. Average, d. 6/6 pp. 965, 760 867",8 (571) 261-72-86,isidor1994@yahoo.com,"d. Lysva Str. Gornyatsky, d. 25, p. 7, 080,731",23980,41421,F,117429,76868,1,1
+566,Pakhomov Bojan Antipovich,"d. Terrible, w. Aircraft, d. 7 pp. 3, 137,964",+7 578 345 46 98,dorofe1990@gmail.com,"from. Lodeynoye Pole, w. Popov, d. 9, 273 280",37367,41086,M,285911,101303,1,
+567,Oktiabrina K. Rogov,"from. Bilibino, nab. Ul'yanova, d. 16 p. 9/1 624055",8 328 612 03 93,bobilevmefodi@hotmail.com,"a. Suzdal, w. City, d. 219, 966 033",32829,41919,F,121028,57680,1,1
+568,Sergey Fedorovich Desk,"a. Balashikha, sh. Krasnoflotskoye, d. 8 to. 605, 122 284",8 246 800 1498,kira78@yahoo.com,"Kamyshin, bul. Ivanovskii, d. To 5/2. 2/3, 195,290",24314,43609,M,,98497,,1
+569,Victoria Isakova Oskarovna,"COFO Essentuki, st. Motorists, d. 41 to. 244, 381 248",8 (481) 934-8825,burovsolomon@hotmail.com,"a. New Urengoy, ul. Mechanical Engineers, d. 2 to. 95, 673 566",28788,40985,F,,92610,,
+570,Krasil'nikova Marina S.,"Schelkovo, st. Taezhnaya, d. 220, 212 882",+71625340799,tsvetkovbronislav@gmail.com,"n. Elbrus, bul. Teachers, d. 288 p. 9/2, 269 897",24108,41340,F,291128,74150,1,1
+571,Vincent Yevstigneyevich Ovchinnikov,"a. Great Ustyug, trans. Musa Jalil, d. 7/9, pp. 291, 828 246",+7 (733) 303-12-36,demjan_42@gmail.com,"Art. Masty, w. Sovkhoznaya, d. 3 k. 3/2 436808",26210,43821,M,170262,93349,1,
+572,Regina Gavrilova Bogdanovna,"g. Arzamas, ALL. Quiet, d. 21, p. 5, 898,094",8 (115) 919-0868,kudrjavtsevaangelina@mail.ru,"from. Uchaly, nab. Highway, d. 5, 725,058",23569,41081,F,,97508,,1
+573,Polina Naumova Arkhipovna,"Art. Domodedovo, trans. Basil, d. 932 to. 567, 571 189",8 (312) 249-36-63,frol_95@rambler.ru,"a. Snezhinsk, ALL. Kiev, d. 3/7 pp. 991, 021 662",27962,41377,F,109699,87496,1,
+574,Faith Robertovna Aksenov,"a. Volkhov, bul. Surikov, d. 39, 533 430",+7 (702) 301-6362,belozerovprokl@yahoo.com,"a. Novorossiysk, nab. Kama, d. 46 918 843",33302,41072,F,246564,80024,1,1
+575,Ludmila Drozdov,"from. Krasnogorsk (Mosk.), Acad. 40 October, d. 3, p. 3, 631,571",8 (594) 313-76-35,zhanna_91@mail.ru,"d. Vytegra, pr. Yaroslavskyy, d. 1 k. 51, 554 428",22695,42450,F,145840,78780,1,
+576,Philemon Alexandrovich Arkhipov,"from. Pushkin Mountains, w. Kazan, d. 7 pp. 2 570 497",84690142511,avdekrjukov@mail.ru,"d. Uglegorsk, ul. Peace, d. 71 to. 206, 641 700",32879,43007,M,,66044,,1
+577,Sofia Petrovna Solovyov,"n. Cherusti, trans. Lazo, d. 96 to. 1 944 483",+75892883488,kira1994@yandex.ru,"n. Suzdal, ALL. Amur, d. 7, 517,189",28643,43248,F,297761,91597,1,
+578,Selivan Feodosevich Martynov,"n. Shelehov blvd. Pushkin, d. 933, 488 893",+78086813609,suvorovstepan@gmail.com,"n. Essentuki, ALL. Guerrilla, d. 5/3, 692 972",25023,43780,M,,95265,,
+579,Sidor G. Galkin,"Art. Nefteyugansk, ul. Large, d. 40, 236 559",+78867600969,prohorovipat@mail.ru,"COFO tulpan river, trans. Maxim Gorky, d. 88 in. 9/5, 207 130",23559,42006,M,,76787,,1
+580,Sukhanov Mitofan Fokich,"Kovrov, ave. Short, d. 2/3 599819",+7 (514) 658-7030,ckostin@hotmail.com,"Arkhangelsk, Embankment. Tips d. To 5/9. 365, 880 771",36017,42397,M,,66671,,
+581,Kopylov Trifon Zhanovich,"Mr. Cherskii, nab. Lunacharskii, d. 284, 411 426",8 (832) 017-8632,ignati2007@yandex.ru,"Mr. Psebay, etc. Baikal, d. 51, 140514",31901,43068,M,,92714,,
+582,Seliverstov Haggai Aaranovitch,"Art. Muravlenko Str. Karl Marx, d. 69, 293297",8 895 231 1693,solomon1978@rambler.ru,"from. Lyubertsy, nab. Tambov, d. 244, 315282",34350,43148,M,,73174,,
+583,Grishin Fedot Timurovich,"k. Nazran, pr. School, d. 2 pp. 28, 760 047",+75611902769,anike75@rambler.ru,"Art. Noyabrsk, nab. Ivanovo, d. 996, 202936",28790,43647,M,217482,74614,1,
+584,Regina Stanislavovna Shiryaev,"Art. Derbent, ul. Spataka, d. 2 k. 1/9, 629,520",86675431221,mstislav35@yandex.ru,"n. Tutonchana Str. Krasnogvardejskaya, d. 572 pp. 397, 710 225",36337,43477,F,,69544,,1
+585,Anisimova Thekla Valentinovna,"COFO Severodvinsk, bul. Friendship, d. 4, p. 6, 846,904",+7 075 664 6203,minaosipov@rambler.ru,"from. Urai, trans. Kiev, d. 943, 642 507",22366,41038,F,,95590,,
+586,Artemyev K. Love,"n. Staraya Russa, nab. Zhukovskogo d. 128, 860 483",8 (626) 351-7030,alekseevpolikarp@hotmail.com,d. Sladkova Str. Komsomolskaya. 3 847 545,30272,42540,F,,95399,,1
+587,Davydov Selivan Harlamovich,"COFO Yar-Sale, trans. Sedova, d. 82 k. 7/5, 024,050",+73634204450,simon_65@hotmail.com,"Bratsk, trans. Meliorativny, d. 3, 931,210",31475,43431,M,194348,87421,1,
+588,Sorokin Agatha Nathanovna,"n. Tobolsk, w. Schmidt, d. 9/2 pp. 610, 790 286",8 (800) 791-10-42,rodionovamvrosi@rambler.ru,"COFO Buynaksk, nab. Postal, d. 44, 749 650",31280,42119,F,,70166,,
+589,Marina Bobrova Egorovna,"k. Tobolsk, pr. The high voltage, d. 840 p. 9/2 020613",85437563125,evdokija68@rambler.ru,"from. Upper Tagil, st. Chkalov, d. 48 in. 803 148 703",30983,41492,F,259949,58427,1,
+590,Rozhkov Prov Fokich,"n. Arkhangelsk, bul. Children, d. 2/6 p. 65, 209573",+7 833 207 77 26,mir2019@yahoo.com,"Zavodoukovsk blvd. Pond, d. 94 to. 92, 434 113",28978,42121,M,201028,79793,1,
+591,Hope Kirillovna Nazarov,"d. Vendinga w. Kutuzova, d. 29 to. 93, 650 153",8 (068) 336-4442,tsvetkovalarisa@hotmail.com,"Art. Dixon, ALL. Shevchenko, d. 140 to. 2/9, 658,419",28908,42798,F,103517,76184,1,
+592,Davydova Veronica Filip,"Torzhok, ul. Chervonoarmijska, d. 15, 112640",+70709891062,lukjan_62@rambler.ru,"Art. Suzdal, ALL. Karl Marx, d. 83 in. 984 400 780",32129,41235,F,,71828,,
+593,Lytkina Xenia Alexandrovna,"n. Achkhoy-Martan, trans. Vavilov-, d. To 8/9. 57 498 804",+7 437 038 2904,olimpiada_01@rambler.ru,"from. Michurinsk, ALL. International, d. 677, 047 870",33593,42138,F,190212,91041,1,
+594,Galina Stepanova Vladislavovna,"n. Volokolamsk, bul. Dobrolyubova. 659 to. 24, 359013",+75851460232,egorovaglafira@gmail.com,"a. Kamyshin, bul. Kama, d. 44, 414 935",26546,43657,F,,86924,,1
+595,Nadezhda Popova Arkhipovna,"d. Aginskoe (Zabayk.) Emb. Repin, d. 2 pp. 2/2 412981",+77721319190,hafanasev@yahoo.com,"a. Solikamsk, st. Kommunarov d. 8, 784 312",29465,42138,F,118288,79380,1,
+596,Kulagin Trifon Valerianovich,"Chegem Str. Altitude, d. To 4/4. 57, 227471",8 (366) 617-55-62,shashkovaveronika@hotmail.com,"from. Gorno-Altaisk, trans. Puteyskaya, d. 7/2 p. 93, 238158",28620,42405,M,,96468,,1
+597,Fock Arsenovich Rozhkov,"Art. Nevyansk, ul. Minsk, d. 219, 710 023",8 571 286 79 54,danilovkliment@hotmail.com,"from. Khimki, bul. Friendship, d. 6 pp. 5/6 984260",22454,41574,M,,75134,,1
+598,Akulina Ilinichna Gulyaev,"COFO Katav-Ivanovsk, bul. Ushakov, d. 28, pp. 159, 800 155",8 835 907 0261,makarovkazimir@yahoo.com,"d. Siktivkar, ave. Grandma, d. 3, p. 81, 314693",36663,42188,F,,113231,,
+599,Bogdanov Carl Ignatievich,"d. Gudermes lane. February, d. 2/9 in. 9/4, 704 535",+7 683 076 57 91,uljan1979@rambler.ru,"COFO Chikola, w. Miner, d. To 46. 6, 562,385",32642,41763,M,138726,75525,1,
+600,Euphrosinia Tarasovna Denisov,"d. Kargasok, trans. Stepan Razin, d. 3/4 pp. 463, 985 036",+7 (308) 887-9563,eliseevandre@mail.ru,"COFO Urjupinsk Str. Pavlova, d. 3/5, 705 400",34194,43480,F,181300,81443,1,
+601,Olympia Arturovich Kirillov,"from. Mezhdurechensk, ALL. Zaovrazhnaya, d. To 5/3. 4, 268,430",+7 (931) 521-40-18,cdementev@yahoo.com,"COFO Zavodoukovsk, nab. Moss, d. 659, 822 504",26484,41035,M,104389,82124,1,
+602,Olympics Maksimovna Gerasimova,"d. Chulym, ALL. Kalinin, d. 1 743 089",+7 (988) 995-73-68,eremegorshkov@hotmail.com,"n. Ustyuzhna, trans. The water, d. 2 pp. 26, 875 601",26918,41303,F,,82424,,
+603,Theophane Gavrilovic Mamontov,"Uvarovo, w. Surikov, d. 2/9 in. 490, 391489",+7 743 077 31 04,vinogradovljubosmisl@hotmail.com,"COFO Angarsk, nab. Apricot, d. 679 to. 5/4, 050 316",29476,42372,M,,86628,,
+604,Kirillova Natalia,"Art. Ardon, w. Parkhomenko, d. 6, 667,320",+73165064892,apollinarinikiforov@gmail.com,"from. Vorkuta, bul. Sunny, d. 528, 694 678",35719,42515,F,,72637,,
+605,Kuznetsov Benedict Avdeevich,"Art. Terskol Street. Prudnaya, d. 61, 189043",+74628694901,zinovevevse@yandex.ru,"n. Kogalym, nab. Comintern d. 3.1 pp. 41, 861 818",31212,41723,M,,91765,,
+606,Dorofeev Micah Valer'yanovich,"Ufa, pr. Commune, d. 82 pp. 15, 343 199",+73551200007,arhipovalidija@yandex.ru,"COFO Dombay Street. Maxim Gorky, d. 1/4, 730 283",37430,43351,M,,69284,,
+607,Ekaterina Danilova Haritonovna,"COFO Millerovo ALL. M.Gorky d. 5 to. 89, 365912",+7 946 940 9461,gnesterov@gmail.com,"Severo-Kurilsk, etc. Tchaikovsky, d. 63, 276 361",23448,40967,F,237199,78587,1,
+608,Angelica Mironovna Tikhonov,"n. Hassan, ALL. Baikalskaya d. 724 p. 5, 955,494",+7 (120) 122-7583,melnikovzahar@rambler.ru,"d. Izhevsk, ul. Radishcheva d. 2 to. 142, 882 773",35858,41985,F,,83896,,
+609,Yakovleva Elena G.,"Art. Kaluga, trans. Vidradny, d. 286, 974 091",82949305699,kira_1992@mail.ru,"from. Inta, ALL. Tulenin, d. 4/4 in. 984 403 689",27868,41396,F,,93240,,1
+610,Medvedev Taisiya V.,"Tikhoretsk, w. Tolbukhina, d. 2 to. 85, 014 340",+76823188261,rkuznetsov@gmail.com,"n. Nizhneudinsk, trans. Labor, d. 1/4, 272 259",36253,42134,F,267122,74615,1,
+611,Petukhova Sofia Timurovna,"Art. Krasnoselkup Str. TBN, d. 92 p. 5, 479,264",8 832 810 8533,kuznetsovparfen@hotmail.com,"COFO Uchalu, pr. Ogorodny, d. 212 p. 5, 311198",31802,41054,F,223057,99142,1,1
+612,Simon Akulina Filip,"a. Bologoe blvd. Spring-water, d. 1/9, 141 671",83283208266,evdokija_21@mail.ru,"from. Fatezh, ALL. Linear, d. 9 pp. 2/4, 767,838",25725,41328,F,,67690,,1
+613,Lazarev Zoya,"from. Vilyuisk, pr. Ulyanovsky, d. 9, 094 801",+71971756084,bogdanovsavvati@rambler.ru,"d. Wasp, w. Gogol, d. 147 to. 4/4 129499",30238,41099,F,251310,78083,1,
+614,Kira A. Popov,"COFO Onega, bul. Ryazan, d. 582, 370036",8 951 782 9973,kim_2001@yahoo.com,"d. Sorochinsk, pr. Schorsa, d. 9, 458 760",22833,42547,F,107109,76091,1,
+615,Raisa Panova L.,"d. Anadyr Street. Suburban, d. 34, 183330",8 118 000 00 81,komarovlukjan@hotmail.com,"g. Taganrog, ALL. Hothouse, d. 350 to. 119, 655 586",27180,42160,F,296916,98766,1,
+616,Bogdanov Zinaida,"Mr. Psebay, nab. Pozharsky, d. 2/2, 574 892",+7 975 360 6593,okalinina@mail.ru,"from. Kargopol, w. Civil, d. 172 p. 3, 809,127",25232,42827,F,,77206,,1
+617,Evgeniya Uvarova Naumovna,"n. Oktyabrskoe (Hunt.), br. Ivanova, d. 18 to. 57, 635 182",8 (415) 495-26-55,frolovaverki@mail.ru,"d. Kalachinsk Str. Lilac, d. 79, 032 567",30583,42924,F,,93095,,1
+618,Julius Gurevich Lavrentiev,"d. Bavly ul. Koshevogo, d. 36 k. 2/4, 944,451",+7 (704) 731-2271,melnikovnikifor@gmail.com,"COFO Ishim lane. Port, d. 8/6 p. 27, 749 629",28852,43179,M,,82395,,1
+619,Kupriyan Ignatovich Ustinov,"Karachaevsk blvd. Sports, d. 4, pp. 765, 620 957",+7 161 654 79 98,fdementev@mail.ru,"COFO Lipetsk, nab. Vatutin, d. 3/4 pp. 270, 741 275",29913,43639,M,121510,108730,1,
+620,Matveev Eduard Yulevich,"Art. Ivdel, bul. Krasnoyarsk, d. 2/1 p. 4/2, 705 143",8 634 937 5722,karldenisov@hotmail.com,"n. Sochi, w. Post, d. 39, 835 455",32194,41909,M,,99916,,
+621,Maya Naumova Zhdanovna,"Snezhinsk, ul. Roadside, d. 20, pp. 21, 542 855",8 363 258 53 34,kovalevgorde@hotmail.com,"d. Zavyalikha Str. Port, d. 61 pp. 9, 321 178",22502,43006,F,,77396,,
+622,Veronica Efimova Eduardovna,"n. Taldom, trans. Port, d. 2/3 p. 635, 183330",8 (581) 477-3961,bogdan_1978@hotmail.com,"Art. Barnaul, w. Minsk, d. 8 to. 129, 742 215",23048,42127,F,280031,74017,1,1
+623,Miron Gertrudovich Sobolev,"Mytischi, ALL. Adolescence, e. 6/4 p. 9, 077 963",8 980 432 7079,lshestakova@yandex.ru,"a. Mine Street. Dzerzhinsky, d. 27, k. 859, 879 030",35181,42141,M,269413,100803,1,1
+624,Samsonov Philemon A.,"from. Yuzhnouralsk, bul. Lyavonau, d. 98 to. 13, 425 869",+7 (239) 035-5166,raisa_31@yandex.ru,"Magadan, ul. Tukaya, d. 4, 687,418",34827,41208,M,209136,87691,1,1
+625,Marina Egorova G.,"from. Yelnya, trans. Energy, d. 4, p. 366, 116552",8 914 412 75 88,btihonova@hotmail.com,"a. Smolensk lane. Tchkalov, d. 8, 620 251",34475,42404,F,154035,74373,1,1
+626,Vladislav Lobanov Ermilovich,"k. Severobaykalsk pr. Theatrical, d. 481, 179690",89925571504,zhanna54@mail.ru,"COFO Sorochinsk, w. Don, d. 825 to. 4/9 227754",23441,42548,M,,89802,,1
+627,Yemelyanov Evdokia Valerievna,"a. Ust-Ishim, bul. Azine, d. 3/5, 159 593",+7 966 238 3435,ksergeeva@rambler.ru,"a. Solnechnogorsk, ALL. Substations, d. 2 759 091",37299,41968,F,,61834,,
+628,Fevronija Rubenovna Bobyleva,"COFO Khuzhir, bul. Union, d. 4/4 in. 7/6, 257711",+7 (041) 953-54-18,xnosov@yahoo.com,"d. Kartaly lane. Geologists, d. 5/2, pp. 913, 416 930",36645,41548,F,284327,80486,1,
+629,Baranova Ulyana Semenovna,"d. Tchebarkul, pr. West, d. 37 p. 7, 326,289",+7 243 880 04 71,imjasnikov@hotmail.com,"of Plesetsk, trans. Marx, d. 84 p. 509, 001002",27581,41035,F,219996,89335,1,1
+630,Milica Antonovna Kalinin,"Art. Ketchenery, w. Minsk, d. 5 pp. 3/5, 813,916",+7 (010) 025-46-45,fkonovalov@yahoo.com,"a. Naberezhnye Chelny, w. Land reclamation, d. 3/7 p. 90, 219861",24130,41708,F,,92021,,
+631,Kharitonov Adam Feoktistovich,"Nogliki, ALL. People, d. 224, 031 641",81768583438,svjatopolk_71@hotmail.com,"n. Suntar Str. Construction, d. 2 064 461",31765,42428,M,235948,72430,1,
+632,Lyudmila G. Pavlov,"d. kirovsk (Lenin.), Acad. Rowan, d. 6 k. 853, 577 570",+7 (850) 559-81-61,zshcherbakov@mail.ru,"Art. Ramenskoye, w. Kosmodemyanskoy, d. 7, 474,628",34026,42965,F,,75941,,1
+633,Noskov Olympics Romanova,"from. Holmogory, pr. Nikitin, d. 97 p. 835, 481060",8 (006) 504-43-94,feoktistjudin@mail.ru,"Art. Rostov-on-Don, Embankment. Vladimir, d. 468 to. 5/2, 313 712",33212,42623,F,139287,85259,1,
+634,Isot Feofanovich Kulagin,"n. Turuhansk Str. Azovskaya, d. 8, 637 676",+7 (263) 458-4981,komarovasinklitikija@mail.ru,"from. Smolensk, ALL. Krylov, d. 80 to. 31, 580 082",35350,43793,M,196554,85230,1,
+635,Gerasim V. Ponomarev,"n. Ozery ALL. East, d. 6, 954,575",+7 685 886 8959,osip_73@yahoo.com,"COFO Kataysk blvd. Poplar, d. 610, 602805",24061,43722,M,,102616,,
+636,Krylov Moses Efremovich,"d. Nevelsk, w. Chapayeva, d. 4 k. 4/1 657565",+7 (772) 833-67-75,molchanovprokl@gmail.com,"from. Ulyanovsk, ALL. Flower, d. 68 495 881",25607,41070,M,,74547,,1
+637,Denisov Zinaida Vladislavovna,"a. Olenek, ALL. Cossack, d. 5 to. 68, 887 479",+7 709 230 65 18,radislav_1990@yandex.ru,"Art. Kimry, w. Sennoe, d. 2/8 in. 1/4, 733 292",23541,42624,F,,73075,,
+638,Evdokia Oskarovna Vasilyeva,"a. Vyborg, ALL. Shock, d. 7 to. 272, 175 352",8 (589) 002-49-02,mamontovalukija@hotmail.com,"from. Usinsk, trans. Nagorny, d. 4/2 in. 90 268 019",25552,42666,F,273733,92724,1,
+639,V. Yakovlev Lukiya,"Art. Solikamsk, nab. Edible, d. 56 to. 65, 083 722",8 253 024 5547,erofe_1982@mail.ru,"d. Tymovskoye, pr. cedar, d. 3/5, 885,183",37007,40998,F,136121,87776,1,
+640,Irina Sidorova Timurovna,"COFO Tynda, bul. Floatable, d. 1 k. 27, 551 031",8 561 602 03 81,njudina@mail.ru,"COFO Jurowski, w. Kirova. 314 to. 4, 540,986",26516,42615,F,,81639,,1
+641,Alexandrov Agatha Igorevna,"COFO Birobidzhan, trans. Tolstoy, d. 78 in. 2/1 185136",8 (777) 914-7473,titsuhanov@rambler.ru,"from. Krasnoyarsk, trans. Field, d. 2/5 p. 13, 338060",23523,42464,F,,71434,,1
+642,Yakov Ryabov Ignatovich,"d. Chatou, nab. Sholokhov, d. 7/2 in. 381 773 906",+7 005 848 3926,viktorefimov@rambler.ru,"from. Pavlovsky Posad, trans. Krasnodar, d. 252 to. 8/4, 653 210",36125,43231,M,166691,96079,1,
+643,Dementiy Chernov Bronislavovich,"n. Uraj, pr. Thalmann, d. 6 pp. 6/2 874852",+7 (737) 388-63-42,sofron44@yahoo.com,"n. Arsenyev, w. DEN, e. 1/1 360230",23478,41146,M,,64414,,
+644,Casimir Bogdanovich Nosov,"COFO Nefedova Str. Aviation, d. 34 k. 8/2 218036",85791697218,zahar_2013@yahoo.com,"d. Kamensk-Uralsky, nab. Mechanical, d. 48 p. 8/4, 973 679",27541,41888,M,119634,95911,1,
+645,Martha Kuzminichna Krasil'nikova,"Vladikavkaz, ul. Tomsk, d. 94 p. 88, 307563",8 282 911 87 78,ipati19@yandex.ru,"Art. Berezniki, nab. Gully, d. 59, 793 769",31484,42310,F,,69809,,1
+646,Matveev Frol Dem'yanovich,"d. Toksovo Str. Griboedova. 87, 850 173",8 (675) 358-9845,milovan_1979@hotmail.com,"d. Noginsk (Mosk.) ALL. 60 years of the USSR, d. 8, pp. 13, 962 028",32719,41680,M,225492,71618,1,
+647,Ekaterina Ignatieff Oskarovna,"from. Kanev, trans. Nakhimova d. 1/4 p. 8, 047 417",+76104344274,ermakovaglafira@mail.ru,"Lesnoy (Sverd.), trans. Bird cherry, d. 8/4, 450 190",36169,41669,F,,74801,,1
+648,G. Mukhin Ladimir,"Yuzhno-Kurilsk, trans. West, d. 6/6 p. 5/8, 789 250",+7 331 810 9586,seliverst27@yahoo.com,"from. Zavyalikha, ALL. October, d. 8/5, 835 098",33427,42275,M,,73529,,
+649,Konstantin Stepanov Dem'yanovich,"n. Belomorsk, ALL. Proletarshaya, d. 8, 503 119",8 (332) 732-5670,ribakovmakar@yandex.ru,"COFO Olenek Str. Odessa, d. 309 p. 2/6, 215 337",23237,41163,M,271462,58718,1,1
+650,Shestakova Lyudmila Afanasyevna,"d. Shatura, ALL. Griboedova. 87 pp. 9, 860 649",+76888765643,varlaam_28@yandex.ru,"d. Vsevolozhsk, trans. Average, d. 44 in. 2/2 443027",24713,43147,F,,92639,,
+651,Seliverstov Ambrose Davidovich,"from. Kyshtym, ALL. Chapayeva, d. 1 k. 58, 225386",+7 413 344 34 66,parfen2008@yahoo.com,"d. Samara, ul. Martha 8, d. To 6. 7, 089,861",30159,42456,M,,103310,,
+652,Kovalev Philemon Aksonovich,"a. Kataysk, w. Superior, d. 301 to. 6, 480,114",+7 (550) 507-2462,matveevnikola@rambler.ru,"a. Salsk, nab. Trinity, d. To 8/8. 57 470 699",27486,43324,M,221972,90660,1,
+653,Eugene Sysoev Makarovna,"Art. Vladivostok, ul. Anniversary, d. 61, 460 986",8 220 171 91 27,sofon_73@rambler.ru,"n. Toksovo, bul. Green, d. 146 pp. 73, 711 788",24609,40993,F,,65904,,1
+654,Mr. Dement'ev Kir Fadeevich,"a. Tolyatti, w. 60 years of the USSR, d. 3/1, 442 660",+7 (785) 917-9149,baranovapelageja@mail.ru,"Mr. Kulunda, nab. Suburban, d. 3, 299168",36787,41665,M,186876,80032,1,
+655,Izyaslav A. Yakushev,"from. Magadan, trans. Rostov, d. 282, 096 641",+7 (776) 484-8243,mnikiforova@hotmail.com,"Art. Asha, trans. Station, d. 589 to. 9/1 695016",30300,42113,M,,111214,,1
+656,Eugraph Gordeevich Shashkoff,"Art. Bronnitsy, nab. Teacher, d. To 7/5. 250, 554 871",+7 777 552 97 95,bsidorova@yandex.ru,"a. Nizhny Tagil, ALL. Azure, d. 6/9, 963 132",33062,43647,M,178191,89954,1,
+657,Kudryashov Lyudmila Efimovna,"a. Kaluga, trans. Seaside, d. 15, pp. 677, 935 961",+7 (477) 835-8327,tihon59@hotmail.com,"from. Stary Oskol, etc.. Spartacus, d. 4, pp. 126, 750 828",27259,43314,F,,96960,,
+658,Kseniya Osipova Pavlovna,"COFO Andreapol blvd. Slavic, d. 7/3, 138023",8 440 515 8413,poljakovfedor@yahoo.com,"d. Sergiev Posad, pr. Tsetkin Clara, d. 91 k. 6/5, 639,375",24383,41629,F,167793,93791,1,1
+659,Agatha Danilovna Maslov,"n. Voronezh, bul. Snow, d. 399 p. 8/2, 917 450",+7 682 593 10 42,aleksandra_64@hotmail.com,"Ryazan, w. Vatutin, d. 4/6 in. 894 130 731",32342,42928,F,,83198,,
+660,Raisa Rusakova,"COFO Okhotsk, bul. Kolkhoz, d. 577, 206967",+7 (503) 674-7926,bolshakovanonna@yahoo.com,"n. Priosersk Str. Rosa Luxemburg, d. 48, 643 441",27473,43362,F,,87782,,
+661,Ishmael Danilovich Chernov,"a. Poyarkovo, trans. Bulk, d. 7/8, 673 248",+7 868 144 9989,zoja_69@gmail.com,"Art. Balaam, w. Aspic, d. 1 062 543",23890,43177,M,199751,76893,1,
+662,Koshelev Leo Fokich,"from. Operate, pr. Labor, d. 4/3 p. 7, 859,131",8 (175) 402-60-25,natan_1985@hotmail.com,"n. Usman, pr. Siberian, d. 9/3, 554,569",29270,42452,M,,102330,,
+663,Claudia Simon Boleslavovna,"a. Taishet, w. Komarova, d. 94, 833 783",8 (320) 113-07-13,martjan1972@gmail.com,"a. Severouralsk, nab. Sand, d. 5/1 052331",35864,43521,F,,66358,,
+664,Alevtina Kuznetsova Vladislavovna,"n. Tompa, ALL. Shady, d. 489 to. 47 729 324",+72106551959,nikodim_08@yahoo.com,"Art. Bodaibo, ALL. Puteyskaya, d. 3 to. 89, 234690",33282,42886,F,239508,73184,1,1
+665,Groin T. Zakharov,"Art. Bottom, bul. Work, d. 7, p. 100, 131957",+7 374 191 7450,vasilisa2010@rambler.ru,"a. Shamar, bul. Pasture, d. 8, 076 551",37357,42927,M,207601,69503,1,1
+666,Guryev Proclus Matveevich,"d. Obninsk, pr. Steppe, d. 5 pp. 30, 155 431",8 852 581 42 59,lukija_64@yandex.ru,"n. Kalachinsk, w. Bridge, d. 148 pp. 559, 263 028",30533,43345,M,,79749,,
+667,Bobylev Lyubosmysl Vilorovich,"from. Valdai, bul. Club, d. 91 in. 5/9, 329 677",84205609575,mechislav_1983@yandex.ru,"from. Kabansk, ALL. Frunze, d. 7 k. 2 752 438",28581,43572,M,,64147,,1
+668,Selivan Zhanovich Doronin,"Mr. Whalen Street. Sovkhoznaya, d. 7/2 in. 987 903 693",+74208929625,varfolome_33@rambler.ru,"n. Gelendzhik, w. Steppe, d. 9/9 in. 6/3, 752 791",26508,41252,M,164563,72018,1,1
+669,Victoria V. Panova,"Yeniseisk, trans. Sakhalinsky, d. 1/8 p. 1, 724,696",+79204854003,azarigalkin@yahoo.com,"d. Smolensk, w. Port, d. 5 k. 5/4 876197",28734,42676,F,291262,104722,1,
+670,Sofia Oskarovna Emelyanova,"d. Ryazan, w. Settlement, d. 3, 453,267",+71776378451,julija2000@rambler.ru,"Rubtsovsk Str. Lazo, d. 97 k. 5/6 160361",24793,43158,F,183399,86751,1,1
+671,Tsvetkova Tatiana Pavlovna,"Art. Kolomna, etc.. Kochubey, d. 88, 768 784",8 (293) 846-70-73,haritonchernov@gmail.com,"n. Ishim Street. Voykova, d. 2 p. 68, 210200",25163,42625,F,107049,90384,1,1
+672,Victoria Fomina Kuzminichna,"Chebarkul, ul. Fizkulturnaya, d. 39 to. 3 946 109",8 (245) 255-95-00,olimpinikonov@rambler.ru,"d. Shelagontsy blvd. Borovoj, d. 9/7, pp. 2, 315695",30283,43676,F,229038,104548,1,
+673,Ms Shubina Emilia F.,"Art. Kaliningrad, trans. Bulk, d. 303, 111 728",8 (754) 426-8771,moise_1972@yandex.ru,"a. Severouralsk, bul. Krasnogvardejskiy, d. 8 pp. 54, 888 439",36848,43075,F,,70742,,1
+674,Semenova Anna A.,"COFO Novy Oskol, etc.. Odessa, d. 370 p. 3/6, 720 019",+70975262223,birjukovtihon@rambler.ru,"n. Istra, ALL. Red Army, d. 9/6, 077 033",29160,41050,F,157699,56103,1,1
+675,Titus V. Sergeev,"n. Kizhi, nab. Working, d. 63, 140206",+7 427 118 43 22,kornil1973@yahoo.com,"d. Volokolamsk, trans. District, d. 46 pp. 481, 157 042",27315,42409,M,,92985,,
+676,Eupraxia Svyatoslavovna Filatova,"n. Alapaevsk, pr. Spa, d. 76 p. 6/7 686371",8 419 363 53 73,zikovvjacheslav@yahoo.com,"COFO Ash Street. Lilac, d. 71 to. 1 345 341",33203,41843,F,,77364,,
+677,Sylvester Trofimovich Mamontov,"Petuhovo, nab. Maple, d. 7, p. 6, 812,331",+73004177560,lebedevapraskovja@gmail.com,"Birobidzhan, trans. Minsk, d. 964 to. 6/3, 688 800",25965,42231,M,,69035,,
+678,Roman Kulakov Efstafevich,"d. Chermoz, trans. Bolshevik, d. 634, 233 188",8 (716) 573-62-00,luka_1977@mail.ru,"COFO Izberbash, pr. Seaside, d. 4 k. 3/4 496991",24057,43318,M,149579,88743,1,1
+679,Sinklitikiya A. Yemelyanov,"a. Pushkin Str. Sedova, d. 6/3 p. 9, 757 269",+7 935 640 50 01,bazhen1971@yahoo.com,"COFO Kolpashevo, nab. Lazo, d. 99 p. 91, 168722",29330,41349,F,194233,66404,1,
+680,Taisiya Zakharovna Popova,"from. Kimry, pr. Bridged, d. To 6. 16, 249 064",+7 (379) 051-5610,martinovevdokim@yandex.ru,"Art. Makushino blvd. Allied, d. 82, 314 854",32420,43427,F,,83291,,
+681,Kryukov Olga A.,"Art. Uglegorsk, ul. Krasnopartizanskaya, d. To 9/6. 5, 518034",+7 (768) 154-05-64,jlihachev@hotmail.com,"Mr. Krasnoural'sk, w. Kalinina, d. 7/6, 815 849",35367,43589,F,144046,96136,1,1
+682,Elisha Zhoresovich Davydov,"d. Mostovskoy, pr. Industrial, d. 71 pp. 566, 293 822",8 (411) 412-04-85,martjan33@gmail.com,"COFO Cherkessk, w. Kiev, d. 9 pp. 4/5, 358797",29475,41134,M,,106784,,
+683,Seliverstov Ustin Efimevich,"n. Syzran Street. Pleasing, d. 7/5, pp. 491, 283 963",8 780 104 55 64,jaropolk_58@mail.ru,"n. Gubkin, pr. Rowan, d. 385 to. 5, 879,216",22781,42959,M,,69990,,
+684,Antonov Guri Terent'evich,"n. Chegem, trans. Revolution, d. 127, 323918",8 (094) 959-44-21,komarovemil@hotmail.com,"a. Yurovsky, nab. Kharkov, d. 2/3 894332",36402,42640,M,,69317,,1
+685,Onufry I. Vorontsov,"from. Galitch, pr. Foundry, d. 59 to. 656, 277 352",8 (770) 262-3719,bloginov@hotmail.com,"a. Rebriha, ALL. Ostrowski, d. 771 to. 7 241005",36828,42164,M,,76115,,1
+686,Erofei Elizarovich Galkin,"p. Lazarevskoye, bul. Levanevskogo d. 8, 852 551",8 956 205 7443,aleksandr_2005@yandex.ru,"k. Sensation, pr. East, d. 36 p. 9/4, 839,604",37335,41632,M,160205,79372,1,
+687,Euphrosinia Antonovna Strelkova,"Mr. Kezhma blvd. Space, e. To 3/7. 53 341 060",+7 (717) 125-8760,afanasevfedor@gmail.com,"Art. Kurilsk, ALL. Krasnoflotskaya, d. 2 pp. 9, 811 850",37266,42446,F,,84523,,
+688,Kopylova Anna Ilinichna,"Zhukovsky, bul. 50 Years of Victory, d. 4/5 in. 574 000 779",+7 (840) 651-08-51,elizarkabanov@mail.ru,"Art. Kansk, ALL. Leningrad, d. To 4/5. 8, 855 358",27032,42606,F,270931,101452,1,1
+689,Taisia ​​Galkina Matveevna,"d. Votkinsk, trans. Vakhitov, d. 7 to. 52, 542 518",8 301 680 8735,ljudmila_06@rambler.ru,"Art. Dvina emb. Fizkulturnaya, d. 34, 768 694",25936,40976,F,108730,77745,1,
+690,Nazar Fokich Fokin,"COFO Turuhansk Str. Geologists, d. 21, 725 770",+7 (626) 576-4060,agap1987@rambler.ru,"from. Novorossiyka, w. Krasnodar, d. 64 to. 171, 769 117",30464,42187,M,170328,87412,1,1
+691,Comrade. Shashkoff Laurus Vikentievich,"n. Teriberka pr. Turgeneva, d. 22, 394020",8 634 911 3790,doroninapelageja@hotmail.com,"d. Vyborg, w. Proletarskoye, d. 59 p. 5, 249311",24358,41924,M,179507,79527,1,
+692,Socks Ipatii Marsovich,"COFO Aginskoye (Zabayk.), Str. Baikalskaya d. 1 368 382",+7 210 962 5445,mili2001@hotmail.com,"Kyshtym, trans. Ermak, d. 286 to. 9/8 263736",31829,41290,M,244731,82039,1,
+693,Medvedev Agafon Bogdanovich,"Kirovsk (Moorman.) ALL. Aviation, d. 4/8, 962 798",8 385 237 38 07,kazimir54@yandex.ru,"n. Novocherkassk, ul. Blucher, d. 9 pp. 4, 549,154",29874,42398,M,,77192,,1
+694,Ruslan Trofimovich Sox,"e. Schmidt Cape, ALL. Cossack, d. To 3/9. 6, 296,284",8 (511) 197-1171,david28@yandex.ru,"COFO Ust-Ilim Str. University, d. 34, 767 588",29299,42421,M,,65538,,
+695,Sviatopolk Artemovich Lazarev,"Art. Moscow, MSU, bul. Goncharov, d. 31, 219422",+74928213730,abramovavera@hotmail.com,"a. Pinyega Str. People, d. 2 877 287",35344,42022,M,,92374,,
+696,Anatoly Isayev Averyanovich,"Art. Achinsk, pr. Karalenka, d. 8/7, 551019",+7 (143) 657-9791,efrem_1986@gmail.com,"n. Skovorodino lane. Martha 8, d. 786 to. 615, 256562",23433,41087,M,,74014,,1
+697,Shilov Jan Bronislavovich,"Art. Krimsk, ave. M.Gorky d. 7/1 127025",8 120 526 9353,adrian_21@mail.ru,"from. Morshansk, nab. North, d. 8/7, 282 959",23833,43129,M,,106944,,
+698,Kovalev Spartak Fedoseevich,"COFO Orsk, ALL. Minin, d. 2/4 in. 3 678 612",8 (165) 597-61-15,jaropolk_73@hotmail.com,"d. Berezniki, trans. Zaporozhskiy, d. 693 p. 4, 117,048",24933,41369,M,,76049,,
+699,Kirillov Zinaida Leonidovna,"a. Yegoryevsk, ALL. Dance, d. 9/5 in. 63 969 825",+7 (796) 722-57-44,ivan75@rambler.ru,"COFO Alagir, trans. Lakeside, d. 7/9, 303 919",28848,41794,F,,69745,,1
+700,Aksenov Pelagia Vadimovna,"Tosno, trans. Commune, d. 4, 707,932",8 (490) 002-29-89,zrogov@yandex.ru,"Alagir, ALL. Blind, d. 1 k. 6, 804,356",36495,43518,F,,93093,,1
+701,Valentin Zhuravlev Valerianovich,"a. Chernyahovsk, nab. Morozova, d. 212, 156408",8 (829) 095-0619,ljubov_1997@yahoo.com,"Art. Amderma, nab. Karl Marx, d. 685, 502 893",33876,42038,M,147568,77252,1,
+702,Stanislav Karpov Eliseevich,"from. Listvianka (Irkut.), Bd. Gorny, d. 9 k. 8/5 396096",8 092 847 91 92,lev_1988@yandex.ru,"COFO Ryazan lane. Transverse, d. 364 pp. 796, 904 020",29818,43567,M,,74777,,1
+703,Antonov Zephaniah Eremeevich,"a. Chekhov, ALL. Novgorod, d. 837 to. 93, 441944",8 992 747 59 22,galaktion_1978@yandex.ru,"from. Usolye Siberian, w. School, d. 4 to. 454, 400 350",27948,42029,M,,44879,,1
+704,Julia Svyatoslavovna Turov,"Art. Baltiysk, ul. Black Sea, d. 2 pp. 5/9 763657",8 (490) 220-59-38,usharapov@yandex.ru,"d. Usinsk, st. Rainbow, d. 4, pp. 363, 756 392",36577,43499,F,,90445,,
+705,Panova Larisa Albertovna,"Art. Olenek blvd. Azovskiy, d. 4 pp. 45, 631 803",+7 (276) 515-7714,irakli_2009@hotmail.com,"COFO Suzdal, w. Schmidt, d. 2/9 p. 1, 722,555",28845,42394,F,,56482,,
+706,Ms Dmitrieva Barbara Nilovna,"COFO Gudermes, bul. Linear, d. 4, p. 5, 583,002",+7 (689) 526-6603,bojangordeev@mail.ru,"a. Saransk, trans. Grandma, d. 513 to. 429, 563 511",31784,41274,F,289609,106849,1,
+707,Maslova Irina Afanasyevna,"Art. Baksan, w. Fadeyeva, d. 72 to. 31, 143 175",+75774017171,darja_47@yahoo.com,"d. Surgut (Hunt.), str. Glinka, d. 33 to. 48, 259133",23449,41458,F,181309,77602,1,
+708,Love Rudolfovna Fedoseyev,d. Shatki Str. Metallistov d. To 654. 2 801 135,8 876 451 89 56,bermakov@mail.ru,"n. Chrysostom, w. Autumn, d. 44, 383 488",26198,42564,F,,110591,,
+709,The professor Eduard Kuznetsov,"Mr. Susuman, nab. Russia, d. 521, 473 219",8 543 406 8352,anisim_1970@yandex.ru,"from. Cheboksary, ul. Mayakovsky, d. 6/8, 288 230",26952,41142,M,116122,110219,1,1
+710,Irina Blokhin,"Art. Ust-Orda, bul. Volzhsky, d. To 4/5. 4, 519,818",+7 (823) 056-41-86,rodionovaraisa@hotmail.com,"Art. Bologoye, nab. Gastello, d. 37 p. 8/5, 793,243",31110,41581,F,236619,69432,1,
+711,Fishermen Love Tarasovich,"COFO Upper Tagil, ALL. Long-distance, d. 7/2, 862 335",8 (664) 107-32-44,ignatovpolikarp@hotmail.com,"n. Elbrus, nab. Ostrovsky, d. 7/7, 626 710",34300,41927,M,170041,105375,1,
+712,Yemelyan Demidovich Sharapov,"COFO Belogorsk (Amur.), Str. Karalenka, d. 97 k. 7/2 745931",8 479 731 48 31,fomichevaoktjabrina@yandex.ru,"from. Hot Key, nab. Paris Commune, d. 832 pp. 963, 308 438",28126,43652,M,,87387,,
+713,Arkhip Eliseevich Zhuravlev,"from. Suzdal, pr. Tukaya, d. 4 to. 49, 349 224",+7 (216) 897-7051,uvarovaagafja@gmail.com,"from. Chelyabinsk, pr. 30 Years of Victory, d. 452 to. 850 485 369",37187,43178,M,,82306,,1
+714,Vorontsov Demid Ilyasovich,"d. Achkhoy-Martan, w. Vodnikov, d. 9, 130955",8 (873) 919-00-84,sidorovaalevtina@yahoo.com,"of Barguzin lane. Ash, d. 9/8, 070 501",29667,41881,M,229472,99892,1,
+715,Gennady I. Loginov,"a. Naberezhnye Chelny, w. Marx, d. 744, 065 326",+7 (841) 892-4950,valentin_66@mail.ru,"COFO Ishim embankment. Michurina d. 97 p. 45, 539353",30421,43431,M,,76856,,
+716,Mr Volkov Gleb Guryevich,"Art. Ivdel, w. Emb. 98 to. 86, 077 940",+72918871843,hvorontsova@yahoo.com,"d. Axhtubinsk w. Tereshkovoy, d. 2 to. 306, 135913",23336,41630,M,229820,88720,1,1
+717,Gordeyev Sebastian Zhanovich,"n. Severo-Kurilsk, ALL. Tomsk, d. 3/6, 349230",8 757 250 77 89,maksimovaalla@yandex.ru,"from. Lyantor, w. Vegetable garden, d. 879, 469 837",29163,42737,M,263423,75217,1,
+718,Lubomir Aaranovitch Sobolev,"COFO Arkhangelsk, Embankment. Commune, d. 920 p. 1/3 463548",+7 179 441 4778,zinovi_82@yandex.ru,"Art. Soviet Street. Leo Tolstoy, d. 28, p. 2/5, 014 863",32702,43058,M,,74159,,1
+719,Molchanov Fedot Teimurazovich,"Asha, bul. Makarov, d. 2 pp. 8/2 747172",+7 783 896 0963,solovevaolimpiada@rambler.ru,"n. Rubtsovsk Str. February, d. 6, 689,951",31121,42991,M,,96736,,
+720,Oia D. Voronov,"from. Naberezhnye Chelny, bul. Stakhanovsky, d. 92 p. 3, 793,367",8 676 897 98 06,vera80@yahoo.com,"a. Timashevsk, st. Priozernaya, d. 8 pp. 39, 091 852",32080,42099,F,,105820,,1
+721,Akim I. Guriev,"d. Ruza, ul. Kolhoznaya, d. 2, 153680",+7 (902) 772-4317,boleslav02@rambler.ru,"a. Mostovskoi Str. Rainbow, d. 2/2 p. 11 836 354",32626,43679,M,,66801,,
+722,Miroslav Fedoseevich Kudryashov,"a. Syzran, ALL. Gaidar, d. 52 to. 46, 981 303",8 846 133 01 26,porfiri1979@yahoo.com,"g. Ivanovo, bul. Rucheyny, d. 7/4, pp. 916, 067 774",35621,42094,M,,62586,,
+723,Blokhin Dobromyslov Zakharievich,"Saransk, trans. Alder, d. 7, pp. 41, 875 562",+7 (126) 250-4991,mironovkuzma@mail.ru,"n. Voskresensk, trans. Volzhsky, d. 434, 250957",29162,43676,M,,76324,,
+724,Andronicus Artemovich Arkhipov,"Verkhnyaya Penzhino, nab. Halturina, d. 4/9, 365 158",+7 522 099 89 91,efremovguri@rambler.ru,"a. Minusinsk, nab. Maple, d. 822 to. 52, 333 638",28708,42754,M,176030,84235,1,
+725,Yermil Demidovich Konstantinov,"COFO Teriberka Str. Poselkovaya, d. 4 116542",+7 (414) 078-9051,bespalovmir@yandex.ru,"Art. Alapaevsk, w. Chemists, d. 5 to. 948, 827 677",24789,42205,M,,96013,,1
+726,Nazarov Andronicus G.,"k. Rebriha, pr. Panfilova, d. 2/6, 293992",+7 (774) 595-66-70,danilovamilitsa@yahoo.com,"from. Bely Yar (Tomsk.) Lane. Yield, g. To 8/9. 9, 030300",26054,43658,M,,58925,,1
+727,Ms Tsvetkov Emilia Ruslanovna,"a. Zelenogorsk (Lenin.), Str. Rosa Luxemburg, d. 57 pp. 9, 831 694",+7 (763) 917-8320,kudrjashovarhip@yahoo.com,"n. Kalach-on-Don, trans. Road, d. 12 pp. 806, 092 339",24937,42849,F,,87246,,
+728,Lukin V. Nahum,"n. Alapaevsk, bul. Rainbow, d. 7 k. 9/5, 894,605",86960471178,afanasiivanov@yahoo.com,"d. Krasnogorsk (Mosk.), str. Novgorod, d. 5.6 pp. 52, 586 445",31478,41959,M,133913,76311,1,
+729,Comrade. Balls Vissarion A.,"COFO Apsheronsk, nab. Blucher, d. 27, 830 481",+7 067 457 29 76,evgraf_36@yandex.ru,"Art. Plesetsk, nab. Neftchiler d. 7/2 p. 8, 246 397",35849,43057,M,175993,65494,1,1
+730,Isaev Daniel Avdeevich,"Art. Kropotkin (Krasnod.) Emb. Suburban, d. 8/3 p. 4/1, 932 655",8 (360) 054-82-02,dorofeevaskold@gmail.com,"n. Onega, trans. Large, d. 567 to. 5/9, 687 804",22351,42771,M,,84632,,1
+731,Ershov Claudia G.,"k. Irbit, pr. Schorsa, d. 9/4, 033,959",+7 273 786 9154,ljudmila1977@yandex.ru,"k. Korsakov, pr. Tolbukhina, d. 63 k. 9, 627 615",27653,41680,F,,87620,,1
+732,Matveev Trifon Filimonovich,"COFO shaky street. Anniversary, d. 2 k. 9, 416158",+7 019 796 30 00,markkazakov@hotmail.com,"n. Asbestos, bul. Deputy, d. 527 pp. 27, 134 787",23711,42396,M,,79712,,1
+733,Fedoseyev Faina Stanislavovna,"from. Kamyshin, w. Coastal, d. To 2/4. 71, 292929",+7 (385) 281-56-24,ivanovavasilisa@yandex.ru,"a. Inta, bul. Pushkina, d. 16 to. 93, 975 868",37462,42208,F,290177,53003,1,
+734,Martynov Agatha Timofeevna,"Karachaevsk, nab. Mira. 1 pp. 1/5 581287",+7 (504) 940-5444,kasjansorokin@yahoo.com,"n. Essentuki, bul. Labor, d. 4/1, 653 522",37515,41212,F,,74660,,
+735,Samson Feoktistovich Safonov,"COFO Elista, nab. Shaumyan, d. 4/7 pp. 997, 938 960",8 703 822 82 64,janvishnjakov@mail.ru,"Art. Glazov, ALL. Budyonny, d. 63, 309 605",34595,41899,M,182274,87735,1,1
+736,Mr. Kapustin Radislav Yevseyevich,"d. Lotoshino lane. Revolution, d. 428 pp. 8, 340 058",+7 (792) 163-34-58,aleksandra_1974@yandex.ru,"from. Belogorsk (Amur.) Emb. Geologists, d. 60 pp. 527, 200 432",29466,43684,M,,68443,,
+737,Suvorov Iraida K.,"n. Vilyuysk, nab. March 8, d. 75, 774 424",87988253554,marina31@mail.ru,"d. Ust-Kalmanka, w. Installers, d. 3, p. 8, 412881",29581,43375,F,241115,79924,1,1
+738,Cats Bartholomew Z.,"Mr. Murashi blvd. Vavilova,. 2/4 p. 5/2, 685 459",+74090445044,ernest2004@yandex.ru,"COFO Priozersk, bul. Paris Commune, d. 2 455 760",26945,43124,M,103440,84596,1,
+739,Socks Agathon Daniilovich,"d. Turukhansk ALL. Voykova, d. 23, pp. 379, 472 326",8 (420) 874-3385,kovalevaangelina@hotmail.com,"Art. Aleksin, pr. ZHuravleva, d. 5 to. 900, 814 330",34007,41409,M,,72041,,
+740,Molchanova Elena,"Mr. Olenek, trans. Suvorov, d. 110 p. 557, 461132",88960899534,dobroslav_2005@rambler.ru,"COFO Kashira, nab. Moonlight, d. 3/3 p. 7/9, 024 923",27050,41700,F,,78239,,1
+741,Zinoviev Valery Makarovna,"from. Monchegorsk, nab. Kazan, d. 1 p. 576, 259175",8 553 432 9903,mihail36@hotmail.com,"n. Amursk Str. Ivanovskaia, d. 420 p. 3, 732,069",37167,42415,F,190077,88027,1,1
+742,Krasil'nikova Sinklitikiya Vladislavovna,"Art. Sukhinichi, nab. The station, d. 5/3 p. 8/3, 930 958",+7 519 615 90 81,fturov@gmail.com,"from. Lagan, bul. Border, d. To 189. 3 965 250",22526,41053,F,249092,88001,1,1
+743,Marina V. Lobanov,"from. Anadyr, pr. Bunker, d. 4/3 151170",+7 (283) 894-95-22,nifont_71@yahoo.com,"Art. Magas, ALL. Hope, d. 415 p. 6/2 878358",31470,41335,F,,69641,,1
+744,Mitofan Ignatievich Vladimirov,"Art. Serednikovo, ALL. Revolutionary, d. 4/9, 432 975",8 (180) 590-2354,ostap63@rambler.ru,"from. Odintsovo, nab. Chaikinoi, d. 5/5, 809 061",32577,42661,M,112596,77036,1,1
+745,Nuts Stanimir Edgarovich,"a. Rybinsk, trans. Proletarskii, d. 5 k. 5, 217,192",83797030630,longinsharapov@gmail.com,"Art. Yar-Sale, pr. Kutuzova d. 8/1 989020",22585,42856,M,,69046,,1
+746,Naina Gennadievna Kolobov,"a. Valdai lane. Floatable, d. 3/3, 758 557",8 225 727 18 62,izotfedoseev@rambler.ru,"a. Bomnak blvd. Privokzalny, d. 69 p. 4 969 430",23746,42680,F,,71595,,
+747,King James Fedoseevich,"n. Mostovskoy, pr. Polar, d. 455, 256 851",+7 (664) 230-6077,fedorovanikita@mail.ru,"n. Vladivostok, ALL. Nakhimova d. 7 pp. 7/9, 155,314",37017,40982,M,233850,76667,1,
+748,Vasiliev Hilarion Vladilenovich,"d. Nalchik, bul. Nagorny, d. 2 953 326",8 883 007 0298,igor1971@rambler.ru,"COFO Wasp, trans. Club, d. 182, 656 706",32368,43225,M,193559,67847,1,1
+749,Seliverstov Volkov,"d. Sol-Iletsk, bul. Schmidt, d. 907 pp. 97, 913 619",+78757772722,solomon_1975@rambler.ru,"Art. Yakhroma, w. Deputatskoye, d. 71 p. 7, 826,682",35486,42094,M,,99174,,1
+750,Gavrilova Agatha Yulyevna,"COFO Uchaly, ALL. Semashko, d. 6/3, p. 561, 261715",82843954711,medvedevluka@yandex.ru,"n. Ruza, trans. Lyavonau, d. 5 k. 5, 151,051",22084,41122,F,,110256,,
+751,Onufry Davidovich Teterin,"Asha, ul. Schorsa, d. 5 pp. 3/3 885897",8 (586) 136-18-91,zhukovaanzhelika@yandex.ru,"Art. Troitsk (Mosk.), Str. Serafimovicha, d. To 6. 20, 001 932",34518,41225,M,,95574,,
+752,Sidor Nikonov V.,"from. Pechenga, ALL. Bazhova, d. 381 pp. 140, 323 982",8 (121) 288-25-80,milennovikov@hotmail.com,"d. Kizel, bul. Popov, d. 4/9, pp. 47, 406074",33098,43694,M,299768,87582,1,
+753,Nathan Nosov Filimonovich,"from. Birobidzhan, bul. Spring, d. 53 pp. 510, 884 319",8 (625) 450-3822,ivanovagalina@yandex.ru,"Hasan, trans. The trade union, d. 8/8, 582 526",28331,42759,M,,106359,,
+754,Bartholomew Avgustovich Subbotin,"n. Lotoshino lane. Krupskoi d. 31, 516 464",+7 (788) 158-2088,mefodi_2016@mail.ru,"n. Semlyachiki blvd. Sports, d. 494 p. 6, 033,594",33932,41693,M,,73769,,1
+755,Oleg Sidorov Iosipovich,"d. Narym, pr. Hay, d. 640 to. 3 377915",8 (867) 544-60-14,azari1971@gmail.com,"Art. Tsimlyansk Str. Lilac, d. 729 pp. 79, 379 740",29952,42012,M,,88377,,1
+756,Tatiana Ershova Danilovna,"Petuhovo, trans. Gagarina, d. 665 pp. 404, 304 857",8 668 638 4420,wshchukin@yahoo.com,"Art. Urengoj, pr. Der, d. 54 to. 7, 035,886",31418,41256,F,,75950,,
+757,Shestakov Regina Filip,"a. Chegem, w. Shahterske, d. 25, 605 764",8 963 995 06 07,lknjazev@rambler.ru,"n. Kachkanar, nab. Socialist, d. 323 pp. 316, 467 169",32877,42262,F,,95648,,
+758,Mironov Pimen Artemyevitch,"d. Kalach-on-Don, trans. Grandma, d. 17 to. 276, 169 739",8 647 854 7484,evdokimjudin@yandex.ru,"d. Tot'ma Str. Olympic, d. 74 in. 828 318 173",34506,41082,M,,82212,,1
+759,Shooters Yuri Vilorovich,"from. Smolensk, w. Industrial, d. 1 087 898",8 (163) 066-95-72,orlovataisija@hotmail.com,"a. Arkhyz, nab. Medium d. 420 to. 286, 381133",29951,43038,M,,87829,,
+760,Elizabeth Stepanovna Guschina,"n. Kyshtym, w. Voroshilov, d. 3, p. 4, 312,891",87107733983,mbeljaev@gmail.com,"from. Kirishi, bul. Kuban, d. 9/6 in. 545, 434136",29746,42303,F,211980,71295,1,
+761,Evdokia L. Lebedev,"Art. Gus Crystal, ALL. Dobrolyubova. 124, 328660",8 138 537 3717,maksimiljan_1984@yahoo.com,"of Suntar, ALL. Rural, d. To 4/5. 35 783 012",27277,43033,F,210231,85359,1,1
+762,Galina Dmitrieva Tarasovna,"from. Vuktyl blvd. Birch, d. 9 pp. 749, 279 457",8 (420) 007-6843,jdenisov@yandex.ru,"Art. Adygeysk, pr. Greenhouse, d. 7/7 pp. 280, 967 652",35123,42195,F,104581,73752,1,
+763,Parfyon Evseevich Shashkoff,"Art. Solovki, trans. 9 January, d. To 5/2. 71 063 049",8 (405) 368-5660,galaktionpopov@gmail.com,"from. Ust-Dzheguta Str. Snow, d. 3, 301,463",29725,41780,M,250520,70599,1,
+764,Agata L. Frolova,"from. Ust-Orda, st. Sakhalinskaya d. 1/7 p. 7, 269,148",8 820 494 7177,ippolit_74@yandex.ru,"COFO Dolinsk, w. Gorky, d. 8/1, 455 605",37114,43442,F,,67714,,
+765,Valentina S. Kononov,"a. Divnogorsk, nab. Steppe, d. 1 k. 27, 472 661",8 (252) 013-3255,gerasimovaanastasija@rambler.ru,"from. Chulym, pr. Snow, d. 834 to. 68, 165 941",24115,42420,F,107236,92802,1,
+766,Stanimir Eremeevich Semenov,"Primorsko-Akhtarsk, w. Quiet, d. 4, 019,665",+7 629 850 34 58,olga50@yahoo.com,"COFO Kalyazin, ALL. Tomsk, d. 7 pp. 8, 618 304",24038,42657,M,,69334,,1
+767,Raisa Vladislavovna Rogov,"Art. Kamen-na-Obi, w. The labor, d. 7 to. 657, 222 228",8 134 444 48 72,samsonovleonti@hotmail.com,"n. Novomichurinsk Str. Postal, d. 518 pp. 92, 850 629",25905,42309,F,,119023,,
+768,Antonina Chernova Rudolfovna,"d. Meadows, nab. Yeniseyskaya, d. 910 to. 1 529 959",80097086166,ipati_03@yandex.ru,"a. Zhigulevsk, bul. Marsh, d. 610, p. 9/5, 061,919",30911,42024,F,,78368,,1
+769,Nikifor Dimitrijevic Zuev,"Cheremkhovo, nab. Trading, d. 3, p. 5, 557,237",+7 (595) 984-0545,davidovlavrenti@yahoo.com,"d. Uglegorsk, pr. Vidradny, d. 4/2, 338,540",27012,42665,M,,82872,,1
+770,Krasil'nikova Oia Timofeevna,"k. Chulym, pr. Ivanovskii, d. 8/7 p. 2 530 835",+7 (672) 934-0354,demidfilatov@yahoo.com,"a. Uglich, w. Stepan Razin, d. 74 in. 3/6, 508 993",34318,42169,F,199800,100765,1,
+771,Isaev Miroslav Isidorovich,"COFO Khimki, ALL. Marx, d. 7/9 p. 2 663 995",8 673 084 9861,natan_2017@mail.ru,"from. Ples, trans. Ryazan, d. 5/5, 693 919",30423,41229,M,,95652,,1
+772,Agata G. Shilov,"a. Kostomuksha Str. Altitude, d. 313, 276094",8 745 131 11 83,rogovaregina@rambler.ru,"from. Moscow, pr. Meliorativny, d. 3/2, 683 731",36278,42467,F,,71829,,1
+773,Xenia Vyacheslavovna Shiryaev,"a. Krasnoufimsk, ALL. Lacustrine, d. 4, 507,878",8 216 979 53 99,valentin_53@hotmail.com,"a. Great Ustyug, w. Trade, d. 329, 896 600",30026,43351,F,,82034,,
+774,Lazarus A. Alexandrov,"Strezhevoy, street. Road, d. 2 to. 782, 475 600",+7 (069) 647-33-85,ljubov_2002@gmail.com,"Taishet, etc. Tchaikovsky, d. 4/3, 029 669",33396,43013,M,142396,117211,1,
+775,Doronin Naina Ilinichna,"Art. Belogorsk (Amur.) Emb. Raspberry, d. 462 to. 756 535 537",8 549 649 28 14,foka1986@rambler.ru,"Art. Aginskoe (Zabayk.) Emb. Plekhanov, d. 1/7 p. 1/7, 718 916",31206,42925,F,138594,93526,1,1
+776,Panfil Vladlenovich Sokolov,"d. Aniva Str. Revolutionary, d. 63 p. 9/4, 262 120",8 (931) 246-3775,trofimovmaksim@yandex.ru,"Domodedovo, bul. Makarov, d. 4, 975,409",28388,41734,M,,69391,,
+777,Galkin Yevstigney G.,"n. Petrozavodsk, w. 70 years of October, d. 63 to. 828, 202900",+7 (118) 732-8885,solovevsaveli@hotmail.com,"d. Schelkovo, w. O.Koshevogo, d. 40 pp. 47, 867 509",27144,41622,M,,79403,,
+778,Pestles Selivan B.,"Ardon, trans. October, d. 593 to. 20, 967 270",+7 (126) 912-71-90,alevtina1986@mail.ru,"a. Vnukovo (meteost.), Str. Grandma, d. 53 to. 5, 954,138",34151,42639,M,,66987,,1
+779,Varvara Fedorovna Maslov,"COFO Gudermes ALL. New, d. 535, 470 657",+7 613 387 13 16,averki_34@yahoo.com,"Art. Shuia, pr. Harbor, d. 5, p. 5, 502,842",22387,41128,F,,66727,,1
+780,Dmitry Averyanovich Fedoseyev,"n. Ust-Kut, trans. Embankment. 9/2, pp. 570, 268 286",+7 728 123 9622,titovereme@yandex.ru,"n. Slyudyanka, trans. Karl Libknehta, d. 32 p. 79, 021698",29328,40950,M,112993,81199,1,
+781,Kuzmina Eupraxia Efimovna,"d. Kimry, w. Tulenin, d. 29, 118 244",8 (951) 865-25-95,novikovpolikarp@hotmail.com,"a. Yelabuga street. Caucasian, d. 8 to. 97, 972 528",32665,42243,F,,88557,,
+782,Fadei Vladislavovich Shchukin,"n. Kotel'nich, ALL. Linear, d. To 7/3. 66, 343154",+7 981 762 6341,kuznetsovoleg@yandex.ru,"Art. Shelekhov, bul. Parkhomenko, d. 486 pp. 330, 975 678",29903,42659,M,,77536,,1
+783,Irina Smith Artemovna,"a. Bronnitsy, ALL. Queen, d. 5/4, 728 382",83450262686,frolovjakub@yahoo.com,"Art. Kansk, w. Track, d. 7, p. 638, 108113",36361,43424,F,286427,83761,1,
+784,Mr. Gorbounov Yevstigney Benediktovich,"n. Yegoryevsk, trans. Bryansky, d. 8 to. 561, 179942",+74627075747,zmolchanov@gmail.com,"n. Elton, pr. Popov, d. 6.4 pp. 69, 608 704",28509,41836,M,,74866,,1
+785,Luchezar Davidovich Gavrilov,"COFO Zaraysk, ALL. Omsk, d. 8.5 pp. 25, 547 528",+7 466 820 03 42,matveantonov@hotmail.com,"Art. Nyagan, w. Serov, d. 9/4, 905 423",27456,41661,M,,99874,,1
+786,Larisa Rudolfovna Dorofeeva,"a. Sosnovy Bor, bul. Festival, d. 8/7, 018 097",86603919533,arhipovaivanna@gmail.com,"COFO Vorkuta, pr. Factory, d. x 6/5 in. 986, 765 707",26848,43461,F,,91562,,
+787,Dmitry Vinogradov Antipovich,"Art. Petropavlovsk-Kamchatsky, ALL. Road, d. 45 in. 3/6, 065 016",+7 729 835 67 83,vasilevinnokenti@yandex.ru,"COFO Volgograd, st. Space, d. 84, 049 091",26268,43548,M,,54543,,
+788,Lyubosmysl Afanasievich Baranov,"COFO Suzdal, pr. Sand, d. 806 to. 3/9, 351,535",+7 749 068 3275,kondratevamaja@mail.ru,"COFO Shelagontsy, trans. Fadeyeva, d. 57 to. 96, 367 586",22942,43156,M,,97352,,
+789,Konovalov Onufry A.,"COFO Rostov, w. Aerodrome, d. 63 in. 8/7, 048 921",+7 (431) 954-13-71,anikita_2005@mail.ru,"a. Rubtsovsk, ALL. Voykova, d. 84 p. 1/6 406103",27417,42478,M,,58347,,1
+790,Sigismund Kharlampovich Fomichev,"Art. Syzran, w. Quarry, d. 9/7 in. 38 823 265",+7 (489) 012-9882,pankrat2000@rambler.ru,"Roslavl, etc. Volodarsky, d. 2/1 in. 2/6, 568717",28586,41479,M,161565,83560,1,1
+791,Claudius Arsen'evich Nikiforov,"COFO Ulan-Ude, ALL. Shaumyana, d. 36, pp. 22, 642 700",+7 (093) 106-65-45,avksenti_49@gmail.com,"Onega, nab. Kurchatova d. To 5/3. 54 241 176",22475,42649,M,126071,76134,1,1
+792,Ovchinnikov Vlas Valer'yanovich,"n. Salekhard, trans. Cedar, d. 7/5, pp. 93, 921 012",8 (292) 755-53-75,psamolov@hotmail.com,"g. Kaluga, ALL. Timiryazeva d. 87, 017 551",23038,42450,M,,102918,,1
+793,Lidia Igorevna Dyachkova,"Vladimir, trans. Gogol, d. 1 p. 53, 473844",+7 396 394 63 97,aleksandrsemenov@rambler.ru,"from. Sarapul Str. 70 years of October, d. 81 in. 3/9, 429 764",29385,41762,F,,94812,,1
+794,Aksenov Lukiya Nilovna,"Art. Kashira, ave. Yunosti, d. 153 to. 5/4 307846",8 234 366 2849,eduard_04@gmail.com,"d. Meleuz, pr. 60 October, d. 60 in. 490 013 917",28831,42139,F,116837,85560,1,
+795,Stepan Filatovich Ravens,"n. Belokuriha, pr. Ogorodny, d. 244 pp. 580, 140 989",+7 (117) 958-0587,avgust_1985@rambler.ru,"Art. Lyubertsy, trans. School, d. To 437. 9 848 653",23104,43773,M,162320,84115,1,
+796,Zimin Agathon Vladlenovich,"Pevek, trans. Metallistov d. 2 k. 4/3 653721",+7 043 756 1229,bobrovljubosmisl@mail.ru,"Art. Barrow Street. Alder, d. 2/8, 759 716",28105,43242,M,256833,86789,1,
+797,Shchukin Eugraph Anisimovich,"g. Stupino, nab. Lacustrine, d. To 536. 9 752 282",+71713221447,kalininazoja@rambler.ru,"a. Zelenogorsk (Lenin.), trans. Zaporozhskiy, d. 611 pp. 8, 949 681",35861,43005,M,,72338,,
+798,Daniel Yang Eliseevich,"Penza, ul. Tselinnaya, d. 5, 725,645",+7 900 008 7749,moiseevagalina@rambler.ru,"d. Sayansk, bul. Technical, d. 6 k. 5, 145,861",28139,43338,M,121315,51950,1,
+799,Eliseev Vladlen Aksonovich,"Art. Yaroslavl, nab. Altai, d. 377, 687 778",+7 126 691 83 60,gorshkovavarvara@hotmail.com,"k. Kamyshlov, pr. East, d. 9/8 in. 610 753 532",29052,42854,M,,102552,,
+800,Peter Kolesnikov Arsenovich,"Art. Alexandrov, ALL. Spa, d. 19, 063 086",+7 (676) 524-35-10,krilovkliment@yahoo.com,"Art. Obninsk, w. Irkutskoye, d. 30 to. 1 926 928",23696,41597,M,188774,105706,1,
+801,Zhdanov Yefim Borislavovich,"Art. Temryuk, trans. 30 Years of Victory, d. 93 in. 76 401 442",8 413 741 69 70,hignatev@yahoo.com,"COFO Pskov, nab. Cultures d. 979 to. 25, 884 496",24064,43689,M,,71740,,
+802,Yevdokimov Ulyana Boleslavovna,"Art. Ketchenery, nab. Podlesnaya, d. 29, 017 984",+7 995 066 9818,mjasnikovfrol@gmail.com,"Art. Tymovskoe, trans. Festival, d. 5.4 pp. 94, 857 227",30462,43672,F,261166,67941,1,1
+803,Koshelev Vasilisa Stepanovna,"a. Severobaikalsk, nab. Linear, d. 91 to. 64, 860 506",8 (923) 140-75-25,fortunatgavrilov@mail.ru,"COFO Kungur, pr. Garden, d. 2 pp. 7, 099,592",29340,43297,F,164430,73055,1,
+804,Tarasov Bojan I.,"n. Roslavl, w. New, d. 79, 189577",+76124213532,medvedevataisija@yandex.ru,"Mr. Meadows, Acad. Lesnaya. 78 095 158",24134,41324,M,,85566,,1
+805,Veronica V. Semenov,"COFO Zhukovski, ave. Zaporozhskiy, d. 13, 587 910",+7 (171) 979-3749,kalininsvjatopolk@yandex.ru,"COFO Suntar, nab. Ogorodnaya, d. 475 p. 7, 336,632",35043,43498,F,256159,94545,1,
+806,Sidor Krylov Dorofeyevich,"d. Bugul'ma, pr. Shoreline, d. 56, 090 171",+7 (920) 805-2632,kornil26@yandex.ru,"a. Turukhansk, bul. Rucheyny, d. 29, p. 88, 110550",26330,41614,M,290097,83322,1,
+807,Sofia Nikolaevna Kolobov,"Nefteyugansk, etc. People, d. 13, p. 5, 747,321",+7 (675) 224-0113,fedosi_70@yahoo.com,"a. Kyzyl, w. Alder, d. 5 to. 809, 494 377",32691,43511,F,220490,71066,1,1
+808,Gorbachev Bartholomew Artemyevitch,"a. St. Petersburg, nab. Hospital, d. 593 to. 119, 076 768",8 306 827 50 36,antonovtrifon@rambler.ru,"d. Chebarkul, bul. Deadlock, d. 900 to. 594, 662 766",24771,42507,M,102469,59798,1,
+809,Fedotov Aristarchus Gertrudovich,"g. Bronnitsy, w. County, d. 5, pp. 289, 723 254",+76157739704,sila_1995@rambler.ru,"Art. Aldan, nab. Taiga, d. 976 pp. 963, 579 454",32292,43232,M,,96252,,
+810,Moiseev Maksim Benediktovich,"d. Minusinsk, nab. Mira. 1 245 712",+72567595927,timofeevbudimir@rambler.ru,"a. Staraya Russa, ALL. Commune, d. 639, 154 201",34951,41194,M,130812,77268,1,
+811,Velimir Avdeevich Yakushev,"COFO Mostovskoi Str. Pokrovskaya, d. 80 p. 77, 433122",+7 (246) 504-28-40,juri89@rambler.ru,"n. Khuzhir, bul. Guerrilla, d. 6/1, 338 628",34734,43380,M,216198,89485,1,1
+812,Fedosov Ermolaevich Kharitonov,"Irkutsk, ul. Tereshkovoy Str. 51 p. 407, 116468",+7 853 176 0440,tvorobev@hotmail.com,"d. Dzerzhinsk, st. Reclamation, d. 22, 824 736",26698,40959,M,135771,94008,1,1
+813,Ostromir Aksonovich Pavlov,"n. Zabaykalsk, trans. Transport, d. 6/1, 422 027",8 828 994 34 57,agata_1980@yahoo.com,"d. Birsk Str. Ukrainian, d. 2 to. 638, 909 357",33702,43194,M,273805,67551,1,
+814,Pelagia Yulyevna Denisov,"COFO Solikamsk, bul. University, e. To 2/3. 18 174 442",+7 (090) 637-1503,foka34@hotmail.com,"from. Zaraysk, ALL. Alloyed, e. 8 to. 24, 886 076",28415,42413,F,269042,101620,1,
+815,Yakov Evseevich Loginov,"a. Aleksandrov, ALL. Miner, d. 3 to. 65, 173 139",8 (407) 398-67-65,fominlazar@hotmail.com,"from. Kungur, pr. Green, d. 183, 361 154",32271,43026,M,,70055,,1
+816,Ephraim Regina Artemovna,"Ulyanovsk, st. Mayakovsky, d. 9/3 in. 6/4, 643 074",+75730897377,nikandr_76@yahoo.com,"Sarapul, nab. Neftchiler d. To 91. 4, 511,914",34429,42948,F,259945,99400,1,
+817,Eleanor Nilovna Kolobov,"from. Kizilyurt, ALL. Parkhomenko, d. 32 p. 4, 145268",8 (002) 706-28-65,rostislav1991@hotmail.com,"d. Chusovaya w. Razdolnoe, d. 37 to. 221, 802 036",36244,40928,F,,99108,,
+818,Nahum Gurevich Vinogradov,"Art. Ul. Deputies, d. 3/6 in. 6/5, 857 790",+7 (680) 953-7907,ippolitmiheev@gmail.com,"Art. Yashalta blvd. Student, d. 927, 897 926",26385,42766,M,,83182,,1
+819,Angela Vadimovna Koshelev,"COFO Vedeno, nab. Timiryazeva d. 6/8 p. 1, 911,556",8 446 098 52 93,guljaevkonon@yandex.ru,"Belogorsk (Amur River.), trans. The Red, d. 3/4, 858 985",33341,41359,F,268343,79122,1,1
+820,Aref Y. Evdokimov,"Mr. Yashalta, nab. Labor, d. 8 to. 32, 937 374",+7 590 738 4623,vjacheslav_1998@rambler.ru,"a. Noginsk (Moscow.), nab. Syamashka, d. To 8. 4, 009,291",23235,42289,M,172737,63055,1,1
+821,Faina Grishina Zhdanovna,"a. Andreapol blvd. 50 years of the Komsomol, d. 8/8 in. 3/1 383229",+7 (142) 723-49-34,gusevignati@gmail.com,"COFO Chrysostom, bul. Kosmodemyanskoy, d. 659 to. 861, 471879",36088,43714,F,,86052,,
+822,Valentin A. Doronin,"d. Yamburg, bul. Grandma, d. 84 k. 5/1 362966",+79420336713,apollon1981@rambler.ru,"d. Cherkessk, ul. Smolenskaya str. 765 p. 4/9, 149533",36429,42658,M,219789,65603,1,1
+823,Larionov Elizaveta Egorovna,"COFO Ryazhsk, trans. The farm, d. 9/9, pp. 309, 118 655",86539853521,dobromislmamontov@hotmail.com,"d. Noginsk (Mosk.), Ave. Bazarnyi, d. 745 to. 89, 838 730",22681,42955,F,119175,84392,1,
+824,Yefim F. Shiryaev,"from. Michurinsk, bul. Bazhova, d. 81, 198594",+7 806 051 44 87,nesterovaviktorija@yandex.ru,"d. Krasnokamsk, w. Plekhanov, d. 8/4, 126 424",25858,41423,M,,87708,,
+825,Belyakov Juvenal Fadeevich,"n. New Oskol, ALL. Michurina d. 1 k. 24, 436 257",+7 119 417 06 08,ladimirmedvedev@rambler.ru,"COFO Orenburg, w. Karl Libknehta, d. 17 to. 47, 054 861",26342,41095,M,103149,70458,1,1
+826,Shcherbakova Oksana Antonovna,"d. Adygeysk, ALL. Cornflower, d. 59 to. 84, 121813",84492234104,seliverst_49@hotmail.com,"COFO Nartkala Str. Truth, d. 4/3, 690 069",26340,43028,F,162547,95077,1,
+827,Sharapov Panfil Artemyevitch,"a. Dobryanka, nab. Tukaya, d. 24, pp. 859, 286 717",+7 501 771 87 24,konstantin78@rambler.ru,"n. Kislovodsk, trans. Cheerful, d. 4/7, 854 832",29609,41939,M,238780,71838,1,
+828,Bartholomew Anisimovich Lobanov,"n. Pinega, nab. Khutorskaya, d. 9/6 in. 2/5, 677 460",8 (101) 831-55-34,provvinogradov@rambler.ru,"n. Krasnoural'sk, ALL. Traktovaya, d. 4/1, 035 775",22327,42948,M,196660,97167,1,
+829,Maya Y. Merkusheva,"from. Rainbow, pr. Lakes, d. 1 k. 465, 929 304",85031747451,averjan_2003@rambler.ru,"of Amderma, nab. Volochaivs'ka, d. 1/2 p. 8, 380574",37293,42629,F,,83328,,1
+830,Kupriyan Dimitrijevic Veselov,"COFO Torzhok pr. Surikova, d. 9, 503 501",+73088625002,kapiton_1979@gmail.com,"n. Inta, trans. Motorists, d. 4/4 in. 889 055 286",22628,43802,M,263752,91669,1,1
+831,Svyatoslav Averyanovich Gorbachev,"Art. Bologoye, nab. Brick, d. 526 p. 7/2, 896 490",8 (277) 776-7753,solomonarhipov@hotmail.com,"a. Gudermes lane. Lazo, d. 3, 711,806",33534,41829,M,219090,107514,1,1
+832,Noskov Vera Timurovna,"a. Naro-Fominsk, ul. Tolstoy, d. 9/6, 897 999",87335919818,artem_1973@yahoo.com,"d. Chokurdakh, ALL. Cooperative, d. 78 039 837",26189,41542,F,123983,82238,1,
+833,Alexander Lapin Kuzminichna,"from. Kimry, trans. Cool, d. 889 p. 1, 347,753",+72232180161,fedor_1989@hotmail.com,"Ulyanovsk, bul. Tayozhny, d. To 3/7. 4, 780,660",32404,43276,F,,67676,,
+834,Kira Ivanova Antonovna,"COFO Serednikovo, w. Clearly, d. 5/9, 348 854",+7 217 208 4035,wgureva@rambler.ru,"g. Maikop, bul. Floatable, d. 35 p. 6/1 269633",22898,42094,F,,63277,,1
+835,Sobolev Laura Y.,"Gelendzhik, nab. Peace, d. 16, 831 806",82064734700,turovvlas@rambler.ru,"n. Ustyuzhna, ALL. Of Petroleum, d. 30, 590 904",23400,42911,F,,79587,,1
+836,Fevronija V. Komissarov,"from. Chekhov lane. Sloboda, d. 5, 926,268",80126986627,morozovatatjana@mail.ru,"a. Aleksandrovsk, bul. Alder, d. 2 k. 2 882 398",37092,43401,F,,71538,,
+837,Petukhov Nicanor F.,"a. Cheremhovo blvd. Club, d. 74 924 357",8 460 897 7675,dbobileva@gmail.com,"Mr. Seimchan, nab. Enthusiasts, d. 7 pp. 7/8 765442",37342,42261,M,,76973,,1
+838,Ivanna Efimovna Panova,"k. Meadows, pr. Chelyuskintsev d. 97 p. 8/7, 602,895",8 (407) 967-4284,tit_56@yandex.ru,"d. Tver Boulevard. Halturina, d. 50 to. 666, 420 810",27923,43149,F,,64289,,
+839,Claudia Ruslanovna Denisov,"from. Agate, pr. Jolly, d. 197, 536 827",80026267788,kulakovaalla@yahoo.com,"a. Krasnoturinsk, bul. Odessa, d. 1 k. 18, 162380",28444,43305,F,,76560,,1
+840,Filaret Dem'yanovich Vlasov,"Art. Kirishy, ​​pr. Plehanova, d. 43, 628 184",8 302 228 25 37,komissarovatamara@hotmail.com,"Novosibirsk, bul. Ermak, d. 35, 190138",27938,42311,M,,63706,,
+841,Anastasia L. Mills,"Borovsk Street. Hope, d. 3/7 in. 1/3 301992",+7 186 435 01 20,wnikitina@yahoo.com,"COFO Murmansk, nab. Don, d. 734 to. 914 820 483",34024,41796,F,,86686,,1
+842,Semyon Vorobiev Vilenovich,"COFO Kosh-Agach, nab. L.Tolstogo, d. 8, 736 404",+77182038670,lazarevaviktorija@rambler.ru,"Art. Yoshkar-Ola, w. Far, d. 316 pp. 63, 647 080",25743,41399,M,,86436,,1
+843,Auxentios Timurovich Fomichev,"n. Kondopoga, trans. Novoselov, d. To 1/5. 59 058 955",+7 (123) 002-5693,panfil_2011@hotmail.com,"COFO Salavat, trans. Linear, d. 5 p. 4/4, 121 783",32916,41231,M,,69847,,
+844,Victoria Tretyakova Egorovna,"d. Yuriev-Polsky, trans. Leskhozny, d. 2/1, 159 637",8 (667) 140-2338,gorde_1986@gmail.com,"Art. Gudermes, bul. Coniferous, d. 6/5 in. 8/2, 883 282",31443,42851,F,242352,83833,1,
+845,Alevtina Nikitina Askoldovna,"a. Alagir, trans. Furmanov, d. 810, pp. 42, 039 577",8 (071) 026-8830,tverdislav52@yahoo.com,"a. Ryazhsk, trans. Piedmont, d. 2 k. 9, 414998",22662,42066,F,209481,81797,1,
+846,Voronov Elena Romanova,"from. Kislovodsk, ALL. Koshevogo, d. 419 to. 110, 697 408",+7 078 697 79 18,afanasevljubosmisl@rambler.ru,"Salsk, w. Karl Marx, d. 9/7, pp. 828, 734 283",35132,41044,F,,71806,,
+847,Gromov Eduard Gurevich,"from. Clear (Orenbah.), Str. Uritskogo, d. 4/7, 553 768",+7 372 612 78 71,komarovaagafja@hotmail.com,"k. Soviet, ALL. Mira. 34 to. 7/3 490009",34287,43123,M,194015,77042,1,1
+848,Peter Filatovich Galkin,"a. Cool Street. Nina, d. 8/8, 471 960",8 (336) 584-0937,savinanaina@yandex.ru,"Tobolsk, ALL. Education, d. 837, 700 398",28344,43051,M,,83575,,
+849,Olga Bobrova Albertovna,"from. Chusovoi blvd. 50 Years of Victory, d. 5 in. 40 149 166",+7 286 225 6240,prohorrjabov@mail.ru,"Saransk, ALL. Mendeleyev, d. To 8. 8 567 165",34397,41569,F,256292,71607,1,1
+850,Mammoth Cyrus Filip,"n. Salavat Street. Kama, d. 6, p. 2, 232554",8 (663) 663-2982,rostislav03@yandex.ru,"Tuapse, st. Karl Liebknecht, d. 8/6, 006 468",32386,42945,F,297719,76979,1,
+851,Hooks Vysheslav Eremeevich,"Millerovo, bul. Griboedova. 5, 960,662",+7 093 442 6212,gleb2021@gmail.com,"Art. Gubaha, pr. Matrosov, d. 638 to. 466, 503 943",32898,42574,M,,98416,,
+852,Averyan Eliseevich Ponomarev,"n. Anapa, w. 50 October, d. 102, 569 972",+74420978185,nikandrnekrasov@gmail.com,"Art. Hot Key Street. Foundry, d. 7 to. 7, 954,244",31411,40953,M,117025,81827,1,1
+853,Nikitina Larisa Pavlovna,"Surgut (Hunt.), trans. Bunker, d. 4 k. 1, 454991",8 (884) 674-05-97,elizaveta61@yandex.ru,"a. Armavir, w. 30 Years of Victory, d. 962 p. 1/7, 839 115",28514,43369,F,,85786,,
+854,Poles Eugraph Vlasovich,"d. Kurilsk, ALL. Motorists d. To 110. 3 852 725",8 915 926 9251,david_1991@yahoo.com,"n. Mednogorsk, pr. emb. to 87. 5, 052,991",24822,43629,M,,84948,,1
+855,Valerian Semenov Vladislavovich,"Art. Gremyachinsk (Perm.), Ave. Leskhozny, d. 5 pp. 448, 697 857",8 (713) 598-66-60,ljudmila1984@yandex.ru,"Volkhov, ALL. Pokrovskaya, d. To 6/8. 96 259 694",34343,43193,M,,65544,,1
+856,Gostomysl Valer'yanovich Mikheev,"a. Korolev, trans. Komarova, d. 13 to. 10, 956 656",+7 (608) 007-33-37,grishinvelimir@rambler.ru,"d. Vnukovo (meteost.), br. Ermak, d. 8/6 in. 5/9, 773 034",22479,43645,M,,90980,,1
+857,Lebedev Rodion Bogdanovic,"d. Kashira, ave. Solochov, d. 9/3 pp. 693, 660 246",83807170255,kornil1991@rambler.ru,"Art. Moscow, MSU, trans. International, d. 47 p. 6, 589,045",33604,42717,M,,83635,,
+858,Daniel Eleanor Afanasyevna,"COFO Kostroma, pr. Cool, d. 730, p. 338, 482965",+7 048 324 30 44,innokenti_47@gmail.com,"from. Serafimovich, w. Belyaev, d. To 8/1. 1 492 755",31797,42227,F,,73997,,
+859,Emmanuel Feodosevich Mikhailov,"COFO Dixon Street. Sverdlov, d. 7/1, pp. 552, 086 502",8 241 079 0836,kalininafaina@mail.ru,"Art. Dvinskoy, pr. Friendship, d. 23 k. 2/1 938215",34473,41490,M,240016,73388,1,
+860,Pavlova Milica G.,"Art. Mtsensk, bul. Nakhimova d. To 90. 6, 791,063",+7 512 907 3114,koshelevvseslav@hotmail.com,"d. Anapa, ALL. Collective, d. 35 k. 7/9, 484,793",34600,41237,F,,98509,,1
+861,Ruslan Koshelev Izotovich,"d. Ojmjakon, w. Of Petroleum, d. 50, 248467",8 (986) 830-87-04,guri2010@yahoo.com,"COFO Bratsk, pr. Karalenka, d. 28, 601 505",30091,42324,M,,99804,,
+862,Nicanor Arsen'evich Emelyanov,"Cherepovets, ALL. Kharkov, d. 7/1 p. 7, 658,926",+75410018627,pahomovaraisa@gmail.com,"g. Ufa, ul. Chapayeva, d. 5 k. 1, 438488",29233,41088,M,,89050,,
+863,Tikhonova Ekaterina Svyatoslavovna,"from. Saratov, trans. Gaidar, d. 60 pp. 356, 554 743",+7 205 386 91 65,feoktist_2006@hotmail.com,"n. Yessentuki, pr. Rainbow, d. 2 402 475",25493,43256,F,,62425,,
+864,Zhukova Lidiya Albertovna,"COFO Okhotsk ALL. Halturina, d. 2/3 604856",8 (066) 928-2245,konstantin_2014@yandex.ru,"g. Stupino, nab. Darwin, d. 1/5 pp. 660, 605 518",29217,43181,F,,79439,,1
+865,Pelagia Yulyevna Zhdanov,"n. Chelyuskin, bul. Dekabristov. 96, 786 032",+7 (907) 713-1702,zlobanov@yandex.ru,"n. Kyzyl, pr. Steppe, d. 211 pp. 509, 026 295",32123,42993,F,,102054,,
+866,Sigismund Valer'yanovich Savin,"n. Vsevolozhsk, ALL. 50 Years of Victory, d. 3 in. 8/1, 336 033",+79941259346,kim_18@hotmail.com,"d. Kyahta Str. Minsk, d. 460, 209273",30647,42259,M,,74009,,1
+867,Olympics V. Egorov,"a. Irkutsk, ALL. Nameless, d. 5 pp. 883, 596 784",87367905767,paramon1979@hotmail.com,"Art. Kislovodsk, ALL. Razin, d. 33, 379 654",24474,43483,F,,81372,,
+868,Morozov Czeslaw Fedotovich,"Art. Ozery, nab. Nameless, d. 1/1 pp. 109, 698 745",8 (263) 649-0338,efrempetuhov@hotmail.com,"COFO Ukhta, ALL. International, d. 76 p. 847, 467414",27728,42185,M,,70727,,
+869,Victoria O. Grishina,"n. Yerbogachen, ALL. Hope, d. 4/8, 273 262",+7 (579) 669-38-41,sergeevpankrat@yandex.ru,"COFO Yalutorovsk Str. Poselkovaya, d. 26, 395630",34720,43647,F,,98282,,
+870,Belozyorov Aristarchus Isidorovich,"Omsk, pr. Yenisei, d. 683 in. 8 177 381",8 939 968 6861,polikarp_1981@mail.ru,"n. Rubtsovsk nab. Sadovaya, d. 6/5 in. 659 973 630",33025,42927,M,,76178,,
+871,Kulakov Zinaida Danilovna,"COFO Kurganinsk, trans. Orlowski, d. To 3/8. 9, 790 182",8 (597) 566-47-86,judinataisija@mail.ru,"a. Upper Ufaley, bul. Chemists, d. 43, 620147",30399,43252,F,189487,75677,1,1
+872,Akulina Haritonovna Fomicheva,"Art. Nevyansk, ALL. Nikitin, d. 919 to. 236, 770 528",8 (496) 757-54-94,arhip39@yandex.ru,"Pushkino (Mosk.), Str. Baikalsky, d. 12, p. 6, 225048",32796,43421,F,,76986,,
+873,Belov Milovan Artemovich,"Art. Chokurdakh blvd. Furmanova d. 224 to. 446, 068 523",+7 672 586 3759,matve01@yahoo.com,"COFO Great Luke Street. Vavilova,. 7/1 274328",23002,43209,M,231575,79489,1,
+874,Artem Eliseevich Blokhin,"d. Argayash, w. Dekabristov. 6, 302,268",8 (654) 424-3119,ffilippov@mail.ru,"from. Shaky, bul. Slobodskoy, d. 49 in. 138 012 530",32519,43222,M,,64000,,1
+875,Mr. Andreev Ratibor Adamovich,"Art. Nakhodka, bul. Small, d. 1/4 p. 1, 936,036",+75734432458,jakushevaalina@yandex.ru,"d. Ust-Dzheguta, w. Marx, d. 1, 403757",30123,42051,M,,86297,,
+876,Erast A. Orlov,"of Gdov, etc. Ural, d. 296 in. 5 511 330",+7 152 252 62 38,beljakovdobromisl@hotmail.com,"from. Gremyachinsk (Perm.), Ave. Ryazanskiy, d. 759, 014 033",31482,42405,M,295943,75221,1,
+877,Gleb Kudryavtsev Izotovich,"from. Rylsk, nab. Sportswear, d. 58, 524 617",8 (856) 298-2707,mokeandreev@gmail.com,"n. Alagir, nab. Dobrolyubova. To 8. 5, 702,390",27028,43641,M,140345,89517,1,
+878,Denisov Andrei Tarkovsky,"Art. Volgodonsk, bul. Belarus, d. 68 pp. 88, 617 675",8 (099) 977-8064,vasili_30@yahoo.com,"n. Severo-Kurilsk, trans. Krasnoflotsky, d. 807 to. 9/9, 234 442",29118,43564,M,,74249,,1
+879,Lavrenteva Alexander V.,"from. Domodedovo, st. Darwin, d. 533, 082 893",+7 695 424 46 79,savelevignati@yandex.ru,"n. Nefedova, bul. Ermak, d. 69, 398 782",22605,41503,F,,78028,,
+880,Sorokin Sergey Yefimovich,"Art. Uvarovo, w. School, d. 80, 087 428",8 263 166 14 50,stepanovignati@rambler.ru,"Norilsk, bul. Aviation, d. To 5/9. 4, 773,579",35516,43711,M,,101419,,1
+881,Kazakova Elena Afanasyevna,"from. Kashhatau, nab. Ushakova, d. 21, 823 569",8 (297) 974-54-73,litkinvsemil@gmail.com,"Mr. Ketchenery, nab. Marx, d. 76 pp. 9, 255 949",25797,41500,F,,96565,,
+882,Milovan Yevstigneyevich Lukin,"COFO Severobaykalsk pr. Ul'yanova, d. p 6/8. 4/7, 836,448",8 130 432 52 80,epifan_35@hotmail.com,"from. Voronezh, w. Troitskoe, d. 331 to. 2 200650",27175,41332,M,,89472,,
+883,Marina P. Belyaeva,"Yakutsk, ALL. Aviation, d. 14 to. 7, 880,639",8 (659) 065-35-52,qhohlova@gmail.com,"Art. Mezen, nab. Orlovskaya, d. 60 k. 9, 995 300",36840,41758,F,,85936,,1
+884,World Abramovich Rybakov,"Art. Chebarkul, w. Ulyanova, d. 317 p. 6/7, 405955",+7 (197) 315-5564,mir35@hotmail.com,"d. Khanty-Mansiysk, nab. 1 may, d. 86, 500 250",26601,41533,M,214233,61230,1,1
+885,Maria Kozlova Askoldovna,"n. The bottom, ALL. Youth, d. 9/4, pp. 53, 398 147",83148463319,pelageja_90@yandex.ru,"of Vedeno, ALL. Kurchatova, d. 3, 641,740",25498,42523,F,149631,98950,1,
+886,Comrade. Merkushev Ipat Vladilenovich,"d. Semlyachiki blvd. Haymarket, d. 9/6, 826 389",8 394 542 8506,shestakovataisija@gmail.com,"from. Yakhroma, nab. Civil, d. 93 in. 9/7, 133 968",27212,42645,M,187626,77238,1,
+887,Taisiya Vasilyeva Valentinovna,"d. Chokurdakh, w. Ural, d. To 1/9. 16 851 657",8 (688) 999-98-15,vissarion1978@yahoo.com,"n. kirovsk (Lenin.) Emb. Alloyed, e. To 1/2. 730, 140 983",24148,42721,F,,77035,,1
+888,Blokhin Sawa Efremovich,"COFO Goryachinsk, pr. Pioneer, d. to 3/2. 35 134 677",8 107 285 9424,stepan_72@rambler.ru,"d. Vyazma, w. Upland, d. 8 pp. 6/1 562531",24739,42593,M,239211,66834,1,1
+889,Savin Ipat V.,"COFO Hassan, w. Enthusiasts, d. 7 pp. 6/9, 860,709",8 389 204 36 47,militsa1989@yahoo.com,"a. Nizhnevartovsk, w. Michurina, d. 65, 250361",25127,43758,M,232490,71618,1,1
+890,Blinov Akulina A.,"n. Ketchenery, trans. Installers, d. 5, 479,699",81100541987,grigorevjakov@mail.ru,"Art. Yugorsk, bul. Cheriomushki, d. 8, p. 4, 072,650",33151,42962,F,,67133,,
+891,Drozdov Thekla Albertovna,"k. Hunts-Mansyisk, pr. Metallurgov d. 1.2 pp. 59, 419 316",8 (347) 507-1954,proklisaev@rambler.ru,"Art. Host w. Northern, d. 6, 628996",36665,41999,F,,107012,,1
+892,Agatha Feliksovna Savina,"COFO Slavgorod, pr. Krasnoznamenny, d. to 4/6. 4, 046,711",8 (128) 504-87-04,luka12@rambler.ru,"from. Lotoshino blvd. Ushakova, d. 9, 014 733",35112,41782,F,,77880,,1
+893,Valery Karpov Arkadievna,"from. Gagarin, w. Ultra, d. To 5/9. 80 853 845",+7 092 356 16 60,beljakovhariton@gmail.com,"Art. Belorechensk, pr. Cool, d. 21, 558 755",32560,41458,F,,82104,,1
+894,Ladimir Ilarionovich Sharapov,"Orel, etc.. Ryazan, d. 624 to. 66 055 461",8 034 403 47 19,onufri_83@hotmail.com,"from. Dolinsk, trans. 1 Maya, d. To 12. 6, 422385",25431,41089,M,,83885,,1
+895,Antonín Filip Danilov,"Art. Shelekhov, trans. West, d. 6 k. 4/5, 159,507",8 177 125 27 72,aristarh_1986@hotmail.com,"n. Syktyvkar, trans. Lazo, d. 904 to. 6/3 480035",30322,42891,F,,85042,,
+896,Trofim Mironov Davidovich,"d. Tyumen, st. Miner, d. To 6/5. 5, 378,558",8 (380) 826-4572,zahar_1999@gmail.com,"Art. Chegem, nab. Kol'tsov, d. 3/1 478219",33889,43091,M,219907,103184,1,
+897,Kasian Isaev D.,"COFO Kropotkin (Krasnod.), trans. Queen, d. 9 k. 2/4, 277,948",8 650 983 29 59,sokrat_34@hotmail.com,"d. Arsenyev, ALL. Tchaikovsky, d. 2/6, 926 777",28090,42259,M,129645,92714,1,
+898,Innocent Fomich Zhdanov,"a. The October (Chelyaba.), nab. Factory, d. 968, 164 182",+7 (648) 776-58-04,kornilovnikanor@hotmail.com,"n. Uvarovo, nab. Sport, d. 323 to. 30 881 272",31504,43277,M,,99633,,1
+899,Bobylev Euphrosinia Eduardovna,"Art. Pechenga, bul. Kurchatova d. 660 pp. 82, 886 256",8 090 489 04 01,boris_1992@yahoo.com,"a. Taganrog, ALL. East, d. 3, 854,192",22569,43639,F,,67423,,1
+900,Pankraty Dem'yanovich Gulyaev,"Korolev, bul. Building, d. 84 to. 17, 124 966",+7 (398) 558-12-01,olimpi_1987@yahoo.com,"Art. Serov, ALL. Azine, d. To 5/9. 56, 140296",24237,41649,M,166487,80944,1,1
+901,Fedor balls Anufrievich,"d. Upper Tagil, nab. New, d. 2/6 p. 84, 467656",+79679004418,kliment2006@yandex.ru,"from. Novorossiysk, ALL. Shaumyan, d. 40 pp. 532, 427 147",25645,41219,M,,71644,,1
+902,Simon G. Frolov,"from. Borzya, nab. Olympic, d. 2 pp. 226, 738 676",8 (578) 479-78-24,dmitrievalarisa@hotmail.com,"from. Nyazepetrovsk, pr. Vidradny, d. 503 to. 91, 546162",34845,41009,M,,80391,,1
+903,Laura Vlasov Timofeevna,"a. Istra, ALL. Belyaev, d. 6, p. 3, 917,820",+76906646470,evstafizhdanov@rambler.ru,"Art. Tutonchana, ALL. Krasnodarskaya d. 1 296 634",37405,42470,F,237111,78188,1,
+904,Merkushev Spiridon Frolovich,"a. Tambov, ALL. Kotchubey, d. 58 k. 3/5, 823,987",+76663037829,nesterovazinaida@rambler.ru,"p. Aldan, trans. Ivanovo, d. 319, 431 170",23984,41305,M,,71577,,
+905,Valentina Kopylova L.,"n. of appearances, ul. Brick, d. 106 to. 75, 505 272",8 (466) 901-5264,tihonovpankrati@yandex.ru,"n. Verkhoyansk, nab. Working, d. 5/9 p. 1, 493441",36342,41545,F,,72670,,
+906,Eugene Potapov Valerievna,"COFO Kulunda, nab. Soviet,. To 56. 9, 657 493",+7 715 847 8021,omironov@rambler.ru,"COFO Vladimir, pr. Vidradny, d. 98, 782 173",37445,43741,F,,100208,,
+907,Yershov Valery Alekseevna,"from. Kotlas, nab. Berry, d. 796 pp. 64, 923 374",8 817 141 6774,pankrat_2006@mail.ru,"Art. Chermoz Str. Ural, d. 299, 117856",22973,42758,F,129347,79696,1,
+908,Ignatov Galaktion Averyanovich,"n. Timashevsk, bul. Karbysheva, d. 934 to. 75 693 813",+7 192 725 59 32,shcherbakovborislav@hotmail.com,"a. Troitsky-Pechora, ALL. Darwin, d. To 62. 5, 714,007",33584,41110,M,,77346,,1
+909,Evdokim Terent'evich Vlasov,"Art. Sarov (Mård.), Str. Trinity, d. 69 in. 29 026 448",+7 373 614 1752,irina43@rambler.ru,"Tuapse, bul. M.Gorky d. To 70. 5, 638,453",28681,41370,M,,108630,,
+910,Yemelyanov Juliana D.,"COFO Kingisepp, w. Serafimovich, d. 4/7 in. 5/5, 081 043",89307643474,koshelevapollinari@gmail.com,"a. Pechenga, w. Taman, d. 73 p. 6/4 086762",37391,43440,F,,103428,,
+911,Emilia Stanislavovna Vorobyova,"COFO Novorossiysk lane. Engels, d. 16 p. 4/1 440862",+7 (247) 063-81-48,demidjakovlev@yandex.ru,"Art. Tula, bul. 50 years of the Komsomol, d. 9, pp. 72, 187 039",28177,42371,F,,76485,,
+912,Lavrentiev Jaropolk Vikentievich,"Art. Pushkin, w. Road, d. 1 k. 802 011 063",8 930 984 78 12,izot_80@yandex.ru,"Beloretsk, w. Chestnut, d. 4, 443,504",30323,42330,M,174839,75903,1,1
+913,Konovalova Angela Vadimovna,"COFO Arkhyz lane. Mendeleyev, d. 894 to. 1 712 969",8 195 040 8292,iraida1980@hotmail.com,"d. Novomoskovsk, st. Driving, d. 825, 005 741",24071,41846,F,213954,91514,1,
+914,Ratmir Dimitrijevic Saveliev,"from. Balaam Street. Southern, d. 92 p. 84, 458173",+77004129880,borislav_30@yahoo.com,"n. Galich, nab. Kutuzova, d. 63 p. 1, 349,011",22952,43544,M,,80179,,
+915,Olga O. Sharov,"Temryuk, trans. Frunze, d. 78 p. 6, 603,048",8 (912) 460-36-15,slukin@hotmail.com,"d. Turuhansk Str. Pine, d. 9, pp. 55, 919 850",33830,41372,F,,84687,,
+916,Larisa Kirillovna Fedoseyev,"from. Solnechnogorsk, nab. Esenina, d. 36 to. 52, 823 835",8 (581) 548-63-43,ovorobeva@hotmail.com,"of Kizel, nab. Budyonny, d. 713, 363 294",26106,42633,F,,81837,,1
+917,Lydia Martynova Igorevna,"COFO St. Petersburg blvd. Chelyuskintsev d. 4 p. 899, 975576",+7 (141) 596-09-54,gshchukin@hotmail.com,"d. Kizhi lane. Schetinkina, d. 60 pp. 4/8 924387",27359,43118,F,,79233,,
+918,Irina Andreeva Makarovna,"n. Tutonchana Str. Kosmodemyanskoy, d. 83 in. 2/8, 835 417",+7 728 314 30 77,safonovzahar@mail.ru,"Orenburg, bul. Nagorny, d. 855 pp. 552, 758 023",22761,41967,F,,88808,,
+919,Gromov Thekla Valerievna,"n. Hosta, trans. Moon, d. 97 p. 4/2 250729",+7 334 147 79 12,kozloviosif@yandex.ru,"n. Gremyachinsk (Buryat-.) ALL. Khutorskaya, d. 56, 540 073",30729,42112,F,,98996,,1
+920,Dmitriev Bazhen Yevstigneyevich,"from. Nevyansk, bul. Truth, d. To 801. 7 500 285",+7 (661) 419-95-07,pankrati_2013@yahoo.com,"d. Gus Crystal, bul. Aviation, d. 5/1 402404",30029,41596,M,,67860,,
+921,Filatov Mark Davidovich,"n. Nakhodka, st. Harvest, d. 6/3 in. 67 644 816",8 205 333 4756,kotovmatve@hotmail.com,"n. Uglich, trans. Poor Damian, d. 24, p. 7, 364,223",26327,40926,M,,99662,,
+922,Biryukova Ekaterina Stepanovna,"n. Severodvinsk, w. Alder, d. 6/2 pp. 923, 685 542",82874623358,agata_1988@yandex.ru,"d. Pinega, nab. Stepan Razin, d. 9/7, 704 633",32871,41194,F,,68431,,1
+923,Shiryaev Galaktion Tarasovich,"from. Vedeno, bul. Zhukovskogo d. 5 to. 259, 222 231",+7 237 659 24 47,wkolesnikov@hotmail.com,"d. Aleksin, pr. cedar, d. 3, 071,611",27530,42456,M,,99541,,
+924,Arkhipov Methodius Yakubovich,"COFO Alagir, bul. Rainbow, d. 250 to. 6/7 338451",8 690 691 9516,nikolaevegor@mail.ru,"Mr. Lotoshino, nab. Grandma, d. To 2/6. 7 248785",33132,43117,M,,64472,,
+925,Danilov Fiers Fokich,"COFO Bologoe, trans. Cossack, d. 19, 497 284",8 (512) 765-2926,mihailefimov@rambler.ru,"n. Belgorod, pr. Tabloid, d. 3/9, 920,300",27317,41861,M,,91965,,1
+926,Borislav Yulevich Ershov,"COFO Taldom, ave. pasture, d. 8 to. 40, 157403",8 (751) 118-9619,ferapontbikov@hotmail.com,"Kamensk-Shakhtinsky, nab. Industrial, d. 7 pp. 2/7, 297,911",33314,41961,M,127211,77265,1,
+927,Angelica M. Gorshkov,"Art. Solnechnogorsk, nab. Foundry, d. 993 p. 5/4, 018 426",8 628 932 38 43,ljubomirprohorov@gmail.com,"of Terskol, bul. Pasture, d. 6/3 p. 72, 551873",32124,40978,F,170130,81864,1,1
+928,Fokin Micah Anufrievich,"d. Kimry, bul. South, d. 7/6 in. 321 797 843",+7 449 035 2854,guri_59@rambler.ru,"from. Neftekamsk, trans. Highrise, d. 6/2, 786 117",36581,41987,M,,70501,,
+929,Vlasov Sofia Vadimovna,"n. Tihoretsk, pr. Leskhozny, d. 4/1 754405",+75154261369,kuznetsovaelena@hotmail.com,"a. Kamyshin, ALL. Short, d. 4/4 p. 9/8, 089 225",24438,42173,F,,81727,,
+930,Radim Vladislavovich Lukin,"Vladikavkaz, nab. Makarenko, d. 5 to. 40, 687 833",+7 599 154 95 07,oktjabrina1984@mail.ru,"d. Belokurikha lane. Ermak, d. 264, 645 011",24264,43441,M,,76457,,
+931,Bragin Yemelyan Gavrilovic,"from. Kyren, nab. Krylov, d. 2 730 777",+73972836226,gorshkovanaina@hotmail.com,"n. Pskov, nab. Stadionnaya, d. To 3/1. 4, 729,689",31461,43249,M,151101,99458,1,
+932,Shilov Nazar Trifonovich,"n. Labytnangi, trans. International, e. To 9/6. 77 882 054",+7 (638) 701-4830,agafon2004@mail.ru,"of Lazarevskoye, ul. Proletarshaya, d. 309 p. 3, 800,849",31249,41100,M,,75929,,1
+933,Oksana Belyakova Timofeevna,"a. Magas Street. Poltavska, d. 956 pp. 414, 114 402",8 (735) 201-7490,grjabov@yandex.ru,"from. Skovorodino, ul. West, d. 227, 511 734",33467,42312,F,290919,98573,1,
+934,Larisa Ilinichna Blinov,"Art. Dzhubga, nab. Olympic, d. 536 to. 87, 062 480",8 (690) 436-72-91,florentin_1995@rambler.ru,"n. Ust-Kalmanka, ALL. M.Gorky d. 8, 893 815",33758,43393,F,,87007,,1
+935,Eleanor Ilinichna Solovyov,"COFO Balashikha, ALL. Ostrowski, d. 31, p. 4, 251986",80384326952,lazarevsidor@gmail.com,"d. Engels, nab. Razin, d. 3/2 in. 7/6, 063 402",35106,42189,F,195068,83299,1,
+936,Bogdan Artemyevitch Burov,"a. Sheregesh Str. Orel, d. 9/1 p. 9/7, 012 291",81172567558,ponomarevnikifor@rambler.ru,"d. End of the Line, APL. Flower, d. 94 p. 4, 717,893",24090,42609,M,,77719,,
+937,Budimir Z. Loginov,"a. Tokma, trans. Furmanova d. 145 to. 4, 036,354",+7 214 342 13 04,suhanovklavdi@yahoo.com,"Art. Surgut (Hunt.), Bd. Traktovaya d. 3/3 p. 9, 203 056",24335,41449,M,101043,94960,1,
+938,Sysoev Photios Marsovich,"a. Dvina, trans. Poor Damian, d. 55 pp. 99, 631 261",+70740406449,markovaksenija@gmail.com,"a. Ulyanovsk, nab. Lyavonau, d. 3, 466,858",25985,43588,M,,84821,,1
+939,Krasil'nikov Aristarchus Yevstigneyevich,"n. Bely Yar (Tomsk.) lane. Garage, d. 932, 625 819",8 050 825 8390,stepan_2005@gmail.com,"k. Trinity-Pechorsk, pr. Chaikinoi, d. 170, 686 663",34515,42215,M,,89936,,1
+940,Sparrows Trifon Valer'yanovich,"a. Urjupinsk, nab. Brick, d. 604, pp. 50, 391 816",+73424657460,nikon2013@mail.ru,"d. Mining, sh. Apricot, d. 62 p. 2/3 369728",24706,43004,M,213987,68771,1,1
+941,Rostislav Kazakov Yakubovich,"a. Podolsk, trans. Azure, d. 5/3 in. 7, 600699",+7 (530) 634-3017,uvarovapolina@rambler.ru,"n. Kargopol ALL. Marx, d. 9 k. 284, 386 965",31798,41284,M,,83253,,
+942,Petr Popov Bronislavovich,"n. Mozdok, ul. Gogol, d. 5 pp. 7/1 517963",+77111884328,iosif2014@rambler.ru,"d. Shenkursk, ave. Shevchenko, d. 574 pp. 2 565 912",36544,43062,M,,91545,,
+943,Margaret O. Titova,"Art. Svetlahorsk (Kalin.), Br. Autumn, d. 91 in. 47 811 684",8 (860) 260-0302,sofonkononov@hotmail.com,"Art. Narofominsk, pr. Morozova, d. 618 to. 8, 651 955",33635,43617,F,124426,100936,1,
+944,Praskovya Eldarovna Ershov,"from. Chelyuskin, trans. Belinsky, d. 2 993 158",+7 (543) 696-64-29,merkushevtit@yandex.ru,"Lyubertsy, st. October, d. 2/4 in. 69 392160",32398,43741,F,171051,98442,1,1
+945,Eugene Zakharovna Kononov,"Troitsk-Pechora, trans. Tchkalov, d. 222, 881 650",+7 930 741 44 10,agafon_1994@hotmail.com,"from. Gremyachinsk (Buryat-.), Bd. Thalmann, d. 2/8 in. 702 767 162",28084,42234,F,,98661,,
+946,E. Vera Pavlova,"from. Achinsk, pr. Berry, d. 79 pp. 768, 888 839",+73982493160,pavlovkirill@yandex.ru,"COFO Rainbow, ALL. Schmidt, d. 3, 015,229",26169,43288,F,,81017,,
+947,Solomon V. Gorbachev,"Art. Karpinsk, w. Aerodrome, d. 95 in. 747 111 485",8 (498) 877-88-07,anikita_89@gmail.com,"Art. Malaya Vishera, nab. May 9, d. 6, 783,202",35051,42118,M,136772,96436,1,
+948,Titov Sofia Fedorovna,"a. Mozhga Str. Volkova, d. 5, 897,996",+7 116 681 1315,nikodimkudrjashov@rambler.ru,"n. Tymovskoe blvd. Partizansky d. 87 p. 1, 109263",33307,42723,F,,89987,,
+949,Nathan Valer'yanovich Mamontov,"n. kirovsk (Lenin.), br. Smirnova, d. 15 to. 57, 188321",+7 788 956 05 48,moise_1993@hotmail.com,"n. Derbent, bul. Specialists, d. 632, 573 257",37078,42286,M,,73354,,1
+950,Julia A. Lavrentiev,"from. Kirzhach Str. Green, d. 630 to. 765, 259 852",87006393710,tatjana_46@mail.ru,"COFO Domodedovo, nab. Spataka, d. To 2/3. 6/3, 649,909",31718,43117,F,,87400,,1
+951,Fortunat Zhanovich Samsonov,"d. New Urengoy, nab. Spartacus, d. 817 p. 6/5, 069 655",8 (154) 604-77-19,kotovapollon@yandex.ru,"COFO Taishet, w. Nakhimova d. 9 pp. 148, 260 350",34671,43624,M,258858,69337,1,
+952,Galina Vorobyova Kuzminichna,"Art. Gorodovikovsk, w. Cross, d. 8 pp. 22, 641 828",8 652 331 1659,prohor_1980@rambler.ru,"Mr. Silver Ponds, etc. Pervomayskaya. 12 959 181",34530,43590,F,,87673,,
+953,Ravens Micah Kharitonovich,"Art. Elbrus, ALL. Ul'yanova, d. 9, 597 222",8 190 601 8078,galaktion2016@hotmail.com,Vereschagino (Perm.) ALL. Borovaya. 76 in. 884 850 340,33229,41621,M,245080,77126,1,
+954,Zinaida Yulyevna SELIVERSTOVA,"a. Alapaevsk, bul. 40 October, d. 73 in. 991 567 875",8 005 735 6271,anna_2018@rambler.ru,"a. Dvina, ul. Lermontov, d. 90 pp. 916, 837 914",31381,42364,F,174201,120654,1,
+955,Agafonov Claudia B.,"from. Vsevolozhsk, w. 30 Years of Victory, d. 5, pp. 27, 891 427",82043152182,luchezarstepanov@rambler.ru,"from. Dalmatovo Str. Paris Commune, d. 33, 182 135",28787,42285,F,,62852,,
+956,Marina Nathanovna Pakhomov,"a. Verkhoyansk, w. Volkova, d. To 7/2. 9, 202217",+7 (042) 449-4929,vitalistrelkov@yahoo.com,"Art. Tobolsk, trans. Olympic, d. 738 to. 120, 489507",23886,43048,F,,89761,,1
+957,Carl Anisimovich Kostin,"of Narym, nab. Marx, d. 35 p. 6/1 952801",+7 (226) 720-78-03,veniamin2007@mail.ru,"d. Lysva ALL. Yeniseyskaya, d. 238 to. 50, 776 459",32073,41030,M,,67100,,1
+958,Stepanov Ephraim Fadeevich,"Art. Elbrus, bul. Medical, d. 70 pp. 899, 405 709",+7 660 646 27 42,kuzminapelageja@mail.ru,"n. Khimki, pr. Griboedova. 8/4, 506,318",27303,43341,M,143270,71273,1,
+959,Angelica Matveevna Kovalev,"Uglich, ALL. Mayakovskogo d. 8 pp. 1/7, 519,120",80499205065,mirbeljakov@gmail.com,"of Terskol, w. Lesozavodsk, d. 799, 847 937",35270,43190,F,,88411,,
+960,Kuzmin Vitaly Vilorovich,"d. Novorossiysk, ALL. Maitland, d. To 9. 8, 461661",+71216373120,kalashnikovaanzhela@hotmail.com,"d. Petropavlovsk-Kamchatsky, bul. Short, d. To 9. 65, 046 260",31177,42941,M,,64389,,
+961,Benedict Artemyevitch Vishnjakov,"Art. Lyantor, w. Papanin, d. 2/4, 722 394",8 (168) 079-34-51,nikon_30@yahoo.com,"Art. Svetlahorsk (Kalin.), Str. DEN, e. 914 p. 54, 745942",30019,43070,M,,79251,,
+962,Evgenia Belousova,"of Kosh-Agach, w. Post, d. 337 pp. 540, 833 716",8 430 038 2445,korolevdorofe@hotmail.com,"Snezhinsk, ALL. Cool, d. 797, 280 363",24074,41540,F,,69264,,
+963,Agatha Vladislavovna Maximova,"from. Verkhny Ufaley, nab. Sermon, d. 6/4, 672 182",8 573 953 75 23,terentevanadezhda@mail.ru,"Art. Dudinka, trans. Pioneer, d. 8/1 to. 2 782 301",36010,41478,F,,71309,,
+964,Valery Nikolaev Zakharovna,"from. Serednikovo, ALL. Krupskoi d. 790, 419 863",+7 480 772 2787,polikarp_2006@mail.ru,"a. Zavodoukovsk, w. 9 January, d. 7/2 pp. 729, 040 638",36731,42416,F,,87930,,1
+965,Nikon V. Gerasimov,"COFO Sosva (Hunt.), nab. Festival, d. 903 p. 2/7, 956 700",8 (601) 738-3033,radislav_18@hotmail.com,"d. Kataysk, pr. Metallistov d. 26, 198 279",26253,43386,M,214169,91720,1,
+966,Isakov Zoe Zakharovna,"d. Partizansk, ul. Serafimovich, d. 1/4, 801 893",+7 293 537 5320,leonti_1982@rambler.ru,"a. Barrow, nab. 8 Marta, d. 5 pp. 960, 962 640",33885,42775,F,,89569,,1
+967,Epiphanes T. Kononov,"a. Borovsk, trans. Jolly, d. 8, 867 894",8 (342) 504-5338,mvasilev@mail.ru,"COFO Kotelnich, trans. Paris Commune, d. 7 to. 4, 439,862",30393,42668,M,,68022,,
+968,Alevtina Medvedev Haritonovna,"a. Ishim, ALL. Caucasian, d. 93 p. 6/1 351689",81643700547,foti_1976@gmail.com,"Art. Tikhvin, trans. Ushakov, d. 6/2 in. 5/7, 159540",28348,42734,F,259238,79354,1,
+969,Gorbunova Ksenia Haritonovna,"COFO Kalac, pr. Krasnogvardejskiy, d. 3, p. 5, 819,497",+7 252 218 83 92,merkushevfoka@yahoo.com,"COFO Rubtzovsk, ave. Hay, d. 843 to. 15, 762 995",23500,42386,F,,66199,,
+970,Dementieva Marina Vladislavovna,"a. Shilka, ul. Comintern, d. 12 k. 3/7 662845",8 (591) 869-79-65,pantelemontimofeev@yahoo.com,"a. Suzdal, trans. Griboyedov, d. 864, 051 112",31932,43032,F,199414,80022,1,1
+971,Lobanov Pankraty Antipovich,"Art. Khanty-Mansiysk, trans. Sanatorium, d. 336 to. 8, 876 340",+76009935268,aristarh03@mail.ru,"Kirishi, ALL. Kuznetsova, d. 9 pp. 50, 242 871",31536,43083,M,145072,76387,1,
+972,Maria Subbotina Timofeevna,"k. Yurovskaya, pr. Tchaikovsky, d. 39 k. 5/8 067323",8 205 103 26 86,maksimstrelkov@hotmail.com,"from. Arkhangelsk, pr. Rosa Luxemburg, d. 19 to. 1 869 051",26355,43786,F,,89141,,1
+973,Marian Ignatovich Tikhonov,"a. Elec, trans. Tips, d. 4/5, 148 610",8 (384) 270-1012,avksenti1974@yahoo.com,"a. Aleksandrovsk, w. Kol'tsov, d. 1 k. 884, 781 059",31355,42056,M,,98254,,
+974,Onufry Vlasovich Sysoev,"Mr. Dombay, trans. February, d. 31, p. 5/8 932408",8 (134) 057-9641,gusevafinogen@yandex.ru,"COFO Gubkin, nab. Tyulenin, d. 71 p. 6/3 220655",33346,42510,M,,77287,,
+975,Ermakova Taisiya Sergeevna,"Art. Beloyarsky, w. Chaikinoi, d. 76 027 387",+7 (526) 261-4523,maslovdanila@rambler.ru,"d. Yurievets (Ivan.), str. Clear, d. 58, 643 429",22663,42310,F,231035,88175,1,1
+976,Vinogradov Kim Gerasimov,"n. Amursk, bul. Foundry, d. 7, 750,644",+7 (267) 603-05-90,rostislav55@yahoo.com,"Domodedovo, trans. Voroshilov, d. To 5/9. 1 700 218",37544,42776,M,226637,62501,1,
+977,Kudryashov Ostap Adamovich,"a. Nartkala, ALL. Karl Marx, d. 804, p. 4/8, 146 406",8 (782) 136-6086,fortunat_1997@rambler.ru,"Art. Taganrog, ALL. Dachnaya, d. 66 k. 6/6 971312",36007,41622,M,172578,80578,1,
+978,Thekla Zakharovna Zakharova,"a. Belgorod, trans. Victory, d. 1 760 513",85975693809,vishnjakovanatalja@mail.ru,"of Shamar, trans. Volkova, d. 144 p. 1, 457,284",34782,43676,F,215769,82077,1,
+979,Oleg V. Fomin,"n. Kotel'nich Str. Voljskaya, d. 162 to. 172, 812 892",+70541848845,ljudmila_28@rambler.ru,"n. Ust-Barguzin, nab. Victory, d. 953 to. 98, 816 902",24244,42423,M,,85904,,
+980,Faith Ruslanovna Evseev,"from. Achkhoy-Martan, ALL. Kommunarov d. 348 p. 3, 701,714",8 (929) 024-90-06,timofeevantip@yandex.ru,"Art. Urengoy, nab. Azovskaya, d. 228 to. 31, 692 036",26660,41700,F,202607,91572,1,
+981,Artem F. Orlov,"Breda Street. Budyonny, d. 22, p. 1/7, 830 349",+7 (782) 982-15-17,semenovvadim@yahoo.com,"n. Izberbash, ALL. Stakhanovskaya, d. 411, 145911",28586,42478,M,296046,78400,1,
+982,Zhuravlev Love Filippovich,"a. Magnitogorsk, nab. Builders, d. 64 pp. 275, 876 314",8 (903) 715-91-56,blinovignati@hotmail.com,"n. Severo-Kurilsk, nab. Komsomolskaya. 22, 786 954",35249,41825,M,,69705,,
+983,Molchanov Victoria F.,"n. Urengoi, ALL. Floatable, d. 3/5 to. 2 410 272",+7 (455) 143-46-62,zinaida21@gmail.com,"Mineralnye Vody, ALL. Revolutionary, d. 503 to. 2 305932",25840,43318,F,,109267,,
+984,Shcherbakov Aristarchus Gavrilovic,"n. Suzdal, w. Floatable, d. 899, 307 184",+7 850 305 8474,zinovevaagata@yahoo.com,"Veliky Ustyug, w. Oilers, d. 4/9, pp. 570, 995 246",34265,41544,M,,99613,,1
+985,Kabanov Simon Arsenijevic,"COFO Rostov-on-Don, ALL. Garden, d. 3 to. 87, 280 812",+78218293964,wsamolov@gmail.com,"from. Uglich, ALL. Zaprudnaya, d. 48 to. 8, 952 914",24409,42697,M,,76632,,
+986,Tatiana Filip Zykov,"a. Holmogory blvd. Berry, d. 9/7 in. 7/3 325715",+7 (531) 113-9477,klobanova@mail.ru,"from. Gatchina, w. Surikov, d. 97 p. 71, 564860",22411,43768,F,,83258,,
+987,Lukin Alina Gennadievna,"d. Clear (Orenbah.), Acad. Chaikinoi, d. 649, 811 353",8 (059) 665-0153,suhanovernst@hotmail.com,"n. Oktyabrskoe (Chelyaba.) Emb. Ordjonikidze, d. To 9. 42, 259442",25892,42382,F,,83222,,1
+988,Ignatov Sofron Eremeevich,"n. Yuzhno-Kurilsk, ALL. Kutuzova, d. 520, p. 6/4 380570",+7 979 362 38 73,velimirsimonov@rambler.ru,"COFO Chebarkul, trans. Razin, d. 2/1 in. 632 135 846",35319,43053,M,,75638,,
+989,Zhukov Taisa Semyonovna,"COFO Stary Oskol, bul. Red partisans, d. 324, 275757",+7 435 444 38 80,frol03@hotmail.com,"COFO Petropavlovsk-Kamchatsky, w. Kuznetsk, d. 285 pp. 44, 791 310",37160,42472,F,,90329,,
+990,Ratmir Ilyasovich Lytkin,"a. Birsk, trans. Vakhitova, d. 845 p. 3/2, 663 172",+70325859190,ljubosmisl05@yandex.ru,"from. Sharjah, ALL. Stavropolskaya, d. 9/5 p. 2 948 987",33254,41479,M,112736,89227,1,
+991,Evlampy Edgarovich Fokin,"Art. Sheregesh, ul. Subtilis, d. 611 p. 2/6, 614,857",+7 726 069 05 89,gostomisl_90@hotmail.com,"d. Mirnyi, ul. Rostov, d. 6/3 p. 6, 137558",32102,42205,M,,92695,,1
+992,Valery Vorobyov Egorovna,"d. Uglegorsk, bul. Mechanics, d. 7/8 in. 67 519 871",+78806815402,bronislav_1971@mail.ru,"Solikamsk, nab. Rainbow, d. 5, 787,249",32227,42914,F,,80714,,
+993,Zhukov Spartak Filatovich,#VALUE!,8 047 182 7659,vadim_1991@rambler.ru,"a. Kaliningrad, Nab. Odessa, d. 41 to. 6, 343,576",30407,43030,M,285093,85919,1,
+994,Yakov Matveevich Molchanov,#VALUE!,+7 (571) 093-83-18,foka2018@yandex.ru,"Art. Apsheronsk, bul. The impactor, d. 19, p. 2 181 988",26246,41853,M,,78596,,1
+995,Ivanov Polycarp Fadeevich,#VALUE!,+7 (743) 459-2989,julija85@rambler.ru,"Art. Nevelsk, ALL. Teatralnaya, d. 209 p. 5/3, 741 103",29824,41048,M,241025,63641,1,1
+996,Isaev Ladislav Efstafevich,#VALUE!,+7 245 526 0386,samuil19@yahoo.com,"a. Goryachinsk Str. Aspic, d. 6/1, pp. 858, 720 971",27575,43402,M,,79775,,1
+997,Jeanne Zakharovna Vlasov,#VALUE!,+7 490 001 76 58,ereme52@rambler.ru,"from. Malgobek, trans. Power Engineers, d. 323 to. 794, 279239",30479,42228,F,,92279,,
+998,Nikonov Gordey Gerasimov,#VALUE!,8 (067) 638-9943,sidorovbojan@mail.ru,"Birsk, nab. Tomsk, d. 2/2, 124028",22889,42942,M,,93274,,
+999,Olympia Z. Fedotov,#VALUE!,+7 (005) 594-80-35,kuzmasharov@gmail.com,"COFO Aldan, w. Pioneer, d. 5 k. 2/3 935417",25544,43790,M,219844,60494,1,1
+1000,Avdeeva Vasilisa L.,#VALUE!,8 965 419 22 19,kulaginaraisa@yahoo.com,"d. Domodedovo Str. Mill, d. 6/6, 564 636",28414,43692,F,164242,83032,1,
