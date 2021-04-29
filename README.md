@@ -14,6 +14,8 @@ Building real-time ETL solution for synthetic bank data using GDN
 **How To Run:**
 
 **On Federation:**
+
+**PLEASE FIX THIS**
 > ```
 > Create and publish following Stream Workers in your federation:
 > 1. etl-bank-txn-publisher
