@@ -54,6 +54,8 @@ Building real-time ETL solution for synthetic bank data using GDN
 > #The logs will be published on `c8locals.input_log_stream`. The aggreation collections will be populated.
 > ```
 
+## Details
+
 ### Stream Workers
 
 **etl-bank-txn-publisher:**
