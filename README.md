@@ -328,22 +328,70 @@ TBD
 
 ### Query Workers
 
-**Query worker1:**
+**getBanksTxnsByClient:**
+```
+For clients in etl_bank_transactions FILTER clients.client_name==@clientName
+return clients
 ```
 
+**getBankTxnsByAnnonymousClient:**
+```
+For clients in etl_bank_transactions_anonymization Filter clients.client_name==@clientName
+Return clients
 ```
 
-**Query worker2:**
+**getBankSubscriptionsByClient:**
 ```
-
+For clients in etl_bank_subscriptions Filter clients.client_name==@clientName
+Return clients
 ```
-
-**Query worker3:**
+**getBankCompanyTotals:**
 ```
-
+For company in etl_bank_company_totals
+Sort company.total_amount DESC
+LIMIT @topN 
+Return company
 ```
-
-
+**getBankCategoryTotals:**
+```
+For category in etl_bank_category_totals
+Sort category.total_amount DESC
+LIMIT @topN 
+Return category
+```
+**getBankClientTotals:**
+```
+For clients in etl_bank_client_totals
+Sort clients.total_amount DESC
+LIMIT @topN 
+Return clients
+```
+**getBankClients:**
+```
+For clients in etl_bank_clients 
+limit @offsetValue,100
+Return {clientName:clients.fullname,key:clients._key,email:clients.email}
+```
+**getBankAnonymizationClient:**
+```
+For clients in etl_bank_transactions_anonymization 
+limit @offsetValue,100
+Return {clientName:clients.client_name,key:clients._key}
+```
+**etl_bank_transactions_raw_query:**
+```
+for doc in etl_bank_transactions_raw 
+limit @offsetValue, 20 filter doc.id <= @value 
+SORT doc._key asc
+return doc
+```
+**etl_bank_subscriptions_raw_query:**
+```
+for doc in etl_bank_subscriptions_raw 
+limit @offsetValue, 20 
+SORT doc._key asc
+return doc
+```
 ## Developer Notes
 
 **PLEASE FIX THIS**
