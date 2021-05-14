@@ -36,14 +36,14 @@ Building real-time ETL solution for synthetic bank data using GDN
 > 10.etl_bank_subscriptions_raw_query
 > 
 > Following doc collections needs to be created:
-> 1. etl-bank-transactions-raw (seed data, global)
-> 2. etl-bank-subscriptions-raw (seed data, global)
-> 3. etl-bank-categories (seed data, global)
-> 4. etl-bank-clients (seed data, global)
+> 1. etl_bank_transactions_raw (seed data, global)
+> 2. etl_bank_subscriptions_raw (seed data, global)
+> 3. etl_bank_categories (seed data, global)
+> 4. etl_bank_clients (seed data, global)
 > 
 > Following doc collections are created automatically:
-> 5. etl-bank-transactions (global)
-> 6. etl-bank-subscriptions (global)
+> 5. etl_bank_transactions (global)
+> 6. etl_bank_subscriptions (global)
 > 7. etl_bank_category_totals (global)
 > 8. etl_bank_client_totals (global)
 > 9. etl_bank_company_totals (global)
@@ -321,15 +321,16 @@ update or insert into etlbankcategorytotals
 
 ### Document Collections
 
-1. etl-bank-transactions-raw (seed data, global)
-2. etl-bank-subscriptions-raw (seed data, global)
-3. etl-bank-categories (seed data, global)
-4. etl-bank-clients (seed data, global)
-5. etl-bank-transactions (local)
-6. etl-bank-subscriptions (local)
-7. etl-bank-client-totals (local)
-8. etl-bank-company-totals (local)
-9. etl-bank-category-totals (local)
+1. etl_bank_transactions_raw (seed data, global)
+2. etl_bank_subscriptions_raw (seed data, global)
+3. etl_bank_categories (seed data, global)
+4. etl_bank_clients (seed data, global)
+5. etl_bank_transactions (global)
+6. etl_bank_subscriptions (global)
+7. etl_bank_client_totals (global)
+8. etl_bank_company_totals (global)
+9. etl_bank_category_totals (global)
+10.etl_bank_transactions_anonymization (global)
 
 ### Indexes
 
