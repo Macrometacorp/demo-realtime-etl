@@ -13,46 +13,55 @@ Building real-time ETL solution for synthetic bank data using GDN
 
 
 ## How to Run
-
 **On Federation:**
 
-**PLEASE FIX THIS**
 > ```
 > Create and publish following Stream Workers in your federation:
 > 1. etl-bank-txn-publisher
 > 2. etl-bank-subscriptions-publisher
-> 3. etl-bank-txn-enricher
-> 4. etl-bank-subscription-enricher
+> 3. etl-bank-txns
+> 4. etl-bank-subscriptions
 > 5. etl-bank-totals
 > 
-> Following doc collections are created automatically:
+>  Following Query Workers needs to be created:
+> 1. getBanksTxnsByClient
+> 2. getBankTxnsByAnnonymousClient
+> 3. getBankSubscriptionsByClient
+> 4. getBankCompanyTotals
+> 5. getBankCategoryTotals
+> 6. getBankClientTotals
+> 7. getBankClients
+> 8. getBankAnonymizationClient
+> 9. etl_bank_transactions_raw_query
+> 10.etl_bank_subscriptions_raw_query
+> 
+> Following doc collections needs to be created:
 > 1. etl-bank-transactions-raw (seed data, global)
 > 2. etl-bank-subscriptions-raw (seed data, global)
 > 3. etl-bank-categories (seed data, global)
 > 4. etl-bank-clients (seed data, global)
-> 5. etl-bank-transactions (local)
-> 6. etl-bank-subscriptions (local)
-> 7. etl-bank-client-totals (local)
-> 8. etl-bank-company-totals (local)
-> 9. etl-bank-category-totals (local)
+> 
+> Following doc collections are created automatically:
+> 5. etl-bank-transactions (global)
+> 6. etl-bank-subscriptions (global)
+> 7. etl_bank_category_totals (global)
+> 8. etl_bank_client_totals (global)
+> 9. etl_bank_company_totals (global)
+> 10.etl_bank_transactions_anonymization (global)
 > 
 > Note: If you have run this tutorial before, you may want to truncate the collections.
 > ```
 
 **On Development Machine:**
 
-**PLEASE FIX THIS**
 > ```
-> git clone https://github.com/Macrometacorp/tutorial-log-analytics.git
-> cd tutorial-log-analytics
+> git clone https://github.com/Macrometacorp/demo-realtime-etl.git
+> cd demo-realtime-etl
 > git fetch
-> git checkout gh-pages
 > npm install
-> browserify producer.js > bundle.js //required if you make any changes in the producer.js
-> #Open index.html in browser.
-> #Enter your federation details and click on Publish button. 
-> #The logs will be published on `c8locals.input_log_stream`. The aggreation collections will be populated.
+> npm run start
 > ```
+
 
 ## Details
 
