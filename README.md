@@ -391,15 +391,15 @@ Return {clientName:clients.client_name,key:clients._key}
 **etl_bank_transactions_raw_query:**
 ```
 for doc in etl_bank_transactions_raw 
-limit @offsetValue, 20 filter doc.id <= @value 
 SORT doc._key asc
+limit @offsetValue, 100  
 return doc
 ```
 **etl_bank_subscriptions_raw_query:**
 ```
 for doc in etl_bank_subscriptions_raw 
-limit @offsetValue, 20 
 SORT doc._key asc
+limit @offsetValue, 100 
 return doc
 ```
 ## Developer Notes
