@@ -403,12 +403,8 @@ return doc
 ```
 ## Developer Notes
 
-**PLEASE FIX THIS**
+**TBD**
 
-* `index.html` renders the UI of https://macrometacorp.github.io/demo-realtime-log-analytics . The page refers to `bundle.js` script. `bundle.js` is bundled version of `producer.js` and all of its dependencies.
-* Each time you update the `producer.js` you need to rebuild the `bundle.js` file.<br/>
-* Use below command to do the same. Also make sure you chekin `bundle.js` along with `producer.js`<br/>
-`browserify producer.js > bundle.js`
 
 
 
