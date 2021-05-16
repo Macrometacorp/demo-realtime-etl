@@ -47,7 +47,7 @@ export const ETLTable = ({
   }, [handleTableType, tableType]);
 
   const renderTable = useMemo(() => {
-    console.log("renderRabke");
+    
     return (
       <EnhancedTable
         bankClientNames={bankClientNames}

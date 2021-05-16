@@ -11,51 +11,30 @@ export const ETLCharts = ({
   categoryTotals,
 }) => {
   const renderCompanyChart = useMemo(() => {
-    const companyCategories = companyTotals.map(
-      (element) => element["product_company"]
-    );
-    const companyCategoriesTotals = companyTotals.map(
-      (element) => element.total_amount
-    );
     return (
-      <Grid item sm={3} style={{ paddingLeft: "10vw" }}>
+      <Grid item sm={4}>
         <ETLChartComponent
-          category={companyCategories}
-          categoryTotals={companyCategoriesTotals}
+          chartData={companyTotals}
+          parserType="companyTotals"
         />
       </Grid>
     );
   }, [companyTotals]);
   const renderCategoryChart = useMemo(() => {
-    const categoryategories = categoryTotals.map(
-      (element) => element["product_category_name"]
-    );
-    const categoryategoriesTotal = categoryTotals.map(
-      (element) => element.total_amount
-    );
-
     return (
-      <Grid item sm={3} style={{ paddingLeft: "20vw" }}>
+      <Grid item sm={4}>
         <ETLChartComponent
-          category={categoryategories}
-          categoryTotals={categoryategoriesTotal}
+          chartData={categoryTotals}
+          parserType="categoryTotals"
         />
       </Grid>
     );
   }, [categoryTotals]);
+
   const renderClientChart = useMemo(() => {
-    const clientCategories = clientTotals.map(
-      (element) => element["client_name"]
-    );
-    const clientCategoriesTotal = clientTotals.map(
-      (element) => element.total_amount
-    );
     return (
-      <Grid item sm={3}>
-        <ETLChartComponent
-          category={clientCategories}
-          categoryTotals={clientCategoriesTotal}
-        />
+      <Grid item sm={4}>
+        <ETLChartComponent chartData={clientTotals} parserType="clientTotals" />
       </Grid>
     );
   }, [clientTotals]);
