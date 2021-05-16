@@ -4,10 +4,10 @@ export default () => {
     navigator.serviceWorker
       .register("/custom-service-worker.js")
       .then(() => {
-        console.log("my custom service worker registerd");
+        //console.log("my custom service worker registerd");
       })
       .catch((err) => {
-        console.log("error", err);
+        //console.log("error", err);
       });
   }
 };
