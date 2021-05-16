@@ -116,7 +116,7 @@ const EnhancedTableToolbar = ({
   handleSelectClient,
 }) => {
   const classes = useToolbarStyles();
-  console.log(`Logged output: bankClientNames`, bankClientNames);
+ // console.log(`Logged output: bankClientNames`, bankClientNames);
   return (
     <Toolbar className={clsx(classes.root)}>
       {/* <Typography

@@ -188,65 +188,37 @@ const ETLDashboard = () => {
     setIsStopLoading(false);
   }, [streamConnections]);
 
-  const messageManipulation = useCallback(
-    (msg) => {
-      const { newData } = parseMessage(msg);
-      // console.log(`Logged output: messageManipulation -> newData`, newData);
-      // console.log(
-      //   `Logged output: messageManipulation -> categoriesTotal`,
-      //   categoriesTotal
-      // // );
-      // console.log(
-      //   `Logged output: messageManipulation -> clientsTotal`,
-      //   clientsTotal
-      // );
-      // console.log(
-      //   `Logged output: messageManipulation -> company`,
-      //   companyTotal
-      // );
-      //console.log(`Logged output: ETLDashboard -> newData`, newData);
-      if (newData.hasOwnProperty("client_name")) {
-        const { updatedBankClientsTotals } = updatedArray(
-          newData,
-          clientsTotal,
-          "client_name",
-          topN
-        );
-        // console.log(
-        //   `Logged output: ETLDashboard -> updatedBankClientsTotals`,
-        //   updatedBankClientsTotals
-        // );
-        setClientsTotal(() => [...updatedBankClientsTotals]);
-      } else if (newData.hasOwnProperty("product_company")) {
-        const { updatedBankClientsTotals } = updatedArray(
-          newData,
-          companyTotal,
-          "product_company",
-          topN
-        );
-        // console.log(
-        //   `Logged output: ETLDashboard -> updatedBankClientsTotals`,
-        //   updatedBankClientsTotals
-        // );
-        setCompaniesTotal(() => [...updatedBankClientsTotals]);
-      } else if (newData.hasOwnProperty("product_category_name")) {
-        const { updatedBankClientsTotals } = updatedArray(
-          newData,
-          categoriesTotal,
-          "product_category_name",
-          topN
-        );
-        // console.log(
-        //   `Logged output: ETLDashboard -> updatedBankClientsTotals`,
-        //   updatedBankClientsTotals
-        // );
-        setCategoriesTotal(() => [...updatedBankClientsTotals]);
-      }
+  const messageManipulation = (msg) => {
+    const { newData } = parseMessage(msg);
+    if (newData.hasOwnProperty("client_name")) {
+      const { updatedBankClientsTotals } = updatedArray(
+        newData,
+        clientsTotal,
+        "client_name",
+        topN
+      );
 
-      //console.log(`Logged output: ETLDashboard -> sortingKey`);
-    },
-    [clientsTotal, companyTotal, categoriesTotal, topN]
-  );
+      setClientsTotal(() => [...updatedBankClientsTotals]);
+    } else if (newData.hasOwnProperty("product_company")) {
+      const { updatedBankClientsTotals } = updatedArray(
+        newData,
+        companyTotal,
+        "product_company",
+        topN
+      );
+
+      setCompaniesTotal(() => [...updatedBankClientsTotals]);
+    } else if (newData.hasOwnProperty("product_category_name")) {
+      const { updatedBankClientsTotals } = updatedArray(
+        newData,
+        categoriesTotal,
+        "product_category_name",
+        topN
+      );
+
+      setCategoriesTotal(() => [...updatedBankClientsTotals]);
+    }
+  };
 
   const establishConnection = async (streamName) => {
     try {
@@ -267,13 +239,6 @@ const ETLDashboard = () => {
         );
 
         messageManipulation(msg);
-        //updateState
-        // [stateFunctions](() => [...updatedBankClientsTotals]);
-        // this.setState({
-        //   clientCategories: updatedClientCategories,
-        //   clientCategoriesTotals: updatedClientCategoriesTotals,
-        //   bankClientsTotals: updatedBankClientsTotals,
-        // });
       });
       return _consumer;
     } catch (error) {
@@ -335,11 +300,11 @@ const ETLDashboard = () => {
     startWebSocket();
   };
 
-  const handleOnStop = useCallback(() => {
+  const handleOnStop = () => {
     console.log("handleOnStop");
     setIsStopLoading(true);
     closeWebSocket();
-  }, [closeWebSocket]);
+  };
 
   const renderHeaderArea = useMemo(() => {
     console.log("inside Memoi");
@@ -351,17 +316,6 @@ const ETLDashboard = () => {
     );
   }, [isClearLoading, handleClearAllTables]);
 
-  const renderStartStopButtons = useMemo(() => {
-    console.log("renderStartStopButtons");
-    return (
-      <ETLStreamButtons
-        handleOnStart={handleOnStart}
-        handleOnStop={handleOnStop}
-        isStartLoading={isStartLoading}
-        isStopLoading={isStopLoading}
-      />
-    );
-  }, [isStartLoading, isStopLoading]);
 
   const handleTableType = useCallback((name) => {
     setTableType(name);
@@ -410,7 +364,12 @@ const ETLDashboard = () => {
     <ThemeProvider theme={theme}>
       {/* <MMButton buttonText="click to start" onClickCb={startWebSocket} /> */}
       {renderHeaderArea}
-      {renderStartStopButtons}
+      <ETLStreamButtons
+        handleOnStart={handleOnStart}
+        handleOnStop={handleOnStop}
+        isStartLoading={isStartLoading}
+        isStopLoading={isStopLoading}
+      />
       {renderCharts}
       {renderTable}
     </ThemeProvider>

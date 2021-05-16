@@ -1,89 +1,63 @@
-import React, { Component, useMemo } from "react";
-import Chart from "react-apexcharts";
+import React, { Component, useMemo, useEffect, useRef } from "react";
+// import Chart from "react-apexcharts";
+import Chart from "chart.js/auto";
+const ETLChartComponent = ({ chartData, parserType = "" }) => {
+  const chartRef = useRef(null);
+  const categoryChartDomRef = useRef(null);
 
-const ETLChartComponent = ({ categoryTotals, category }) => {
-  //console.log(`Logged output: ETLChartComponent -> category`, category);
-  // //console.log(
-  //   `Logged output: ETLChartComponent -> categoryTotals`,
-  //   categoryTotals
-  // );
-  const seriesData = {
-    series: [
-      {
-        data: categoryTotals || [],
-      },
-    ],
-  };
-  const optionsData = {
-    options: {
-      chart: {
+  useEffect(() => {
+    if (chartRef.current) {
+      console.log(chartData);
+      chartRef.current.data.datasets[0].data = chartData;
+      chartRef.current.update();
+    }
+  }, [chartRef, chartData]);
+
+  useEffect(() => {
+    if (!chartRef.current && categoryChartDomRef.current) {
+      let xyParser = {
+        xAxisKey: "total_amount",
+        yAxisKey: "client_name",
+      };
+
+      if (parserType === "companyTotals") {
+        xyParser.yAxisKey = "product_company";
+      }
+
+      if (parserType === "categoryTotals") {
+        xyParser.yAxisKey = "product_category_name";
+      }
+      chartRef.current = new Chart(categoryChartDomRef.current, {
         type: "bar",
-        height: 350,
-        animations: {
-          enabled: true,
-          easing: "easeinout",
-          speed: 800,
-          animateGradually: {
-            enabled: true,
-            delay: 150,
+        elements: {
+          bar: {
+            borderWidth: 2,
           },
-          // dynamicAnimation: {
-          //   enabled: true,
-          //   speed: 350,
-          // },
         },
-      },
-      plotOptions: {
-        bar: {
-          borderRadius: 4,
-          horizontal: true,
+        data: {
+          datasets: [
+            {
+              label: "Totals",
+              data: chartData,
+              backgroundColor: ["#338AD0"],
+              borderWidth: 1,
+            },
+          ],
         },
-      },
-      dataLabels: {
-        enabled: false,
-      },
-      xaxis: {
-        // categories: [
-        //   "Subbotin Adrian Guryevich",
-        //   "Larisa Andreevna Mironov",
-        //   "Alevtina Ivanovna Filippova",
-        //   "Fadeev Cyrus Leonovna",
-        //   "Agathon V. Kudryashov",
-        //   "Kolesnikov Claudius Vikentievich",
-        //   "Afanasiev Nikon Efimevich",
-        //   "Scherbakov Valentina",
-        //   "ChinPopov Euphrosinia D.a",
-        //   "Antonov Athanasius Ilyasovich",
-        // ],
-        categories: category || [],
-      },
-      title: {
-        text: "nujjrag",
-        align: "center",
-        margin: 10,
-        offsetX: 0,
-        offsetY: 360,
-        floating: false,
-        style: {
-          fontSize: "12px",
-          fontWeight: "normal",
-          fontFamily: undefined,
-          color: "red",
+        options: {
+          indexAxis: "y",
+          parsing: xyParser,
+          spanGaps: true,
+          showLine: false,
+          // disable for all datasets
         },
-      },
-    },
-  };
+      });
+    }
+  }, [chartData, parserType]);
+
   const renderChart = useMemo(() => {
-    return (
-      <Chart
-        options={optionsData.options}
-        series={seriesData.series}
-        type="bar"
-        height={350}
-        width={500}
-      />
-    );
-  }, [optionsData.options, seriesData.series]);
+    return <canvas ref={categoryChartDomRef} />;
+  }, []);
 
   return <div id="chart">{renderChart}</div>;
 };

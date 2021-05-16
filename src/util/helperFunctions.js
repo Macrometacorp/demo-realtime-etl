@@ -19,13 +19,10 @@ export const updatedArray = (newMessage, bankClientsTotals, keys, topN) => {
   _bankClientsTotals.sort(
     (totalA, totalB) => totalB.total_amount - totalA.total_amount
   );
-  //check for duplicay
-  const s = _.uniqBy(_bankClientsTotals, keys);
-  //console.log(`Logged output: updatedArray -> s`, s);
-  // if (s.length > topN) {
-  //   s.splice(0, topN);
-  // }
+  //const s = _.uniqBy(_bankClientsTotals, keys);
+  const slicedArray = _bankClientsTotals.slice(0, topN);
+
   return {
-    updatedBankClientsTotals: s,
+    updatedBankClientsTotals: slicedArray,
   };
 };
