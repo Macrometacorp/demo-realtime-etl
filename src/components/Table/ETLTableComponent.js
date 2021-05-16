@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo, useCallback } from "react";
 import PropTypes from "prop-types";
 import clsx from "clsx";
 import { lighten, makeStyles } from "@material-ui/core/styles";
@@ -34,7 +34,7 @@ import Paper from "@material-ui/core/Paper";
 //   createData("Oreo", 437, 18.0, 63, 4.0),
 // ];
 
-function EnhancedTableHead({ tableType }) {
+const EnhancedTableHead = ({ tableType }) => {
   const headCells = [
     {
       id: "client_name",
@@ -79,11 +79,11 @@ function EnhancedTableHead({ tableType }) {
       </TableRow>
     </TableHead>
   );
-}
-
-EnhancedTableHead.propTypes = {
-  classes: PropTypes.object.isRequired,
 };
+
+// EnhancedTableHead.propTypes = {
+//   classes: PropTypes.object.isRequired,
+// };
 
 const useToolbarStyles = makeStyles((theme) => ({
   root: {
@@ -111,11 +111,12 @@ const useToolbarStyles = makeStyles((theme) => ({
 
 const EnhancedTableToolbar = ({
   bankClientNames,
+
   selectedClient,
   handleSelectClient,
 }) => {
   const classes = useToolbarStyles();
-
+  console.log(`Logged output: bankClientNames`, bankClientNames);
   return (
     <Toolbar className={clsx(classes.root)}>
       {/* <Typography
@@ -148,8 +149,10 @@ const EnhancedTableToolbar = ({
           <MenuItem value="">
             <em>None</em>
           </MenuItem>
-          {bankClientNames.map((element) => (
-            <MenuItem value={element.clientName}>{element.clientName}</MenuItem>
+          {bankClientNames.map((element, index) => (
+            <MenuItem value={element.clientName} key={index.toString()}>
+              {element.clientName}
+            </MenuItem>
           ))}
         </Select>
       </FormControl>
@@ -208,8 +211,8 @@ export default function EnhancedTable({
     tableData.length &&
     rowsPerPage - Math.min(rowsPerPage, tableData.length - page * rowsPerPage);
 
-  return (
-    <div className={classes.root}>
+  const renderActualTable = useMemo(() => {
+    return (
       <Paper className={classes.paper}>
         <EnhancedTableToolbar
           bankClientNames={bankClientNames}
@@ -223,7 +226,7 @@ export default function EnhancedTable({
             size={"medium"}
             aria-label="enhanced table"
           >
-            <EnhancedTableHead classes={classes} tableType={tableType} />
+            <EnhancedTableHead tableType={tableType} />
             <TableBody>
               {tableData &&
                 tableData
@@ -282,6 +285,17 @@ export default function EnhancedTable({
           onChangeRowsPerPage={handleChangeRowsPerPage}
         />
       </Paper>
-    </div>
-  );
+    );
+  }, [
+    emptyRows,
+    bankClientNames,
+    classes,
+    handleSelectClient,
+    page,
+    rowsPerPage,
+    selectedClient,
+    tableData,
+    tableType,
+  ]);
+  return <div className={classes.root}>{renderActualTable}</div>;
 }

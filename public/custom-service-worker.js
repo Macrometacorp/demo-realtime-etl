@@ -1,5 +1,4 @@
-
-console.log("hello");
+//console.log("hello");
 // const client = new jsc8({
 //   url: "https://anurag.eng.macrometa.io",
 //   apiKey:
@@ -30,23 +29,23 @@ console.log("hello");
 //     //   }
 //     // );
 //     _clientConsumer.onopen = function (event) {
-//       console.log(
+//       //console.log(
 //         "WebSocket is open now for EtlBankClientNameTotalStream",
 //         new Date()
 //       );
 //     };
 //     // _clientConsumer.on("open", () => {
-//     //   console.log(`Connection open for _clientConsumer `);
+//     //   //console.log(`Connection open for _clientConsumer `);
 //     // });
 //     let cs;
 //     _clientConsumer.onmessage = function (msg) {
-//       console.log(`Logged output: _clientConsumer.onmessage -> msg`, msg.data);
+//       //console.log(`Logged output: _clientConsumer.onmessage -> msg`, msg.data);
 //       _clientConsumer.send(
 //         JSON.stringify({ messageId: JSON.parse(msg.data).messageId })
 //       );
 //       const { newData } = parseMessage(msg.data);
 //       cs = newData;
-//       console.log(`Logged output: ETLDashboard -> newData`, newData);
+//       //console.log(`Logged output: ETLDashboard -> newData`, newData);
 //     };
 //     navigator.serviceWorker.controller.postMessage({
 //       news: cs,
@@ -80,17 +79,17 @@ console.log("hello");
 //     //   }
 //     // );
 //     _categoryConsumer.onopen = function (event) {
-//       console.log(
+//       //console.log(
 //         "WebSocket is open now for _categoryConsumer",
 //         new Date()
 //       );
 //     };
 //     // _clientConsumer.on("open", () => {
-//     //   console.log(`Connection open for _clientConsumer `);
+//     //   //console.log(`Connection open for _clientConsumer `);
 //     // });
 //     let cs;
 //     _categoryConsumer.onmessage = function (msg) {
-//       console.log(
+//       //console.log(
 //         `Logged output: _categoryConsumer.onmessage -> msg`,
 //         msg.data
 //       );
@@ -99,7 +98,7 @@ console.log("hello");
 //       );
 //       const { newData } = parseMessage(msg.data);
 //       cs = newData;
-//       console.log(`Logged output: _categoryConsumer -> newData`, newData);
+//       //console.log(`Logged output: _categoryConsumer -> newData`, newData);
 //     };
 //     navigator.serviceWorker.controller.postMessage({
 //       news: cs,
@@ -133,20 +132,20 @@ console.log("hello");
 //     //   }
 //     // );
 //     _companyConsumer.onopen = function (event) {
-//       console.log("WebSocket is open now for _companyConsumer", new Date());
+//       //console.log("WebSocket is open now for _companyConsumer", new Date());
 //     };
 //     // _clientConsumer.on("open", () => {
-//     //   console.log(`Connection open for _clientConsumer `);
+//     //   //console.log(`Connection open for _clientConsumer `);
 //     // });
 //     let cs;
 //     _companyConsumer.onmessage = function (msg) {
-//       console.log(`Logged output: _companyConsumer.onmessage -> msg`, msg.data);
+//       //console.log(`Logged output: _companyConsumer.onmessage -> msg`, msg.data);
 //       _clientConsumer.send(
 //         JSON.stringify({ messageId: JSON.parse(msg.data).messageId })
 //       );
 //       const { newData } = parseMessage(msg.data);
 //       cs = newData;
-//       console.log(`Logged output: _companyConsumer -> newData`, newData);
+//       //console.log(`Logged output: _companyConsumer -> newData`, newData);
 //     };
 //     // navigator.serviceWorker.controller.postMessage({
 //     //   news: cs,

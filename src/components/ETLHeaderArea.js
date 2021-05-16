@@ -21,9 +21,6 @@ export const ETLHeaderArea = ({ handleClearAllTables, isClearLoading }) => {
       </Grid>
       <Grid
         item
-        direction="row"
-        alignItems="flex-end"
-        justify="flex-end"
         // xs={8}
         style={{
           position: "absolute",

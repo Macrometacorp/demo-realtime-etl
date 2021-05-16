@@ -1,12 +1,12 @@
-import React, { Component } from "react";
+import React, { Component, useMemo } from "react";
 import Chart from "react-apexcharts";
 
 const ETLChartComponent = ({ categoryTotals, category }) => {
-  console.log(`Logged output: ETLChartComponent -> category`, category);
-  console.log(
-    `Logged output: ETLChartComponent -> categoryTotals`,
-    categoryTotals
-  );
+  //console.log(`Logged output: ETLChartComponent -> category`, category);
+  // //console.log(
+  //   `Logged output: ETLChartComponent -> categoryTotals`,
+  //   categoryTotals
+  // );
   const seriesData = {
     series: [
       {
@@ -20,17 +20,17 @@ const ETLChartComponent = ({ categoryTotals, category }) => {
         type: "bar",
         height: 350,
         animations: {
-          enabled: false,
-          // easing: "easeinout",
-          // speed: 800,
-          // animateGradually: {
-          //   enabled: true,
-          //   delay: 150,
-          // },
-          dynamicAnimation: {
-            enabled: false,
-            // speed: 350,
+          enabled: true,
+          easing: "easeinout",
+          speed: 800,
+          animateGradually: {
+            enabled: true,
+            delay: 150,
           },
+          // dynamicAnimation: {
+          //   enabled: true,
+          //   speed: 350,
+          // },
         },
       },
       plotOptions: {
@@ -57,21 +57,35 @@ const ETLChartComponent = ({ categoryTotals, category }) => {
         // ],
         categories: category || [],
       },
+      title: {
+        text: "nujjrag",
+        align: "center",
+        margin: 10,
+        offsetX: 0,
+        offsetY: 360,
+        floating: false,
+        style: {
+          fontSize: "12px",
+          fontWeight: "normal",
+          fontFamily: undefined,
+          color: "red",
+        },
+      },
     },
   };
-
-  return (
-    <div id="chart">
+  const renderChart = useMemo(() => {
+    return (
       <Chart
         options={optionsData.options}
         series={seriesData.series}
         type="bar"
         height={350}
-        a
         width={500}
       />
-    </div>
-  );
+    );
+  }, [optionsData.options, seriesData.series]);
+
+  return <div id="chart">{renderChart}</div>;
 };
 
 export default ETLChartComponent;
