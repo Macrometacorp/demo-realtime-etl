@@ -7,7 +7,7 @@ const ETLChartComponent = ({ chartData, parserType = "" }) => {
 
   useEffect(() => {
     if (chartRef.current) {
-      console.log("chartData", chartRef.current);
+      // console.log("chartData", chartRef.current);
 
       chartRef.current.data.labels = [];
       chartRef.current.data.datasets[0].data = chartData;
@@ -57,6 +57,8 @@ const ETLChartComponent = ({ chartData, parserType = "" }) => {
               grid: {
                 display: false,
               },
+              // min: 10000,
+              // max: 600000,
             },
             y: {
               grid: {

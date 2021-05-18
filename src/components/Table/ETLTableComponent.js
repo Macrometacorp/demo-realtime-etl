@@ -72,6 +72,7 @@ const EnhancedTableHead = ({ tableType }) => {
             key={headCell.id}
             align={headCell.numeric ? "right" : "left"}
             padding={headCell.disablePadding ? "none" : "default"}
+            style={{ fontSize: "18px", fontWeight: "700" }}
           >
             {headCell.label}
           </TableCell>
