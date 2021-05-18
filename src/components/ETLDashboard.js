@@ -4,6 +4,7 @@ import { ETLHeaderArea } from "./ETLHeaderArea";
 import { ETLCharts } from "./ETLCharts";
 import { ETLStreamButtons } from "./ETLStreamButtons";
 import { ETLTable } from "./ETLTable";
+import { MMButton } from "./common/MMButton";
 import jsc8 from "jsc8";
 import _ from "lodash";
 
@@ -278,17 +279,17 @@ const ETLDashboard = () => {
 
   const handleClearAllTables = useCallback(async () => {
     setIsClearLoading(true);
-    await clearTables();
+    // await clearTables();
   }, []);
 
   const handleOnStart = () => {
     setIsStartLoading(true);
-    startWebSocket();
+    // startWebSocket();
   };
 
   const handleOnStop = () => {
     setIsStopLoading(true);
-    closeWebSocket();
+    // closeWebSocket();
   };
 
   const renderHeaderArea = useMemo(() => {
@@ -305,7 +306,8 @@ const ETLDashboard = () => {
   }, []);
 
   const handleSelectClient = (event) => {
-    setSelectedClient(event.target.value);
+    console.log("event", event.clientName);
+    setSelectedClient(event.clientName);
   };
 
   const renderTable = useMemo(() => {
@@ -344,7 +346,9 @@ const ETLDashboard = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      {/* <MMButton buttonText="click to start" onClickCb={startWebSocket} /> */}
+      <div style={{ position: "absolute", right: "10px", top: "10px" }}>
+        <MMButton buttonText="About" onClickCb={startWebSocket} />
+      </div>
       {renderHeaderArea}
       <ETLStreamButtons
         handleOnStart={handleOnStart}

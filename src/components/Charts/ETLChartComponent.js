@@ -1,7 +1,7 @@
 import React, { Component, useMemo, useEffect, useRef } from "react";
 // import Chart from "react-apexcharts";
 import Chart from "chart.js/auto";
-const ETLChartComponent = ({ chartData, parserType = "" }) => {
+const ETLChartComponent = ({ chartData, parserType = "", chartText }) => {
   const chartRef = useRef(null);
   const categoryChartDomRef = useRef(null);
 
@@ -66,11 +66,25 @@ const ETLChartComponent = ({ chartData, parserType = "" }) => {
               },
             },
           },
+          plugins: {
+            title: {
+              text: chartText,
+              position: "bottom",
+              display: true,
+              font: {
+                size: 16,
+                weight: "bold",
+              },
+            },
+            legend: {
+              display: false,
+            },
+          },
           // disable for all datasets
         },
       });
     }
-  }, [chartData, parserType]);
+  }, [chartData, parserType, chartText]);
 
   const renderChart = useMemo(() => {
     return <canvas ref={categoryChartDomRef} />;

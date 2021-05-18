@@ -2,7 +2,14 @@ import React, { useMemo, useCallback } from "react";
 import PropTypes from "prop-types";
 import clsx from "clsx";
 import { lighten, makeStyles } from "@material-ui/core/styles";
-import { FormControl, Select, InputLabel, MenuItem } from "@material-ui/core";
+import {
+  FormControl,
+  // Select,
+  InputLabel,
+  MenuItem,
+  Typography,
+  Grid,
+} from "@material-ui/core";
 import Table from "@material-ui/core/Table";
 import TableBody from "@material-ui/core/TableBody";
 import TableCell from "@material-ui/core/TableCell";
@@ -11,7 +18,9 @@ import TableHead from "@material-ui/core/TableHead";
 import TablePagination from "@material-ui/core/TablePagination";
 import TableRow from "@material-ui/core/TableRow";
 import Toolbar from "@material-ui/core/Toolbar";
-
+import Dropdown from "react-dropdown";
+import Select from "react-select";
+import "react-dropdown/style.css";
 import Paper from "@material-ui/core/Paper";
 
 // function createData(name, calories, fat, carbs, protein) {
@@ -66,11 +75,10 @@ const EnhancedTableHead = ({ tableType }) => {
   return (
     <TableHead>
       <TableRow>
-        <TableCell padding="checkbox"></TableCell>
         {headCells.map((headCell) => (
           <TableCell
             key={headCell.id}
-            align={headCell.numeric ? "right" : "left"}
+            align={"center"}
             padding={headCell.disablePadding ? "none" : "default"}
             style={{ fontSize: "18px", fontWeight: "700" }}
           >
@@ -90,6 +98,7 @@ const useToolbarStyles = makeStyles((theme) => ({
   root: {
     paddingLeft: theme.spacing(2),
     paddingRight: theme.spacing(1),
+    maxHeight: "80px",
   },
   formControl: {
     margin: theme.spacing(1),
@@ -121,7 +130,9 @@ const EnhancedTableToolbar = ({
   return (
     <Toolbar
       className={clsx(classes.root)}
-      style={{ backgroundColor: "rgba(51,138,208,0.6)" }}
+      style={{
+        backgroundColor: "rgba(51,138,208,0.6)",
+      }}
     >
       {/* <Typography
         className={classes.title}
@@ -131,40 +142,79 @@ const EnhancedTableToolbar = ({
       >
         Nutrition
       </Typography> */}
-      <FormControl
-        variant="outlined"
-        className={classes.formControl}
-        style={{ paddingTop: "40px" }}
-      >
-        <InputLabel
-          id="demo-simple-select-outlined-label"
+      {/* <Dropdown
+        options={["one", "two", "three"]}
+        onChange={handleSelectClient}
+        value={"one"}
+        placeholder="Select an option"
+      /> */}
+      <Grid container>
+        <Grid item xs>
+          {/* <FormControl
+            variant="outlined"
+            className={classes.formControl}
+            style={{ paddingTop: "40px", justifyContent: "start" }}
+          >
+            <InputLabel
+              id="demo-simple-select-outlined-label"
+              style={{
+                width: "200px",
+                paddingTop: "30px",
+                fontWeight: "700",
+                fontSize: "20px",
+              }}
+            >
+              Clients
+            </InputLabel>
+            <Select
+              labelId="demo-simple-select-outlined-label"
+              id="demo-simple-select-outlined"
+              value={selectedClient}
+              onChange={handleSelectClient}
+              label="Clients"
+              style={{ width: "200px", borderTopColor: "pink" }}
+            > */}
+          <Select
+            options={bankClientNames}
+            value={selectedClient}
+            onChange={handleSelectClient}
+            getOptionLabel={(option) => option.clientName}
+            getOptionValue={(option) => option.clientName}
+            placeholder={selectedClient ? selectedClient : "Client Name"}
+          />
+          {/* <MenuItem value="">
+                <em>None</em>
+              </MenuItem>
+              {bankClientNames.map((element, index) => (
+                <MenuItem value={element.clientName} key={index.toString()}>
+                  {element.clientName}
+                </MenuItem>
+              ))}
+            </Select> */}
+          {/* </FormControl> */}
+        </Grid>
+        <Grid
+          item
+          xs={10}
           style={{
-            width: "200px",
-            paddingTop: "30px",
-            fontWeight: "700",
-            fontSize: "20px",
+            justifyContent: "center",
+            alignItems: "center",
+            textAlign: "center",
           }}
         >
-          Clients
-        </InputLabel>
-        <Select
-          labelId="demo-simple-select-outlined-label"
-          id="demo-simple-select-outlined"
-          value={selectedClient}
-          onChange={handleSelectClient}
-          label="Clients"
-          style={{ width: "200px", borderTopColor: "pink" }}
-        >
-          <MenuItem value="">
-            <em>None</em>
-          </MenuItem>
-          {bankClientNames.map((element, index) => (
-            <MenuItem value={element.clientName} key={index.toString()}>
-              {element.clientName}
-            </MenuItem>
-          ))}
-        </Select>
-      </FormControl>
+          <span
+            style={{
+              fontWeight: "700",
+              fontSize: "30px",
+              marginLeft: "-180px",
+              // marginTop: "30px",
+              // paddingLeft: "60px",
+            }}
+          >
+            Client Data
+          </span>
+        </Grid>
+      </Grid>
     </Toolbar>
   );
 };
@@ -175,6 +225,9 @@ const useStyles = makeStyles((theme) => ({
     boxShadow: "2px 5px 5px 2px #d4d4d4",
     borderRadius: "0.375rem",
     borderTopWidth: 1,
+    "& .MuiTableCell-root": {
+      border: " 1px solid rgba(224, 224, 224, 1)",
+    },
   },
 
   paper: {
@@ -232,7 +285,7 @@ export default function EnhancedTable({
           selectedClient={selectedClient}
           handleSelectClient={handleSelectClient}
         />
-        <TableContainer>
+        <TableContainer style={{ minHeight: "280px" }}>
           <Table
             className={classes.table}
             aria-labelledby="tableTitle"
@@ -241,7 +294,7 @@ export default function EnhancedTable({
           >
             <EnhancedTableHead tableType={tableType} />
             <TableBody>
-              {tableData &&
+              {tableData && tableData.length ? (
                 tableData
                   .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                   .map((row, index) => {
@@ -254,32 +307,43 @@ export default function EnhancedTable({
                         tabIndex={-1}
                         key={row._key}
                       >
-                        <TableCell padding="checkbox"></TableCell>
                         <TableCell
                           component="th"
                           id={labelId}
                           scope="row"
                           padding="none"
+                          align="center"
                         >
                           {row.client_name}
                         </TableCell>
-                        <TableCell align="right">
+                        <TableCell align="center">
                           {tableType !== "Subscriptions"
                             ? row.date
                             : row.date_start}
                         </TableCell>
-                        <TableCell align="right">
+                        <TableCell align="center">
                           {tableType !== "Subscriptions"
                             ? row.txn_id
                             : row.date_end}
                         </TableCell>
-                        <TableCell align="right">
+                        <TableCell align="center">
                           {row.product_category_name}
                         </TableCell>
-                        <TableCell align="right">{row.amount}</TableCell>
+                        <TableCell align="center">{row.amount}</TableCell>
                       </TableRow>
                     );
-                  })}
+                  })
+              ) : (
+                <TableRow>
+                  <Typography
+                    className={clsx(classes.content)}
+                    variant="subtitle1"
+                  >
+                    No Data
+                  </Typography>
+                </TableRow>
+              )}
+
               {emptyRows > 0 && (
                 <TableRow style={{ height: 53 * emptyRows }}>
                   <TableCell colSpan={6} />

@@ -8,15 +8,10 @@ export const ETLStreamButtons = ({
   isStopLoading,
 }) => {
   return (
-    <Grid
-      container
-      direction="row"
-      justify="center"
-      style={{ paddingTop: "30px" }}
-    >
-      <Grid item>
+    <Grid container spacing={5} style={{ width: "30%", margin: "auto" }}>
+      <Grid item xs>
         <MMButton
-          buttonText="START"
+          buttonText="Start"
           buttonType="primary"
           smValue={12}
           disableButton={isStartLoading || isStopLoading}
@@ -25,14 +20,26 @@ export const ETLStreamButtons = ({
           buttonStyle={{ marginRight: "20px" }}
         />
       </Grid>
-      <Grid item>
+      <Grid item xs>
         <MMButton
-          buttonText="STOP"
+          buttonText="Stop"
           buttonType="primary"
-          disableButton={isStartLoading || isStopLoading}
-          loading={isStopLoading}
-          onClickCb={handleOnStop}
           smValue={12}
+          disableButton={isStartLoading || isStopLoading}
+          loading={isStartLoading}
+          onClickCb={handleOnStart}
+          buttonStyle={{ marginRight: "20px" }}
+        />
+      </Grid>
+      <Grid item xs>
+        <MMButton
+          buttonText="Clear Tables"
+          buttonType="primary"
+          smValue={12}
+          disableButton={isStartLoading || isStopLoading}
+          loading={isStartLoading}
+          onClickCb={handleOnStart}
+          buttonStyle={{ marginRight: "20px" }}
         />
       </Grid>
     </Grid>

@@ -2,6 +2,7 @@ import React, { useCallback, useEffect, useMemo } from "react";
 import { Grid, TextField, Card, CardContent } from "@material-ui/core";
 import { MMHeading } from "./common/MMHeading";
 import ETLChartComponent from "./Charts/ETLChartComponent";
+import ETLSample from "../ETLSample";
 
 export const ETLCharts = ({
   topN,
@@ -14,7 +15,7 @@ export const ETLCharts = ({
     return (
       <Grid
         item
-        sm={4}
+        // sm={4}
         style={{
           boxShadow: "2px 5px 5px 2px #d4d4d4",
           borderRadius: "0.375rem",
@@ -25,6 +26,7 @@ export const ETLCharts = ({
             <ETLChartComponent
               chartData={companyTotals}
               parserType="companyTotals"
+              chartText="Company Totals"
             />
           </CardContent>
         </Card>
@@ -35,7 +37,7 @@ export const ETLCharts = ({
     return (
       <Grid
         item
-        sm={4}
+        // sm={4}
         style={{
           boxShadow: "2px 5px 5px 2px #d4d4d4",
           borderRadius: "0.375rem",
@@ -46,6 +48,7 @@ export const ETLCharts = ({
             <ETLChartComponent
               chartData={categoryTotals}
               parserType="categoryTotals"
+              chartText="Category Totals"
             />
           </CardContent>
         </Card>
@@ -57,7 +60,7 @@ export const ETLCharts = ({
     return (
       <Grid
         item
-        sm={4}
+        // sm={4}
         style={{
           boxShadow: "2px 5px 5px 2px #d4d4d4",
           borderRadius: "0.375rem",
@@ -68,6 +71,7 @@ export const ETLCharts = ({
             <ETLChartComponent
               chartData={clientTotals}
               parserType="clientTotals"
+              chartText="Client Totals"
             />
           </CardContent>
         </Card>
@@ -110,28 +114,28 @@ export const ETLCharts = ({
         container
         direction="row"
         justify="flex-start"
-        style={{ paddingTop: "30px", paddingLeft: "10vw" }}
+        style={{ paddingTop: "30px" }}
       >
         {renderTopN}
       </Grid>
-      <Grid
-        container
-        direction="row"
-        style={{
-          paddingTop: "30px",
-        }}
-      >
-        {renderClientChart}
-        {renderCompanyChart}
-        {renderCategoryChart}
-        {/* <Grid item>
+      <Grid container spacing={5} style={{}}>
+        <Grid item xs>
+          {renderClientChart}
+        </Grid>
+        <Grid item xs>
+          {renderCompanyChart}
+        </Grid>
+        <Grid item xs>
+          {renderCategoryChart}
+        </Grid>
+      </Grid>
+      {/* <Grid item>
           //bublechart
           <ETLChartComponent
             category={companyCategories}
             categoryTotals={companyTotals}
           />
         </Grid> */}
-      </Grid>
     </div>
   );
 };
