@@ -116,9 +116,12 @@ const EnhancedTableToolbar = ({
   handleSelectClient,
 }) => {
   const classes = useToolbarStyles();
- // console.log(`Logged output: bankClientNames`, bankClientNames);
+  // console.log(`Logged output: bankClientNames`, bankClientNames);
   return (
-    <Toolbar className={clsx(classes.root)}>
+    <Toolbar
+      className={clsx(classes.root)}
+      style={{ backgroundColor: "rgba(51,138,208,0.6)" }}
+    >
       {/* <Typography
         className={classes.title}
         variant="h6"
@@ -134,7 +137,12 @@ const EnhancedTableToolbar = ({
       >
         <InputLabel
           id="demo-simple-select-outlined-label"
-          style={{ width: "200px", paddingTop: "30px" }}
+          style={{
+            width: "200px",
+            paddingTop: "30px",
+            fontWeight: "700",
+            fontSize: "20px",
+          }}
         >
           Clients
         </InputLabel>
@@ -144,7 +152,7 @@ const EnhancedTableToolbar = ({
           value={selectedClient}
           onChange={handleSelectClient}
           label="Clients"
-          style={{ width: "200px" }}
+          style={{ width: "200px", borderTopColor: "pink" }}
         >
           <MenuItem value="">
             <em>None</em>
@@ -163,10 +171,14 @@ const EnhancedTableToolbar = ({
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
+    boxShadow: "2px 5px 5px 2px #d4d4d4",
+    borderRadius: "0.375rem",
+    borderTopWidth: 1,
   },
 
   paper: {
     width: "100%",
+
     marginBottom: theme.spacing(2),
   },
   table: {
@@ -297,5 +309,9 @@ export default function EnhancedTable({
     tableData,
     tableType,
   ]);
-  return <div className={classes.root}>{renderActualTable}</div>;
+  return (
+    <div className={classes.root} style={{ marginTop: "2vh" }}>
+      {renderActualTable}
+    </div>
+  );
 }

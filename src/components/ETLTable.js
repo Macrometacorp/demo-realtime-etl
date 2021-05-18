@@ -47,7 +47,6 @@ export const ETLTable = ({
   }, [handleTableType, tableType]);
 
   const renderTable = useMemo(() => {
-    
     return (
       <EnhancedTable
         bankClientNames={bankClientNames}

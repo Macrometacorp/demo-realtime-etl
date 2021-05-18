@@ -90,7 +90,7 @@ const ETLDashboard = () => {
     let bankClientNames = [],
       anonymousBankClientNames = [];
 
-    for (let i = 1; i <= 2; i++) {
+    for (let i = 1; i <= 10; i++) {
       let result = [],
         results = [];
       result = await executeRestqlQuery("getBankClients", {
@@ -162,25 +162,21 @@ const ETLDashboard = () => {
       await client.collection(element).truncate();
     }
     setIsClearLoading(false);
+    setClientsTotal(() => []);
+    setCategoriesTotal(() => []);
+    setCompaniesTotal(() => []);
   };
   const closeWebSocket = useCallback(async () => {
     for (const elements of streamConnections) {
       await elements.terminate();
     }
     for (const element of streamNamesArray.reverse()) {
-      // const result=await   client.activateStreamApp(element, false);
-      // console.log(`Logged output: handleOnStart -> result`, result)
-
-      await fetch(
-        `https://***REMOVED***/_fabric/_system/_api/streamapps/${element}/active?active=false`,
-        {
-          method: "PATCH",
-          headers: {
-            Authorization:
-              "apikey anurag_etl_gmail.com.anurag_etl_key.46LfTHq3Ub6j6EBmf0vpjLSgATPvxrEB6Gz2rVu5B9rgbTWvbrGKmt0GFaeGZolkada923",
-          },
-        }
-      );
+      try {
+        await client.activateStreamApp(element, false);
+      } catch (error) {
+        console.log("error 502", error);
+        setIsStopLoading(false);
+      }
     }
     // );
     streamNamesArray.reverse();
@@ -188,7 +184,7 @@ const ETLDashboard = () => {
     setIsStopLoading(false);
   }, [streamConnections]);
 
-  const messageManipulation = (msg) => {
+  const messageManipulation = async (msg) => {
     const { newData } = parseMessage(msg);
     if (newData.hasOwnProperty("client_name")) {
       const { updatedBankClientsTotals } = updatedArray(
@@ -233,12 +229,12 @@ const ETLDashboard = () => {
       _consumer.on("close", () => {
         console.log(`Connection close for _clientConsumer `);
       });
-      _consumer.on("message", (msg) => {
+      _consumer.on("message", async (msg) => {
         _consumer.send(
           JSON.stringify({ messageId: JSON.parse(msg).messageId })
         );
 
-        messageManipulation(msg);
+        await messageManipulation(msg);
       });
       return _consumer;
     } catch (error) {
@@ -248,18 +244,18 @@ const ETLDashboard = () => {
   // Anurag probably dont need this
   const startWebSocket = async () => {
     for (const element of streamNamesArray) {
-      // const result=await   client.activateStreamApp(element, true);
+      const result = await client.activateStreamApp(element, true);
       // console.log(`Logged output: handleOnStart -> result`, result)
-      await fetch(
-        `https://***REMOVED***/_fabric/_system/_api/streamapps/${element}/active?active=true`,
-        {
-          method: "PATCH",
-          headers: {
-            Authorization:
-              "apikey anurag_etl_gmail.com.anurag_etl_key.46LfTHq3Ub6j6EBmf0vpjLSgATPvxrEB6Gz2rVu5B9rgbTWvbrGKmt0GFaeGZolkada923",
-          },
-        }
-      );
+      // await fetch(
+      //   `https://***REMOVED***/_fabric/_system/_api/streamapps/${element}/active?active=true`,
+      //   {
+      //     method: "PATCH",
+      //     headers: {
+      //       Authorization:
+      //         "apikey anurag_etl_gmail.com.anurag_etl_key.46LfTHq3Ub6j6EBmf0vpjLSgATPvxrEB6Gz2rVu5B9rgbTWvbrGKmt0GFaeGZolkada923",
+      //     },
+      //   }
+      // );
     }
     let cur = _.cloneDeep(streamConnections);
     for (let i = 0; i < 3; i++) {
@@ -286,7 +282,8 @@ const ETLDashboard = () => {
   };
 
   const handleTopN = useCallback((event) => {
-    setTopN(Number(event.target.value));
+    const num = event.target.value.replace(/[^0-9]/g, "");
+    setTopN(Number(num));
   }, []);
 
   const handleClearAllTables = useCallback(async () => {
@@ -315,7 +312,6 @@ const ETLDashboard = () => {
       />
     );
   }, [isClearLoading, handleClearAllTables]);
-
 
   const handleTableType = useCallback((name) => {
     setTableType(name);

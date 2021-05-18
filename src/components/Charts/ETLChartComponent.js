@@ -7,7 +7,9 @@ const ETLChartComponent = ({ chartData, parserType = "" }) => {
 
   useEffect(() => {
     if (chartRef.current) {
-      console.log(chartData);
+      console.log("chartData", chartRef.current);
+
+      chartRef.current.data.labels = [];
       chartRef.current.data.datasets[0].data = chartData;
       chartRef.current.update();
     }
@@ -49,6 +51,19 @@ const ETLChartComponent = ({ chartData, parserType = "" }) => {
           parsing: xyParser,
           spanGaps: true,
           showLine: false,
+          animations: false,
+          scales: {
+            x: {
+              grid: {
+                display: false,
+              },
+            },
+            y: {
+              grid: {
+                display: false,
+              },
+            },
+          },
           // disable for all datasets
         },
       });
