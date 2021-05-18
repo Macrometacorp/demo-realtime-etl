@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useMemo } from "react";
-import { Grid, TextField } from "@material-ui/core";
+import { Grid, TextField, Card, CardContent } from "@material-ui/core";
 import { MMHeading } from "./common/MMHeading";
 import ETLChartComponent from "./Charts/ETLChartComponent";
 
@@ -12,29 +12,65 @@ export const ETLCharts = ({
 }) => {
   const renderCompanyChart = useMemo(() => {
     return (
-      <Grid item sm={4}>
-        <ETLChartComponent
-          chartData={companyTotals}
-          parserType="companyTotals"
-        />
+      <Grid
+        item
+        sm={4}
+        style={{
+          boxShadow: "2px 5px 5px 2px #d4d4d4",
+          borderRadius: "0.375rem",
+        }}
+      >
+        <Card>
+          <CardContent>
+            <ETLChartComponent
+              chartData={companyTotals}
+              parserType="companyTotals"
+            />
+          </CardContent>
+        </Card>
       </Grid>
     );
   }, [companyTotals]);
   const renderCategoryChart = useMemo(() => {
     return (
-      <Grid item sm={4}>
-        <ETLChartComponent
-          chartData={categoryTotals}
-          parserType="categoryTotals"
-        />
+      <Grid
+        item
+        sm={4}
+        style={{
+          boxShadow: "2px 5px 5px 2px #d4d4d4",
+          borderRadius: "0.375rem",
+        }}
+      >
+        <Card>
+          <CardContent>
+            <ETLChartComponent
+              chartData={categoryTotals}
+              parserType="categoryTotals"
+            />
+          </CardContent>
+        </Card>
       </Grid>
     );
   }, [categoryTotals]);
 
   const renderClientChart = useMemo(() => {
     return (
-      <Grid item sm={4}>
-        <ETLChartComponent chartData={clientTotals} parserType="clientTotals" />
+      <Grid
+        item
+        sm={4}
+        style={{
+          boxShadow: "2px 5px 5px 2px #d4d4d4",
+          borderRadius: "0.375rem",
+        }}
+      >
+        <Card>
+          <CardContent>
+            <ETLChartComponent
+              chartData={clientTotals}
+              parserType="clientTotals"
+            />
+          </CardContent>
+        </Card>
       </Grid>
     );
   }, [clientTotals]);
@@ -42,7 +78,7 @@ export const ETLCharts = ({
   const renderTopN = useMemo(() => {
     return (
       <>
-        <Grid item style={{ marginRight: "10px" }}>
+        <Grid item>
           <MMHeading
             title="TopN"
             justifyValue="center"
@@ -64,7 +100,12 @@ export const ETLCharts = ({
   }, [topN, handleTopN]);
 
   return (
-    <>
+    <div
+      style={{
+        marginLeft: "3vw",
+        marginRight: "3vw",
+      }}
+    >
       <Grid
         container
         direction="row"
@@ -73,7 +114,13 @@ export const ETLCharts = ({
       >
         {renderTopN}
       </Grid>
-      <Grid container direction="row" style={{ paddingTop: "30px" }}>
+      <Grid
+        container
+        direction="row"
+        style={{
+          paddingTop: "30px",
+        }}
+      >
         {renderClientChart}
         {renderCompanyChart}
         {renderCategoryChart}
@@ -85,6 +132,6 @@ export const ETLCharts = ({
           />
         </Grid> */}
       </Grid>
-    </>
+    </div>
   );
 };
