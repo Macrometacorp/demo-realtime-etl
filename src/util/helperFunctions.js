@@ -11,7 +11,7 @@ export const parseMessage = (msg) => {
 };
 
 export const updatedArray = (newMessage, bankClientsTotals, keys, topN) => {
-  let _bankClientsTotals = JSON.parse(JSON.stringify(bankClientsTotals));
+  let _bankClientsTotals = bankClientsTotals;
   if (!_.isEmpty(newMessage)) {
     _bankClientsTotals.push(newMessage);
   }
@@ -19,10 +19,19 @@ export const updatedArray = (newMessage, bankClientsTotals, keys, topN) => {
   _bankClientsTotals.sort(
     (totalA, totalB) => totalB.total_amount - totalA.total_amount
   );
-  //const s = _.uniqBy(_bankClientsTotals, keys);
-  const slicedArray = _bankClientsTotals.slice(0, topN);
+  let slicedArray = _.uniqBy(_bankClientsTotals, keys);
+  // console.log(
+  //   `Logged output: updatedArray -> _bankClientsTotals`,
+  //   _bankClientsTotals,
+  //   _bankClientsTotals.length
+  // );
+  // console.log(`Logged output: updatedArray -> slicedArray`, slicedArray, topN);
+  let newArr = [];
+  if (slicedArray.length > topN) {
+    newArr = slicedArray.slice(0, topN);
+  }
 
   return {
-    updatedBankClientsTotals: slicedArray,
+    updatedBankClientsTotals: newArr,
   };
 };

@@ -30,10 +30,15 @@ const theme = createMuiTheme({
   },
 });
 
+// const client = new jsc8({
+//   url: "https://anurag.eng.macrometa.io",
+//   apiKey:
+//     "anurag_etl_gmail.com.anurag_etl_key.46LfTHq3Ub6j6EBmf0vpjLSgATPvxrEB6Gz2rVu5B9rgbTWvbrGKmt0GFaeGZolkada923",
+// });
 const client = new jsc8({
-  url: "https://anurag.eng.macrometa.io",
+  url: "https://gdn.paas.macrometa.io",
   apiKey:
-    "anurag_etl_gmail.com.anurag_etl_key.46LfTHq3Ub6j6EBmf0vpjLSgATPvxrEB6Gz2rVu5B9rgbTWvbrGKmt0GFaeGZolkada923",
+    "stream-etl_macrometa.io.stream_etl_api_key.IxdAQ3xclGbaNut6Ey5S5lsyFr2SYvuI3BpjyvUiko2CQgcrQ68LWRCuGndSdEObb52fb0",
 });
 const streamNameConnectionName = [
   "EtlBankClientNameTotalStream",
@@ -41,7 +46,6 @@ const streamNameConnectionName = [
   "EtlBankCategoryNameTotalStream",
 ];
 
-const keys = ["client_name", "product_company", "product_category_name"];
 const ETLDashboard = () => {
   const [categoriesTotal, setCategoriesTotal] = useState([]);
   const [clientsTotal, setClientsTotal] = useState([]);
@@ -76,8 +80,6 @@ const ETLDashboard = () => {
   }, [topN]);
 
   useEffect(() => {
-    //console.log("A");
-    console.log(`Logged output: ETLDashboard -> msg`);
     executeRestqlQuery("getBankCategoryTotals", {
       topN: topN,
     }).then(async (result) => {
@@ -147,17 +149,9 @@ const ETLDashboard = () => {
     //console.log("A");
     getTableData();
   }, [tableType, getTableData, selectedClient]);
-  useEffect(() => {
-    //console.log("A");
-    console.log("the tableData is ", tableData);
-  }, [tableData]);
-  // useEffect(() => {
-  //   if (isClearLoading) {
 
-  //   }
-  // }, [isClearLoading]);
   const clearTables = async () => {
-    console.log(`Logged output: clearTables -> clearTables`);
+    // console.log(`Logged output: clearTables -> clearTables`);
     for (const element of streamTableNamesArray) {
       await client.collection(element).truncate();
     }
@@ -220,7 +214,7 @@ const ETLDashboard = () => {
     try {
       const stream = client.stream(streamName, false);
       const consumerOTP = await stream.getOtp();
-      const _consumer = stream.consumer("anurag", "anurag.eng.macrometa.io", {
+      const _consumer = stream.consumer("anurag", "gdn.paas.macrometa.io", {
         otp: consumerOTP,
       });
       _consumer.on("open", () => {
@@ -260,16 +254,12 @@ const ETLDashboard = () => {
     let cur = _.cloneDeep(streamConnections);
     for (let i = 0; i < 3; i++) {
       cur[i] = await establishConnection(streamNameConnectionName[i]);
-      console.log(cur[i]);
     }
     setStreamConnections((prev) => {
       return [...streamConnections, ...cur];
     });
     setIsStartLoading(false);
   };
-  useEffect(() => {
-    console.log("sd", streamConnections);
-  }, [streamConnections]);
   //s tart => click useeffect
 
   const executeRestqlQuery = async (restQlName, bindVars = {}) => {
@@ -292,19 +282,16 @@ const ETLDashboard = () => {
   }, []);
 
   const handleOnStart = () => {
-    console.log("onStart");
     setIsStartLoading(true);
     startWebSocket();
   };
 
   const handleOnStop = () => {
-    console.log("handleOnStop");
     setIsStopLoading(true);
     closeWebSocket();
   };
 
   const renderHeaderArea = useMemo(() => {
-    console.log("inside Memoi");
     return (
       <ETLHeaderArea
         handleClearAllTables={handleClearAllTables}
@@ -322,7 +309,6 @@ const ETLDashboard = () => {
   };
 
   const renderTable = useMemo(() => {
-    console.log("renderTable");
     return (
       <ETLTable
         bankClientNames={
