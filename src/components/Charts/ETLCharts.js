@@ -1,8 +1,7 @@
-import React, { useCallback, useEffect, useMemo } from "react";
+import React, { useMemo } from "react";
 import { Grid, TextField, Card, CardContent } from "@material-ui/core";
-import { MMHeading } from "./common/MMHeading";
-import ETLChartComponent from "./Charts/ETLChartComponent";
-import ETLSample from "../ETLSample";
+import { MMHeading } from "../common/MMHeading";
+import ETLChartComponent from "./ETLChartComponent";
 
 export const ETLCharts = ({
   topN,
@@ -10,6 +9,7 @@ export const ETLCharts = ({
   clientTotals,
   companyTotals,
   categoryTotals,
+  webSocketOpen,
 }) => {
   const renderCompanyChart = useMemo(() => {
     return (
@@ -97,11 +97,12 @@ export const ETLCharts = ({
             size="small"
             onChange={handleTopN}
             value={topN}
+            disabled={webSocketOpen}
           />
         </Grid>
       </>
     );
-  }, [topN, handleTopN]);
+  }, [topN, webSocketOpen, handleTopN]);
 
   return (
     <div

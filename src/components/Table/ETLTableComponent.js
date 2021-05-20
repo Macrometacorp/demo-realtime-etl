@@ -1,223 +1,20 @@
-import React, { useMemo, useCallback } from "react";
-import PropTypes from "prop-types";
+import React, { useMemo, useState } from "react";
 import clsx from "clsx";
-import { lighten, makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import {
-  FormControl,
-  // Select,
-  InputLabel,
-  MenuItem,
   Typography,
-  Grid,
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TablePagination,
+  TableRow,
+  CircularProgress,
+  Paper,
 } from "@material-ui/core";
-import Table from "@material-ui/core/Table";
-import TableBody from "@material-ui/core/TableBody";
-import TableCell from "@material-ui/core/TableCell";
-import TableContainer from "@material-ui/core/TableContainer";
-import TableHead from "@material-ui/core/TableHead";
-import TablePagination from "@material-ui/core/TablePagination";
-import TableRow from "@material-ui/core/TableRow";
-import Toolbar from "@material-ui/core/Toolbar";
-import Dropdown from "react-dropdown";
-import Select from "react-select";
-import "react-dropdown/style.css";
-import Paper from "@material-ui/core/Paper";
 
-// function createData(name, calories, fat, carbs, protein) {
-//   return { name, calories, fat, carbs, protein };
-// }
-
-// const rows = [
-//   createData("Cupcake", "305", "3.7", "67", "4.3"),
-//   createData("Donut", 452, 25.0, 51, 4.9),
-//   createData("Eclair", 262, 16.0, 24, 6.0),
-//   createData("Frozen yoghurt", 159, 6.0, 24, 4.0),
-//   createData("Gingerbread", 356, 16.0, 49, 3.9),
-//   createData("Honeycomb", 408, 3.2, 87, 6.5),
-//   createData("Ice cream sandwich", 237, 9.0, 37, 4.3),
-//   createData("Jelly Bean", 375, 0.0, 94, 0.0),
-//   createData("KitKat", 518, 26.0, 65, 7.0),
-//   createData("Lollipop", 392, 0.2, 98, 0.0),
-//   createData("Marshmallow", 318, 0, 81, 2.0),
-//   createData("Nougat", 360, 19.0, 9, 37.0),
-//   createData("Oreo", 437, 18.0, 63, 4.0),
-// ];
-
-const EnhancedTableHead = ({ tableType }) => {
-  const headCells = [
-    {
-      id: "client_name",
-      numeric: false,
-      disablePadding: true,
-      label: "Client Name",
-    },
-    {
-      id: tableType !== "Subscriptions" ? "date" : "date_start",
-      numeric: true,
-      disablePadding: false,
-      label: tableType !== "Subscriptions" ? "Date" : "Start Date",
-    },
-    {
-      id: tableType !== "Subscriptions" ? "txn_id" : "date_end",
-      numeric: true,
-      disablePadding: true,
-      label: tableType !== "Subscriptions" ? "Transaction Id" : "End Date",
-    },
-
-    {
-      id: "product_category_name",
-      numeric: true,
-      disablePadding: true,
-      label: "Product Category Name",
-    },
-    { id: "amount", numeric: true, disablePadding: false, label: "Amount" },
-  ];
-  return (
-    <TableHead>
-      <TableRow>
-        {headCells.map((headCell) => (
-          <TableCell
-            key={headCell.id}
-            align={"center"}
-            padding={headCell.disablePadding ? "none" : "default"}
-            style={{ fontSize: "18px", fontWeight: "700" }}
-          >
-            {headCell.label}
-          </TableCell>
-        ))}
-      </TableRow>
-    </TableHead>
-  );
-};
-
-// EnhancedTableHead.propTypes = {
-//   classes: PropTypes.object.isRequired,
-// };
-
-const useToolbarStyles = makeStyles((theme) => ({
-  root: {
-    paddingLeft: theme.spacing(2),
-    paddingRight: theme.spacing(1),
-    maxHeight: "80px",
-  },
-  formControl: {
-    margin: theme.spacing(1),
-    minWidth: 120,
-  },
-  highlight:
-    theme.palette.type === "light"
-      ? {
-          color: theme.palette.secondary.main,
-          backgroundColor: lighten(theme.palette.secondary.light, 0.85),
-        }
-      : {
-          color: theme.palette.text.primary,
-          backgroundColor: theme.palette.secondary.dark,
-        },
-  title: {
-    flex: "1 1 100%",
-  },
-}));
-
-const EnhancedTableToolbar = ({
-  bankClientNames,
-
-  selectedClient,
-  handleSelectClient,
-}) => {
-  const classes = useToolbarStyles();
-  // console.log(`Logged output: bankClientNames`, bankClientNames);
-  return (
-    <Toolbar
-      className={clsx(classes.root)}
-      style={{
-        backgroundColor: "rgba(51,138,208,0.6)",
-      }}
-    >
-      {/* <Typography
-        className={classes.title}
-        variant="h6"
-        id="tableTitle"
-        component="div"
-      >
-        Nutrition
-      </Typography> */}
-      {/* <Dropdown
-        options={["one", "two", "three"]}
-        onChange={handleSelectClient}
-        value={"one"}
-        placeholder="Select an option"
-      /> */}
-      <Grid container>
-        <Grid item xs>
-          {/* <FormControl
-            variant="outlined"
-            className={classes.formControl}
-            style={{ paddingTop: "40px", justifyContent: "start" }}
-          >
-            <InputLabel
-              id="demo-simple-select-outlined-label"
-              style={{
-                width: "200px",
-                paddingTop: "30px",
-                fontWeight: "700",
-                fontSize: "20px",
-              }}
-            >
-              Clients
-            </InputLabel>
-            <Select
-              labelId="demo-simple-select-outlined-label"
-              id="demo-simple-select-outlined"
-              value={selectedClient}
-              onChange={handleSelectClient}
-              label="Clients"
-              style={{ width: "200px", borderTopColor: "pink" }}
-            > */}
-          <Select
-            options={bankClientNames}
-            value={selectedClient}
-            onChange={handleSelectClient}
-            getOptionLabel={(option) => option.clientName}
-            getOptionValue={(option) => option.clientName}
-            placeholder={selectedClient ? selectedClient : "Client Name"}
-          />
-          {/* <MenuItem value="">
-                <em>None</em>
-              </MenuItem>
-              {bankClientNames.map((element, index) => (
-                <MenuItem value={element.clientName} key={index.toString()}>
-                  {element.clientName}
-                </MenuItem>
-              ))}
-            </Select> */}
-          {/* </FormControl> */}
-        </Grid>
-        <Grid
-          item
-          xs={10}
-          style={{
-            justifyContent: "center",
-            alignItems: "center",
-            textAlign: "center",
-          }}
-        >
-          <span
-            style={{
-              fontWeight: "700",
-              fontSize: "30px",
-              marginLeft: "-180px",
-              // marginTop: "30px",
-              // paddingLeft: "60px",
-            }}
-          >
-            Client Data
-          </span>
-        </Grid>
-      </Grid>
-    </Toolbar>
-  );
-};
+import { EnhancedTableToolbar } from "./EnhancedTableToolbar";
+import { EnhancedTableHead } from "./ETLTableHead";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -257,11 +54,12 @@ export default function EnhancedTable({
   handleSelectClient,
   tableData,
   tableType,
+  isLoading,
 }) {
   const classes = useStyles();
 
-  const [page, setPage] = React.useState(0);
-  const [rowsPerPage, setRowsPerPage] = React.useState(5);
+  const [page, setPage] = useState(0);
+  const [rowsPerPage, setRowsPerPage] = useState(5);
 
   const handleChangePage = (event, newPage) => {
     setPage(newPage);
@@ -281,10 +79,13 @@ export default function EnhancedTable({
     return (
       <Paper className={classes.paper}>
         <EnhancedTableToolbar
+          tableType={tableType}
           bankClientNames={bankClientNames}
           selectedClient={selectedClient}
           handleSelectClient={handleSelectClient}
+          isLoading={isLoading}
         />
+
         <TableContainer style={{ minHeight: "280px" }}>
           <Table
             className={classes.table}
@@ -333,17 +134,32 @@ export default function EnhancedTable({
                       </TableRow>
                     );
                   })
+              ) : isLoading ? (
+                <TableRow>
+                  <TableCell align="center" colSpan={6}>
+                    <CircularProgress size={30} />
+                  </TableCell>
+                </TableRow>
               ) : (
                 <TableRow>
-                  <Typography
-                    className={clsx(classes.content)}
-                    variant="subtitle1"
-                  >
-                    No Data
-                  </Typography>
+                  <TableCell align="center" colSpan={6}>
+                    <div
+                      style={{
+                        justifyContent: "center",
+                        alignContent: "center",
+                      }}
+                    >
+                      <Typography
+                        className={clsx(classes.content)}
+                        variant="h4"
+                        align="center"
+                      >
+                        No Data
+                      </Typography>
+                    </div>
+                  </TableCell>
                 </TableRow>
               )}
-
               {emptyRows > 0 && (
                 <TableRow style={{ height: 53 * emptyRows }}>
                   <TableCell colSpan={6} />
@@ -366,6 +182,7 @@ export default function EnhancedTable({
   }, [
     emptyRows,
     bankClientNames,
+    isLoading,
     classes,
     handleSelectClient,
     page,

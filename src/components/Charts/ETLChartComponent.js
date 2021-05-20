@@ -1,5 +1,4 @@
-import React, { Component, useMemo, useEffect, useRef } from "react";
-// import Chart from "react-apexcharts";
+import React, { useMemo, useEffect, useRef } from "react";
 import Chart from "chart.js/auto";
 const ETLChartComponent = ({ chartData, parserType = "", chartText }) => {
   const chartRef = useRef(null);
@@ -7,8 +6,6 @@ const ETLChartComponent = ({ chartData, parserType = "", chartText }) => {
 
   useEffect(() => {
     if (chartRef.current) {
-      // console.log("chartData", chartRef.current);
-
       chartRef.current.data.labels = [];
       chartRef.current.data.datasets[0].data = chartData;
       chartRef.current.update();
@@ -47,15 +44,20 @@ const ETLChartComponent = ({ chartData, parserType = "", chartText }) => {
           ],
         },
         options: {
+          maintainAspectRatio: true,
+          responsive: true,
           indexAxis: "y",
           parsing: xyParser,
           spanGaps: true,
           showLine: false,
-          animations: false,
+          animations: true,
           scales: {
             x: {
               grid: {
                 display: false,
+              },
+              ticks: {
+                autoSkip: false,
               },
               // min: 10000,
               // max: 600000,
@@ -63,6 +65,9 @@ const ETLChartComponent = ({ chartData, parserType = "", chartText }) => {
             y: {
               grid: {
                 display: false,
+              },
+              ticks: {
+                autoSkip: false,
               },
             },
           },
@@ -90,7 +95,11 @@ const ETLChartComponent = ({ chartData, parserType = "", chartText }) => {
     return <canvas ref={categoryChartDomRef} />;
   }, []);
 
-  return <div id="chart">{renderChart}</div>;
+  return (
+    <div id="chart" style={{ height: "auto", width: "auto" }}>
+      {renderChart}
+    </div>
+  );
 };
 
 export default ETLChartComponent;
