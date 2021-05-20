@@ -16,9 +16,11 @@ export const executeRestqlQuery = async (restQlName, bindVars = {}) => {
   }
 };
 export const clearTablesData = async () => {
-  for (const element of streamTableNamesArray) {
-    await client.collection(element).truncate();
-  }
+  await Promise.all(
+    streamTableNamesArray.map(async (element) => {
+      await client.collection(element).truncate();
+    })
+  );
 };
 
 export const startStopStream = async (start) => {
