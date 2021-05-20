@@ -1,30 +1,30 @@
-id,name,description,mcc-code
-1,Karshering,Short-term rental cars with pay by the minute or the hour - not including taxi services and rent at dealerships,"7512, 4121"
-2,supermarkets,Shopping in supermarkets and grocery stores,"5297, 5298, 5300, 5411, 5412, 5422, 5441, 5451, 5462, 5499, 5715, 5921"
-3,Taxi,Taxi Services (karshering not included in this category),4121
-4,Music,Shopping in stores music and musical instruments,"5733, 5735"
-5,Fast food,Shopping at fast food restaurants,5814
-6,Transport,"Payment of local and regional transport. Fees for use of car parks, garages and toll roads. Payment in the ""Transportation"" in the annex Tinkoff and online tinkoff.ru. Purchase of construction equipment and leasing of cars - not including a car","4111, 4121, 4131, 4457, 4468, 4784, 4789, 5013, 5271, 5551, 5561, 5592, 5598, 5599, 7511, 7523"
-7,pharmacies,Shopping in pharmacies,"5122, 5292, 5295, 5912"
-8,Movie,Shopping in stores and movie theaters,"7829, 7832, 7841"
-9,books,Purchase in bookstores and newsstands,"2741, 5111, 5192, 5942, 5994"
-10,Entertainment,"Payment of entertainment (eg, video game stores, bowling or circus), payment in the category ""Theater"" and ""Concerts"" on tinkoff.ru and mobile application","7911, 7922, 7929, 7932, 7933, 7941, 7991, 7992, 7993, 7994, 7996, 7997, 7998, 7999, 8664"
-11,beauty,"Shopping in massage and beauty salons, SPA salons and","5977, 7230, 7297, 7298"
-12,Education,"Payment by public and private schools, universities and colleges, as well as fees for specialized education: business, arts, sports, driving","8211, 8220, 8241, 8244, 8249, 8299, 8493, 8494"
-13,Clothing and Shoes,Shopping in stores of clothes and footwear,"5094, 5137, 5139, 5611, 5621, 5631, 5641, 5651, 5661, 5681, 5691, 5697, 5698, 5699, 5931, 5944, 5949, 5950, 7296, 7631"
-14,Restaurants,"Payment of accounts in bars, restaurants, cafes and clubs (other than fast food)","5811, 5812, 5813"
-15,Fuel,Buying gas and gasoline at the pump,"5172, 5541, 5542, 5983"
-16,animals,Shopping at pet stores,"5995, 0742"
-17,Home repairs,"Shopping in furniture stores, home improvement and repair","1520, 1711, 1731, 1740, 1750, 1761, 1771, 1799, 2791, 2842, 5021, 5039, 5046, 5051, 5065, 5072, 5074, 5085, 5198, 5200, 5211, 5231, 5251, 5261, 5415, 5712, 5713, 5714, 5718, 5719, 5722, 7622, 7623, 7629, 7641, 7692, 7699"
-18,Sports,Purchases at sporting goods stores,"5655, 5940, 5941"
-19,Souvenirs,"Shopping in the souvenir shops: greeting cards, wrapping paper, gifts",5947
-20,Photo and video,Shopping in stores photo and video,"5044, 5045, 5946, 7332, 7333, 7338, 7339, 7395"
-21,flowers,Purchase in flower shops and salons floristry,"5193, 5992"
-22,Rent a Car,Payment for rental at dealerships (karshering not included in this category),"3351–3398, 3400–3410, 3412–3423, 3425–3439, 3441, 7512, 7513, 7519"
-23,Car services,"Buying auto parts, car repair services and car washes","5511, 5521, 5531, 5532, 5533, 5571, 7012, 7531, 7534, 7535, 7538, 7542, 7549"
-24,flights,airfare,3000–3299; 4304; 4415; 4418; 4511; 4582
-25,Duty free,Shopping in the duty-free shops,5309
-26,Railway tickets,Payment train tickets,"4011, 4112"
-27,Art,"Shopping galleries, antique stores and art dealers in","5932, 5937, 5970, 5971, 5972, 5973"
-28,Translations,"Translations, Replenishment",
-29,other,"Internet, utility bills",
+_key,id,name,description,mcc-code
+1,1,Karshering,Short-term rental cars with pay by the minute or the hour - not including taxi services and rent at dealerships,"7512, 4121"
+2,2,supermarkets,Shopping in supermarkets and grocery stores,"5297, 5298, 5300, 5411, 5412, 5422, 5441, 5451, 5462, 5499, 5715, 5921"
+3,3,Taxi,Taxi Services (karshering not included in this category),4121
+4,4,Music,Shopping in stores music and musical instruments,"5733, 5735"
+5,5,Fast food,Shopping at fast food restaurants,5814
+6,6,Transport,"Payment of local and regional transport. Fees for use of car parks, garages and toll roads. Payment in the ""Transportation"" in the annex Tinkoff and online tinkoff.ru. Purchase of construction equipment and leasing of cars - not including a car","4111, 4121, 4131, 4457, 4468, 4784, 4789, 5013, 5271, 5551, 5561, 5592, 5598, 5599, 7511, 7523"
+7,7,pharmacies,Shopping in pharmacies,"5122, 5292, 5295, 5912"
+8,8,Movie,Shopping in stores and movie theaters,"7829, 7832, 7841"
+9,9,books,Purchase in bookstores and newsstands,"2741, 5111, 5192, 5942, 5994"
+10,10,Entertainment,"Payment of entertainment (eg, video game stores, bowling or circus), payment in the category ""Theater"" and ""Concerts"" on tinkoff.ru and mobile application","7911, 7922, 7929, 7932, 7933, 7941, 7991, 7992, 7993, 7994, 7996, 7997, 7998, 7999, 8664"
+11,11,beauty,"Shopping in massage and beauty salons, SPA salons and","5977, 7230, 7297, 7298"
+12,12,Education,"Payment by public and private schools, universities and colleges, as well as fees for specialized education: business, arts, sports, driving","8211, 8220, 8241, 8244, 8249, 8299, 8493, 8494"
+13,13,Clothing and Shoes,Shopping in stores of clothes and footwear,"5094, 5137, 5139, 5611, 5621, 5631, 5641, 5651, 5661, 5681, 5691, 5697, 5698, 5699, 5931, 5944, 5949, 5950, 7296, 7631"
+14,14,Restaurants,"Payment of accounts in bars, restaurants, cafes and clubs (other than fast food)","5811, 5812, 5813"
+15,15,Fuel,Buying gas and gasoline at the pump,"5172, 5541, 5542, 5983"
+16,16,animals,Shopping at pet stores,"5995, 0742"
+17,17,Home repairs,"Shopping in furniture stores, home improvement and repair","1520, 1711, 1731, 1740, 1750, 1761, 1771, 1799, 2791, 2842, 5021, 5039, 5046, 5051, 5065, 5072, 5074, 5085, 5198, 5200, 5211, 5231, 5251, 5261, 5415, 5712, 5713, 5714, 5718, 5719, 5722, 7622, 7623, 7629, 7641, 7692, 7699"
+18,18,Sports,Purchases at sporting goods stores,"5655, 5940, 5941"
+19,19,Souvenirs,"Shopping in the souvenir shops: greeting cards, wrapping paper, gifts",5947
+20,20,Photo and video,Shopping in stores photo and video,"5044, 5045, 5946, 7332, 7333, 7338, 7339, 7395"
+21,21,flowers,Purchase in flower shops and salons floristry,"5193, 5992"
+22,22,Rent a Car,Payment for rental at dealerships (karshering not included in this category),"3351–3398, 3400–3410, 3412–3423, 3425–3439, 3441, 7512, 7513, 7519"
+23,23,Car services,"Buying auto parts, car repair services and car washes","5511, 5521, 5531, 5532, 5533, 5571, 7012, 7531, 7534, 7535, 7538, 7542, 7549"
+24,24,flights,airfare,3000–3299; 4304; 4415; 4418; 4511; 4582
+25,25,Duty free,Shopping in the duty-free shops,5309
+26,26,Railway tickets,Payment train tickets,"4011, 4112"
+27,27,Art,"Shopping galleries, antique stores and art dealers in","5932, 5937, 5970, 5971, 5972, 5973"
+28,28,Translations,"Translations, Replenishment",
+29,29,other,"Internet, utility bills",
