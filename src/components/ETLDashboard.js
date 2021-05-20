@@ -1,46 +1,20 @@
 import React, { useState, useEffect, useCallback, useMemo } from "react";
-import { createMuiTheme, ThemeProvider } from "@material-ui/core";
-import { ETLHeaderArea } from "./ETLHeaderArea";
-import { ETLCharts } from "./ETLCharts";
+
+import { ETLCharts } from "./Charts/ETLCharts";
 import { ETLStreamButtons } from "./ETLStreamButtons";
-import { ETLTable } from "./ETLTable";
-import { MMButton } from "./common/MMButton";
-import jsc8 from "jsc8";
 import _ from "lodash";
-
-import {
-  streamNamesArray,
-  streamTableNamesArray,
-} from "../util/streamNamesArray";
+// import {
+//   streamNamesArray,
+//   streamTableNamesArray,
+// } from "../util/streamNamesArray";
 import { parseMessage, updatedArray } from "../util/helperFunctions";
-// import { MMButton } from "./common/MMButton";
+import {
+  executeRestqlQuery,
+  startStopStream,
+  establishConnection,
+  clearTablesData,
+} from "../util/services";
 
-const theme = createMuiTheme({
-  overrides: {
-    MuiFormControl: {
-      root: {
-        height: "56px",
-      },
-    },
-    MuiInputBase: {
-      root: {
-        height: "30px",
-        width: "60px",
-      },
-    },
-  },
-});
-
-// const client = new jsc8({
-//   url: "https://anurag.eng.macrometa.io",
-//   apiKey:
-//     "anurag_etl_gmail.com.anurag_etl_key.46LfTHq3Ub6j6EBmf0vpjLSgATPvxrEB6Gz2rVu5B9rgbTWvbrGKmt0GFaeGZolkada923",
-// });
-const client = new jsc8({
-  url: "https://gdn.paas.macrometa.io",
-  apiKey:
-    "stream-etl_macrometa.io.stream_etl_api_key.IxdAQ3xclGbaNut6Ey5S5lsyFr2SYvuI3BpjyvUiko2CQgcrQ68LWRCuGndSdEObb52fb0",
-});
 const streamNameConnectionName = [
   "EtlBankClientNameTotalStream",
   "EtlBankCompanyNameTotalStream",
@@ -55,18 +29,13 @@ const ETLDashboard = () => {
   const [isClearLoading, setIsClearLoading] = useState(false);
   const [isStartLoading, setIsStartLoading] = useState(false);
   const [isStopLoading, setIsStopLoading] = useState(false);
-  const [tableType, setTableType] = useState("Transactions");
   const [topN, setTopN] = useState(10);
-  const [tableData, setTableData] = useState([]);
-  const [selectedClient, setSelectedClient] = useState("");
-  const [bankClientNames, setBankClients] = useState([]);
-  const [anonymousBankClientNames, setAnonymousBankClientNames] = useState([]);
+  const [webSocketOpen, setWebSocketOpen] = useState(false);
 
   useEffect(() => {
     executeRestqlQuery("getBankClientTotals", {
       topN: topN,
     }).then((result) => {
-      //console.log(`Logged output: ETLDashboard -> result`, result);
       setClientsTotal(() => [...result]);
     });
   }, [topN]);
@@ -75,7 +44,6 @@ const ETLDashboard = () => {
     executeRestqlQuery("getBankCompanyTotals", {
       topN: topN,
     }).then((result) => {
-      // console.log(`Logged output: ETLDashboard -> result`, result);
       setCompaniesTotal(() => [...result]);
     });
   }, [topN]);
@@ -84,102 +52,32 @@ const ETLDashboard = () => {
     executeRestqlQuery("getBankCategoryTotals", {
       topN: topN,
     }).then(async (result) => {
-      //console.log(`Logged output: ETLDashboard -> result`, result);
       setCategoriesTotal(() => [...result]);
     });
   }, [topN]);
 
-  const getBankClients = useCallback(async () => {
-    let bankClientNames = [],
-      anonymousBankClientNames = [];
-
-    for (let i = 1; i <= 10; i++) {
-      let result = [],
-        results = [];
-      result = await executeRestqlQuery("getBankClients", {
-        offsetValue: i * 100,
-      });
-      results = await executeRestqlQuery("getBankAnonymizationClient", {
-        offsetValue: i * 100,
-      });
-      bankClientNames = [...bankClientNames, ...result];
-      anonymousBankClientNames = [...anonymousBankClientNames, ...results];
-    }
-    bankClientNames.sort((a, b) => a.clientName.localeCompare(b.clientName));
-    anonymousBankClientNames.sort((a, b) =>
-      a.clientName.localeCompare(b.clientName)
-    );
-
-    setBankClients(() => [...bankClientNames]);
-    setAnonymousBankClientNames(() => [...anonymousBankClientNames]);
-  }, []);
-
-  useEffect(() => {
-    getBankClients();
-  }, [getBankClients]);
-
-  const getTableData = useCallback(async () => {
-    let result = [];
-
-    switch (tableType) {
-      case "Transactions":
-        result = await executeRestqlQuery("getBanksTxnsByClient", {
-          clientName: selectedClient,
-        });
-        break;
-      case "Subscriptions":
-        result = await executeRestqlQuery("getBankSubscriptionsByClient", {
-          clientName: selectedClient,
-        });
-        break;
-      case "Anonymous":
-        result = await executeRestqlQuery("getBankTxnsByAnnonymousClient", {
-          clientName: selectedClient,
-        });
-        break;
-      default:
-        result = await executeRestqlQuery("getBanksTxnsByClient", {
-          clientName: selectedClient,
-        });
-        break;
-    }
-    setTableData(() => [...result]);
-  }, [tableType, selectedClient]);
-
-  useEffect(() => {
-    //console.log("A");
-    getTableData();
-  }, [tableType, getTableData, selectedClient]);
-
-  const clearTables = async () => {
-    // console.log(`Logged output: clearTables -> clearTables`);
-    for (const element of streamTableNamesArray) {
-      await client.collection(element).truncate();
-    }
+  const clearTables = useCallback(async () => {
+    await clearTablesData();
     setIsClearLoading(false);
     setClientsTotal(() => []);
     setCategoriesTotal(() => []);
     setCompaniesTotal(() => []);
-  };
+  }, []);
   const closeWebSocket = useCallback(async () => {
     for (const elements of streamConnections) {
       await elements.terminate();
     }
-    for (const element of streamNamesArray.reverse()) {
-      try {
-        await client.activateStreamApp(element, false);
-      } catch (error) {
-        console.log("error 502", error);
-        setIsStopLoading(false);
-      }
+    try {
+      await startStopStream(false);
+    } catch (error) {
+      console.error("error", error);
+      setIsStopLoading(false);
     }
-    // );
-    streamNamesArray.reverse();
-
     setIsStopLoading(false);
+    setWebSocketOpen(false);
   }, [streamConnections]);
 
-  const messageManipulation = async (msg) => {
+  const messageManipulation = (msg) => {
     const { newData } = parseMessage(msg);
     if (newData.hasOwnProperty("client_name")) {
       const { updatedBankClientsTotals } = updatedArray(
@@ -211,126 +109,53 @@ const ETLDashboard = () => {
     }
   };
 
-  const establishConnection = async (streamName) => {
-    try {
-      const stream = client.stream(streamName, false);
-      const consumerOTP = await stream.getOtp();
-      const _consumer = stream.consumer("anurag", "gdn.paas.macrometa.io", {
-        otp: consumerOTP,
-      });
-      _consumer.on("open", () => {
-        console.log(`Connection open for _clientConsumer `);
-      });
-      _consumer.on("close", () => {
-        console.log(`Connection close for _clientConsumer `);
-      });
-      _consumer.on("message", async (msg) => {
-        _consumer.send(
-          JSON.stringify({ messageId: JSON.parse(msg).messageId })
-        );
-
-        await messageManipulation(msg);
-      });
-      return _consumer;
-    } catch (error) {
-      console.error("error", error);
-    }
-  };
-  // Anurag probably dont need this
   const startWebSocket = async () => {
-    for (const element of streamNamesArray) {
-      const result = await client.activateStreamApp(element, true);
-      // console.log(`Logged output: handleOnStart -> result`, result)
-      // await fetch(
-      //   `https://***REMOVED***/_fabric/_system/_api/streamapps/${element}/active?active=true`,
-      //   {
-      //     method: "PATCH",
-      //     headers: {
-      //       Authorization:
-      //         "apikey anurag_etl_gmail.com.anurag_etl_key.46LfTHq3Ub6j6EBmf0vpjLSgATPvxrEB6Gz2rVu5B9rgbTWvbrGKmt0GFaeGZolkada923",
-      //     },
-      //   }
-      // );
-    }
-    let cur = _.cloneDeep(streamConnections);
-    for (let i = 0; i < 3; i++) {
-      cur[i] = await establishConnection(streamNameConnectionName[i]);
-    }
-    setStreamConnections((prev) => {
-      return [...streamConnections, ...cur];
-    });
-    setIsStartLoading(false);
-  };
-  //s tart => click useeffect
-
-  const executeRestqlQuery = async (restQlName, bindVars = {}) => {
     try {
-      const resp = await client.executeRestql(restQlName, bindVars);
-      return resp.result;
+      setWebSocketOpen(true);
+      await startStopStream(true);
+      let cur = _.cloneDeep(streamConnections);
+      for (let i = 0; i < 3; i++) {
+        cur[i] = await establishConnection(streamNameConnectionName[i]);
+        cur[i].on("message", (msg) => {
+          cur[i].send(JSON.stringify({ messageId: JSON.parse(msg).messageId }));
+
+          messageManipulation(msg);
+        });
+      }
+      setStreamConnections((prev) => {
+        return [...streamConnections, ...cur];
+      });
     } catch (error) {
       console.error("error", error);
+      setIsStopLoading(false);
     }
+
+    setIsStartLoading(false);
   };
 
   const handleTopN = useCallback((event) => {
     const num = event.target.value.replace(/[^0-9]/g, "");
+
+    setClientsTotal([]);
+    setCategoriesTotal([]);
+    setCompaniesTotal([]);
     setTopN(Number(num));
   }, []);
 
-  const handleClearAllTables = useCallback(async () => {
+  const handleClearAllTables = useCallback(() => {
     setIsClearLoading(true);
-    // await clearTables();
-  }, []);
+    clearTables();
+  }, [clearTables]);
 
   const handleOnStart = () => {
     setIsStartLoading(true);
-    // startWebSocket();
+    startWebSocket();
   };
 
   const handleOnStop = () => {
     setIsStopLoading(true);
-    // closeWebSocket();
+    closeWebSocket();
   };
-
-  const renderHeaderArea = useMemo(() => {
-    return (
-      <ETLHeaderArea
-        handleClearAllTables={handleClearAllTables}
-        isClearLoading={isClearLoading}
-      />
-    );
-  }, [isClearLoading, handleClearAllTables]);
-
-  const handleTableType = useCallback((name) => {
-    setTableType(name);
-  }, []);
-
-  const handleSelectClient = (event) => {
-    console.log("event", event.clientName);
-    setSelectedClient(event.clientName);
-  };
-
-  const renderTable = useMemo(() => {
-    return (
-      <ETLTable
-        bankClientNames={
-          tableType === "Anonymous" ? anonymousBankClientNames : bankClientNames
-        }
-        selectedClient={selectedClient}
-        handleSelectClient={handleSelectClient}
-        handleTableType={handleTableType}
-        tableData={tableData}
-        tableType={tableType}
-      />
-    );
-  }, [
-    selectedClient,
-    anonymousBankClientNames,
-    bankClientNames,
-    tableData,
-    tableType,
-    handleTableType,
-  ]);
 
   const renderCharts = useMemo(() => {
     return (
@@ -340,25 +165,30 @@ const ETLDashboard = () => {
         clientTotals={clientsTotal}
         companyTotals={companyTotal}
         categoryTotals={categoriesTotal}
+        webSocketOpen={webSocketOpen}
       />
     );
-  }, [handleTopN, topN, clientsTotal, companyTotal, categoriesTotal]);
+  }, [
+    handleTopN,
+    topN,
+    clientsTotal,
+    webSocketOpen,
+    companyTotal,
+    categoriesTotal,
+  ]);
 
   return (
-    <ThemeProvider theme={theme}>
-      <div style={{ position: "absolute", right: "10px", top: "10px" }}>
-        <MMButton buttonText="About" onClickCb={startWebSocket} />
-      </div>
-      {renderHeaderArea}
+    <React.Fragment>
       <ETLStreamButtons
         handleOnStart={handleOnStart}
         handleOnStop={handleOnStop}
+        handleClearTables={handleClearAllTables}
         isStartLoading={isStartLoading}
         isStopLoading={isStopLoading}
+        isClearLoading={isClearLoading}
       />
       {renderCharts}
-      {renderTable}
-    </ThemeProvider>
+    </React.Fragment>
   );
 };
 

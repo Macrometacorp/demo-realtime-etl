@@ -20,12 +20,6 @@ export const updatedArray = (newMessage, bankClientsTotals, keys, topN) => {
     (totalA, totalB) => totalB.total_amount - totalA.total_amount
   );
   let slicedArray = _.uniqBy(_bankClientsTotals, keys);
-  // console.log(
-  //   `Logged output: updatedArray -> _bankClientsTotals`,
-  //   _bankClientsTotals,
-  //   _bankClientsTotals.length
-  // );
-  // console.log(`Logged output: updatedArray -> slicedArray`, slicedArray, topN);
   let newArr = [];
   if (slicedArray.length > topN) {
     newArr = slicedArray.slice(0, topN);

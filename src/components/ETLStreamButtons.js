@@ -2,10 +2,12 @@ import React from "react";
 import { Grid } from "@material-ui/core";
 import { MMButton } from "./common/MMButton";
 export const ETLStreamButtons = ({
-  handleOnStart,
-  handleOnStop,
   isStartLoading,
   isStopLoading,
+  isClearLoading,
+  handleOnStart,
+  handleOnStop,
+  handleClearTables,
 }) => {
   return (
     <Grid container spacing={5} style={{ width: "30%", margin: "auto" }}>
@@ -14,7 +16,8 @@ export const ETLStreamButtons = ({
           buttonText="Start"
           buttonType="primary"
           smValue={12}
-          disableButton={isStartLoading || isStopLoading}
+          id={"start"}
+          disableButton={isStartLoading || isStopLoading || isClearLoading}
           loading={isStartLoading}
           onClickCb={handleOnStart}
           buttonStyle={{ marginRight: "20px" }}
@@ -24,10 +27,11 @@ export const ETLStreamButtons = ({
         <MMButton
           buttonText="Stop"
           buttonType="primary"
+          id={"stop"}
           smValue={12}
-          disableButton={isStartLoading || isStopLoading}
-          loading={isStartLoading}
-          onClickCb={handleOnStart}
+          disableButton={isStartLoading || isStopLoading || isClearLoading}
+          loading={isStopLoading}
+          onClickCb={handleOnStop}
           buttonStyle={{ marginRight: "20px" }}
         />
       </Grid>
@@ -36,9 +40,10 @@ export const ETLStreamButtons = ({
           buttonText="Clear Tables"
           buttonType="primary"
           smValue={12}
-          disableButton={isStartLoading || isStopLoading}
-          loading={isStartLoading}
-          onClickCb={handleOnStart}
+          id={"clear-tables"}
+          disableButton={isStartLoading || isStopLoading || isClearLoading}
+          loading={isClearLoading}
+          onClickCb={handleClearTables}
           buttonStyle={{ marginRight: "20px" }}
         />
       </Grid>

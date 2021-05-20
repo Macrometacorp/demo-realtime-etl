@@ -6,7 +6,7 @@ const useStyles = makeStyles(() => ({
     // radius:"50%",
     // backgroundColor: "#338ad0",
     // color: "#ffffff",
-    borderRadius: "7%",
+    // borderRadius: "7%",
     textTransform: "capitalize",
     border: "1px solid #0000006b",
     backgroundColor: "rgba(211,225,240,1)",
@@ -14,19 +14,19 @@ const useStyles = makeStyles(() => ({
     marginRight: "20px",
     padding: "10px 0px",
     fontSize: "18px",
-    "&:hover": {
-      backgroundColor: "#1971b3",
-      "&:disabled": {
-        backgroundColor: "#85c1f5",
-        boxShadow: "none",
-        color: "#def0ff",
-      },
-    },
-    "&:disabled": {
-      backgroundColor: "#85c1f5",
-      boxShadow: "none",
-      color: "#def0ff",
-    },
+    // // "&:hover": {
+    // //   backgroundColor: "#1971b3",
+    // //   "&:disabled": {
+    // //     backgroundColor: "#85c1f5",
+    // //     boxShadow: "none",
+    // //     color: "#def0ff",
+    // //   },
+    // },
+    // "&:disabled": {
+    //   backgroundColor: "#85c1f5",
+    //   boxShadow: "none",
+    //   color: "#def0ff",
+    // },
   },
 }));
 
@@ -43,6 +43,7 @@ export const MMButton = ({
   loading,
   smValue = 6,
   buttonStyle = {},
+  id,
 }) => {
   const classes = useStyles();
   return (
@@ -56,6 +57,7 @@ export const MMButton = ({
         sm={smValue}
       > */}
       <Button
+        id={id}
         variant={buttonVariant}
         type={buttonType}
         fullWidth
@@ -65,7 +67,7 @@ export const MMButton = ({
         disabled={disableButton}
         style={buttonStyle}
       >
-        {loading ? <CircularProgress size={20} /> : buttonText}
+        {loading ? <CircularProgress size={30} /> : buttonText}
       </Button>
       {/* </Grid> */}
     </React.Fragment>
