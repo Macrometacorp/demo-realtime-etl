@@ -11,4 +11,5 @@ export const streamTableNamesArray = [
   "etl_bank_company_totals",
   "etl_bank_subscriptions",
   "etl_bank_transactions",
+  "etl_bank_transactions_anonymization",
 ];

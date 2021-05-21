@@ -9,27 +9,23 @@ export const ETLCharts = ({
   clientTotals,
   companyTotals,
   categoryTotals,
-  webSocketOpen,
+  // webSocketOpen,
 }) => {
   const renderCompanyChart = useMemo(() => {
     return (
       <Grid
         item
         // sm={4}
-        style={{
-          boxShadow: "2px 5px 5px 2px #d4d4d4",
-          borderRadius: "0.375rem",
-        }}
+        // style={{
+        //   boxShadow: "2px 5px 5px 2px #d4d4d4",
+        //   borderRadius: "0.375rem",
+        // }}
       >
-        <Card>
-          <CardContent>
-            <ETLChartComponent
-              chartData={companyTotals}
-              parserType="companyTotals"
-              chartText="Company Totals"
-            />
-          </CardContent>
-        </Card>
+        <ETLChartComponent
+          chartData={companyTotals}
+          parserType="companyTotals"
+          chartText="Company Totals"
+        />
       </Grid>
     );
   }, [companyTotals]);
@@ -38,20 +34,16 @@ export const ETLCharts = ({
       <Grid
         item
         // sm={4}
-        style={{
-          boxShadow: "2px 5px 5px 2px #d4d4d4",
-          borderRadius: "0.375rem",
-        }}
+        // style={{
+        //   boxShadow: "2px 5px 5px 2px #d4d4d4",
+        //   borderRadius: "0.375rem",
+        // }}
       >
-        <Card>
-          <CardContent>
-            <ETLChartComponent
-              chartData={categoryTotals}
-              parserType="categoryTotals"
-              chartText="Category Totals"
-            />
-          </CardContent>
-        </Card>
+        <ETLChartComponent
+          chartData={categoryTotals}
+          parserType="categoryTotals"
+          chartText="Category Totals"
+        />
       </Grid>
     );
   }, [categoryTotals]);
@@ -61,20 +53,16 @@ export const ETLCharts = ({
       <Grid
         item
         // sm={4}
-        style={{
-          boxShadow: "2px 5px 5px 2px #d4d4d4",
-          borderRadius: "0.375rem",
-        }}
+        // style={{
+        //   boxShadow: "2px 5px 5px 2px #d4d4d4",
+        //   borderRadius: "0.375rem",
+        // }}
       >
-        <Card>
-          <CardContent>
-            <ETLChartComponent
-              chartData={clientTotals}
-              parserType="clientTotals"
-              chartText="Client Totals"
-            />
-          </CardContent>
-        </Card>
+        <ETLChartComponent
+          chartData={clientTotals}
+          parserType="clientTotals"
+          chartText="Client Totals"
+        />
       </Grid>
     );
   }, [clientTotals]);
@@ -82,7 +70,7 @@ export const ETLCharts = ({
   const renderTopN = useMemo(() => {
     return (
       <>
-        <Grid item>
+        <Grid item style={{ marginRight: "10px" }}>
           <MMHeading
             title="TopN"
             justifyValue="center"
@@ -97,12 +85,12 @@ export const ETLCharts = ({
             size="small"
             onChange={handleTopN}
             value={topN}
-            disabled={webSocketOpen}
+            //  disabled={webSocketOpen}
           />
         </Grid>
       </>
     );
-  }, [topN, webSocketOpen, handleTopN]);
+  }, [topN, handleTopN]);
 
   return (
     <div
@@ -119,14 +107,14 @@ export const ETLCharts = ({
       >
         {renderTopN}
       </Grid>
-      <Grid container spacing={5} style={{}}>
-        <Grid item xs>
+      <Grid container spacing={5}>
+        <Grid item xs={4}>
           {renderClientChart}
         </Grid>
-        <Grid item xs>
+        <Grid item xs={4}>
           {renderCompanyChart}
         </Grid>
-        <Grid item xs>
+        <Grid item xs={4}>
           {renderCategoryChart}
         </Grid>
       </Grid>

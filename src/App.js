@@ -17,6 +17,14 @@ const theme = createMuiTheme({
         width: "60px",
       },
     },
+    typography: {
+      fontFamily: ["Lato", "sans-serif"].join(","),
+    },
+    MuiTypography: {
+      h6: {
+        fontSize: "16px",
+      },
+    },
   },
 });
 function App() {

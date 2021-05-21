@@ -30,7 +30,7 @@ const ETLDashboard = () => {
   const [isStartLoading, setIsStartLoading] = useState(false);
   const [isStopLoading, setIsStopLoading] = useState(false);
   const [topN, setTopN] = useState(10);
-  const [webSocketOpen, setWebSocketOpen] = useState(false);
+  // const [webSocketOpen, setWebSocketOpen] = useState(false);
 
   useEffect(() => {
     executeRestqlQuery("getBankClientTotals", {
@@ -57,6 +57,7 @@ const ETLDashboard = () => {
   }, [topN]);
 
   const clearTables = useCallback(async () => {
+    await closeWebSocket();
     await clearTablesData();
     setIsClearLoading(false);
     setClientsTotal(() => []);
@@ -74,7 +75,7 @@ const ETLDashboard = () => {
       setIsStopLoading(false);
     }
     setIsStopLoading(false);
-    setWebSocketOpen(false);
+    // setWebSocketOpen(false);
   }, [streamConnections]);
 
   const messageManipulation = (msg) => {
@@ -111,7 +112,7 @@ const ETLDashboard = () => {
 
   const startWebSocket = async () => {
     try {
-      setWebSocketOpen(true);
+      // setWebSocketOpen(true);
       await startStopStream(true);
       let cur = _.cloneDeep(streamConnections);
       for (let i = 0; i < 3; i++) {
@@ -165,14 +166,14 @@ const ETLDashboard = () => {
         clientTotals={clientsTotal}
         companyTotals={companyTotal}
         categoryTotals={categoriesTotal}
-        webSocketOpen={webSocketOpen}
+        // webSocketOpen={webSocketOpen}
       />
     );
   }, [
     handleTopN,
     topN,
     clientsTotal,
-    webSocketOpen,
+   // webSocketOpen,
     companyTotal,
     categoriesTotal,
   ]);

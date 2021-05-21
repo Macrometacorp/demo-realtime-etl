@@ -97,7 +97,7 @@ export const ETLTable = () => {
 
   const renderTableButtons = useMemo(() => {
     return (
-      <Grid container spacing={2} style={{ width: "40%" }}>
+      <Grid container spacing={1} style={{ width: "40%" }}>
         <Grid item xs>
           <MMButton
             buttonText="Transactions"
@@ -179,19 +179,14 @@ export const ETLTable = () => {
         {renderTableButtons}
         {renderTable}
       </Grid>
-
-      <Grid item xs={3} style={{ paddingTop: "60px" }}>
-        <Card>
-          <CardContent>
-            {_.sum(totals) !== 0 ? (
-              <ETLPieChart chartData={totals} />
-            ) : (
-              <Typography variant="h6" align="center">
-                No Data to show pie chart
-              </Typography>
-            )}
-          </CardContent>
-        </Card>
+      <Grid item xs={3}>
+        {_.sum(totals) !== 0 ? (
+          <ETLPieChart chartData={totals} />
+        ) : (
+          <Typography variant="h6" align="center">
+            No Data to show for pie chart
+          </Typography>
+        )}
       </Grid>
     </Grid>
   );
