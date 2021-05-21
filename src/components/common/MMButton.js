@@ -8,12 +8,17 @@ const useStyles = makeStyles(() => ({
     // color: "#ffffff",
     // borderRadius: "7%",
     textTransform: "capitalize",
-    border: "1px solid #0000006b",
+    // border: "1px solid #0000006b",
     backgroundColor: "rgba(211,225,240,1)",
-    color: "black",
+
     marginRight: "20px",
-    padding: "10px 0px",
-    fontSize: "18px",
+    width: "100%",
+    // padding: "10px 0px",
+    fontFamily: "Lato",
+    fontWeight: "900",
+    color: "rgba(0,0,0,1)",
+    fontSize: "16px",
+
     // // "&:hover": {
     // //   backgroundColor: "#1971b3",
     // //   "&:disabled": {

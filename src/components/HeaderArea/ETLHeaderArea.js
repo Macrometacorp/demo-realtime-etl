@@ -7,6 +7,7 @@ const useStyles = makeStyles(() => ({
   titleStyle: {
     fontWeight: "700",
     wordSpacing: "0.5",
+    color: "black",
   },
   content: {
     textAlign: "center",
@@ -27,7 +28,7 @@ export const ETLHeaderArea = () => {
       <Typography variant="h4" className={classes.titleStyle}>
         Macrometa Streaming ETL
       </Typography>
-    <Typography variant="h6" className={classes.subtitle}>
+      <Typography variant="h6" className={classes.subtitle}>
         Real time ETL with Stream Workers & Query Workers for synthetic bank
         data
       </Typography>

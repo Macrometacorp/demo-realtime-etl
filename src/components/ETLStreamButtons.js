@@ -10,7 +10,7 @@ export const ETLStreamButtons = ({
   handleClearTables,
 }) => {
   return (
-    <Grid container spacing={5} style={{ width: "30%", margin: "auto" }}>
+    <Grid container spacing={3} style={{ width: "20%", margin: "auto" }}>
       <Grid item xs>
         <MMButton
           buttonText="Start"
@@ -37,7 +37,7 @@ export const ETLStreamButtons = ({
       </Grid>
       <Grid item xs>
         <MMButton
-          buttonText="Clear Tables"
+          buttonText="Clear"
           buttonType="primary"
           smValue={12}
           id={"clear-tables"}

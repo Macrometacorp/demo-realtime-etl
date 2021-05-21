@@ -38,7 +38,12 @@ export const EnhancedTableHead = ({ tableType }) => {
             key={headCell.id}
             align={"center"}
             padding={headCell.disablePadding ? "none" : "default"}
-            style={{ fontSize: "18px", fontWeight: "700" }}
+            style={{
+              fontSize: "16px",
+              fontWeight: "900",
+              fontFamily: "Lato",
+              color: "rgb(105,105,105)",
+            }}
           >
             {headCell.label}
           </TableCell>

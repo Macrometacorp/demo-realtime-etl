@@ -19,9 +19,9 @@ import { EnhancedTableHead } from "./ETLTableHead";
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
-    boxShadow: "2px 5px 5px 2px #d4d4d4",
-    borderRadius: "0.375rem",
-    borderTopWidth: 1,
+    // boxShadow: "2px 5px 5px 2px #d4d4d4",
+    // borderRadius: "0.375rem",
+    // borderTopWidth: 1,
     "& .MuiTableCell-root": {
       border: " 1px solid rgba(224, 224, 224, 1)",
     },
@@ -32,9 +32,9 @@ const useStyles = makeStyles((theme) => ({
 
     marginBottom: theme.spacing(2),
   },
-  table: {
-    minWidth: 750,
-  },
+  // table: {
+  //   minWidth: 750,
+  // },
   visuallyHidden: {
     border: 0,
     clip: "rect(0 0 0 0)",
@@ -86,9 +86,9 @@ export default function EnhancedTable({
           isLoading={isLoading}
         />
 
-        <TableContainer style={{ minHeight: "280px" }}>
+        <TableContainer>
           <Table
-            className={classes.table}
+            // className={classes.table}
             aria-labelledby="tableTitle"
             size={"medium"}
             aria-label="enhanced table"
@@ -150,9 +150,9 @@ export default function EnhancedTable({
                       }}
                     >
                       <Typography
-                        className={clsx(classes.content)}
-                        variant="h4"
+                        variant="h6"
                         align="center"
+                        style={{ color: "rgb(105, 105, 105)" }}
                       >
                         No Data
                       </Typography>

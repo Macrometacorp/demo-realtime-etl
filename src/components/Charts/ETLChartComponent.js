@@ -26,11 +26,12 @@ const ETLChartComponent = ({ chartData, parserType = "", chartText }) => {
       if (parserType === "categoryTotals") {
         xyParser.yAxisKey = "product_category_name";
       }
+      categoryChartDomRef.current.setAttribute("height", "200%");
       chartRef.current = new Chart(categoryChartDomRef.current, {
         type: "bar",
         elements: {
           bar: {
-            borderWidth: 2,
+            // borderWidth: 10,
           },
         },
         data: {
@@ -39,7 +40,6 @@ const ETLChartComponent = ({ chartData, parserType = "", chartText }) => {
               label: "Totals",
               data: chartData,
               backgroundColor: ["#338AD0"],
-              borderWidth: 1,
             },
           ],
         },
@@ -48,8 +48,6 @@ const ETLChartComponent = ({ chartData, parserType = "", chartText }) => {
           responsive: true,
           indexAxis: "y",
           parsing: xyParser,
-          spanGaps: true,
-          showLine: false,
           animations: true,
           scales: {
             x: {
@@ -59,8 +57,6 @@ const ETLChartComponent = ({ chartData, parserType = "", chartText }) => {
               ticks: {
                 autoSkip: false,
               },
-              // min: 10000,
-              // max: 600000,
             },
             y: {
               grid: {
@@ -95,11 +91,7 @@ const ETLChartComponent = ({ chartData, parserType = "", chartText }) => {
     return <canvas ref={categoryChartDomRef} />;
   }, []);
 
-  return (
-    <div id="chart" style={{ height: "auto", width: "auto" }}>
-      {renderChart}
-    </div>
-  );
+  return <div id="chart">{renderChart}</div>;
 };
 
 export default ETLChartComponent;

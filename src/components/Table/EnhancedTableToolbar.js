@@ -35,6 +35,28 @@ export const EnhancedTableToolbar = ({
   handleSelectClient,
 }) => {
   const classes = useToolbarStyles();
+  const colourStyles = {
+    control: (styles) => ({ ...styles, backgroundColor: "white" }),
+    option: (styles, { data, isDisabled, isFocused, isSelected }) => {
+      // const color = chroma(data.color);
+      return {
+        ...styles,
+        // backgroundColor:"white",
+        color: "rgba(105,105,105,0.8)",
+        fontFamily: "Lato",
+        fontWeight: "700",
+        // cursor: isDisabled ? "not-allowed" : "default",
+      };
+    },
+    placeholder: (defaultStyles) => {
+      const color = "rgba(105,105,105,0.8)";
+      const fontFamily = "Lato";
+      const fontWeight = "700";
+
+      return { ...defaultStyles, color, fontFamily, fontWeight };
+    },
+  };
+
   return (
     <Toolbar
       className={clsx(classes.root)}
@@ -46,6 +68,7 @@ export const EnhancedTableToolbar = ({
         <Grid item xs>
           <Select
             options={bankClientNames}
+            styles={colourStyles}
             value={selectedClient}
             onChange={handleSelectClient}
             getOptionLabel={(option) => option.label}
@@ -64,8 +87,11 @@ export const EnhancedTableToolbar = ({
         >
           <span
             style={{
-              fontWeight: "700",
-              fontSize: "30px",
+              fontWeight: "500",
+              fontSize: "24px",
+              fontFamily: "Lato",
+              color: "rgba(0,0,0,0.8)",
+              marginTop: "24px",
               marginLeft: "-180px",
             }}
           >
