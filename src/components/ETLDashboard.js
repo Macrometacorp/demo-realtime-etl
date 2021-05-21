@@ -173,7 +173,7 @@ const ETLDashboard = () => {
     handleTopN,
     topN,
     clientsTotal,
-   // webSocketOpen,
+    // webSocketOpen,
     companyTotal,
     categoriesTotal,
   ]);

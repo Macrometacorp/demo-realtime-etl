@@ -32,8 +32,9 @@ Building real-time ETL solution for synthetic bank data using GDN
 > 6. getBankClientTotals
 > 7. getBankClients
 > 8. getBankAnonymizationClient
-> 9. etl_bank_transactions_raw_query
-> 10.etl_bank_subscriptions_raw_query
+> 9. getTotals
+> 10. etl_bank_transactions_raw_query
+> 11.etl_bank_subscriptions_raw_query
 > 
 > Following doc collections needs to be created:
 > 1. etl_bank_transactions_raw (seed data, global)
@@ -195,7 +196,7 @@ select   txn_id , client_id, product_category, product_company, subtype, amount,
 from EtlBankTransactionEnricherProductCategoryStream
 insert into etlbanktransactions;
 
-select   txn_id , client_id, product_category, product_company, subtype, amount, date, transaction_type, cache:get(client_id,pii:fake('Name', "NAME_FULLNAME", true)) as client_name, product_category_name
+select   txn_id , client_id, product_category, product_company, subtype, amount, date, transaction_type, pii:fake(client_name, "NAME_FULLNAME") as client_name, product_category_name
 from EtlBankTransactionEnricherProductCategoryStream
 insert into etlbanktransactionsanonymization;
 
@@ -203,6 +204,8 @@ insert into etlbanktransactionsanonymization;
 select   txn_id , client_id, product_category, product_company, subtype, amount, date, transaction_type, client_name, product_category_name
 from EtlBankTransactionEnricherProductCategoryStream
 insert into EtlTransactionStream;
+  
+
   
 
 ```
@@ -334,7 +337,21 @@ update or insert into etlbankcategorytotals
 
 ### Indexes
 
-TBD
+
+Create persistent indexes on the collection for the corresponding attributes
+
+| **Collection**                     | **Attribute**                               |
+| --------------------------------   | ------------------------------------------- |
+| etl_bank_categories                | `name`                                      |
+| etl_bank_category_totals           | `product_category_name`                     |
+| etl_bank_client_totals             | `client_name`                               |
+| etl_bank_clients                   | `email`                                     |
+| etl_bank_company_totals            | `product_company`                           |
+| etl_bank_subscriptions             | `client_id`                                 |
+| etl_bank_subscriptions_raw         | `client_id`                                 |
+| etl_bank_transactions              | `client_id`                                 |
+| etl_bank_transactions_anonymization| `client_id`                           |
+| etl_bank_transactions_raw          | `client_id`                                 |
 
 ### Query Workers
 
@@ -388,6 +405,26 @@ For clients in etl_bank_transactions_anonymization
 limit @offsetValue,100
 Return {clientName:clients.client_name,key:clients._key}
 ```
+**getTotals**
+```
+LET category_total = (
+    FOR i IN etl_bank_category_totals
+    RETURN i.total_amount
+)
+LET company_total = (
+    FOR i IN etl_bank_company_totals
+    RETURN i.total_amount
+)
+LET client_total = (
+    FOR i IN etl_bank_client_totals
+    RETURN i.total_amount
+)
+
+FOR individual_sums IN [[client_total], [company_total], [category_total]]
+    FOR totals in individual_sums
+    RETURN SUM(totals)
+```
+
 **etl_bank_transactions_raw_query:**
 ```
 for doc in etl_bank_transactions_raw 
@@ -402,9 +439,7 @@ SORT doc._key asc
 limit @offsetValue, 100 
 return doc
 ```
-## Developer Notes
 
-**TBD**
 
 
 

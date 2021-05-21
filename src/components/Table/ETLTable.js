@@ -56,30 +56,35 @@ export const ETLTable = () => {
 
   const getTableData = useCallback(async () => {
     let result = [];
-    switch (tableType) {
-      case "Transactions":
-        result = await executeRestqlQuery("getBanksTxnsByClient", {
-          clientName: selectedClient,
-        });
-        break;
-      case "Subscriptions":
-        result = await executeRestqlQuery("getBankSubscriptionsByClient", {
-          clientName: selectedClient,
-        });
-        break;
-      case "Anonymous":
-        result = await executeRestqlQuery("getBankTxnsByAnnonymousClient", {
-          clientName: selectedClient,
-        });
-        break;
-      default:
-        result = await executeRestqlQuery("getBanksTxnsByClient", {
-          clientName: selectedClient,
-        });
-        break;
+    try {
+      switch (tableType) {
+        case "Transactions":
+          result = await executeRestqlQuery("getBanksTxnsByClient", {
+            clientName: selectedClient,
+          });
+          break;
+        case "Subscriptions":
+          result = await executeRestqlQuery("getBankSubscriptionsByClient", {
+            clientName: selectedClient,
+          });
+          break;
+        case "Anonymous":
+          result = await executeRestqlQuery("getBankTxnsByAnnonymousClient", {
+            clientName: selectedClient,
+          });
+          break;
+        default:
+          result = await executeRestqlQuery("getBanksTxnsByClient", {
+            clientName: selectedClient,
+          });
+          break;
+      }
+      setTableData(() => [...result]);
+      setIsLoading(false);
+    } catch (error) {
+      console.error("error", error);
+      setIsLoading(false);
     }
-    setTableData(() => [...result]);
-    setIsLoading(false);
   }, [tableType, selectedClient]);
 
   useEffect(() => {
@@ -97,7 +102,14 @@ export const ETLTable = () => {
 
   const renderTableButtons = useMemo(() => {
     return (
-      <Grid container spacing={1} style={{ width: "40%" }}>
+      <Grid
+        container
+        spacing={1}
+        style={{
+          width: "40%",
+          flexWrap: "nowrap",
+        }}
+      >
         <Grid item xs>
           <MMButton
             buttonText="Transactions"

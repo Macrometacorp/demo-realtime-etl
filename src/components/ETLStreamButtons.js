@@ -1,6 +1,26 @@
 import React from "react";
-import { Grid } from "@material-ui/core";
+import { Grid, makeStyles } from "@material-ui/core";
 import { MMButton } from "./common/MMButton";
+
+const useStyles = makeStyles((theme) => ({
+  gridContainer: {
+    width: "20%",
+    margin: "auto",
+
+    [theme.breakpoints.up("lg")]: {
+      flexWrap: "nowrap",
+      width: "25%",
+      margin: "auto",
+    },
+    // [theme.breakpoints.down("xl")]: { flexWrap: "nowrap" },
+    // [theme.breakpoints.down("xl")]: { width: "40%" },
+    // // [theme.breakpoints.down("xl")]: { width: "30%" },
+    // [theme.breakpoints.down("md")]: {},
+    // [theme.breakpoints.down("sm")]: {},
+    // [theme.breakpoints.down("xs")]: {},
+  },
+}));
+
 export const ETLStreamButtons = ({
   isStartLoading,
   isStopLoading,
@@ -9,8 +29,9 @@ export const ETLStreamButtons = ({
   handleOnStop,
   handleClearTables,
 }) => {
+  const classes = useStyles();
   return (
-    <Grid container spacing={3} style={{ width: "20%", margin: "auto" }}>
+    <Grid container spacing={3} className={classes.gridContainer}>
       <Grid item xs>
         <MMButton
           buttonText="Start"

@@ -13,14 +13,20 @@ export const executeRestqlQuery = async (restQlName, bindVars = {}) => {
     return resp.result;
   } catch (error) {
     console.error("error", error);
+    return [];
+    // throw error;
   }
 };
 export const clearTablesData = async () => {
-  await Promise.all(
-    streamTableNamesArray.map(async (element) => {
-      await client.collection(element).truncate();
-    })
-  );
+  try {
+    await Promise.all(
+      streamTableNamesArray.map(async (element) => {
+        await client.collection(element).truncate();
+      })
+    );
+  } catch (error) {
+    console.log("the error is", error);
+  }
 };
 
 export const startStopStream = async (start) => {
@@ -38,9 +44,13 @@ export const establishConnection = async (streamName) => {
   try {
     const stream = client.stream(streamName, false);
     const consumerOTP = await stream.getOtp();
-    const _consumer = stream.consumer("anurag", "gdn.paas.macrometa.io", {
-      otp: consumerOTP,
-    });
+    const _consumer = stream.consumer(
+      "anurag-streams",
+      "gdn.paas.macrometa.io",
+      {
+        otp: consumerOTP,
+      }
+    );
     _consumer.on("open", () => {
       console.log(`Connection open for _clientConsumer `);
     });
