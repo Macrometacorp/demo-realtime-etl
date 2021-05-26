@@ -1,9 +1,9 @@
 import React, { useMemo, useState, useCallback, useEffect } from "react";
-import { Grid, CardContent, Card, Typography } from "@material-ui/core";
+import { Grid, Typography } from "@material-ui/core";
 import { MMButton } from "../common/MMButton";
 import EnhancedTable from "./ETLTableComponent";
 import ETLPieChart from "../Charts/ETLPieChart";
-import { executeRestqlQuery } from "../../util/services";
+import { executeRestqlQuery, getBankClientNames } from "../../util/services";
 import _ from "lodash";
 import useInterval from "../../hooks/useInterval";
 
@@ -16,28 +16,19 @@ export const ETLTable = () => {
   const [totals, setTotals] = useState([0, 0, 0]);
   const [isLoading, setIsLoading] = useState(false);
 
-  const getBankClients = useCallback(async () => {
-    let bankClientNames = [],
-      anonymousBankClientNames = [];
+  // const offsetValueRef = useRef(null);
 
-    for (let i = 1; i <= 10; i++) {
-      let result = [],
-        results = [];
-      result = await executeRestqlQuery("getBankClients", {
-        offsetValue: i * 100,
-      });
-      results = await executeRestqlQuery("getBankAnonymizationClient", {
-        offsetValue: i * 100,
-      });
-      bankClientNames = [...bankClientNames, ...result];
-      anonymousBankClientNames = [...anonymousBankClientNames, ...results];
+  const getAnonymousBankClientName = useCallback(async () => {
+    if (anonymousBankClientNames.length >= 500) {
+      return;
     }
-    bankClientNames.sort((a, b) => a.id.localeCompare(b.id));
-    anonymousBankClientNames.sort((a, b) => a.id.localeCompare(b.id));
 
-    setBankClients(() => [...bankClientNames]);
-    setAnonymousBankClientNames(() => [...anonymousBankClientNames]);
-  }, []);
+    const _anonymousBankClientNames = await getBankClientNames(
+      "getBankAnonymizationClient"
+    );
+    const sliceArray = _.uniqBy(_anonymousBankClientNames, "id");
+    setAnonymousBankClientNames(() => [...sliceArray]);
+  }, [anonymousBankClientNames.length]);
 
   const getPieChartData = useCallback(async () => {
     const result = await executeRestqlQuery("getTotals");
@@ -45,13 +36,23 @@ export const ETLTable = () => {
   }, []);
 
   useEffect(() => {
+    const getBankClients = async () => {
+      const bankClientNames = await getBankClientNames("getBankClients");
+      setBankClients(() => [...bankClientNames]);
+    };
+
     getBankClients();
-  }, [getBankClients]);
+  }, []);
+
+  useEffect(() => {
+    getAnonymousBankClientName();
+  }, [getAnonymousBankClientName]);
 
   useEffect(() => {
     getPieChartData();
   }, [getPieChartData]);
 
+  useInterval(getAnonymousBankClientName, 5000);
   useInterval(getPieChartData, 30000);
 
   const getTableData = useCallback(async () => {

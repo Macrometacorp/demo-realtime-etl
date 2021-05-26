@@ -1,12 +1,14 @@
-import React, { useState, useEffect, useCallback, useMemo } from "react";
+import React, {
+  useState,
+  useEffect,
+  useCallback,
+  useMemo,
+  useRef,
+} from "react";
 
 import { ETLCharts } from "./Charts/ETLCharts";
 import { ETLStreamButtons } from "./ETLStreamButtons";
 import _ from "lodash";
-// import {
-//   streamNamesArray,
-//   streamTableNamesArray,
-// } from "../util/streamNamesArray";
 import { parseMessage, updatedArray } from "../util/helperFunctions";
 import {
   executeRestqlQuery,
@@ -29,7 +31,8 @@ const ETLDashboard = () => {
   const [isClearLoading, setIsClearLoading] = useState(false);
   const [isStartLoading, setIsStartLoading] = useState(false);
   const [isStopLoading, setIsStopLoading] = useState(false);
-  const [topN, setTopN] = useState(10);
+  const [topN, setTopN] = useState(7);
+  const setTopNContext = useRef(null);
   // const [webSocketOpen, setWebSocketOpen] = useState(false);
 
   useEffect(() => {
@@ -56,6 +59,10 @@ const ETLDashboard = () => {
     });
   }, [topN]);
 
+  useEffect(() => {
+    setTopNContext.current = topN;
+  }, [topN]);
+
   const clearTables = useCallback(async () => {
     await closeWebSocket();
     await clearTablesData();
@@ -70,11 +77,11 @@ const ETLDashboard = () => {
     }
     try {
       await startStopStream(false);
+      setIsStopLoading(false);
     } catch (error) {
       console.error("error", error);
       setIsStopLoading(false);
     }
-    setIsStopLoading(false);
     // setWebSocketOpen(false);
   }, [streamConnections]);
 
@@ -85,7 +92,7 @@ const ETLDashboard = () => {
         newData,
         clientsTotal,
         "client_name",
-        topN
+        setTopNContext.current
       );
 
       setClientsTotal(() => [...updatedBankClientsTotals]);
@@ -94,7 +101,7 @@ const ETLDashboard = () => {
         newData,
         companyTotal,
         "product_company",
-        topN
+        setTopNContext.current
       );
 
       setCompaniesTotal(() => [...updatedBankClientsTotals]);
@@ -103,7 +110,7 @@ const ETLDashboard = () => {
         newData,
         categoriesTotal,
         "product_category_name",
-        topN
+        setTopNContext.current
       );
 
       setCategoriesTotal(() => [...updatedBankClientsTotals]);
@@ -126,12 +133,11 @@ const ETLDashboard = () => {
       setStreamConnections((prev) => {
         return [...streamConnections, ...cur];
       });
+      setIsStartLoading(false);
     } catch (error) {
       console.error("error", error);
       setIsStopLoading(false);
     }
-
-    setIsStartLoading(false);
   };
 
   const handleTopN = useCallback((event) => {

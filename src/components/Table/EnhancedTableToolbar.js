@@ -42,9 +42,9 @@ export const EnhancedTableToolbar = ({
       return {
         ...styles,
         // backgroundColor:"white",
-        color: "rgba(105,105,105,0.8)",
+        color: "rgba(105,105,105,0.6)",
         fontFamily: "Lato",
-        fontWeight: "700",
+        fontWeight: "600",
         // cursor: isDisabled ? "not-allowed" : "default",
       };
     },
