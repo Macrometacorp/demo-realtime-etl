@@ -3,8 +3,7 @@ import { streamTableNamesArray, streamNamesArray } from "./streamNamesArray";
 
 const client = new jsc8({
   url: "https://gdn.paas.macrometa.io",
-  apiKey:
-    "stream-etl_macrometa.io.stream_etl_api_key.IxdAQ3xclGbaNut6Ey5S5lsyFr2SYvuI3BpjyvUiko2CQgcrQ68LWRCuGndSdEObb52fb0",
+  apiKey: "xxx",
 });
 
 export const executeRestqlQuery = async (restQlName, bindVars = {}) => {
@@ -61,4 +60,25 @@ export const establishConnection = async (streamName) => {
   } catch (error) {
     console.error("error", error);
   }
+};
+
+export const getBankClientNames = async (queryName) => {
+  let result = [];
+  for (let i = 0; i < 10; i++) {
+    result[i] = executeRestqlQuery(queryName, {
+      offsetValue: i * 100,
+    });
+  }
+
+  const bankClientsResponse = await Promise.all(result);
+  const bankClientNames = bankClientsResponse.reduce(
+    (_bankClientNames, bankClients) => {
+      _bankClientNames.push(...bankClients);
+      return _bankClientNames;
+    },
+    []
+  );
+
+  bankClientNames.sort((a, b) => a.id.localeCompare(b.id));
+  return bankClientNames;
 };
