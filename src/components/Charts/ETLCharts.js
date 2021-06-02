@@ -24,7 +24,7 @@ export const ETLCharts = ({
         <ETLChartComponent
           chartData={companyTotals}
           parserType="companyTotals"
-          chartText="Company Totals"
+          chartText="Merchant Totals($)"
         />
       </Grid>
     );
@@ -42,7 +42,7 @@ export const ETLCharts = ({
         <ETLChartComponent
           chartData={categoryTotals}
           parserType="categoryTotals"
-          chartText="Category Totals"
+          chartText="Category Totals($)"
         />
       </Grid>
     );
@@ -61,7 +61,7 @@ export const ETLCharts = ({
         <ETLChartComponent
           chartData={clientTotals}
           parserType="clientTotals"
-          chartText="Client Totals"
+          chartText="Purchaser Totals($)"
         />
       </Grid>
     );
