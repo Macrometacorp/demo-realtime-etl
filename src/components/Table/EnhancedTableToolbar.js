@@ -78,7 +78,9 @@ export const EnhancedTableToolbar = ({
         </Grid>
         <Grid
           item
-          xs={10}
+          xs={8}
+          // lg={10}
+          // md={8}
           style={{
             justifyContent: "center",
             alignItems: "center",
