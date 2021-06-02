@@ -17,7 +17,11 @@ const ETLPieChart = ({ chartData }) => {
         type: "pie",
 
         data: {
-          labels: ["Company", "Category", "Client"],
+          labels: [
+            "Merchant Totals($)",
+            "Category Totals($)",
+            "Purchaser Totals($)",
+          ],
           datasets: [
             {
               label: "Totals",
