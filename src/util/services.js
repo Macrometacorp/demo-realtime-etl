@@ -44,7 +44,7 @@ export const establishConnection = async (streamName) => {
     const stream = client.stream(streamName, false);
     const consumerOTP = await stream.getOtp();
     const _consumer = stream.consumer(
-      "anurag-streams",
+      `anurag-etl-streams-${Math.round(Math.random() * 1000)}`,
       "gdn.paas.macrometa.io",
       {
         otp: consumerOTP,
