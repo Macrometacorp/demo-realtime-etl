@@ -29,13 +29,15 @@ export const clearTablesData = async () => {
 };
 
 export const startStopStream = async (start) => {
-  for (const element of streamNamesArray) {
-    try {
-      await client.activateStreamApp(element, start);
-    } catch (error) {
-      console.log("error 502", error);
-      throw error;
-    }
+  try {
+    const streamPromises = [];
+    streamNamesArray.forEach((element) => {
+      streamPromises.push(client.activateStreamApp(element, start));
+    });
+    await Promise.all(streamPromises);
+  } catch (error) {
+    console.log("error 502", error);
+    throw error;
   }
 };
 
