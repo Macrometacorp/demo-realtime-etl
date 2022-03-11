@@ -63,6 +63,21 @@ const ETLDashboard = () => {
     setTopNContext.current = topN;
   }, [topN]);
 
+  const handleClose = (event) => {
+    event.preventDefault();
+    handleOnStop();
+    // This is opening alert message
+    event.returnValue = "";
+    return "";
+  };
+
+  useEffect(() => {
+    window.addEventListener("beforeunload", handleClose);
+    return () => {
+      window.removeEventListener("beforeunload", handleClose);
+    };
+  }, []);
+
   const clearTables = useCallback(async () => {
     await closeWebSocket();
     await clearTablesData();
