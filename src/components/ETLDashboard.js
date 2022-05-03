@@ -6,6 +6,8 @@ import React, {
   useRef,
 } from "react";
 
+import { Paper } from "@material-ui/core";
+
 import { ETLCharts } from "./Charts/ETLCharts";
 import ButtonBar from "./common/ButtonBar";
 import _ from "lodash";
@@ -213,7 +215,10 @@ const ETLDashboard = () => {
         isClearButtonDisabled={isClearLoading}
         isStreamStarted={isStreamStarted}
       />
-      {renderCharts}
+
+      <Paper style={{"margin":"0.75rem", "padding": "0.75rem 2rem 2rem 2rem"}}>
+        {renderCharts}
+      </Paper>
     </React.Fragment>
   );
 };
