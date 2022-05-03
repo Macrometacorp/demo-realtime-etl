@@ -10,6 +10,7 @@ import Macrometa from "../../images/macrometa.png";
 const useStyles = makeStyles({
   root: {
     top: "auto !important",
+    backgroundColor: "white",
     bottom: 0,
     alignItems: "end",
   },

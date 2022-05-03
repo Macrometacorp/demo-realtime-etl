@@ -6,7 +6,7 @@ import {
   Typography
 } from "@material-ui/core";
 
-import MacrometaLogo from "../../images/logo-macrometa.png";
+import MacrometaLogo from "../../images/logo-coxedge.png";
 
 const useStyles = makeStyles({
   container: {
@@ -63,7 +63,7 @@ const Header = () => {
           Real time ETL with Stream Workers & Query Workers for synthetic bank data
         </Typography>
       </Grid>
-      <Grid container justify="flex-end" alignItems="center" wrap="nowrap">
+      {/* <Grid container justify="flex-end" alignItems="center" wrap="nowrap">
         <Button
           className={classes.aboutButton}
           onClick={() => {
@@ -73,7 +73,7 @@ const Header = () => {
         >
           Source on GitHub
         </Button>
-      </Grid>
+      </Grid> */}
     </Grid>
   );
 };
