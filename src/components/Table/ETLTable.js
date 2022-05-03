@@ -187,7 +187,7 @@ export const ETLTable = () => {
     handleSelectClient,
   ]);
   return (
-    <Grid container spacing={3} style={{ padding: "3vw" }}>
+    <Grid container style={{ padding: "3vw" }}>
       <Grid item xs={9}>
         {renderTableButtons}
         {renderTable}

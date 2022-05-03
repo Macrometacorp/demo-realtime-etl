@@ -7,7 +7,7 @@ import React, {
 } from "react";
 
 import { ETLCharts } from "./Charts/ETLCharts";
-import { ETLStreamButtons } from "./ETLStreamButtons";
+import ButtonBar from "./common/ButtonBar";
 import _ from "lodash";
 import { parseMessage, updatedArray } from "../util/helperFunctions";
 import {
@@ -31,6 +31,7 @@ const ETLDashboard = () => {
   const [isClearLoading, setIsClearLoading] = useState(false);
   const [isStartLoading, setIsStartLoading] = useState(false);
   const [isStopLoading, setIsStopLoading] = useState(false);
+  const [isStreamStarted, setIsStreamStarted] = useState(false);
   const [topN, setTopN] = useState(7);
   const setTopNContext = useRef(null);
   // const [webSocketOpen, setWebSocketOpen] = useState(false);
@@ -92,6 +93,7 @@ const ETLDashboard = () => {
     }
     try {
       await startStopStream(false);
+      setIsStreamStarted(false);
       setIsStopLoading(false);
     } catch (error) {
       console.error("error", error);
@@ -148,6 +150,7 @@ const ETLDashboard = () => {
       setStreamConnections((prev) => {
         return [...streamConnections, ...cur];
       });
+      setIsStreamStarted(true);
       setIsStartLoading(false);
     } catch (error) {
       console.error("error", error);
@@ -201,13 +204,14 @@ const ETLDashboard = () => {
 
   return (
     <React.Fragment>
-      <ETLStreamButtons
+      <ButtonBar
+        handleOnClear={handleClearAllTables}
         handleOnStart={handleOnStart}
         handleOnStop={handleOnStop}
-        handleClearTables={handleClearAllTables}
-        isStartLoading={isStartLoading}
-        isStopLoading={isStopLoading}
-        isClearLoading={isClearLoading}
+        isStartButtonDisabled={isStartLoading}
+        isStopButtonDisabled={isStopLoading}
+        isClearButtonDisabled={isClearLoading}
+        isStreamStarted={isStreamStarted}
       />
       {renderCharts}
     </React.Fragment>
