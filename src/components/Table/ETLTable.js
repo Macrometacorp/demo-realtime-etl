@@ -1,5 +1,5 @@
 import React, { useMemo, useState, useCallback, useEffect } from "react";
-import { Grid, Typography } from "@material-ui/core";
+import { Grid, Paper, Typography } from "@material-ui/core";
 import { MMButton } from "../common/MMButton";
 import EnhancedTable from "./ETLTableComponent";
 import ETLPieChart from "../Charts/ETLPieChart";
@@ -187,20 +187,22 @@ export const ETLTable = () => {
     handleSelectClient,
   ]);
   return (
-    <Grid container style={{ padding: "3vw" }}>
-      <Grid item xs={9}>
-        {renderTableButtons}
-        {renderTable}
+    <Paper style={{"margin":"0.75rem", "padding":"2rem"}}>
+      <Grid container>
+        <Grid item xs={9}>
+          {renderTableButtons}
+          {renderTable}
+        </Grid>
+        <Grid item xs={3}>
+          {_.sum(totals) !== 0 ? (
+            <ETLPieChart chartData={totals} />
+          ) : (
+            <Typography variant="h6" align="center">
+              No Data to show for pie chart
+            </Typography>
+          )}
+        </Grid>
       </Grid>
-      <Grid item xs={3}>
-        {_.sum(totals) !== 0 ? (
-          <ETLPieChart chartData={totals} />
-        ) : (
-          <Typography variant="h6" align="center">
-            No Data to show for pie chart
-          </Typography>
-        )}
-      </Grid>
-    </Grid>
+    </Paper>
   );
 };

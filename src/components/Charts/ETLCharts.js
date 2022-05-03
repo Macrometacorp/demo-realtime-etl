@@ -93,12 +93,7 @@ export const ETLCharts = ({
   }, [topN, handleTopN]);
 
   return (
-    <div
-      style={{
-        marginLeft: "3vw",
-        marginRight: "3vw",
-      }}
-    >
+    <div>
       <Grid
         container
         direction="row"

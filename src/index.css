@@ -4,6 +4,9 @@ body {
   color: rgb(105, 105, 105);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #F1F2F4;
+  min-height: 100vh;
 }
 
 code {
