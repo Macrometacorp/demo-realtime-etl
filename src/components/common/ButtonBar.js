@@ -14,6 +14,10 @@ const useStyles = makeStyles({
   },
   actionButton: {
     marginRight: "0.5rem",
+
+    "& .MuiButton-label": {
+      textTransform: "uppercase",
+    }
   },
 });
 

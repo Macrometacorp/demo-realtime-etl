@@ -18,10 +18,10 @@ const useStyles = makeStyles({
     height: "32px",
     margin: "0 1rem 0 0",
     padding: "0 0 0.25rem",
-    width: "128px",
+    width: "150px",
   },
   heading: {
-    color: "#4D4DAD",
+    color: "#002F87",
     fontSize: "1rem",
     fontWeight: "700 !important",
     lineHeight: "32px",

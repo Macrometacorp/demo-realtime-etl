@@ -5,7 +5,11 @@ import Header from "./components/common/Header";
 import Footer from "./components/common/Footer";
 import { ETLTable } from "./components/Table/ETLTable";
 import { createMuiTheme, ThemeProvider } from "@material-ui/core";
+
 const theme = createMuiTheme({
+  typography: {
+    fontFamily: ["Lato", "sans-serif"].join(","),
+  },
   overrides: {
     MuiButton: {
       contained: {
@@ -23,6 +27,7 @@ const theme = createMuiTheme({
         },
       },
       label: {
+        textTransform: "capitalize",
         fontWeight: "700",
       },
     },
@@ -37,12 +42,9 @@ const theme = createMuiTheme({
         width: "60px",
       },
     },
-    typography: {
-      fontFamily: ["Lato", "sans-serif"].join(","),
-    },
     MuiTypography: {
-      h6: {
-        fontSize: "16px",
+      root: {
+        fontWeight: "600 !important",
       },
     },
   },
