@@ -2,8 +2,9 @@ import jsc8 from "jsc8";
 import { streamTableNamesArray, streamNamesArray } from "./streamNamesArray";
 
 const client = new jsc8({
-  url: "https://gdn.paas.macrometa.io",
-  apiKey: "xxx",
+  url: "https://{GDN_URL}",
+  apiKey: "{API_KEY}",
+  fabricName: "{FABRIC_NAME}"
 });
 
 export const executeRestqlQuery = async (restQlName, bindVars = {}) => {
