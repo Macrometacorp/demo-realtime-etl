@@ -1,9 +1,6 @@
 {
-  "homepage": "https://macrometacorp.github.io/demo-realtime-etl",
+  "homepage": "https://y8m9d6p8.stackpathcdn.com",
   "name": "demo-realtime-etl",
-  "author": {
-    "name": "Anurag Dwivedi"
-  },
   "type": "module",
   "version": "0.1.0",
   "private": true,
