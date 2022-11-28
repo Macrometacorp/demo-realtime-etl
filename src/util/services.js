@@ -2,8 +2,9 @@ import jsc8 from "jsc8";
 import { streamTableNamesArray, streamNamesArray } from "./streamNamesArray";
 
 const client = new jsc8({
-  url: "https://gdn.paas.macrometa.io",
-  apiKey: "xxx",
+  url: process.env.REACT_APP_GDN_URL,
+  apiKey: process.env.REACT_APP_API_KEY,
+  fabricName: process.env.REACT_APP_FABRIC_NAME,
 });
 
 export const executeRestqlQuery = async (restQlName, bindVars = {}) => {
@@ -46,8 +47,8 @@ export const establishConnection = async (streamName) => {
     const stream = client.stream(streamName, false);
     const consumerOTP = await stream.getOtp();
     const _consumer = stream.consumer(
-      `anurag-etl-streams-${Math.round(Math.random() * 1000)}`,
-      "gdn.paas.macrometa.io",
+      `etl-streams-${Math.round(Math.random() * 1000)}`,
+      process.env.REACT_APP_GDN_URL.replace("https://", ""),
       {
         otp: consumerOTP,
       }
