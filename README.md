@@ -10,8 +10,7 @@ Building real-time ETL solution for synthetic bank data using GDN
 
 | **Federation** | **Email** | **Passsword** |
 |------------|----------|--------------|
-| [Global Data Network](https://gdn.paas.macrometa.io/) | demo-stream-etl@macrometa.io | `xxxxxxxx`| 
-| [Analytics Dashboard](TBD) | -- | -- |
+| [Global Data Network](https://play.macrometa.io/) | demo-stream-etl@macrometa.io | `xxxxxxxx`| 
 
 
 ## How to Run
